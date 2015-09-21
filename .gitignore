@@ -4,3 +4,12 @@
 *.jar
 *.war
 *.ear
+Emulation/.idea/
+Emulation/Emulation.iml
+Emulation/emul-tools/emul-tools.iml
+Emulation/emul-tools/src/main/java/com/javanei/emulation/common/hyperspin/Teste.java
+Emulation/emul-db-manager/src/main/java/com/javanei/emulation/emuldb/EmulDBManagerOld.java
+Emulation/emul-db-manager/nbactions.xml
+Emulation/emul-db-manager/emul-db-manager.iml
+Emulation/emul-db-manager/nb-configuration.xml
+Emulation/emul-common/emul-common.iml

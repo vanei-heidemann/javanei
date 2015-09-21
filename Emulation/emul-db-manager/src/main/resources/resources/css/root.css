@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: white;
+}
+
+#menuBar {
+    -fx-background-color: lightgray;
+    -fx-padding: 1px 5px 1px 5px;
+}
+
+#contentPane {
+    -fx-background-color: lightblue;
+    -fx-padding: 5px 5px 5px 5px;
+}
+
+#bottomPane {
+    -fx-background-color: lightgray;
+    -fx-padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+
+#statusBar {
+    -fx-background-color: darkgray;
+}

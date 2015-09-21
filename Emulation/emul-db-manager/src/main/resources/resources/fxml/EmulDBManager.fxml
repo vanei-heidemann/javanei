@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+            prefHeight="768" prefWidth="1024"
+            styleClass="root" 
+            fx:id="mainPane"
+            fx:controller="com.javanei.emulation.emuldb.controller.EmulDBManagerController">
+    <stylesheets>
+        <URL value="@/resources/css/root.css"/>
+    </stylesheets>
+    
+    <top>
+        <MenuBar id="menuBar">
+            <Menu text="Arquivo" fx:id="mFile" >
+                <MenuItem fx:id="miBack" text="Voltar" onAction="#handleMenuGoBack" /> 
+                <SeparatorMenuItem />
+                <MenuItem fx:id="miPlatforms" text="Plataformas" onAction="#handleMenuPlatforms" />
+                <SeparatorMenuItem />
+                <MenuItem fx:id="miExit" text="Sair" onAction="#handleMenuExit" />
+            </Menu>
+            <Menu fx:id="mTeste" text="Teste" >
+                <CheckMenuItem fx:id="mi1" text="Checkbox Menu" selected="true"  />
+                <SeparatorMenuItem />
+                <RadioMenuItem fx:id="mi2" text="Radio 1" selected="true">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="testeGroup" />
+                    </toggleGroup>
+                </RadioMenuItem>
+                <RadioMenuItem fx:id="mi3" text="Radio 2" selected="false" toggleGroup="$testeGroup" />
+            </Menu>
+        </MenuBar>
+    </top>
+    
+    <center>
+        <StackPane fx:id="contentPane"
+                   id="contentPane">
+        </StackPane>
+    </center>
+    
+    <bottom>
+        <HBox id="bottomPane"
+              fx:id="bottomPane">
+            <TextField id="statusBar" fx:id="statusBar" editable="false" disable="true" />
+        </HBox>
+    </bottom>
+</BorderPane> 
