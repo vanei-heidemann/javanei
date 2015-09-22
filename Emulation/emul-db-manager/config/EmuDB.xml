@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <EmulDB>
 	<repositoryBaseDir>./repository</repositoryBaseDir>
+	<hyperspinBaseDir>J:/Emulation/Hyperspin</hyperspinBaseDir>
+	<hyperspinROMBaseDir>J:/Emulation/HSROMs</hyperspinROMBaseDir>
 </EmulDB>
