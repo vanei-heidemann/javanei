@@ -132,11 +132,12 @@ public class PlatformsPanelController implements Initializable {
             ex.printStackTrace();
         }
     }
+
     @FXML
     private void handlePlatformClose(ActionEvent event) {
         ScreenController.goBack();
     }
-    
+
     private void showDefaultValues() {
         this.platformNameInput.setText("");
         this.validExtensionInput.setText("*");

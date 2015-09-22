@@ -1,7 +1,5 @@
 package com.javanei.emulation.emuldb.controller;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.Stack;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

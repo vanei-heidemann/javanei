@@ -49,8 +49,17 @@ public class EmulDBManagerController implements Initializable {
     }
 
     @FXML
+    private void handleMenuConfig(ActionEvent event) {
+        try {
+            ScreenController.loadPane("resources/fxml/panel/ConfigPanel.fxml");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            this.statusBar.setText(ex.getLocalizedMessage());
+        }
+    }
+
+    @FXML
     private void handleMenuPlatforms(ActionEvent event) {
-        System.out.println("@@@@ Platforms");
         try {
             ScreenController.loadPane("resources/fxml/panel/PlatformsPanel.fxml");
         } catch (Exception ex) {

@@ -19,8 +19,7 @@
     <top>
         <MenuBar id="menuBar">
             <Menu text="Arquivo" fx:id="mFile" >
-                <MenuItem fx:id="miBack" text="Voltar" onAction="#handleMenuGoBack" /> 
-                <SeparatorMenuItem />
+                <MenuItem fx:id="miConfig" text="Configuração" onAction="#handleMenuConfig" />
                 <MenuItem fx:id="miPlatforms" text="Plataformas" onAction="#handleMenuPlatforms" />
                 <SeparatorMenuItem />
                 <MenuItem fx:id="miExit" text="Sair" onAction="#handleMenuExit" />

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+          id="configPane" fx:id="configPane"
+          styleClass="configPane" 
+          hgap="5"
+          fx:controller="com.javanei.emulation.emuldb.controller.ConfigPanelController">
+    <stylesheets>
+        <URL value="@/resources/css/panel/Config.css"/>
+    </stylesheets>
+    <columnConstraints>
+        <ColumnConstraints halignment="RIGHT" prefWidth="200" />
+        <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" />
+    </columnConstraints>
+
+    <Label text="Caminho do repositório" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="repositoryBaseDirInput" disable="false" editable="true" prefWidth="500" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+    <Label text="Pasta do Hyperspin" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="hyperspinBaseDirInput" disable="false" editable="true" prefWidth="500" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label text="Pasta ROMs Hyperspin" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <TextField fx:id="hyperspinROMBaseDirInput" disable="false" editable="true" prefWidth="500" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    
+    <HBox alignment="CENTER_LEFT" spacing="1" GridPane.columnIndex="1" GridPane.rowIndex="3">
+        <Button fx:id="btConfigSave" disable="false" onAction="#handleConfigSave" text="Salvar" />
+        <Button fx:id="btConfigCancel" disable="false" onAction="#handleConfigCancel" text="Cancelar" />
+    </HBox>
+</GridPane>
