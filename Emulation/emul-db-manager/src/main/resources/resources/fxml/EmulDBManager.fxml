@@ -17,13 +17,17 @@
     </stylesheets>
     
     <top>
+        <HBox fx:id="menuBar">
+            <ButtonBar>
+                <buttons>
+                    <Button fx:id="miConfig" id="miConfig" text="Configuração" onAction="#handleMenuConfig" />
+                    <Button fx:id="miPlatforms" id="miPlatforms" text="Plataformas"  onAction="#handleMenuPlatforms" />
+                    <Button fx:id="miExit" id="miExit" text="Sair" onAction="#handleMenuExit" /> 
+                </buttons>
+            </ButtonBar>
+        </HBox>
+        <!--
         <MenuBar id="menuBar">
-            <Menu text="Arquivo" fx:id="mFile" >
-                <MenuItem fx:id="miConfig" text="Configuração" onAction="#handleMenuConfig" />
-                <MenuItem fx:id="miPlatforms" text="Plataformas" onAction="#handleMenuPlatforms" />
-                <SeparatorMenuItem />
-                <MenuItem fx:id="miExit" text="Sair" onAction="#handleMenuExit" />
-            </Menu>
             <Menu fx:id="mTeste" text="Teste" >
                 <CheckMenuItem fx:id="mi1" text="Checkbox Menu" selected="true"  />
                 <SeparatorMenuItem />
@@ -35,14 +39,14 @@
                 <RadioMenuItem fx:id="mi3" text="Radio 2" selected="false" toggleGroup="$testeGroup" />
             </Menu>
         </MenuBar>
+        -->
     </top>
     
     <center>
-        <StackPane fx:id="contentPane"
-                   id="contentPane">
+        <StackPane fx:id="contentPane" id="contentPane">
         </StackPane>
     </center>
-    
+
     <bottom>
         <HBox id="bottomPane"
               fx:id="bottomPane">
