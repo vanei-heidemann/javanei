@@ -18,7 +18,8 @@ public class GamePlatformFactory {
         return instance;
     }
 
-    public GamePlatform createPlatform(String name, String repositoryDir, boolean multiFile, boolean allowZip, StorageFormat storageFormat) throws Exception {
+    public GamePlatform createPlatform(String name, String validExtension, String repositoryDir,
+            boolean multiFile, boolean allowZip, StorageFormat storageFormat) throws Exception {
         if (name == null || name.trim().isEmpty()) {
             throw new IllegalArgumentException();
         }
@@ -29,6 +30,7 @@ public class GamePlatformFactory {
         }
         String rDir = repositoryDir.replace("{PlatformName}", name);
         GamePlatform sys = new GamePlatform(name.trim());
+        sys.setValidExtension(validExtension);
         sys.setRepositoryDir(rDir);
         sys.setMultiFile(multiFile);
         sys.setAllowZip(allowZip);

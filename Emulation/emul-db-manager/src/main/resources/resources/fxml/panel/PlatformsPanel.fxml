@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.cell.*?>
 <?import java.lang.*?>
 <?import java.net.*?>
 <?import java.util.*?>
@@ -8,87 +9,93 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.collections.*?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml/1"
-            fx:id="platformsPane"
-            id="platformsPane" 
+<BorderPane id="platformsPane" xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/8.0.40"
             fx:controller="com.javanei.emulation.emuldb.controller.PlatformsPanelController">
     <stylesheets>
-        <URL value="@/resources/css/panel/Platforms.css"/>
+        <URL value="@/resources/css/panel/Platforms.css" />
     </stylesheets>
     
     <center>
         <TableView fx:id="platformsTable">
             <columns>
-                <TableColumn fx:id="platformColName" id="platformColName" editable="false" text="Nome">
+                <TableColumn id="platformColName" fx:id="platformColName" editable="false" text="Nome">
                     <cellValueFactory>
-                        <javafx.scene.control.cell.PropertyValueFactory property="name"  />
+                        <javafx.scene.control.cell.PropertyValueFactory property="name" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn fx:id="platformColReposiroty" id="platformColReposiroty" editable="false" text="Repositório">
+                <TableColumn id="platformValidExtension" fx:id="platformValidExtension" editable="false" text="Extensões">
                     <cellValueFactory>
-                        <javafx.scene.control.cell.PropertyValueFactory property="repositoryDir"  />
+                        <PropertyValueFactory property="validExtension" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn fx:id="platformColMultiFile" id="platformColMultiFile" editable="false" text="Multi Arquivos">
+                <TableColumn id="platformColReposiroty" fx:id="platformColReposiroty" editable="false" text="Repositório">
                     <cellValueFactory>
-                        <javafx.scene.control.cell.PropertyValueFactory property="multiFile"  />
+                        <javafx.scene.control.cell.PropertyValueFactory property="repositoryDir" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn fx:id="platformColAllowZip" id="platformColAllowZip" editable="false" text="Permite Zip">
+                <TableColumn id="platformColMultiFile" fx:id="platformColMultiFile" editable="false" text="Multi Arquivos">
                     <cellValueFactory>
-                        <javafx.scene.control.cell.PropertyValueFactory property="allowZip"  />
+                        <javafx.scene.control.cell.PropertyValueFactory property="multiFile" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn fx:id="platformColStorageFormat" id="platformColStorageFormat" editable="false" text="Armazenamento">
+                <TableColumn id="platformColAllowZip" fx:id="platformColAllowZip" editable="false" text="Permite Zip">
                     <cellValueFactory>
-                        <javafx.scene.control.cell.PropertyValueFactory property="storageFormat"  />
+                        <javafx.scene.control.cell.PropertyValueFactory property="allowZip" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn id="platformColStorageFormat" fx:id="platformColStorageFormat" editable="false" text="Armazenamento">
+                    <cellValueFactory>
+                        <javafx.scene.control.cell.PropertyValueFactory property="storageFormat" />
                     </cellValueFactory>
                 </TableColumn>
             </columns>
             <items>
-                <FXCollections fx:factory="observableArrayList"></FXCollections>
+                <FXCollections fx:factory="observableArrayList" />
             </items>
         </TableView>
     </center>
     
     <bottom>
-        <GridPane fx:id="editPlatformPane" hgap="5" >
+        <GridPane fx:id="editPlatformPane" hgap="5">
             <columnConstraints>
                 <ColumnConstraints halignment="RIGHT" prefWidth="200" />
                 <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" />
             </columnConstraints>
             <Label text="Nome:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-            <TextField fx:id="platformNameInput" GridPane.columnIndex="1" GridPane.rowIndex="0" editable="false" disable="true" />
+            <HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
+                <TextField fx:id="platformNameInput" disable="true" editable="false" prefWidth="300" />
+                <Label text="Extensões:" style="-fx-padding: 5px 5px 0px 15px;" />
+                <TextField fx:id="validExtensionInput" disable="true" editable="false" prefWidth="300" />
+            </HBox>
 
             <Label text="Caminho Repositório:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-            <TextField fx:id="platformReporitoryDirInput"  GridPane.columnIndex="1" GridPane.rowIndex="1" editable="false" disable="true" />
+            <TextField fx:id="platformReporitoryDirInput" disable="true" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
-            <Label text="Múltiplos Arquivos?" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-            <CheckBox fx:id="platformMultiFileInput" GridPane.columnIndex="1" GridPane.rowIndex="2" disable="true" />
-
-            <Label text="Suporta Zip?" GridPane.columnIndex="0" GridPane.rowIndex="3" />
-            <CheckBox fx:id="platformAllowZipInput" GridPane.columnIndex="1" GridPane.rowIndex="3" disable="true" />
-
-            <Label text="Formato de Armazenagem:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
-            <ComboBox fx:id="platformStorageFormatInput" GridPane.columnIndex="1" GridPane.rowIndex="4" disable="true">
-                <items>
-                    <FXCollections fx:factory="observableArrayList">
-                        <String fx:value="file" />
+            <Label text="Formato de Armazenagem:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <HBox GridPane.columnIndex="1" GridPane.rowIndex="2" spacing="10">
+                <ComboBox fx:id="platformStorageFormatInput" disable="true">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="file" />
+                            <String fx:value="zip" />
+                            <String fx:value="singleZip" />
+                        </FXCollections>                
+                    </items>
+                    <value>
                         <String fx:value="zip" />
-                        <String fx:value="singleZip" />
-                    </FXCollections>                
-                </items>
-                <value>
-                    <String fx:value="zip" />
-                </value>
-            </ComboBox>
+                    </value>
+                </ComboBox>
+                <CheckBox fx:id="platformMultiFileInput" disable="true" text="Múltiplos Arquivos" />
+                <CheckBox fx:id="platformAllowZipInput" disable="true" text="Suporta Zip" />
+            </HBox>
             
-            <HBox GridPane.columnIndex="1" GridPane.rowIndex="5" alignment="CENTER_LEFT" spacing="1">
-                <Button fx:id="btPlatformNew" text="Novo" onAction="#handlePlatformNew" />
-                <Button fx:id="btPlatformSave" text="Salvar" disable="true" onAction="#handlePlatformSave" />
-                <Button fx:id="btPlatformCancel" text="Cancelar" disable="true" onAction="#handlePlatformCancel" />
-                <Button fx:id="btPlatformDel" text="Excluir" disable="true" onAction="#handlePlatformDel" />
-                <Button text="Fechar" onAction="#handlePlatformClose" />
+            <HBox alignment="CENTER_LEFT" spacing="1" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <Button fx:id="btPlatformNew" onAction="#handlePlatformNew" text="Novo" />
+                <Button fx:id="btPlatformSave" disable="true" onAction="#handlePlatformSave" text="Salvar" />
+                <Button fx:id="btPlatformCancel" disable="true" onAction="#handlePlatformCancel" text="Cancelar" />
+                <Button fx:id="btPlatformDel" disable="true" onAction="#handlePlatformDel" text="Excluir" />
+                <Button onAction="#handlePlatformClose" text="Fechar" />
             </HBox>
         </GridPane>
     </bottom>

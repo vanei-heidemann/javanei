@@ -56,6 +56,7 @@ public class DatabaseFactory {
                 if (node.getNodeName().equals("platform")) {
                     GamePlatform sys = new GamePlatform();
                     sys.setName(node.getAttributes().getNamedItem("name").getNodeValue());
+                    sys.setValidExtension(node.getAttributes().getNamedItem("validExtension").getNodeValue());
                     sys.setRepositoryDir(node.getAttributes().getNamedItem("repositoryDir").getNodeValue());
                     sys.setMultiFile(node.getAttributes().getNamedItem("multiFile").getNodeValue().equalsIgnoreCase("true"));
                     sys.setAllowZip(node.getAttributes().getNamedItem("allowZip").getNodeValue().equalsIgnoreCase("true"));

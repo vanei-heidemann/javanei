@@ -34,6 +34,8 @@ public class PlatformsPanelController implements Initializable {
     @FXML
     private TextField platformReporitoryDirInput;
     @FXML
+    private TextField validExtensionInput;
+    @FXML
     private CheckBox platformMultiFileInput;
     @FXML
     private CheckBox platformAllowZipInput;
@@ -113,6 +115,7 @@ public class PlatformsPanelController implements Initializable {
     private void handlePlatformSave(ActionEvent event) {
         try {
             GamePlatform plat = GamePlatformFactory.getInstance().createPlatform(this.platformNameInput.getText(),
+                    this.validExtensionInput.getText(),
                     this.platformReporitoryDirInput.getText(),
                     this.platformMultiFileInput.isSelected(),
                     this.platformAllowZipInput.isSelected(),
@@ -136,6 +139,7 @@ public class PlatformsPanelController implements Initializable {
     
     private void showDefaultValues() {
         this.platformNameInput.setText("");
+        this.validExtensionInput.setText("*");
         this.platformReporitoryDirInput.setText("./{PlatformName}");
         this.platformMultiFileInput.setSelected(false);
         this.platformAllowZipInput.setSelected(true);
@@ -144,6 +148,7 @@ public class PlatformsPanelController implements Initializable {
 
     private void showSelectedItem(GamePlatformTableVO item) {
         this.platformNameInput.setText(item.nameProperty().get());
+        this.validExtensionInput.setText(item.validExtensionProperty().get());
         this.platformReporitoryDirInput.setText(item.repositoryDirProperty().get());
         this.platformMultiFileInput.setSelected(item.multiFileProperty().get());
         this.platformAllowZipInput.setSelected(item.allowZipProperty().get());
@@ -153,6 +158,8 @@ public class PlatformsPanelController implements Initializable {
     private void enableDisableFields(boolean disable) {
         this.platformNameInput.setDisable(disable);
         this.platformNameInput.setEditable(!disable);
+        this.validExtensionInput.setDisable(disable);
+        this.validExtensionInput.setEditable(!disable);
         this.platformReporitoryDirInput.setDisable(disable);
         this.platformReporitoryDirInput.setEditable(!disable);
         this.platformMultiFileInput.setDisable(disable);

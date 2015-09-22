@@ -11,7 +11,8 @@ public final class GamePlatform implements Serializable {
 
     private static final long serialVersionUID = 1L;
     private String name;
-    private String repositoryDir;
+    private String validExtension = "*";
+    private String repositoryDir = "./{PlatformName}";
     private boolean multiFile = false;
     private boolean allowZip = true;
     private StorageFormat storageFormat = StorageFormat.zip;
@@ -29,6 +30,14 @@ public final class GamePlatform implements Serializable {
 
     protected void setName(String name) {
         this.name = name;
+    }
+
+    public String getValidExtension() {
+        return validExtension;
+    }
+
+    public void setValidExtension(String validExtension) {
+        this.validExtension = validExtension;
     }
 
     public String getRepositoryDir() {
@@ -67,6 +76,7 @@ public final class GamePlatform implements Serializable {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("\t<platform name=\"").append(this.name).append("\"");
+        sb.append(" validExtension=\"").append(this.validExtension).append("\"");
         sb.append(" repositoryDir=\"").append(this.repositoryDir).append("\"");
         sb.append(" multiFile=\"").append(this.multiFile).append("\"");
         sb.append(" allowZip=\"").append(this.allowZip).append("\"");

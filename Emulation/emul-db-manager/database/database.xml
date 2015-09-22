@@ -1,10 +1,5 @@
 <?xml version="1.0"?>
 <database>
-		<platform name="Nintendo Entertainment System" repositoryDir="./NES" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-		<platform name="Super Nintendo Entertainment System" repositoryDir="./SNES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-		<platform name="Nintendo Game Boy" repositoryDir="./GB" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-		<platform name="Nintendo Game Boy Color" repositoryDir="./GBC" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-		<platform name="Nintendo Game Boy Advance" repositoryDir="./GBA" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-		<platform name="Sega Master System" repositoryDir="./SMS" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-		<platform name="MAME" repositoryDir="./MAME" multiFile="true" allowZip="true" storageFormat="file"></platform>
+		<platform name="Nintendo Game Boy" validExtension="gb" repositoryDir="./GB" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+		<platform name="Nintendo Game Boy Color" validExtension="gb,gbc" repositoryDir="./GBC" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 </database>

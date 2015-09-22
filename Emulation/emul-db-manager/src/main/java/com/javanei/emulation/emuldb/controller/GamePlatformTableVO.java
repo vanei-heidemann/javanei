@@ -13,6 +13,7 @@ import javafx.beans.property.StringProperty;
 public final class GamePlatformTableVO {
 
     private StringProperty name;
+    private StringProperty validExtension;
     private StringProperty repositoryDir;
     private BooleanProperty multiFile;
     private BooleanProperty allowZip;
@@ -20,6 +21,7 @@ public final class GamePlatformTableVO {
 
     public GamePlatformTableVO(GamePlatform plat) {
         this.nameProperty().set(plat.getName());
+        this.validExtensionProperty().set(plat.getValidExtension());
         this.repositoryDirProperty().set(plat.getRepositoryDir());
         this.multiFileProperty().set(plat.isMultiFile());
         this.allowZipProperty().set(plat.isAllowZip());
@@ -31,6 +33,13 @@ public final class GamePlatformTableVO {
             this.name = new SimpleStringProperty();
         }
         return this.name;
+    }
+
+    public StringProperty validExtensionProperty() {
+        if (this.validExtension == null) {
+            this.validExtension = new SimpleStringProperty();
+        }
+        return this.validExtension;
     }
 
     public StringProperty repositoryDirProperty() {
