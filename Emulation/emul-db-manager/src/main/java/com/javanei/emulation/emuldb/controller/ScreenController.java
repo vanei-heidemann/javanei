@@ -1,5 +1,8 @@
 package com.javanei.emulation.emuldb.controller;
 
+import java.net.URL;
+import java.util.Locale;
+import java.util.ResourceBundle;
 import java.util.Stack;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -24,7 +27,9 @@ public class ScreenController {
         if (!stackFile.isEmpty() && stackFile.peek().equals(fxmlFile)) {
             return;
         }
-        Parent n = FXMLLoader.load(ScreenController.class.getClassLoader().getResource(fxmlFile));
+        URL location = ScreenController.class.getClassLoader().getResource(fxmlFile);
+        FXMLLoader loader = new FXMLLoader(location, ResourceBundle.getBundle("resources/i18n/EmulDB", Locale.getDefault()));
+        Parent n = loader.load();
 
         if (currentPanel != null) {
             currentPanel.setVisible(false);

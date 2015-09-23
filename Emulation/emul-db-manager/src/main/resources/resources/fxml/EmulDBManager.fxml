@@ -20,9 +20,9 @@
         <HBox fx:id="menuBar">
             <ButtonBar>
                 <buttons>
-                    <Button fx:id="miConfig" id="miConfig" text="Configuração" onAction="#handleMenuConfig" />
-                    <Button fx:id="miPlatforms" id="miPlatforms" text="Plataformas"  onAction="#handleMenuPlatforms" />
-                    <Button fx:id="miExit" id="miExit" text="Sair" onAction="#handleMenuExit" /> 
+                    <Button fx:id="miConfig" id="btConfig" text="%Config" onAction="#handleMenuConfig" />
+                    <Button fx:id="miPlatforms" id="btPlatforms" text="%Platforms"  onAction="#handleMenuPlatforms" />
+                    <Button fx:id="miExit" id="btExit" text="%Exit" onAction="#handleMenuExit" /> 
                 </buttons>
             </ButtonBar>
         </HBox>

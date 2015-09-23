@@ -23,9 +23,6 @@ public class EmulDBManagerController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-        System.out.println("URL: " + url);
-        System.out.println("rb: " + rb);
         //TODO: Tem como fazer via CSS?
         statusBar.prefWidthProperty().bind(((Region) statusBar.getParent()).widthProperty().subtract(10));
 

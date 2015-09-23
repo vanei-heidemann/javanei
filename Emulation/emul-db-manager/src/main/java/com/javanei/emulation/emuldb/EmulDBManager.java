@@ -1,5 +1,8 @@
 package com.javanei.emulation.emuldb;
 
+import java.net.URL;
+import java.util.Locale;
+import java.util.ResourceBundle;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -21,7 +24,9 @@ public class EmulDBManager extends Application {
     public void start(Stage stage) throws Exception {
         this.stage = stage;
 
-        root = FXMLLoader.load(getClass().getClassLoader().getResource("resources/fxml/EmulDBManager.fxml"));
+        URL location = getClass().getClassLoader().getResource("resources/fxml/EmulDBManager.fxml");
+        FXMLLoader loader = new FXMLLoader(location, ResourceBundle.getBundle("resources/i18n/EmulDB", Locale.getDefault()));
+        root = loader.load();
         Scene scene = new Scene(root);
 
         stage.setScene(scene);

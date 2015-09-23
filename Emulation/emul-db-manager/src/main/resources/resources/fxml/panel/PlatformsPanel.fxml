@@ -19,32 +19,32 @@
     <center>
         <TableView fx:id="platformsTable">
             <columns>
-                <TableColumn id="platformColName" fx:id="platformColName" editable="false" text="Nome">
+                <TableColumn id="platformColName" fx:id="platformColName" editable="false" text="%Name">
                     <cellValueFactory>
                         <javafx.scene.control.cell.PropertyValueFactory property="name" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn id="platformValidExtension" fx:id="platformValidExtension" editable="false" text="Extensões">
+                <TableColumn id="platformValidExtension" fx:id="platformValidExtension" editable="false" text="%Extensions">
                     <cellValueFactory>
                         <PropertyValueFactory property="validExtension" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn id="platformColReposiroty" fx:id="platformColReposiroty" editable="false" text="Repositório">
+                <TableColumn id="platformColReposiroty" fx:id="platformColReposiroty" editable="false" text="%Repository">
                     <cellValueFactory>
                         <javafx.scene.control.cell.PropertyValueFactory property="repositoryDir" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn id="platformColMultiFile" fx:id="platformColMultiFile" editable="false" text="Multi Arquivos">
+                <TableColumn id="platformColMultiFile" fx:id="platformColMultiFile" editable="false" text="%MultiFiles">
                     <cellValueFactory>
                         <javafx.scene.control.cell.PropertyValueFactory property="multiFile" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn id="platformColAllowZip" fx:id="platformColAllowZip" editable="false" text="Permite Zip">
+                <TableColumn id="platformColAllowZip" fx:id="platformColAllowZip" editable="false" text="%AllowZip">
                     <cellValueFactory>
                         <javafx.scene.control.cell.PropertyValueFactory property="allowZip" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn id="platformColStorageFormat" fx:id="platformColStorageFormat" editable="false" text="Armazenamento">
+                <TableColumn id="platformColStorageFormat" fx:id="platformColStorageFormat" editable="false" text="%Storage">
                     <cellValueFactory>
                         <javafx.scene.control.cell.PropertyValueFactory property="storageFormat" />
                     </cellValueFactory>
@@ -62,17 +62,17 @@
                 <ColumnConstraints halignment="RIGHT" prefWidth="200" />
                 <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" />
             </columnConstraints>
-            <Label text="Nome:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label text="%Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
             <HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
                 <TextField fx:id="platformNameInput" disable="true" editable="false" prefWidth="300" />
-                <Label text="Extensões:" style="-fx-padding: 5px 5px 0px 15px;" />
+                <Label text="%Extensions" style="-fx-padding: 5px 5px 0px 15px;" />
                 <TextField fx:id="validExtensionInput" disable="true" editable="false" prefWidth="300" />
             </HBox>
 
-            <Label text="Caminho Repositório:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Label text="%RepositoryBaseDir" GridPane.columnIndex="0" GridPane.rowIndex="1" />
             <TextField fx:id="platformReporitoryDirInput" disable="true" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
-            <Label text="Formato de Armazenagem:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Label text="%Storage" GridPane.columnIndex="0" GridPane.rowIndex="2" />
             <HBox GridPane.columnIndex="1" GridPane.rowIndex="2" spacing="10">
                 <ComboBox fx:id="platformStorageFormatInput" disable="true">
                     <items>
@@ -86,16 +86,16 @@
                         <String fx:value="zip" />
                     </value>
                 </ComboBox>
-                <CheckBox fx:id="platformMultiFileInput" disable="true" text="Múltiplos Arquivos" />
-                <CheckBox fx:id="platformAllowZipInput" disable="true" text="Suporta Zip" />
+                <CheckBox fx:id="platformMultiFileInput" disable="true" text="%MultiFiles" />
+                <CheckBox fx:id="platformAllowZipInput" disable="true" text="%AllowZip" />
             </HBox>
             
             <HBox alignment="CENTER_LEFT" spacing="1" GridPane.columnIndex="1" GridPane.rowIndex="3">
-                <Button fx:id="btPlatformNew" onAction="#handlePlatformNew" text="Novo" />
-                <Button fx:id="btPlatformSave" disable="true" onAction="#handlePlatformSave" text="Salvar" />
-                <Button fx:id="btPlatformCancel" disable="true" onAction="#handlePlatformCancel" text="Cancelar" />
-                <Button fx:id="btPlatformDel" disable="true" onAction="#handlePlatformDel" text="Excluir" />
-                <Button onAction="#handlePlatformClose" text="Fechar" />
+                <Button fx:id="btPlatformNew" onAction="#handlePlatformNew" text="%New" />
+                <Button fx:id="btPlatformSave" disable="true" onAction="#handlePlatformSave" text="%Save" />
+                <Button fx:id="btPlatformCancel" disable="true" onAction="#handlePlatformCancel" text="%Cancel" />
+                <Button fx:id="btPlatformDel" disable="true" onAction="#handlePlatformDel" text="%Delete" />
+                <Button onAction="#handlePlatformClose" text="%Close" />
             </HBox>
         </GridPane>
     </bottom>
