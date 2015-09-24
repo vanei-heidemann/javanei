@@ -91,11 +91,15 @@
             </HBox>
             
             <HBox alignment="CENTER_LEFT" spacing="1" GridPane.columnIndex="1" GridPane.rowIndex="3">
-                <Button fx:id="btPlatformNew" onAction="#handlePlatformNew" text="%New" />
-                <Button fx:id="btPlatformSave" disable="true" onAction="#handlePlatformSave" text="%Save" />
-                <Button fx:id="btPlatformCancel" disable="true" onAction="#handlePlatformCancel" text="%Cancel" />
-                <Button fx:id="btPlatformDel" disable="true" onAction="#handlePlatformDel" text="%Delete" />
-                <Button onAction="#handlePlatformClose" text="%Close" />
+                <ButtonBar>
+                    <buttons>
+                        <Button fx:id="btPlatformNew" onAction="#handlePlatformNew" text="%New" />
+                        <Button fx:id="btPlatformSave" disable="true" onAction="#handlePlatformSave" text="%Save" />
+                        <Button fx:id="btPlatformCancel" disable="true" onAction="#handlePlatformCancel" text="%Cancel" />
+                        <Button fx:id="btPlatformDel" disable="true" onAction="#handlePlatformDel" text="%Delete" />
+                        <Button onAction="#handlePlatformClose" text="%Close" />
+                    </buttons>
+                </ButtonBar>
             </HBox>
         </GridPane>
     </bottom>
