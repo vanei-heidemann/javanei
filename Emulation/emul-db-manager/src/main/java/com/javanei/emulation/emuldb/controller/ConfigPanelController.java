@@ -1,11 +1,10 @@
 package com.javanei.emulation.emuldb.controller;
 
+import com.javanei.emulation.emuldb.MessageFactory;
 import com.javanei.emulation.emuldb.config.Config;
 import com.javanei.emulation.emuldb.config.ConfigManager;
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -17,6 +16,8 @@ import javafx.scene.control.TextField;
  * @author Vanei
  */
 public class ConfigPanelController implements Initializable {
+
+    private final MessageFactory messageFactory = MessageFactory.getInstance();
 
     @FXML
     private TextField repositoryBaseDirInput;
@@ -42,6 +43,7 @@ public class ConfigPanelController implements Initializable {
         try {
             ConfigManager.saveConfig();
         } catch (Exception ex) {
+            messageFactory.showErrorMesssage(ex);
             ex.printStackTrace();
             //TODO: Tratar exception
         }

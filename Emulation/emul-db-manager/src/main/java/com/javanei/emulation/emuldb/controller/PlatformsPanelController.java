@@ -1,5 +1,6 @@
 package com.javanei.emulation.emuldb.controller;
 
+import com.javanei.emulation.emuldb.MessageFactory;
 import com.javanei.emulation.emuldb.factory.DatabaseFactory;
 import com.javanei.emulation.emuldb.factory.GamePlatform;
 import com.javanei.emulation.emuldb.factory.GamePlatformFactory;
@@ -25,6 +26,8 @@ import javafx.scene.control.TextField;
  * @author Vanei
  */
 public class PlatformsPanelController implements Initializable {
+
+    private final MessageFactory messageFactory = MessageFactory.getInstance();
 
     private final ObservableList<GamePlatformTableVO> platformList = FXCollections.<GamePlatformTableVO>observableArrayList();
     @FXML
@@ -92,6 +95,7 @@ public class PlatformsPanelController implements Initializable {
             this.platformsTable.getItems().remove(this.selectedItem);
         } catch (Exception ex) {
             //TODO: Tratar exception
+            this.messageFactory.showErrorMesssage(ex);
             ex.printStackTrace();
         }
     }
@@ -129,6 +133,7 @@ public class PlatformsPanelController implements Initializable {
             btPlatformCancel.setDisable(true);
         } catch (Exception ex) {
             //TODO: Tratar exception
+            this.messageFactory.showErrorMesssage(ex);
             ex.printStackTrace();
         }
     }
