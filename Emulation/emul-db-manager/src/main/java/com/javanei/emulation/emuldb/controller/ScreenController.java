@@ -9,7 +9,6 @@ import javafx.scene.Parent;
 import javafx.scene.layout.StackPane;
 
 /**
- *
  * @author Vanei
  */
 public class ScreenController {

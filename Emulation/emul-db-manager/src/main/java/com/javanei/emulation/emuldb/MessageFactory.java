@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.javanei.emulation.emuldb;
 
 import javafx.beans.property.SimpleStringProperty;
@@ -15,8 +10,8 @@ import javafx.beans.property.StringProperty;
 public final class MessageFactory {
 
     private static final MessageFactory instance = new MessageFactory();
-    private StringProperty message = new SimpleStringProperty();
-    private StringProperty type = new SimpleStringProperty();
+    private final StringProperty message = new SimpleStringProperty();
+    private final StringProperty type = new SimpleStringProperty();
 
     private MessageFactory() {
     }

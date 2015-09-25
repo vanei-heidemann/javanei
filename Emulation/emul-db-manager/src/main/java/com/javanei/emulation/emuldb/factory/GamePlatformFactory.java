@@ -61,7 +61,7 @@ public class GamePlatformFactory {
     }
 
     private File resolveFile(GamePlatform platform) {
-        File repoDir = null;
+        File repoDir;
         if (platform.getRepositoryDir().startsWith(".")) {
             // Usando caminho relativo a pasta default de repositórios.
             repoDir = new File(ConfigManager.getConfig().getRepositoryBaseDir(), platform.getRepositoryDir());

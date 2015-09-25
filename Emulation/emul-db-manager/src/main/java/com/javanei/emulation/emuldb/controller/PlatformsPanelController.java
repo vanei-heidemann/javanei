@@ -27,9 +27,9 @@ import javafx.scene.control.TextField;
  * @author Vanei
  */
 public class PlatformsPanelController implements Initializable {
-    
+
     private final MessageFactory messageFactory = MessageFactory.getInstance();
-    
+
     private final ObservableList<GamePlatformTableVO> platformList = FXCollections.<GamePlatformTableVO>observableArrayList();
     @FXML
     private TableView<GamePlatformTableVO> platformsTable;
@@ -53,9 +53,9 @@ public class PlatformsPanelController implements Initializable {
     private Button btPlatformCancel;
     @FXML
     private Button btPlatformDel;
-    
+
     private GamePlatformTableVO selectedItem;
-    
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         platformsTable.getSelectionModel().selectedItemProperty().addListener((ObservableValue<? extends GamePlatformTableVO> observable, GamePlatformTableVO oldValue, GamePlatformTableVO newValue) -> {
@@ -67,7 +67,7 @@ public class PlatformsPanelController implements Initializable {
                 btPlatformDel.setDisable(true);
             }
         });
-        
+
         List<GamePlatform> plats = DatabaseFactory.getInstance().getDatabase().getPlatforms();
         plats.stream().forEach((plat) -> {
             this.platformList.add(new GamePlatformTableVO(plat));
@@ -77,7 +77,7 @@ public class PlatformsPanelController implements Initializable {
             platformsTable.getSelectionModel().select(0);
         }
     }
-    
+
     @FXML
     private void handlePlatformNew(ActionEvent event) {
         btPlatformNew.setDisable(true);
@@ -88,7 +88,7 @@ public class PlatformsPanelController implements Initializable {
         this.showDefaultValues();
         this.platformNameInput.requestFocus();
     }
-    
+
     @FXML
     private void handlePlatformDel(ActionEvent event) {
         try {
@@ -100,7 +100,7 @@ public class PlatformsPanelController implements Initializable {
             ex.printStackTrace();
         }
     }
-    
+
     @FXML
     private void handlePlatformCancel(ActionEvent event) {
         btPlatformNew.setDisable(false);
@@ -115,7 +115,7 @@ public class PlatformsPanelController implements Initializable {
         }
         this.enableDisableFields(true);
     }
-    
+
     @FXML
     private void handlePlatformSave(ActionEvent event) {
         try {
@@ -127,7 +127,7 @@ public class PlatformsPanelController implements Initializable {
                     StorageFormat.valueOf(this.platformStorageFormatInput.getValue()));
             this.platformList.add(new GamePlatformTableVO(plat));
             this.enableDisableFields(true);
-            
+
             btPlatformNew.setDisable(false);
             btPlatformDel.setDisable(false);
             btPlatformSave.setDisable(true);
@@ -138,12 +138,12 @@ public class PlatformsPanelController implements Initializable {
             ex.printStackTrace();
         }
     }
-    
+
     @FXML
     private void handlePlatformClose(ActionEvent event) {
         ScreenController.goBack();
     }
-    
+
     @FXML
     private void handleValidExtensionChanged(Event e) {
         System.out.println(e);
@@ -151,7 +151,7 @@ public class PlatformsPanelController implements Initializable {
             validExtensionInput.setText("*");
         }
     }
-    
+
     private void showDefaultValues() {
         this.platformNameInput.setText("");
         this.validExtensionInput.setText("*");
@@ -160,7 +160,7 @@ public class PlatformsPanelController implements Initializable {
         this.platformAllowZipInput.setSelected(true);
         this.platformStorageFormatInput.setValue(StorageFormat.zip.name());
     }
-    
+
     private void showSelectedItem(GamePlatformTableVO item) {
         this.platformNameInput.setText(item.nameProperty().get());
         this.validExtensionInput.setText(item.validExtensionProperty().get());
@@ -169,7 +169,7 @@ public class PlatformsPanelController implements Initializable {
         this.platformAllowZipInput.setSelected(item.allowZipProperty().get());
         this.platformStorageFormatInput.setValue(item.storageFormatProperty().get());
     }
-    
+
     private void enableDisableFields(boolean disable) {
         this.platformNameInput.setDisable(disable);
         this.platformNameInput.setEditable(!disable);

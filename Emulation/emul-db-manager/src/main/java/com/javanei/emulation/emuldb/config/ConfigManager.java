@@ -16,6 +16,7 @@ import java.io.IOException;
  * Created by Vanei on 18/09/2015.
  */
 public final class ConfigManager {
+
     private static Config config;
 
     public static final synchronized Config getConfig() {
@@ -65,7 +66,7 @@ public final class ConfigManager {
         }
     }
 
-    private static final File getConfigFile() {
+    private static File getConfigFile() {
         File baseDir = new File(getHomeDir());
         File cfgDir = new File(baseDir, "config");
         if (!cfgDir.exists()) {
@@ -75,7 +76,7 @@ public final class ConfigManager {
         return cfg;
     }
 
-    private static final void readConfigFile(File cfg) throws ParserConfigurationException, SAXException, IOException,
+    private static void readConfigFile(File cfg) throws ParserConfigurationException, SAXException, IOException,
             InvalidConfigurationFormatException {
         System.out.println("Lendo arquivo de configuração: " + cfg.getAbsolutePath());
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

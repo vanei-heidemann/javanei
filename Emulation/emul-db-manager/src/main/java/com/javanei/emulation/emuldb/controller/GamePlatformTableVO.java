@@ -7,7 +7,6 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 /**
- *
  * @author Vanei
  */
 public final class GamePlatformTableVO {

@@ -4,6 +4,7 @@ package com.javanei.emulation.emuldb.config;
  * Created by Vanei on 18/09/2015.
  */
 public class Config {
+
     /**
      * Diretório base onde ficam salvos os arquivos de ROMs
      */

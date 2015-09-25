@@ -1,6 +1,5 @@
 package com.javanei.emulation.emuldb.reposiroty;
 
-import com.javanei.emulation.emuldb.config.Config;
 import com.javanei.emulation.emuldb.config.ConfigManager;
 
 import java.io.File;
@@ -9,6 +8,7 @@ import java.io.File;
  * Created by Vanei on 18/09/2015.
  */
 public class RepositoryManager {
+
     private static final RepositoryManager instance = new RepositoryManager();
     private static String baseDir;
 
@@ -21,7 +21,7 @@ public class RepositoryManager {
 
     public final File getBaseDir() {
         if (baseDir == null) {
-            String baseDir = ConfigManager.getConfig().getRepositoryBaseDir();
+            baseDir = ConfigManager.getConfig().getRepositoryBaseDir();
             if (ConfigManager.getConfig().getRepositoryBaseDir().startsWith(".")) {
                 baseDir = (new File(ConfigManager.getHomeDir(), baseDir).getAbsolutePath());
             }

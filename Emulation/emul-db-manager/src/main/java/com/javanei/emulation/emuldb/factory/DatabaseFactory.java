@@ -14,6 +14,7 @@ import java.io.FileOutputStream;
  * Created by Vanei on 18/09/2015.
  */
 public class DatabaseFactory {
+
     private static final String DATABASE_FILE_NAME = "database.xml";
     private static DatabaseFactory instance;
     private static Database database;

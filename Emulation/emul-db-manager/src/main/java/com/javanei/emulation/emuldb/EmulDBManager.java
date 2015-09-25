@@ -7,30 +7,28 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 /**
- *
  * @author Vanei
  */
 public class EmulDBManager extends Application {
-    
+
     private final MessageFactory messageFactory = MessageFactory.getInstance();
-    
+
     private Stage stage;
     private Parent root;
-    
+
     @Override
     public void start(Stage stage) throws Exception {
         this.stage = stage;
         this.stage.setTitle("EmulDB Manager");
-        
+
         URL location = getClass().getClassLoader().getResource("resources/fxml/EmulDBManager.fxml");
         FXMLLoader loader = new FXMLLoader(location, ResourceBundle.getBundle("resources/i18n/EmulDB", Locale.getDefault()));
         root = loader.load();
         Scene scene = new Scene(root);
-        
+
         stage.setScene(scene);
         stage.setOnShown((we) -> initialize());
         stage.show();
@@ -42,7 +40,7 @@ public class EmulDBManager extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
     private void initialize() {
         System.out.println("############## initialize");
         Scene scene = stage.getScene();

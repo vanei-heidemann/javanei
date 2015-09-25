@@ -48,9 +48,9 @@ public final class Database implements Serializable {
         StringBuilder sb = new StringBuilder();
         sb.append("<database>\n");
 
-        for (GamePlatform gs : Platforms) {
+        Platforms.stream().forEach((gs) -> {
             sb.append("\t").append(gs.toString()).append("\n");
-        }
+        });
 
         sb.append("</database>");
         return sb.toString();

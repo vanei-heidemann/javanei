@@ -12,24 +12,23 @@ import javafx.scene.layout.Region;
 import javafx.scene.layout.StackPane;
 
 /**
- *
  * @author Vanei
  */
 public class EmulDBManagerController implements Initializable {
-    
+
     @FXML
     private TextField statusBar;
     @FXML
     private StackPane contentPane;
-    
+
     private final MessageFactory messageFactory = MessageFactory.getInstance();
-    
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         //TODO: Tem como fazer via CSS?
         statusBar.prefWidthProperty().bind(((Region) statusBar.getParent()).widthProperty().subtract(10));
         this.statusBar.textProperty().bind(messageFactory.messageProperty());
-        
+
         new ScreenController(contentPane);
         try {
             ScreenController.loadPane("resources/fxml/panel/DefaultPanel.fxml");
@@ -38,7 +37,7 @@ public class EmulDBManagerController implements Initializable {
             this.messageFactory.showErrorMesssage(ex);
         }
     }
-    
+
     @FXML
     private void handleMenuGoBack(ActionEvent event) {
         try {
@@ -48,7 +47,7 @@ public class EmulDBManagerController implements Initializable {
             this.messageFactory.showErrorMesssage(ex);
         }
     }
-    
+
     @FXML
     private void handleMenuConfig(ActionEvent event) {
         try {
@@ -58,7 +57,7 @@ public class EmulDBManagerController implements Initializable {
             this.messageFactory.showErrorMesssage(ex);
         }
     }
-    
+
     @FXML
     private void handleMenuPlatforms(ActionEvent event) {
         try {
@@ -68,7 +67,7 @@ public class EmulDBManagerController implements Initializable {
             this.messageFactory.showErrorMesssage(ex);
         }
     }
-    
+
     @FXML
     private void handleMenuExit(ActionEvent event) {
         System.out.println("@@@@ Exit");
