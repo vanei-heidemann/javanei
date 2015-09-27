@@ -13,9 +13,6 @@
             fx:controller="com.javanei.emulation.emuldb.controller.DefaultPanelController">
     <left>
         <TableView fx:id="platformsMainTable">
-            <!-- columnResizePolicy>
-                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
-            </columnResizePolicy -->
             <columns>
                 <TableColumn id="platformColName" fx:id="platformColName" text="%Platforms"
                              resizable="false">
@@ -29,4 +26,30 @@
             </items>
         </TableView>
     </left>
+    
+    <center>
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints percentWidth="50" />
+                <ColumnConstraints percentWidth="50" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints percentHeight="50" />
+                <RowConstraints percentHeight="50" />
+            </rowConstraints>
+            
+            <HBox GridPane.columnIndex="0" GridPane.rowIndex="0" alignment="CENTER" style="-fx-background-color: lightgreen;">
+                <Label text="TODO" />
+            </HBox>
+            <HBox GridPane.columnIndex="1" GridPane.rowIndex="0" alignment="CENTER" style="-fx-background-color: darkgreen;">
+                <Label text="TODO" />
+            </HBox>
+            <HBox GridPane.columnIndex="0" GridPane.rowIndex="1" alignment="CENTER" style="-fx-background-color: lightblue;">
+                <Label text="TODO" />
+            </HBox>
+            <HBox GridPane.columnIndex="1" GridPane.rowIndex="1" alignment="CENTER" style="-fx-background-color: darkblue;">
+                <Label text="TODO" />
+            </HBox>
+        </GridPane>
+    </center>
 </BorderPane>
