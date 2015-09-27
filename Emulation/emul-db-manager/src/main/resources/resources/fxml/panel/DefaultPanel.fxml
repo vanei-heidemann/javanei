@@ -12,19 +12,31 @@
             onVisibleChange="#handleVisibleChange"
             fx:controller="com.javanei.emulation.emuldb.controller.DefaultPanelController">
     <left>
-        <TableView fx:id="platformsMainTable">
-            <columns>
-                <TableColumn id="platformColName" fx:id="platformColName" text="%Platforms"
-                             resizable="false">
-                    <cellValueFactory>
-                        <javafx.scene.control.cell.PropertyValueFactory property="name" />
-                    </cellValueFactory>
-                </TableColumn>
-            </columns>
-            <items>
-                <FXCollections fx:factory="observableArrayList" />
-            </items>
-        </TableView>
+        <BorderPane>
+            <center>
+                <TableView fx:id="platformsMainTable">
+                    <columns>
+                        <TableColumn id="platformColName" fx:id="platformColName" text="%Platforms"
+                                     resizable="false">
+                            <cellValueFactory>
+                                <javafx.scene.control.cell.PropertyValueFactory property="name" />
+                            </cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                    <items>
+                        <FXCollections fx:factory="observableArrayList" />
+                    </items>
+                </TableView>
+            </center>
+            <bottom>
+                <GridPane>
+                    <columnConstraints>
+                        <ColumnConstraints percentWidth="100" />
+                    </columnConstraints>
+                </GridPane>
+                <Button text="%ImportROMFiles" onAction="#handleImportROMFiles" />
+            </bottom>
+        </BorderPane>
     </left>
     
     <center>

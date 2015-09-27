@@ -13,6 +13,7 @@ import java.util.zip.ZipOutputStream;
  * Created by Vanei on 03/09/2015.
  */
 public class ZipUtil {
+
     public static void listFiles(File zipFile) throws Exception {
         ZipFile zip = new ZipFile(zipFile);
         Enumeration entries = zip.entries();
@@ -80,19 +81,51 @@ public class ZipUtil {
     }
 
     public static void createZipFile(File zip, File file) throws Exception {
-        // input file
-        FileInputStream in = new FileInputStream(file);
         // out put file
-        ZipOutputStream out = new ZipOutputStream(new FileOutputStream(zip));
-        // name the file inside the zip  file
-        out.putNextEntry(new ZipEntry(file.getName()));
-        // buffer size
-        byte[] b = new byte[1024];
-        int count;
-        while ((count = in.read(b)) > 0) {
-            out.write(b, 0, count);
+        try ( // input file
+                FileInputStream in = new FileInputStream(file); // out put file
+                ZipOutputStream out = new ZipOutputStream(new FileOutputStream(zip))) {
+            // name the file inside the zip  file
+            out.putNextEntry(new ZipEntry(file.getName()));
+            // buffer size
+            byte[] b = new byte[1024];
+            int count;
+            while ((count = in.read(b)) > 0) {
+                out.write(b, 0, count);
+            }
+            out.closeEntry();
         }
-        out.close();
-        in.close();
+    }
+
+    public static void addFileToZip(File zipFile, String name, byte[] b) throws Exception {
+        // Cria um arquivo temporário
+        File outZip = new File(zipFile.getParentFile(), "___tmp.zip");
+        // Grava o novo arquivo.
+        try (ZipOutputStream out = new ZipOutputStream(new FileOutputStream(outZip))) {
+            out.putNextEntry(new ZipEntry(name));
+            out.write(b);
+            out.flush();
+            out.closeEntry();
+
+            // Restaura os arquivos anteriores
+            if (zipFile.exists()) {
+                try (ZipFile zf = new ZipFile(zipFile)) {
+                    Enumeration entries = zf.entries();
+                    while (entries.hasMoreElements()) {
+                        ZipEntry ze = (ZipEntry) entries.nextElement();
+                        out.putNextEntry(ze);
+                        byte[] BUFFER = new byte[4096];
+                        int bytesRead;
+                        InputStream is = zf.getInputStream(ze);
+                        while ((bytesRead = is.read(BUFFER)) != -1) {
+                            out.write(BUFFER, 0, bytesRead);
+                        }
+                        out.closeEntry();
+                    }
+                }
+                zipFile.delete();
+            }
+        }
+        FileUtil.moveFile(outZip, zipFile);
     }
 }

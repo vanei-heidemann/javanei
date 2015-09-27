@@ -1,6 +1,17 @@
 <?xml version="1.0"?>
 <database>
 		<platform name="Atari 2600" validExtension=".bin,.a26" repositoryDir="./Atari2600" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-		<platform name="Atari 5200" validExtension=".bin,.a52" repositoryDir="./Atari5200" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-		<platform name="Atari 7800" validExtension=".bin,.a78" repositoryDir="./Atari7800" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Atari 5200" validExtension=".bin,.a52" repositoryDir="./Atari5200" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+		<platform name="Atari 7800" validExtension=".bin,.a78" repositoryDir="./Atari7800" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+		<platform name="Coleco ColecoVision" validExtension=".col" repositoryDir="./ColecoVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+		<platform name="Nintendo Game Boy" validExtension=".gb" repositoryDir="./GameBoy" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Nintendo Game Boy Color" validExtension=".gbc" repositoryDir="./GameBoyColor" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Atari Jaguar" validExtension=".jag,.j64,.rom" repositoryDir="./AtariJaguar" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Atari 8-Bit" validExtension=".atr,.xex,.bin,.cas,.bas,.atx,.rom,.com" repositoryDir="./Atari8-Bit" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Atari Lynx" validExtension=".lnx,.bin" repositoryDir="./AtariLynx" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Atari ST" validExtension=".st,.stx" repositoryDir="./AtariST" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Nintendo 64" validExtension=".z64,.n64" repositoryDir="./Nintendo64" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Nintendo Entertainment System" validExtension=".nes,.bin" repositoryDir="./NES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Nintendo Famicom Disk System" validExtension=".fds,.bin" repositoryDir="./FamicomDiskSystem" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+		<platform name="Nintendo Game Boy Advance" validExtension=".gba" repositoryDir="./GameBoyAdvance" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 </database>

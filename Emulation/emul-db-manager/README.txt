@@ -5,3 +5,7 @@ Lugares para buscar informações, imagens
 
 Lugares para buscar informações sobre emuladores
 * https://en.wikipedia.org/wiki/List_of_video_game_emulators
+
+Links diversos
+* https://en.wikipedia.org/wiki/GoodTools
+* http://www.allgoodthings.us/

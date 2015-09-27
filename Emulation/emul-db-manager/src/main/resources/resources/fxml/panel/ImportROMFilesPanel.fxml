@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+          id="importROMFilesPanel" fx:id="importROMFilesPanel"
+          fx:controller="com.javanei.emulation.emuldb.controller.ImportROMFilesPanelController">
+    <columnConstraints>
+        <ColumnConstraints halignment="RIGHT" prefWidth="200" />
+        <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" />
+    </columnConstraints>
+
+    <Label text="%Platform" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="platformNameInput" disable="true" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+    <Label text="%ROMsPath" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="romPathInput" disable="false" editable="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <HBox alignment="CENTER_LEFT" spacing="1" GridPane.columnIndex="1" GridPane.rowIndex="2">
+        <ButtonBar>
+            <buttons>
+                <Button fx:id="btImport" onAction="#handleImport" text="%Import" />
+                <Button fx:id="btClose"  onAction="#handleClose" text="%Close" />
+            </buttons>
+        </ButtonBar>
+    </HBox>
+    
+    <ProgressBar GridPane.columnIndex="1" GridPane.rowIndex="3" progress="0" prefWidth="400"
+                 fx:id="progressBar" >
+    </ProgressBar>
+    
+    <TextArea fx:id="textArea"  GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2"
+              editable="false" disable="false" prefHeight="300" wrapText="false">
+    </TextArea>
+</GridPane>

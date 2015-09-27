@@ -9,8 +9,6 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 import javafx.beans.value.ObservableValue;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
@@ -29,8 +27,8 @@ import javafx.scene.control.TextField;
 public class PlatformsPanelController implements Initializable {
 
     private final MessageFactory messageFactory = MessageFactory.getInstance();
+    private final GlobalValues globalValues = GlobalValues.getInstance();
 
-    private final ObservableList<GamePlatformTableVO> platformList = FXCollections.<GamePlatformTableVO>observableArrayList();
     @FXML
     private TableView<GamePlatformTableVO> platformsTable;
     @FXML
@@ -54,12 +52,10 @@ public class PlatformsPanelController implements Initializable {
     @FXML
     private Button btPlatformDel;
 
-    private GamePlatformTableVO selectedItem;
-
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         platformsTable.getSelectionModel().selectedItemProperty().addListener((ObservableValue<? extends GamePlatformTableVO> observable, GamePlatformTableVO oldValue, GamePlatformTableVO newValue) -> {
-            this.selectedItem = newValue;
+            this.globalValues.setSelectedPlatform(newValue);
             if (observable != null && observable.getValue() != null) {
                 showSelectedItem(newValue);
                 btPlatformDel.setDisable(false);
@@ -68,13 +64,10 @@ public class PlatformsPanelController implements Initializable {
             }
         });
 
-        List<GamePlatform> plats = DatabaseFactory.getInstance().getDatabase().getPlatforms();
-        plats.stream().forEach((plat) -> {
-            this.platformList.add(new GamePlatformTableVO(plat));
-        });
-        platformsTable.setItems(this.platformList);
-        if (!this.platformList.isEmpty()) {
-            platformsTable.getSelectionModel().select(0);
+        platformsTable.setItems(this.globalValues.getPlatformList());
+        if (!this.globalValues.getPlatformList().isEmpty()
+                && this.globalValues.getSelectedPlatform() != null) {
+            platformsTable.getSelectionModel().select(this.globalValues.getSelectedPlatform());
         }
     }
 
@@ -92,8 +85,8 @@ public class PlatformsPanelController implements Initializable {
     @FXML
     private void handlePlatformDel(ActionEvent event) {
         try {
-            GamePlatformFactory.getInstance().removePlatform(this.selectedItem.nameProperty().get());
-            this.platformsTable.getItems().remove(this.selectedItem);
+            GamePlatformFactory.getInstance().removePlatform(this.globalValues.getSelectedPlatform().nameProperty().get());
+            this.platformsTable.getItems().remove(this.globalValues.getSelectedPlatform());
         } catch (Exception ex) {
             //TODO: Tratar exception
             this.messageFactory.showErrorMesssage(ex);
@@ -125,7 +118,7 @@ public class PlatformsPanelController implements Initializable {
                     this.platformMultiFileInput.isSelected(),
                     this.platformAllowZipInput.isSelected(),
                     StorageFormat.valueOf(this.platformStorageFormatInput.getValue()));
-            this.platformList.add(new GamePlatformTableVO(plat));
+            this.globalValues.getPlatformList().add(new GamePlatformTableVO(plat));
             this.enableDisableFields(true);
 
             btPlatformNew.setDisable(false);
