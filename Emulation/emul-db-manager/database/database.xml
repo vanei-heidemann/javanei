@@ -16,8 +16,8 @@
 		<platform name="Nintendo Game Boy Advance" validExtension=".gba" repositoryDir="./GameBoyAdvance" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 		<platform name="Nintendo Game Boy Color" validExtension=".gbc" repositoryDir="./GameBoyColor" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 		<platform name="Nintendo Virtual Boy" validExtension=".vb" repositoryDir="./VirtualBoy" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-		<platform name="SNK Neo Geo Pocket" validExtension=".ngp,.ngc" repositoryDir="./NeoGeoPocket" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-		<platform name="SNK Neo Geo Pocket Color" validExtension=".ngc" repositoryDir="./NeoGeoPocketColor" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="SNK Neo Geo Pocket" validExtension=".ngp" repositoryDir="./NeoGeoPocket(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="SNK Neo Geo Pocket Color" validExtension=".ngc,.ngp,.bin" repositoryDir="./NeoGeoPocket(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 		<platform name="Sega 32X" validExtension=".32x" repositoryDir="./Sega32X" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 		<platform name="Sega Game Gear" validExtension=".gg,.sms,.bin" repositoryDir="./GameGear" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 		<platform name="Sega Genesis" validExtension=".md" repositoryDir="./GenesisMegaDrive" multiFile="false" allowZip="true" storageFormat="zip"></platform>
