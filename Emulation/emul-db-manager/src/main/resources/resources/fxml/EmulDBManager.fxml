@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.cell.*?>
 <?import java.lang.*?>
 <?import java.net.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml/1"
-            prefHeight="768" prefWidth="1024"
-            styleClass="root" 
-            fx:id="mainPane"
+<BorderPane fx:id="mainPane" prefHeight="768" prefWidth="1024" styleClass="root"
+            xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40"
             fx:controller="com.javanei.emulation.emuldb.controller.EmulDBManagerController">
     <stylesheets>
-        <URL value="@/resources/css/root.css"/>
+        <URL value="@/resources/css/root.css" />
     </stylesheets>
     
     <top>
         <HBox fx:id="menuBar">
             <ButtonBar>
                 <buttons>
-                    <Button fx:id="miConfig" id="btConfig" text="%Config" onAction="#handleMenuConfig" />
-                    <Button fx:id="miPlatforms" id="btPlatforms" text="%Platforms"  onAction="#handleMenuPlatforms" />
-                    <Button fx:id="miExit" id="btExit" text="%Exit" onAction="#handleMenuExit" /> 
+                    <Button id="btConfig" fx:id="miConfig" onAction="#handleMenuConfig" text="%Config" />
+                    <Button id="btPlatforms" fx:id="miPlatforms" onAction="#handleMenuPlatforms" text="%Platforms" />
+                    <Button id="btExit" fx:id="miExit" onAction="#handleMenuExit" text="%Exit" /> 
                 </buttons>
             </ButtonBar>
         </HBox>
@@ -43,14 +43,13 @@
     </top>
     
     <center>
-        <StackPane fx:id="contentPane" id="contentPane">
+        <StackPane id="contentPane" fx:id="contentPane">
         </StackPane>
     </center>
 
     <bottom>
-        <HBox id="bottomPane"
-              fx:id="bottomPane">
-            <TextField id="statusBar" fx:id="statusBar" editable="false" disable="true" />
+        <HBox id="bottomPane" fx:id="bottomPane">
+            <TextField id="statusBar" fx:id="statusBar" disable="true" editable="false" />
         </HBox>
     </bottom>
-</BorderPane> 
+</BorderPane>

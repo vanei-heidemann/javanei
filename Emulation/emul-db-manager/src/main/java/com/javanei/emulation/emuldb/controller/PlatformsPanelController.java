@@ -146,7 +146,6 @@ public class PlatformsPanelController implements Initializable {
 
     @FXML
     private void handleValidExtensionChanged(Event e) {
-        System.out.println(e);
         if (validExtensionInput.getText().contains("*")) {
             validExtensionInput.setText("*");
         }

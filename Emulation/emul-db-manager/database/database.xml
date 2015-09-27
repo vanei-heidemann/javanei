@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <database>
-		<platform name="Nintendo Game Boy" validExtension="gb" repositoryDir="./GB" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-		<platform name="Nintendo Game Boy Color" validExtension="gb,gbc" repositoryDir="./GBC" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Atari 2600" validExtension=".bin,.a26" repositoryDir="./Atari2600" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+		<platform name="Atari 5200" validExtension=".bin,.a52" repositoryDir="./Atari5200" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+		<platform name="Atari 7800" validExtension=".bin,.a78" repositoryDir="./Atari7800" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 </database>
