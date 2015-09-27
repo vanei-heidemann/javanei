@@ -2,6 +2,8 @@ package com.javanei.emulation.emuldb.factory;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +14,7 @@ import java.util.Map;
 public final class Database implements Serializable {
 
     private static final long serialVersionUID = 1L;
-    private final List<GamePlatform> Platforms = new ArrayList<>();
+    private final List<GamePlatform> platforms = new ArrayList<>();
     private final Map<String, GamePlatform> PlatformsByName = new HashMap<>();
 
     protected Database() {
@@ -23,15 +25,21 @@ public final class Database implements Serializable {
     }
 
     public List<GamePlatform> getPlatforms() {
-        return this.Platforms;
+        return this.platforms;
     }
 
     protected void addPlatform(GamePlatform platform) throws GamePlatformAlreadyExistsException {
         if (PlatformsByName.get(platform.getName()) != null) {
             throw new GamePlatformAlreadyExistsException();
         }
-        Platforms.add(platform);
+        platforms.add(platform);
         this.PlatformsByName.put(platform.getName(), platform);
+        Collections.sort(this.platforms, new Comparator<GamePlatform>() {
+            @Override
+            public int compare(GamePlatform o1, GamePlatform o2) {
+                return o1.getName().compareTo(o2.getName());
+            }
+        });
     }
 
     protected void removePlatform(String name) throws GamePlatformDoesNotExistsException {
@@ -39,7 +47,7 @@ public final class Database implements Serializable {
         if (plat == null) {
             throw new GamePlatformDoesNotExistsException();
         }
-        Platforms.remove(plat);
+        platforms.remove(plat);
         this.PlatformsByName.remove(name);
     }
 
@@ -48,7 +56,7 @@ public final class Database implements Serializable {
         StringBuilder sb = new StringBuilder();
         sb.append("<database>\n");
 
-        Platforms.stream().forEach((gs) -> {
+        platforms.stream().forEach((gs) -> {
             sb.append("\t").append(gs.toString()).append("\n");
         });
 

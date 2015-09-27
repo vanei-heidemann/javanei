@@ -117,9 +117,10 @@ public class ImportROMFilesPanelController implements Initializable {
         if (f.getName().toLowerCase().endsWith(".zip")) {
             try (ZipFile zip = new ZipFile(f)) {
                 Enumeration entries = zip.entries();
+                sb.append("\n");
                 while (entries.hasMoreElements()) {
                     ZipEntry ze = (ZipEntry) entries.nextElement();
-                    sb.append("\n").append("    ").append(ze.getName()).append(": ");
+                    sb.append("    ").append(ze.getName()).append(": ");
                     try {
                         this.validateROMFileName(ze.getName());
                         InputStream is = zip.getInputStream(ze);
