@@ -75,7 +75,7 @@ public final class GamePlatform implements Serializable {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("\t<platform name=\"").append(this.name).append("\"");
+        sb.append("<platform name=\"").append(this.name).append("\"");
         sb.append(" validExtension=\"").append(this.validExtension).append("\"");
         sb.append(" repositoryDir=\"").append(this.repositoryDir).append("\"");
         sb.append(" multiFile=\"").append(this.multiFile).append("\"");
