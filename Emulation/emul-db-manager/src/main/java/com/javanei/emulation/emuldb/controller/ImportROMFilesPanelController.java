@@ -1,9 +1,10 @@
 package com.javanei.emulation.emuldb.controller;
 
 import com.javanei.emulation.emuldb.MessageFactory;
+import com.javanei.emulation.emuldb.factory.Database;
 import com.javanei.emulation.emuldb.factory.DatabaseFactory;
 import com.javanei.emulation.emuldb.factory.GamePlatform;
-import com.javanei.emulation.emuldb.repository.RepositoryManager;
+import com.javanei.emulation.emuldb.factory.RepositoryManager;
 import com.javanei.emulation.util.FileUtil;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -38,6 +39,7 @@ public class ImportROMFilesPanelController implements Initializable {
     private final GlobalValues globalValues = GlobalValues.getInstance();
     private GamePlatform platform;
     private List<File> files;
+    private Database database;
 
     @FXML
     private TextField platformNameInput;
@@ -57,7 +59,8 @@ public class ImportROMFilesPanelController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         this.platformNameInput.setText(globalValues.getSelectedPlatform().nameProperty().get());
-        this.platform = DatabaseFactory.getInstance().getDatabase().getPlatform(this.globalValues.getSelectedPlatform().nameProperty().get());
+        this.database = DatabaseFactory.getInstance().getDatabase();
+        this.platform = this.database.getPlatform(this.globalValues.getSelectedPlatform().nameProperty().get());
     }
 
     @FXML
@@ -133,7 +136,7 @@ public class ImportROMFilesPanelController implements Initializable {
                                 size = is.read(b);
                             }
                             b = out.toByteArray();
-                            RepositoryManager.getInstance().saveROMFile(this.platform, b);
+                            database.addROMFile(this.platform, b);
                             sb.append(" OK\n");
                         } catch (FileAlreadyExistsException ex) {
                             sb.append(" OK: ").append(ex.getClass().getName()).append("\n");
@@ -159,7 +162,7 @@ public class ImportROMFilesPanelController implements Initializable {
                             size = is.read(b);
                         }
                         b = out.toByteArray();
-                        RepositoryManager.getInstance().saveROMFile(this.platform, b);
+                        database.addROMFile(this.platform, b);
                         sb.append(" OK\n");
                     } catch (FileAlreadyExistsException ex) {
                         sb.append(" OK: ").append(ex.getClass().getName()).append("\n");

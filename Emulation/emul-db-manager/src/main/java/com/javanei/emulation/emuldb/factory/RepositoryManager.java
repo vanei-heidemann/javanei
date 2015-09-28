@@ -1,7 +1,6 @@
-package com.javanei.emulation.emuldb.repository;
+package com.javanei.emulation.emuldb.factory;
 
 import com.javanei.emulation.emuldb.config.ConfigManager;
-import com.javanei.emulation.emuldb.factory.GamePlatform;
 import com.javanei.emulation.util.FileUtil;
 import com.javanei.emulation.util.StringUtil;
 import com.javanei.emulation.util.ZipUtil;
@@ -34,7 +33,7 @@ public class RepositoryManager {
         return new File(baseDir);
     }
 
-    public void saveROMFile(GamePlatform platform, byte[] b) throws Exception {
+    protected void saveROMFile(GamePlatform platform, byte[] b) throws Exception {
         File romsDir = new File(getPlatformBaseDir(platform), "roms");
         if (!romsDir.exists()) {
             romsDir.mkdirs();

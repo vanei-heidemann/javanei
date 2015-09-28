@@ -28,6 +28,10 @@ public final class Database implements Serializable {
         return this.platforms;
     }
 
+    public void addROMFile(GamePlatform platform, byte[] b) throws Exception {
+        RepositoryManager.getInstance().saveROMFile(platform, b);
+    }
+
     protected void addPlatform(GamePlatform platform) throws GamePlatformAlreadyExistsException {
         if (PlatformsByName.get(platform.getName()) != null) {
             throw new GamePlatformAlreadyExistsException();
