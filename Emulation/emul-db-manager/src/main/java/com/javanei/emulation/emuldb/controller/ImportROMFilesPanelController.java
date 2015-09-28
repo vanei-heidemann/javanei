@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.URL;
+import java.nio.file.FileAlreadyExistsException;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
@@ -134,6 +135,8 @@ public class ImportROMFilesPanelController implements Initializable {
                             b = out.toByteArray();
                             RepositoryManager.getInstance().saveROMFile(this.platform, b);
                             sb.append(" OK\n");
+                        } catch (FileAlreadyExistsException ex) {
+                            sb.append(" OK: ").append(ex.getClass().getName()).append("\n");
                         } catch (Exception ex) {
                             this.appendError(sb, ex);
                         }
@@ -158,6 +161,8 @@ public class ImportROMFilesPanelController implements Initializable {
                         b = out.toByteArray();
                         RepositoryManager.getInstance().saveROMFile(this.platform, b);
                         sb.append(" OK\n");
+                    } catch (FileAlreadyExistsException ex) {
+                        sb.append(" OK: ").append(ex.getClass().getName()).append("\n");
                     } catch (Exception ex) {
                         this.appendError(sb, ex);
                     }

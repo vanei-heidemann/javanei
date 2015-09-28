@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.nio.file.FileAlreadyExistsException;
 import java.util.Enumeration;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
@@ -127,5 +128,19 @@ public class ZipUtil {
             }
         }
         FileUtil.moveFile(outZip, zipFile);
+    }
+
+    public static void validateExistFileInZip(File zipFile, String file) throws Exception {
+        if (zipFile.exists()) {
+            try (ZipFile zf = new ZipFile(zipFile)) {
+                Enumeration entries = zf.entries();
+                while (entries.hasMoreElements()) {
+                    ZipEntry ze = (ZipEntry) entries.nextElement();
+                    if (ze.getName().equalsIgnoreCase(file)) {
+                        throw new FileAlreadyExistsException(file);
+                    }
+                }
+            }
+        }
     }
 }

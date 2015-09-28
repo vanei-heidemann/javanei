@@ -59,6 +59,7 @@ public class RepositoryManager {
                 break;
             case singleZip:
                 destFile = new File(romsDir, "roms.zip");
+                ZipUtil.validateExistFileInZip(destFile, crc);
                 ZipUtil.addFileToZip(destFile, crc, b);
                 break;
         }
