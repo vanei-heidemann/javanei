@@ -10,6 +10,7 @@
 	<platform name="Atari ST" validExtension=".st,.stx,.img,.ipf" repositoryDir="./AtariST" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Coleco ColecoVision" validExtension=".col,.rom" repositoryDir="./ColecoVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
 	<platform name="Commodore 64" validExtension=".bin,.t64,.d64,.g64,.crt,.tap,.nib,.tap,.u2,.u3,.u4,.u5,.ua2,.ub3,.ub4,.sid,.102" repositoryDir="./Commodore64" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+	<platform name="Commodore Amiga" validExtension=".rom,.adf,.ipf" repositoryDir="./Amiga" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Commodore VIC-20" validExtension=".bin,.ub3,.ub4,.ud7,.ue1,.80,.70,.60,.40,.20,.a0,.b0" repositoryDir="./VIC-20" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Magnavox Odyssey 2" validExtension=".bin" repositoryDir="./Odyssey2" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
 	<platform name="Nintendo 64" validExtension=".z64,.n64" repositoryDir="./Nintendo64" multiFile="false" allowZip="true" storageFormat="zip"></platform>
