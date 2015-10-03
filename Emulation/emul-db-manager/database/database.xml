@@ -17,6 +17,7 @@
 	<platform name="Nintendo Game Boy" validExtension=".gb" repositoryDir="./GameBoy(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Nintendo Game Boy Advance" validExtension=".gba" repositoryDir="./GameBoyAdvance" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Nintendo Game Boy Color" validExtension=".gbc,.gb" repositoryDir="./GameBoy(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+	<platform name="Nintendo Pokemon Mini" validExtension=".min" repositoryDir="./PokemonMini" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
 	<platform name="Nintendo Virtual Boy" validExtension=".vb" repositoryDir="./VirtualBoy" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
 	<platform name="SNK Neo Geo Pocket" validExtension=".ngp" repositoryDir="./NeoGeoPocket(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="SNK Neo Geo Pocket Color" validExtension=".ngc,.ngp,.bin" repositoryDir="./NeoGeoPocket(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
