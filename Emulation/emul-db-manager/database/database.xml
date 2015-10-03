@@ -8,7 +8,7 @@
 	<platform name="Atari Jaguar" validExtension=".jag,.j64,.rom" repositoryDir="./AtariJaguar" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Atari Lynx" validExtension=".lnx,.bin" repositoryDir="./AtariLynx" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Atari ST" validExtension=".st,.stx,.img,.ipf" repositoryDir="./AtariST" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Coleco ColecoVision" validExtension=".col" repositoryDir="./ColecoVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+	<platform name="Coleco ColecoVision" validExtension=".col,.rom" repositoryDir="./ColecoVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
 	<platform name="Nintendo 64" validExtension=".z64,.n64" repositoryDir="./Nintendo64" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Nintendo Entertainment System" validExtension=".nes,.bin" repositoryDir="./NES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Nintendo Famicom" validExtension=".nes" repositoryDir="./NES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
