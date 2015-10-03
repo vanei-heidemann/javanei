@@ -24,7 +24,7 @@
                         <javafx.scene.control.cell.PropertyValueFactory property="name" />
                     </cellValueFactory>
                 </TableColumn>
-                <TableColumn id="platformValidExtension" fx:id="platformValidExtension" editable="false" text="%Extensions">
+                <TableColumn id="platformValidExtension" fx:id="platformValidExtension" editable="true" text="%Extensions">
                     <cellValueFactory>
                         <PropertyValueFactory property="validExtension" />
                     </cellValueFactory>
@@ -66,7 +66,7 @@
             <HBox GridPane.columnIndex="1" GridPane.rowIndex="0">
                 <TextField fx:id="platformNameInput" disable="true" editable="false" prefWidth="300" />
                 <Label text="%Extensions" style="-fx-padding: 5px 5px 0px 15px;" />
-                <TextField fx:id="validExtensionInput" disable="true" editable="false" prefWidth="300" onTextChange="#handleValidExtensionChanged" />
+                <TextField fx:id="validExtensionInput" disable="false" editable="true" prefWidth="300" onTextChange="#handleValidExtensionChanged" />
             </HBox>
 
             <Label text="%RepositoryBaseDir" GridPane.columnIndex="0" GridPane.rowIndex="1" />
@@ -94,7 +94,7 @@
                 <ButtonBar>
                     <buttons>
                         <Button fx:id="btPlatformNew" onAction="#handlePlatformNew" text="%New" />
-                        <Button fx:id="btPlatformSave" disable="true" onAction="#handlePlatformSave" text="%Save" />
+                        <Button fx:id="btPlatformSave" disable="false" onAction="#handlePlatformSave" text="%Save" />
                         <Button fx:id="btPlatformCancel" disable="true" onAction="#handlePlatformCancel" text="%Cancel" />
                         <Button fx:id="btPlatformDel" disable="true" onAction="#handlePlatformDel" text="%Delete" />
                         <Button onAction="#handlePlatformClose" text="%Close" />

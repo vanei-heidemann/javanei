@@ -5,6 +5,7 @@ import com.javanei.emulation.common.GameDatFormat;
 import com.javanei.emulation.common.ThreeStates;
 import java.io.Serializable;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -180,5 +181,35 @@ public class Game implements Serializable {
         if (!this.roms.contains(rom)) {
             this.roms.add(rom);
         }
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 67 * hash + Objects.hashCode(this.name);
+        hash = 67 * hash + Objects.hashCode(this.catalogVersion);
+        hash = 67 * hash + Objects.hashCode(this.catalog);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Game other = (Game) obj;
+        if (!Objects.equals(this.name, other.name)) {
+            return false;
+        }
+        if (!Objects.equals(this.catalogVersion, other.catalogVersion)) {
+            return false;
+        }
+        if (this.catalog != other.catalog) {
+            return false;
+        }
+        return true;
     }
 }

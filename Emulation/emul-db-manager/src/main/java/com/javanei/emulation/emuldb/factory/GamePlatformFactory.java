@@ -51,6 +51,20 @@ public class GamePlatformFactory {
         return sys;
     }
 
+    public GamePlatform updatePlatform(String name, String validExtension) throws Exception {
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException();
+        }
+        Database db = DatabaseFactory.getInstance().getDatabase();
+        GamePlatform platform = db.getPlatform(name);
+        if (platform == null) {
+            throw new GamePlatformDoesNotExistsException();
+        }
+        platform.setValidExtension(validExtension);
+        DatabaseFactory.saveDatabase();
+        return platform;
+    }
+
     public void removePlatform(String name) throws Exception {
         if (name == null || name.trim().isEmpty()) {
             throw new IllegalArgumentException();
