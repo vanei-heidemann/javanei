@@ -24,6 +24,7 @@
 	<platform name="Sega Genesis" validExtension=".md" repositoryDir="./GenesisMegaDrive" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Sega Master System" validExtension=".sms" repositoryDir="./MasterSystem" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Sega Model 2" validExtension="*" repositoryDir="./Model2" multiFile="true" allowZip="true" storageFormat="zip"></platform>
+	<platform name="Sega Pico" validExtension=".md" repositoryDir="./Pico" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Sega SG-1000" validExtension=".sg" repositoryDir="./SG-1000" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
 	<platform name="Super Nintendo Entertainment System" validExtension=".sfc,.smc" repositoryDir="./SNES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 </database>
