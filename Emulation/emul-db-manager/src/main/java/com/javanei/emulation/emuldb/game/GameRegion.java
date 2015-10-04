@@ -28,9 +28,12 @@ public enum GameRegion {
     England("England"), //GoodSet
     Italy("Italy"), //GoodSet
     non_USA("non USA"), //GoodSet
-    Unknown_Country("Unknown Country"), //GoodSet
+    //Unknown_Country("Unknown Country"), //GoodSet
     Unlicensed("Unlicensed"), //GoodSet
-    Unknown("Unknown"); //No-Intro
+    Unknown("Unknown"), //No-Intro
+    USA_Europe("USA, Europe"), //No-Intro
+    Asia("Asia") //No-Intro
+    ;
 
     private final String name;
 

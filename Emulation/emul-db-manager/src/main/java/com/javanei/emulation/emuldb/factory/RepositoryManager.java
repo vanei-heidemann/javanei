@@ -128,11 +128,23 @@ public class RepositoryManager {
                             case "year":
                                 game.setYear(Integer.parseInt(nv.getNodeValue()));
                                 break;
+                            case "language":
+                                game.setLanguage(nv.getNodeValue());
+                                break;
                             case "region":
                                 game.setRegion(GameRegion.valueOf(nv.getNodeValue()));
                                 break;
                             case "alternate":
-                                game.setAlternate(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                game.setAlternate(nv.getNodeValue());
+                                break;
+                            case "compilation":
+                                game.setCompilation(nv.getNodeValue());
+                                break;
+                            case "complement":
+                                game.setComplement(nv.getNodeValue());
+                                break;
+                            case "complement2":
+                                game.setComplement2(nv.getNodeValue());
                                 break;
                             case "badDump":
                                 game.setBadDump(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
@@ -243,7 +255,7 @@ public class RepositoryManager {
             out.write("<?xml version=\"1.0\"?>\n".getBytes());
             out.write("<games>\n".getBytes());
             for (Game g : games) {
-                out.write(g.toString().getBytes());
+                out.write(g.toString().replaceAll(" & ", " &amp; ").getBytes());
             }
             out.write("</games>".getBytes());
         }

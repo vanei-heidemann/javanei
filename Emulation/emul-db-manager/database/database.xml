@@ -7,7 +7,7 @@
 	<platform name="Atari 8-Bit" validExtension=".atr,.xex,.bin,.cas,.bas,.atx,.rom,.com" repositoryDir="./Atari8-Bit" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Atari Jaguar" validExtension=".jag,.j64,.rom" repositoryDir="./AtariJaguar" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Atari Lynx" validExtension=".lnx,.bin" repositoryDir="./AtariLynx" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Atari ST" validExtension=".st,.stx,.img,.ipf" repositoryDir="./AtariST" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+	<platform name="Atari ST" validExtension=".st,.stx,.img,.ipf" repositoryDir="./AtariST" multiFile="true" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Bandai WonderSwan" validExtension=".ws" repositoryDir="./WonderSwan(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Bandai WonderSwan Color" validExtension=".wsc,.ws" repositoryDir="./WonderSwan(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
 	<platform name="Casio Loopy" validExtension=".bin" repositoryDir="./Loopy" multiFile="false" allowZip="true" storageFormat="zip"></platform>

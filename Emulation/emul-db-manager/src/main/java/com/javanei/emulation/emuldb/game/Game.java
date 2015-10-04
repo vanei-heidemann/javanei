@@ -19,8 +19,13 @@ public class Game implements Serializable, Comparable<Game> {
     private String description; //ClrMamePro
     private String version;
     private int year;
+    private String language;
     private GameRegion region;
-    private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
+    //private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
+    private String alternate;
+    private String compilation;
+    private String complement;
+    private String complement2;
     private ThreeStates badDump = ThreeStates.Unknown; //GoodTools
     private ThreeStates fixed = ThreeStates.Unknown; //GoodTools
     private ThreeStates hack = ThreeStates.Unknown; //GoodTools
@@ -38,8 +43,6 @@ public class Game implements Serializable, Comparable<Game> {
     private Boolean demo = Boolean.FALSE; //No-Intro
     private final Set<GameFile> roms = new HashSet<>();
 
-    //private String language;
-    //private String version;
     //private String license;
     public String getName() {
         return name;
@@ -81,6 +84,14 @@ public class Game implements Serializable, Comparable<Game> {
         this.year = year;
     }
 
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
     public GameRegion getRegion() {
         return region;
     }
@@ -89,12 +100,36 @@ public class Game implements Serializable, Comparable<Game> {
         this.region = region;
     }
 
-    public ThreeStates getAlternate() {
+    public String getAlternate() {
         return alternate;
     }
 
-    public void setAlternate(ThreeStates alternate) {
+    public void setAlternate(String alternate) {
         this.alternate = alternate;
+    }
+
+    public String getCompilation() {
+        return compilation;
+    }
+
+    public void setCompilation(String compilation) {
+        this.compilation = compilation;
+    }
+
+    public String getComplement() {
+        return complement;
+    }
+
+    public void setComplement(String complement) {
+        this.complement = complement;
+    }
+
+    public String getComplement2() {
+        return complement2;
+    }
+
+    public void setComplement2(String complement2) {
+        this.complement2 = complement2;
     }
 
     public ThreeStates getBadDump() {
@@ -273,6 +308,7 @@ public class Game implements Serializable, Comparable<Game> {
         if (this.year > 0) {
             sb.append(" year=\"").append(this.year).append("\"");
         }
+        this.appendIfNoNull(sb, "language", language);
         if (this.region != null) {
             sb.append(" region=\"").append(this.region).append("\"");
         }
@@ -281,6 +317,9 @@ public class Game implements Serializable, Comparable<Game> {
         }
         this.appendIfNoNull(sb, "catalogVersion", catalogVersion);
         this.appendIfNoNull(sb, "alternate", alternate);
+        this.appendIfNoNull(sb, "compilation", compilation);
+        this.appendIfNoNull(sb, "complement", complement);
+        this.appendIfNoNull(sb, "complement2", complement2);
         this.appendIfNoNull(sb, "badDump", badDump);
         this.appendIfNoNull(sb, "fixed", fixed);
         this.appendIfNoNull(sb, "hack", hack);
