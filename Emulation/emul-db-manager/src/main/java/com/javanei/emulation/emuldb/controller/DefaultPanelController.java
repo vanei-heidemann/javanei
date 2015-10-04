@@ -53,6 +53,16 @@ public class DefaultPanelController implements Initializable {
         }
     }
 
+    @FXML
+    private void handleImportNoIntroDAt(ActionEvent event) {
+        try {
+            ScreenController.loadPane("resources/fxml/panel/ImportNoIntroDatPanel.fxml");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            this.messageFactory.showErrorMesssage(ex);
+        }
+    }
+
     private void loadPlatforms() {
         platformsMainTable.getSelectionModel().selectedItemProperty().addListener((ObservableValue<? extends GamePlatformTableVO> observable, GamePlatformTableVO oldValue, GamePlatformTableVO newValue) -> {
             this.globalValues.setSelectedPlatform(newValue);

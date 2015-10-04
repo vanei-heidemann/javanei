@@ -33,8 +33,9 @@
                     <columnConstraints>
                         <ColumnConstraints percentWidth="100" />
                     </columnConstraints>
+                    <Button text="%ImportROMFiles" onAction="#handleImportROMFiles" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                    <Button text="%ImportNoIntroDat" onAction="#handleImportNoIntroDAt" GridPane.columnIndex="0" GridPane.rowIndex="1" />
                 </GridPane>
-                <Button text="%ImportROMFiles" onAction="#handleImportROMFiles" />
             </bottom>
         </BorderPane>
     </left>

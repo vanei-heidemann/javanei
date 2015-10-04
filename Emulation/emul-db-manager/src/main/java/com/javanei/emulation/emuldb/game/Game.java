@@ -17,6 +17,7 @@ public class Game implements Serializable {
 
     private String name;
     private String mainName;
+    private String description; //ClrMamePro
     private GameRegion region;
     private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
     private ThreeStates badDump = ThreeStates.Unknown; //GoodTools
@@ -32,6 +33,9 @@ public class Game implements Serializable {
     private String catalogVersion;
     private GameCatalog catalog;
     private GameDatFormat datFormat;
+    private Boolean proto = Boolean.FALSE; //ClrMamePro
+    private Boolean beta = Boolean.FALSE; //ClrMamePro
+    private Boolean demo = Boolean.FALSE; //ClrMamePro
     private final Set<GameFile> roms = new HashSet<>();
 
     //private String language;
@@ -51,6 +55,14 @@ public class Game implements Serializable {
 
     public void setMainName(String mainName) {
         this.mainName = mainName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public GameRegion getRegion() {
@@ -173,6 +185,30 @@ public class Game implements Serializable {
         this.datFormat = datFormat;
     }
 
+    public Boolean getProto() {
+        return proto;
+    }
+
+    public void setProto(Boolean proto) {
+        this.proto = proto;
+    }
+
+    public Boolean getBeta() {
+        return beta;
+    }
+
+    public void setBeta(Boolean beta) {
+        this.beta = beta;
+    }
+
+    public Boolean getDemo() {
+        return demo;
+    }
+
+    public void setDemo(Boolean demo) {
+        this.demo = demo;
+    }
+
     public Set<GameFile> getRoms() {
         return roms;
     }
@@ -211,5 +247,10 @@ public class Game implements Serializable {
             return false;
         }
         return true;
+    }
+
+    @Override
+    public String toString() {
+        return "Game {" + "name=" + name + ", mainName=" + mainName + ", description=" + description + ", region=" + region + ", alternate=" + alternate + ", badDump=" + badDump + ", fixed=" + fixed + ", hack=" + hack + ", overdump=" + overdump + ", pirate=" + pirate + ", trained=" + trained + ", oldTranslation=" + oldTranslation + ", newerTranslation=" + newerTranslation + ", verifiedGoodDump=" + verifiedGoodDump + ", unlicensed=" + unlicensed + ", catalogVersion=" + catalogVersion + ", catalog=" + catalog + ", datFormat=" + datFormat + ", roms=" + roms + '}';
     }
 }

@@ -93,4 +93,9 @@ public class GameFile implements Serializable {
         }
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "GameFile {" + "rom=" + rom + ", size=" + size + ", crc=" + crc + ", md5=" + md5 + ", sha1=" + sha1 + '}';
+    }
 }
