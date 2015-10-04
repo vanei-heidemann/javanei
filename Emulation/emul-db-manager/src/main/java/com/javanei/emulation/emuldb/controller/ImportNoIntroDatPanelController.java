@@ -25,6 +25,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.stage.FileChooser;
 
 /**
  * FXML Controller class
@@ -50,6 +51,8 @@ public class ImportNoIntroDatPanelController implements Initializable {
     private Button btImport;
     @FXML
     private Button btClose;
+    @FXML
+    private Button btChooseFile;
 
     private static Task<GameImporter> importWorker;
 
@@ -58,6 +61,18 @@ public class ImportNoIntroDatPanelController implements Initializable {
         this.platformNameInput.setText(globalValues.getSelectedPlatform().nameProperty().get());
         this.database = DatabaseFactory.getInstance().getDatabase();
         this.platform = this.database.getPlatform(this.globalValues.getSelectedPlatform().nameProperty().get());
+    }
+
+    @FXML
+    private void handleChooseFile(ActionEvent event) {
+        FileChooser fileChooser = new FileChooser();
+        //fileChooser.setTitle("Open Resource File");
+        fileChooser.getExtensionFilters().addAll(
+                new FileChooser.ExtensionFilter("Dat Files", "*.dat")); //TODO: Internacionalizar
+        File selectedFile = fileChooser.showOpenDialog(this.globalValues.getStage());
+        if (selectedFile != null) {
+            this.datFilePathInput.setText(selectedFile.getAbsolutePath());
+        }
     }
 
     @FXML
@@ -91,7 +106,7 @@ public class ImportNoIntroDatPanelController implements Initializable {
                         GameImporter gi = importWorker.get();
                         // Salva o catalog
                         DatabaseFactory.getInstance().getDatabase().addDatFile(platform, GameCatalog.GoodSet, gi.getVersion(), FileUtil.readFile(datFile));
-                        //TODO: Salvar o xml dos jogos
+                        DatabaseFactory.getInstance().getDatabase().addGames(platform, gi.getGames());
                         System.out.println(gi);
                     } catch (Exception ex) {
                         ex.printStackTrace();

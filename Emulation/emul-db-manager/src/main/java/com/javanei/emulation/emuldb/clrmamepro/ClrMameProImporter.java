@@ -1,7 +1,6 @@
 package com.javanei.emulation.emuldb.clrmamepro;
 
 import com.javanei.emulation.common.GameCatalog;
-import com.javanei.emulation.common.GameDatFormat;
 import com.javanei.emulation.emuldb.GameNameParserFactory;
 import com.javanei.emulation.emuldb.factory.GamePlatform;
 import com.javanei.emulation.emuldb.InvalidDatFileFormatException;
@@ -95,7 +94,6 @@ public class ClrMameProImporter extends Task<GameImporter> {
                         if (game != null) {
                             try {
                                 game.setCatalog(this.catalog);
-                                game.setDatFormat(GameDatFormat.ClrMamePro);
                                 game.setCatalogVersion(gameImporter.getVersion());
                                 GameNameParserFactory.getParser(this.catalog).parseGameName(game);
                                 fireMessage(game.getName() + ": OK");

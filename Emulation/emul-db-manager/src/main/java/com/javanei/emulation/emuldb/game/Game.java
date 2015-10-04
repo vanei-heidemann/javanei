@@ -1,7 +1,6 @@
 package com.javanei.emulation.emuldb.game;
 
 import com.javanei.emulation.common.GameCatalog;
-import com.javanei.emulation.common.GameDatFormat;
 import com.javanei.emulation.common.ThreeStates;
 import java.io.Serializable;
 import java.util.HashSet;
@@ -11,7 +10,7 @@ import java.util.Set;
 /**
  * @author Vanei
  */
-public class Game implements Serializable {
+public class Game implements Serializable, Comparable<Game> {
 
     private static final long serialVersionUID = 1L;
 
@@ -34,7 +33,6 @@ public class Game implements Serializable {
     private ThreeStates unlicensed = ThreeStates.Unknown; //GoodTools
     private String catalogVersion;
     private GameCatalog catalog;
-    private GameDatFormat datFormat;
     private Boolean proto = Boolean.FALSE; //No-Intro
     private Boolean beta = Boolean.FALSE; //No-Intro
     private Boolean demo = Boolean.FALSE; //No-Intro
@@ -195,14 +193,6 @@ public class Game implements Serializable {
         this.catalog = catalog;
     }
 
-    public GameDatFormat getDatFormat() {
-        return datFormat;
-    }
-
-    public void setDatFormat(GameDatFormat datFormat) {
-        this.datFormat = datFormat;
-    }
-
     public Boolean getProto() {
         return proto;
     }
@@ -268,9 +258,14 @@ public class Game implements Serializable {
     }
 
     @Override
+    public int compareTo(Game o) {
+        return this.name.compareTo(o.getName());
+    }
+
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("<game");
+        sb.append("\t<game");
         this.appendIfNoNull(sb, "name", name);
         this.appendIfNoNull(sb, "mainName", mainName);
         this.appendIfNoNull(sb, "description", description);
@@ -283,9 +278,6 @@ public class Game implements Serializable {
         }
         if (this.catalog != null) {
             sb.append(" catalog=\"").append(this.catalog).append("\"");
-        }
-        if (this.datFormat != null) {
-            sb.append(" datFormat=\"").append(this.datFormat).append("\"");
         }
         this.appendIfNoNull(sb, "catalogVersion", catalogVersion);
         this.appendIfNoNull(sb, "alternate", alternate);
@@ -304,9 +296,9 @@ public class Game implements Serializable {
         this.appendIfNoNull(sb, "demo", demo);
         sb.append(">\n");
         this.roms.stream().forEach((rom) -> {
-            sb.append("\t").append(rom.toString());
+            sb.append("\t\t").append(rom.toString());
         });
-        sb.append("</game>\n");
+        sb.append("\t</game>\n");
         return sb.toString();
     }
 

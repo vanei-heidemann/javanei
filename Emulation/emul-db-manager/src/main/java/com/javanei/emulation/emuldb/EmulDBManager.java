@@ -1,5 +1,6 @@
 package com.javanei.emulation.emuldb;
 
+import com.javanei.emulation.emuldb.controller.GlobalValues;
 import java.net.URL;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -15,6 +16,7 @@ import javafx.stage.Stage;
 public class EmulDBManager extends Application {
 
     private final MessageFactory messageFactory = MessageFactory.getInstance();
+    private final GlobalValues globalValues = GlobalValues.getInstance();
 
     private Stage stage;
     private Parent root;
@@ -22,6 +24,7 @@ public class EmulDBManager extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         this.stage = stage;
+        this.globalValues.setStage(stage);
         this.stage.setTitle("EmulDB Manager");
 
         URL location = getClass().getClassLoader().getResource("resources/fxml/EmulDBManager.fxml");

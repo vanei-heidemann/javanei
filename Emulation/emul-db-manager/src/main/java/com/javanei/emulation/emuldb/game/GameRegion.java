@@ -24,12 +24,13 @@ public enum GameRegion {
     Public_Domain("Public Domain"), //GoodSet
     Spain("Spain"), //GoodSet
     Sweden("Sweden"), //GoodSet
-    USA("USA"), //GoodSet
+    USA("USA"), //GoodSet, No-Intro
     England("England"), //GoodSet
     Italy("Italy"), //GoodSet
     non_USA("non USA"), //GoodSet
     Unknown_Country("Unknown Country"), //GoodSet
-    Unlicensed("Unlicensed"); //GoodSet
+    Unlicensed("Unlicensed"), //GoodSet
+    Unknown("Unknown"); //No-Intro
 
     private final String name;
 

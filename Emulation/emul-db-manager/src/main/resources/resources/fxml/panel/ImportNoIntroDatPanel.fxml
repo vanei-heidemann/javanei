@@ -12,15 +12,17 @@
     <columnConstraints>
         <ColumnConstraints halignment="RIGHT" prefWidth="200" />
         <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" />
+        <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" />
     </columnConstraints>
 
     <Label text="%Platform" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-    <TextField fx:id="platformNameInput" disable="true" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <TextField fx:id="platformNameInput" disable="true" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.columnSpan="2" />
 
     <Label text="%DatFilePath" GridPane.columnIndex="0" GridPane.rowIndex="1" />
     <TextField fx:id="datFilePathInput" disable="false" editable="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Button fx:id="btChooseFile" text="%ChooseFile" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#handleChooseFile" />
 
-    <HBox alignment="CENTER_LEFT" spacing="1" GridPane.columnIndex="1" GridPane.rowIndex="2">
+    <HBox alignment="CENTER_LEFT" spacing="1" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.columnSpan="2" >
         <ButtonBar>
             <buttons>
                 <Button fx:id="btImport" onAction="#handleImport" text="%Import" />
@@ -29,11 +31,11 @@
         </ButtonBar>
     </HBox>
     
-    <ProgressBar GridPane.columnIndex="1" GridPane.rowIndex="3" progress="0" prefWidth="400"
+    <ProgressBar GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.columnSpan="2"  progress="0" prefWidth="400"
                  fx:id="progressBar" >
     </ProgressBar>
     
-    <TextArea fx:id="textArea"  GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2"
+    <TextArea fx:id="textArea"  GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="3"
               editable="false" disable="false" prefHeight="300" wrapText="false">
     </TextArea>
 </GridPane>

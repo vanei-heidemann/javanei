@@ -1,7 +1,11 @@
 package com.javanei.emulation.emuldb.factory;
 
 import com.javanei.emulation.common.GameCatalog;
+import com.javanei.emulation.common.ThreeStates;
 import com.javanei.emulation.emuldb.config.ConfigManager;
+import com.javanei.emulation.emuldb.game.Game;
+import com.javanei.emulation.emuldb.game.GameFile;
+import com.javanei.emulation.emuldb.game.GameRegion;
 import com.javanei.emulation.util.FileUtil;
 import com.javanei.emulation.util.StringUtil;
 import com.javanei.emulation.util.ZipUtil;
@@ -9,6 +13,16 @@ import com.javanei.emulation.util.ZipUtil;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.nio.file.FileAlreadyExistsException;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 /**
  * Created by Vanei on 18/09/2015.
@@ -81,11 +95,169 @@ public class RepositoryManager {
         }
     }
 
+    protected Set<Game> readGamesFile(GamePlatform platform) throws Exception {
+        Set<Game> result = new LinkedHashSet<>();
+        File xmlFile = getPlatformGameXml(platform);
+        if (xmlFile.exists()) {
+            // Já existe o arquivo, le.
+            System.out.println("Lendo arquivo de games: " + xmlFile.getAbsolutePath());
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document document = builder.parse(xmlFile);
+
+            NodeList nodeList = document.getDocumentElement().getChildNodes();
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node node = nodeList.item(i);
+                if (node.getNodeName().equals("game")) {
+                    Game game = new Game();
+                    for (int ni = 0; ni < node.getAttributes().getLength(); ni++) {
+                        Node nv = node.getAttributes().item(ni);
+                        switch (nv.getNodeName()) {
+                            case "name":
+                                game.setName(nv.getNodeValue());
+                                break;
+                            case "mainName":
+                                game.setMainName(nv.getNodeValue());
+                                break;
+                            case "description":
+                                game.setDescription(nv.getNodeValue());
+                                break;
+                            case "version":
+                                game.setVersion(nv.getNodeValue());
+                                break;
+                            case "year":
+                                game.setYear(Integer.parseInt(nv.getNodeValue()));
+                                break;
+                            case "region":
+                                game.setRegion(GameRegion.valueOf(nv.getNodeValue()));
+                                break;
+                            case "alternate":
+                                game.setAlternate(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "badDump":
+                                game.setBadDump(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "fixed":
+                                game.setFixed(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "hack":
+                                game.setHack(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "overdump":
+                                game.setOverdump(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "pirate":
+                                game.setPirate(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "trained":
+                                game.setTrained(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "oldTranslation":
+                                game.setOldTranslation(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "newerTranslation":
+                                game.setNewerTranslation(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "verifiedGoodDump":
+                                game.setVerifiedGoodDump(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "unlicensed":
+                                game.setUnlicensed(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
+                                break;
+                            case "catalogVersion":
+                                game.setCatalogVersion(nv.getNodeValue());
+                                break;
+                            case "catalog":
+                                game.setCatalog(GameCatalog.valueOf(nv.getNodeValue()));
+                                break;
+                            case "proto":
+                                game.setProto(nv.getNodeValue().equalsIgnoreCase("true"));
+                                break;
+                            case "beta":
+                                game.setBeta(nv.getNodeValue().equalsIgnoreCase("true"));
+                                break;
+                            case "demo":
+                                game.setDemo(nv.getNodeValue().equalsIgnoreCase("true"));
+                                break;
+                            default:
+                                throw new Exception(nv.getNodeName());
+                        }
+                        NodeList roms = node.getChildNodes();
+                        for (int j = 0; j < roms.getLength(); j++) {
+                            Node nrom = roms.item(j);
+                            if (nrom.getNodeName().equals("rom")) {
+                                for (int nir = 0; nir < nrom.getAttributes().getLength(); nir++) {
+                                    Node nvr = nrom.getAttributes().item(nir);
+                                    GameFile rom = new GameFile(nrom.getAttributes().getNamedItem("name").getNodeValue());
+                                    switch (nvr.getNodeName()) {
+                                        case "name":
+                                            break;
+                                        case "size":
+                                            rom.setSize(Integer.parseInt(nvr.getNodeValue()));
+                                            break;
+                                        case "crc":
+                                            rom.setCrc(nvr.getNodeValue());
+                                            break;
+                                        case "md5":
+                                            rom.setMd5(nvr.getNodeValue());
+                                            break;
+                                        case "sha1":
+                                            rom.setSha1(nvr.getNodeValue());
+                                            break;
+                                        default:
+                                            throw new Exception(nvr.getNodeName());
+                                    }
+                                    game.addRom(rom);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        return result;
+    }
+
+    protected void addGames(GamePlatform platform, List<Game> newGames) throws Exception {
+        Set<Game> games = this.readGamesFile(platform);
+        newGames.stream().map((g) -> {
+            if (games.contains(g)) {
+                games.remove(g);
+            }
+            return g;
+        }).forEach((g) -> {
+            games.add(g);
+        });
+        this.saveGamesFile(platform, games);
+    }
+
+    protected void saveGamesFile(GamePlatform platform, Set<Game> games) throws Exception {
+        File xmlFile = getPlatformGameXml(platform);
+        List<Game> l = new LinkedList<>();
+        l.addAll(games);
+        Collections.sort(l);
+        games.clear();
+        games.addAll(l);
+        try (FileOutputStream out = new FileOutputStream(xmlFile)) {
+            out.write("<?xml version=\"1.0\"?>\n".getBytes());
+            out.write("<games>\n".getBytes());
+            for (Game g : games) {
+                out.write(g.toString().getBytes());
+            }
+            out.write("</games>".getBytes());
+        }
+    }
+
     private File getPlatformBaseDir(GamePlatform platform) {
         if (platform.getRepositoryDir().startsWith(".")) {
             return new File(getBaseDir(), platform.getRepositoryDir());
         } else {
             return new File(platform.getRepositoryDir());
         }
+    }
+
+    private File getPlatformGameXml(GamePlatform platform) {
+        return new File(getPlatformBaseDir(platform), "games.xml");
     }
 }

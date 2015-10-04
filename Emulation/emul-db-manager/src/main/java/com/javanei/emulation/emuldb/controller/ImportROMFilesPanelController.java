@@ -27,6 +27,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.stage.DirectoryChooser;
 
 /**
  * FXML Controller class
@@ -55,6 +56,8 @@ public class ImportROMFilesPanelController implements Initializable {
     private Button btImport;
     @FXML
     private Button btClose;
+    @FXML
+    private Button btChooseFile;
 
     private static Task copyWorker;
 
@@ -63,6 +66,16 @@ public class ImportROMFilesPanelController implements Initializable {
         this.platformNameInput.setText(globalValues.getSelectedPlatform().nameProperty().get());
         this.database = DatabaseFactory.getInstance().getDatabase();
         this.platform = this.database.getPlatform(this.globalValues.getSelectedPlatform().nameProperty().get());
+    }
+
+    @FXML
+    private void handleChooseFile(ActionEvent event) {
+        DirectoryChooser fileChooser = new DirectoryChooser();
+        //fileChooser.setTitle("Open Resource File");
+        File selectedFile = fileChooser.showDialog(this.globalValues.getStage());
+        if (selectedFile != null) {
+            this.romPathInput.setText(selectedFile.getAbsolutePath());
+        }
     }
 
     @FXML
