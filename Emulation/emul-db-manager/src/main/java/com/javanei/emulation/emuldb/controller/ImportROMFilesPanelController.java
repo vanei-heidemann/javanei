@@ -13,6 +13,7 @@ import java.net.URL;
 import java.nio.file.FileAlreadyExistsException;
 import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ResourceBundle;
 import java.util.zip.ZipEntry;
@@ -39,6 +40,8 @@ public class ImportROMFilesPanelController implements Initializable {
     private GamePlatform platform;
     private List<File> files;
     private Database database;
+    private final List<String> unknownExtensions = new LinkedList<>();
+    private int errorCount = 0;
 
     @FXML
     private TextField platformNameInput;
@@ -93,6 +96,15 @@ public class ImportROMFilesPanelController implements Initializable {
             btImport.setDisable(newValue);
             btClose.setDisable(newValue);
             romPathInput.setDisable(newValue);
+            if (!newValue && !unknownExtensions.isEmpty()) {
+                textArea.appendText("=================================\n");
+                for (String s : unknownExtensions) {
+                    textArea.appendText(s + "\n");
+                }
+            }
+            if (errorCount > 0) {
+                textArea.appendText("ERROR: " + errorCount + "\n"); //TODO: Internacionalizar
+            }
         });
 
         new Thread(copyWorker).start();
@@ -103,6 +115,8 @@ public class ImportROMFilesPanelController implements Initializable {
             @Override
             protected Object call() throws Exception {
                 StringBuilder sb = new StringBuilder();
+                unknownExtensions.clear();
+                errorCount = 0;
                 for (int i = 0; i < files.size(); i++) {
                     File f = files.get(i);
                     saveFileToRepo(sb, f);
@@ -206,5 +220,13 @@ public class ImportROMFilesPanelController implements Initializable {
 
     private void appendError(StringBuilder sb, Exception ex) {
         sb.append("ERROR: ").append(ex.getClass().getName()).append(": ").append(ex.getLocalizedMessage()).append("\n");
+        if (ex instanceof UnknownROMFileExtensionException) {
+            String s = ex.getClass().getName() + ": " + ex.getLocalizedMessage();
+            if (!unknownExtensions.contains(s)) {
+                unknownExtensions.add(s);
+            }
+        } else {
+            errorCount++;
+        }
     }
 }
