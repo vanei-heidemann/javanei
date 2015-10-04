@@ -4,7 +4,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.nio.file.CopyOption;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
@@ -66,5 +65,21 @@ public final class FileUtil {
             Path dst = dstFile.toPath();
             Files.move(src, dst, StandardCopyOption.REPLACE_EXISTING);
         }
+    }
+
+    public static byte[] readFile(File srcFile) throws IOException {
+        byte[] result;
+        try (ByteArrayOutputStream out = new ByteArrayOutputStream()) {
+            try (FileInputStream fis = new FileInputStream(srcFile)) {
+                byte[] b = new byte[4096];
+                int len = fis.read(b);
+                while (len > 0) {
+                    out.write(b, 0, len);
+                    len = fis.read(b);
+                }
+            }
+            result = out.toByteArray();
+        }
+        return result;
     }
 }

@@ -1,5 +1,6 @@
 package com.javanei.emulation.emuldb.nointro;
 
+import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.emuldb.InvalidDatFileFormatException;
 import com.javanei.emulation.emuldb.clrmamepro.ClrMameProImporter;
 import com.javanei.emulation.emuldb.factory.GamePlatform;
@@ -23,7 +24,7 @@ public class NoIntroImporter {
             String line = reader.readLine().trim();
             String[] ss = line.split(" ");
             if (ss[0].trim().equals("clrmamepro")) {
-                return new ClrMameProImporter(platform, datFile);
+                return new ClrMameProImporter(platform, GameCatalog.NoIntro, datFile);
             } else {
                 throw new InvalidDatFileFormatException(ss[0]);
             }

@@ -18,6 +18,8 @@ public class Game implements Serializable {
     private String name;
     private String mainName;
     private String description; //ClrMamePro
+    private String version;
+    private int year;
     private GameRegion region;
     private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
     private ThreeStates badDump = ThreeStates.Unknown; //GoodTools
@@ -33,9 +35,9 @@ public class Game implements Serializable {
     private String catalogVersion;
     private GameCatalog catalog;
     private GameDatFormat datFormat;
-    private Boolean proto = Boolean.FALSE; //ClrMamePro
-    private Boolean beta = Boolean.FALSE; //ClrMamePro
-    private Boolean demo = Boolean.FALSE; //ClrMamePro
+    private Boolean proto = Boolean.FALSE; //No-Intro
+    private Boolean beta = Boolean.FALSE; //No-Intro
+    private Boolean demo = Boolean.FALSE; //No-Intro
     private final Set<GameFile> roms = new HashSet<>();
 
     //private String language;
@@ -63,6 +65,22 @@ public class Game implements Serializable {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 
     public GameRegion getRegion() {
@@ -251,6 +269,62 @@ public class Game implements Serializable {
 
     @Override
     public String toString() {
-        return "Game {" + "name=" + name + ", mainName=" + mainName + ", description=" + description + ", region=" + region + ", alternate=" + alternate + ", badDump=" + badDump + ", fixed=" + fixed + ", hack=" + hack + ", overdump=" + overdump + ", pirate=" + pirate + ", trained=" + trained + ", oldTranslation=" + oldTranslation + ", newerTranslation=" + newerTranslation + ", verifiedGoodDump=" + verifiedGoodDump + ", unlicensed=" + unlicensed + ", catalogVersion=" + catalogVersion + ", catalog=" + catalog + ", datFormat=" + datFormat + ", roms=" + roms + '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("<game");
+        this.appendIfNoNull(sb, "name", name);
+        this.appendIfNoNull(sb, "mainName", mainName);
+        this.appendIfNoNull(sb, "description", description);
+        this.appendIfNoNull(sb, "version", version);
+        if (this.year > 0) {
+            sb.append(" year=\"").append(this.year).append("\"");
+        }
+        if (this.region != null) {
+            sb.append(" region=\"").append(this.region).append("\"");
+        }
+        if (this.catalog != null) {
+            sb.append(" catalog=\"").append(this.catalog).append("\"");
+        }
+        if (this.datFormat != null) {
+            sb.append(" datFormat=\"").append(this.datFormat).append("\"");
+        }
+        this.appendIfNoNull(sb, "catalogVersion", catalogVersion);
+        this.appendIfNoNull(sb, "alternate", alternate);
+        this.appendIfNoNull(sb, "badDump", badDump);
+        this.appendIfNoNull(sb, "fixed", fixed);
+        this.appendIfNoNull(sb, "hack", hack);
+        this.appendIfNoNull(sb, "overdump", overdump);
+        this.appendIfNoNull(sb, "pirate", pirate);
+        this.appendIfNoNull(sb, "trained", trained);
+        this.appendIfNoNull(sb, "oldTranslation", oldTranslation);
+        this.appendIfNoNull(sb, "newerTranslation", newerTranslation);
+        this.appendIfNoNull(sb, "verifiedGoodDump", verifiedGoodDump);
+        this.appendIfNoNull(sb, "unlicensed", unlicensed);
+        this.appendIfNoNull(sb, "proto", proto);
+        this.appendIfNoNull(sb, "beta", beta);
+        this.appendIfNoNull(sb, "demo", demo);
+        sb.append(">\n");
+        this.roms.stream().forEach((rom) -> {
+            sb.append("\t").append(rom.toString());
+        });
+        sb.append("</game>\n");
+        return sb.toString();
+    }
+
+    private void appendIfNoNull(StringBuilder sb, String name, String value) {
+        if (value != null) {
+            sb.append(" ").append(name).append("=\"").append(value).append("\"");
+        }
+    }
+
+    private void appendIfNoNull(StringBuilder sb, String name, ThreeStates value) {
+        if (value != null && !value.equals(ThreeStates.Unknown)) {
+            sb.append(" ").append(name).append("=\"").append(value).append("\"");
+        }
+    }
+
+    private void appendIfNoNull(StringBuilder sb, String name, Boolean value) {
+        if (null != value && value == Boolean.TRUE) {
+            sb.append(" ").append(name).append("=\"").append(value).append("\"");
+        }
     }
 }

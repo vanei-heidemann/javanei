@@ -10,7 +10,7 @@ public class GameFile implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    private String rom; //clrmamepro
+    private String name; //clrmamepro
     private long size; //clrmamepro
     private String crc; //clrmamepro
     private String md5; //clrmamepro
@@ -20,20 +20,20 @@ public class GameFile implements Serializable {
     }
 
     public GameFile(String rom) {
-        this.rom = rom;
+        this.name = rom;
     }
 
     public GameFile(String rom, String crc) {
-        this.rom = rom;
+        this.name = rom;
         this.crc = crc;
     }
 
-    public String getRom() {
-        return rom;
+    public String getName() {
+        return name;
     }
 
-    public void setRom(String rom) {
-        this.rom = rom;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public long getSize() {
@@ -71,7 +71,7 @@ public class GameFile implements Serializable {
     @Override
     public int hashCode() {
         int hash = 3;
-        hash = 17 * hash + Objects.hashCode(this.rom);
+        hash = 17 * hash + Objects.hashCode(this.name);
         hash = 17 * hash + Objects.hashCode(this.crc);
         return hash;
     }
@@ -85,7 +85,7 @@ public class GameFile implements Serializable {
             return false;
         }
         final GameFile other = (GameFile) obj;
-        if (!Objects.equals(this.rom, other.rom)) {
+        if (!Objects.equals(this.name, other.name)) {
             return false;
         }
         if (!Objects.equals(this.crc, other.crc)) {
@@ -96,6 +96,24 @@ public class GameFile implements Serializable {
 
     @Override
     public String toString() {
-        return "GameFile {" + "rom=" + rom + ", size=" + size + ", crc=" + crc + ", md5=" + md5 + ", sha1=" + sha1 + '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("<rom");
+        if (this.name != null) {
+            sb.append(" name=\"").append(this.name).append("\"");
+        }
+        if (this.size > 0) {
+            sb.append(" size=\"").append(this.size).append("\"");
+        }
+        if (this.crc != null) {
+            sb.append(" crc=\"").append(this.crc).append("\"");
+        }
+        if (this.md5 != null) {
+            sb.append(" md5=\"").append(this.md5).append("\"");
+        }
+        if (this.sha1 != null) {
+            sb.append(" sha1=\"").append(this.sha1).append("\"");
+        }
+        sb.append(" />\n");
+        return sb.toString();
     }
 }

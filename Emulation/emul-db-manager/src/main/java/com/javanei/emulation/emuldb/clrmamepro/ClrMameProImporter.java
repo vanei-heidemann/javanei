@@ -1,14 +1,14 @@
 package com.javanei.emulation.emuldb.clrmamepro;
 
-import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.GameCatalog;
+import com.javanei.emulation.common.GameDatFormat;
+import com.javanei.emulation.emuldb.GameNameParserFactory;
 import com.javanei.emulation.emuldb.factory.GamePlatform;
 import com.javanei.emulation.emuldb.InvalidDatFileFormatException;
-import com.javanei.emulation.emuldb.UnknownGameNamePartException;
 import com.javanei.emulation.emuldb.UnknownTagException;
 import com.javanei.emulation.emuldb.game.Game;
 import com.javanei.emulation.emuldb.game.GameFile;
 import com.javanei.emulation.emuldb.game.GameImporter;
-import com.javanei.emulation.emuldb.game.GameRegion;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -23,13 +23,15 @@ public class ClrMameProImporter extends Task<GameImporter> {
 
     private final File datFile;
     private final GamePlatform platform;
+    private final GameCatalog catalog;
 
     private final GameImporter gameImporter;
     private final StringBuilder sbMessage;
 
-    public ClrMameProImporter(GamePlatform platform, File file) {
+    public ClrMameProImporter(GamePlatform platform, GameCatalog catalog, File file) {
         this.platform = platform;
         this.datFile = file;
+        this.catalog = catalog;
         this.gameImporter = new GameImporter();
         sbMessage = new StringBuilder();
     }
@@ -92,7 +94,10 @@ public class ClrMameProImporter extends Task<GameImporter> {
                     } else if (line.equals(")")) {
                         if (game != null) {
                             try {
-                                parseGameName(game);
+                                game.setCatalog(this.catalog);
+                                game.setDatFormat(GameDatFormat.ClrMamePro);
+                                game.setCatalogVersion(gameImporter.getVersion());
+                                GameNameParserFactory.getParser(this.catalog).parseGameName(game);
                                 fireMessage(game.getName() + ": OK");
                                 games.add(game);
                             } catch (Exception ex) {
@@ -157,59 +162,5 @@ public class ClrMameProImporter extends Task<GameImporter> {
     private void fireMessage(String message) {
         this.sbMessage.append(message).append("\n");
         updateMessage(this.sbMessage.toString());
-    }
-
-    private void parseGameName(Game game) throws Exception {
-        String s = game.getName();
-        int pos = s.indexOf("(");
-        if (pos < 0) {
-            game.setMainName(game.getName());
-            return;
-        }
-        String mainName = s.substring(0, pos).trim();
-        System.out.println("game: " + game.getName());
-        System.out.println("       @@@: " + mainName);
-        while (pos >= 0) {
-            int endPos = s.indexOf(")", pos);
-            String tag = s.substring(pos + 1, endPos);
-            System.out.println("       @@@: " + tag);
-            validate_block:
-            {
-                if (game.getRegion() == null) {
-                    GameRegion region = parseRegion(tag);
-                    if (region != null) {
-                        game.setRegion(region);
-                        break validate_block;
-                    }
-                }
-                if (tag.equals("Proto")) {
-                    game.setProto(Boolean.TRUE);
-                    break validate_block;
-                }
-                if (tag.equals("Demo")) {
-                    game.setDemo(Boolean.TRUE);
-                    break validate_block;
-                }
-                if (tag.equals("Unl")) {
-                    game.setUnlicensed(ThreeStates.True);
-                    break validate_block;
-                }
-                throw new UnknownGameNamePartException(tag);
-            }
-
-            pos = s.indexOf("(", endPos + 1);
-        }
-
-        //TODO: Terminar
-        game.setMainName(mainName);
-    }
-
-    private GameRegion parseRegion(String name) {
-        for (GameRegion region : GameRegion.values()) {
-            if (region.getName().equals(name)) {
-                return region;
-            }
-        }
-        return null;
     }
 }

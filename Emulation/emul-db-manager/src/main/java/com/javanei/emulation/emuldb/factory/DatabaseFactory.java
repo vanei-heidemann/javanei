@@ -65,8 +65,6 @@ public class DatabaseFactory {
                     database.addPlatform(sys);
                 }
             }
-            System.out.println("Banco de dados lido:\n==============================");
-            System.out.println(database);
         } else {
             // Não existe ainda o arquivo, cria um novo.
             needSave = true;
@@ -79,7 +77,6 @@ public class DatabaseFactory {
 
     protected static final synchronized void saveDatabase() throws Exception {
         File dbFile = getDatabaseFile();
-        System.out.println("Salvando arquivo de banco de dados:\n=====================================\n" + database);
         try (FileOutputStream out = new FileOutputStream(dbFile)) {
             out.write("<?xml version=\"1.0\"?>\n".getBytes());
             out.write(database.toString().getBytes());

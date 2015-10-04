@@ -1,5 +1,6 @@
 package com.javanei.emulation.emuldb.factory;
 
+import com.javanei.emulation.common.GameCatalog;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -30,6 +31,10 @@ public final class Database implements Serializable {
 
     public void addROMFile(GamePlatform platform, byte[] b) throws Exception {
         RepositoryManager.getInstance().saveROMFile(platform, b);
+    }
+
+    public void addDatFile(GamePlatform platform, GameCatalog catalog, String catalogVersion, byte[] b) throws Exception {
+        RepositoryManager.getInstance().saveDatFile(platform, catalog, catalogVersion, b);
     }
 
     protected void addPlatform(GamePlatform platform) throws GamePlatformAlreadyExistsException {

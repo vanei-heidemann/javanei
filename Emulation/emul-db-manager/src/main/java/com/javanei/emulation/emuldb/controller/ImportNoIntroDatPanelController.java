@@ -5,18 +5,17 @@
  */
 package com.javanei.emulation.emuldb.controller;
 
+import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.emuldb.MessageFactory;
 import com.javanei.emulation.emuldb.factory.Database;
 import com.javanei.emulation.emuldb.factory.DatabaseFactory;
 import com.javanei.emulation.emuldb.factory.GamePlatform;
 import com.javanei.emulation.emuldb.game.GameImporter;
 import com.javanei.emulation.emuldb.nointro.NoIntroImporter;
+import com.javanei.emulation.util.FileUtil;
 import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.concurrent.ExecutionException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.beans.value.ObservableValue;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
@@ -89,7 +88,11 @@ public class ImportNoIntroDatPanelController implements Initializable {
                 datFilePathInput.setDisable(newValue);
                 if (oldValue && !newValue) {
                     try {
-                        System.out.println(importWorker.get());
+                        GameImporter gi = importWorker.get();
+                        // Salva o catalog
+                        DatabaseFactory.getInstance().getDatabase().addDatFile(platform, GameCatalog.GoodSet, gi.getVersion(), FileUtil.readFile(datFile));
+                        //TODO: Salvar o xml dos jogos
+                        System.out.println(gi);
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }
