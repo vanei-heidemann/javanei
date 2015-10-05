@@ -50,12 +50,12 @@ public class RepositoryManager {
         return new File(baseDir);
     }
 
-    protected void saveDatFile(GamePlatform platform, GameCatalog catalog, String catalogVersion, byte[] b) throws Exception {
+    protected void saveDatFile(GamePlatform platform, GameCatalog catalog, String catalogVersion, String complement, byte[] b) throws Exception {
         File datDir = new File(ConfigManager.getPlatformDatabaseDir(platform), "datfiles");
         if (!datDir.exists()) {
             datDir.mkdirs();
         }
-        String fileName = catalog.name() + "_" + catalogVersion + ".dat";
+        String fileName = catalog.name() + "_" + catalogVersion + (complement != null && !complement.isEmpty() ? "_" + complement : "") + ".dat";
         File destFile = new File(datDir, fileName);
         try (FileOutputStream out = new FileOutputStream(destFile)) {
             out.write(b);

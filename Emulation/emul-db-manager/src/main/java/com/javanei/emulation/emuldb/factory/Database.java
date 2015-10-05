@@ -34,8 +34,8 @@ public final class Database implements Serializable {
         RepositoryManager.getInstance().saveROMFile(platform, b);
     }
 
-    public void addDatFile(GamePlatform platform, GameCatalog catalog, String catalogVersion, byte[] b) throws Exception {
-        RepositoryManager.getInstance().saveDatFile(platform, catalog, catalogVersion, b);
+    public void addDatFile(GamePlatform platform, GameCatalog catalog, String catalogVersion, String complement, byte[] b) throws Exception {
+        RepositoryManager.getInstance().saveDatFile(platform, catalog, catalogVersion, complement, b);
     }
 
     public void addGames(GamePlatform platform, List<Game> newGames) throws Exception {

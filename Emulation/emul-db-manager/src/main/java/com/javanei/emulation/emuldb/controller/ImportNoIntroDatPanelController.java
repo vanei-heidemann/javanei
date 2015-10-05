@@ -34,13 +34,13 @@ import javafx.stage.FileChooser;
  * @author Vanei
  */
 public class ImportNoIntroDatPanelController implements Initializable {
-    
+
     private final MessageFactory messageFactory = MessageFactory.getInstance();
     private final GlobalValues globalValues = GlobalValues.getInstance();
     private GamePlatform platform;
     private Database database;
     private static File lastDir = new File(ConfigManager.getHomeDir());
-    
+
     @FXML
     private TextField platformNameInput;
     @FXML
@@ -55,16 +55,16 @@ public class ImportNoIntroDatPanelController implements Initializable {
     private Button btClose;
     @FXML
     private Button btChooseFile;
-    
+
     private static Task<GameImporter> importWorker;
-    
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         this.platformNameInput.setText(globalValues.getSelectedPlatform().nameProperty().get());
         this.database = DatabaseFactory.getInstance().getDatabase();
         this.platform = this.database.getPlatform(this.globalValues.getSelectedPlatform().nameProperty().get());
     }
-    
+
     @FXML
     private void handleChooseFile(ActionEvent event) {
         FileChooser fileChooser = new FileChooser();
@@ -80,12 +80,12 @@ public class ImportNoIntroDatPanelController implements Initializable {
             lastDir = selectedFile.getParentFile();
         }
     }
-    
+
     @FXML
     private void handleClose(ActionEvent event) {
         ScreenController.goBack();
     }
-    
+
     @FXML
     private void handleImport(ActionEvent event) {
         try {
@@ -93,11 +93,11 @@ public class ImportNoIntroDatPanelController implements Initializable {
 
             progressBar.progressProperty().unbind();
             this.progressBar.progressProperty().set(0);
-            
+
             File datFile = new File(this.datFilePathInput.getText().trim());
-            
+
             importWorker = new NoIntroImporter().getImporter(platform, datFile);
-            
+
             progressBar.progressProperty().bind(importWorker.progressProperty());
             importWorker.messageProperty().addListener((ObservableValue<? extends String> observable, String oldValue, String newValue) -> {
                 textArea.setText(newValue);
@@ -111,7 +111,13 @@ public class ImportNoIntroDatPanelController implements Initializable {
                     try {
                         GameImporter gi = importWorker.get();
                         // Salva o catalog
-                        DatabaseFactory.getInstance().getDatabase().addDatFile(platform, GameCatalog.GoodSet, gi.getVersion(), FileUtil.readFile(datFile));
+                        String complement = null;
+                        if (gi.getDescription().endsWith("(PP)")) {
+                            complement = "(PP)";
+                        } else if (gi.getDescription().endsWith("(Tapes)")) {
+                            complement = "(Tapes)";
+                        }
+                        DatabaseFactory.getInstance().getDatabase().addDatFile(platform, GameCatalog.GoodSet, gi.getVersion(), complement, FileUtil.readFile(datFile));
                         DatabaseFactory.getInstance().getDatabase().addGames(platform, gi.getGames());
                     } catch (Exception ex) {
                         ex.printStackTrace();
@@ -121,7 +127,7 @@ public class ImportNoIntroDatPanelController implements Initializable {
                     }
                 }
             });
-            
+
             new Thread(importWorker).start();
         } catch (Exception ex) {
             this.messageFactory.showErrorMesssage(ex);
