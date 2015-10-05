@@ -114,6 +114,37 @@ public final class GameComplements {
         List<String> coleco = new ArrayList<>();
         coleco.add("Adam");
         complements.put("Coleco ColecoVision", coleco);
+
+        List<String> amiga = new ArrayList<>();
+        amiga.add("8k");
+        amiga.add("64k");
+        amiga.add("512KB");
+        amiga.add("1MB");
+        amiga.add("Addon");
+        amiga.add("A500 Plus, A2000");
+        amiga.add("A4000");
+        amiga.add("A500, A600, A2000");
+        amiga.add("A600");
+        amiga.add("A1200");
+        amiga.add("A3000");
+        amiga.add("A4000T");
+        amiga.add("A600HD");
+        amiga.add("Zork I r88, II v48, III r17");
+        amiga.add("Hits for Six - Volume 7");
+        amiga.add("Amiga 1200 Bundle - Computer Combat");
+        amiga.add("Amiga 1200 Bundle - Amiga Magic");
+        amiga.add("Coverdisk");
+        amiga.add("Coverdisk - Amiga Action - Issue 30");
+        amiga.add("Coverdisk - Amiga Software Extra Nr. 12 - Disk 2 of 2");
+        amiga.add("Coverdisk - Amiga Spiele 1");
+        amiga.add("Coverdisk - Amiga Fun - Issue 04");
+        amiga.add("Coverdisk - Amiga Dream - Issue 22");
+        amiga.add("Coverdisk - The One - Issue 59");
+        amiga.add("Coverdisk - Sundancer");
+        amiga.add("Amiga 500 Bundle - Starter Kit");
+        amiga.add("Amiga Fun - Issue 12");
+        amiga.add("Amiga + PC");
+        complements.put("Commodore Amiga", amiga);
     }
 
     private GameComplements() {

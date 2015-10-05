@@ -33,7 +33,8 @@ public enum GameRegion {
     Unknown("Unknown"), //No-Intro
     USA_Europe("USA, Europe"), //No-Intro
     Asia("Asia"), //No-Intro
-    Japan_USA("Japan, USA") //No-Intro
+    Japan_USA("Japan, USA"), //No-Intro
+    Europe_Australia("Europe, Australia") // No-Intro
     ;
 
     private final String name;

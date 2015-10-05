@@ -16,6 +16,7 @@ public enum GamePublisher {
     Electric_Dreams("Electric Dreams"),
     Palace("Palace"),
     MCM("MCM"),
+    Atari("Atari"),
     Abbex("Abbex"),
     Accolade("Accolade"),
     Alligata("Alligata"),
@@ -48,7 +49,14 @@ public enum GamePublisher {
     Artworx("Artworx"),
     Unknown("Unknown"),
     MicroValue("MicroValue"),
-    Byte_Back("Byte Back")
+    Byte_Back("Byte Back"),
+    Tengen("Tengen"),
+    AGA("AGA"),
+    ECS("ECS"),
+    Anco("Anco"),
+    The_Hit_Squad("Budget - The Hit Squad"),
+    Kixx("Budget - Kixx"),
+    GBH("Budget - GBH")
     ;
 
     private final String name;

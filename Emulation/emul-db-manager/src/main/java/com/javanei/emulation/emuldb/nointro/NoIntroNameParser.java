@@ -19,17 +19,23 @@ public final class NoIntroNameParser implements GameNameParser {
 
     static {
         languages.add("En,Fr,De,Es,It,Sv");
+        languages.add("En,Fr,De,Sv,No,Da");
         languages.add("En,Fr,De,It,Nl");
         languages.add("En,Fr,De,Es,It");
+        languages.add("En,Fr,De,It,Es");
         languages.add("En,Fr,De,It");
         languages.add("En,Fr,It,Gd");
         languages.add("En,Fr,De,Es");
         languages.add("En,De,It,Nl");
+        languages.add("Fr,De,Es,It");
         languages.add("En,Fr,De");
         languages.add("En,De,It");
+        languages.add("En,Fr,It");
         languages.add("En,Fr");
         languages.add("En,De");
         languages.add("En,Ja");
+        languages.add("En,It");
+        languages.add("En");
         languages.add("Fr");
         languages.add("Es");
     }
@@ -121,7 +127,8 @@ public final class NoIntroNameParser implements GameNameParser {
                         || tag.matches("r.+?")
                         || tag.matches("R\\d\\d")
                         || tag.matches("R\\d")
-                        || tag.matches("A\\d\\d")) {
+                        || tag.matches("A\\d\\d")
+                        || tag.matches("Release \\d\\d")) {
                     game.setVersion(tag);
                     break validate_block;
                 }
