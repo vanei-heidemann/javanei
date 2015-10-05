@@ -1,6 +1,7 @@
 package com.javanei.emulation.emuldb.controller;
 
 import com.javanei.emulation.emuldb.MessageFactory;
+import com.javanei.emulation.emuldb.config.ConfigManager;
 import com.javanei.emulation.emuldb.factory.Database;
 import com.javanei.emulation.emuldb.factory.DatabaseFactory;
 import com.javanei.emulation.emuldb.factory.GamePlatform;
@@ -43,6 +44,7 @@ public class ImportROMFilesPanelController implements Initializable {
     private Database database;
     private final List<String> unknownExtensions = new LinkedList<>();
     private int errorCount = 0;
+    private static File lastDir = new File(ConfigManager.getHomeDir());
 
     @FXML
     private TextField platformNameInput;
@@ -71,10 +73,14 @@ public class ImportROMFilesPanelController implements Initializable {
     @FXML
     private void handleChooseFile(ActionEvent event) {
         DirectoryChooser fileChooser = new DirectoryChooser();
+        if (lastDir != null) {
+            fileChooser.setInitialDirectory(lastDir);
+        }
         //fileChooser.setTitle("Open Resource File");
         File selectedFile = fileChooser.showDialog(this.globalValues.getStage());
         if (selectedFile != null) {
             this.romPathInput.setText(selectedFile.getAbsolutePath());
+            lastDir = selectedFile.getParentFile();
         }
     }
 

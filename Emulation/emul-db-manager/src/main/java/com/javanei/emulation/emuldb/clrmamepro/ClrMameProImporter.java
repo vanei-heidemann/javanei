@@ -11,6 +11,7 @@ import com.javanei.emulation.emuldb.game.GameImporter;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import javafx.concurrent.Task;
@@ -26,6 +27,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
 
     private final GameImporter gameImporter;
     private final StringBuilder sbMessage;
+    private final List<String> erros = new ArrayList<>();
 
     public ClrMameProImporter(GamePlatform platform, GameCatalog catalog, File file) {
         this.platform = platform;
@@ -95,7 +97,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
                             try {
                                 game.setCatalog(this.catalog);
                                 game.setCatalogVersion(gameImporter.getVersion());
-                                GameNameParserFactory.getParser(this.catalog).parseGameName(game);
+                                GameNameParserFactory.getParser(this.catalog).parseGameName(this.platform.getName(), game);
                                 fireMessage(game.getName() + ": OK");
                                 games.add(game);
                             } catch (Exception ex) {
@@ -117,6 +119,13 @@ public class ClrMameProImporter extends Task<GameImporter> {
             this.fireMessageError(null, ex);
         }
         this.gameImporter.setGames(games);
+        if (!this.erros.isEmpty()) {
+            this.sbMessage.append("=================================================\n");
+            this.erros.stream().forEach((s) -> {
+                this.sbMessage.append(s);
+            });
+        }
+        updateMessage(this.sbMessage.toString());
 
         return this.gameImporter;
     }
@@ -150,10 +159,13 @@ public class ClrMameProImporter extends Task<GameImporter> {
     }
 
     private void fireMessageError(String game, Exception ex) {
+        StringBuilder sb = new StringBuilder();
         if (game != null) {
-            this.sbMessage.append(game).append(": ");
+            sb.append(game).append(": ");
         }
-        this.sbMessage.append("ERROR: ").append(ex.getClass().getName()).append(": ").append(ex.getLocalizedMessage()).append("\n");
+        sb.append("ERROR: ").append(ex.getClass().getName()).append(": ").append(ex.getLocalizedMessage()).append("\n");
+        this.sbMessage.append(sb.toString());
+        this.erros.add(sb.toString());
         updateMessage(this.sbMessage.toString());
     }
 

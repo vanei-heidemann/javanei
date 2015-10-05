@@ -1,9 +1,11 @@
 package com.javanei.emulation.emuldb.nointro;
 
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.emuldb.GameComplements;
 import com.javanei.emulation.emuldb.GameNameParser;
 import com.javanei.emulation.emuldb.UnknownGameNamePartException;
 import com.javanei.emulation.emuldb.game.Game;
+import com.javanei.emulation.emuldb.game.GamePublisher;
 import com.javanei.emulation.emuldb.game.GameRegion;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,18 +19,23 @@ public final class NoIntroNameParser implements GameNameParser {
 
     static {
         languages.add("En,Fr,De,Es,It,Sv");
+        languages.add("En,Fr,De,It,Nl");
         languages.add("En,Fr,De,Es,It");
         languages.add("En,Fr,De,It");
         languages.add("En,Fr,It,Gd");
         languages.add("En,Fr,De,Es");
+        languages.add("En,De,It,Nl");
         languages.add("En,Fr,De");
+        languages.add("En,De,It");
         languages.add("En,Fr");
         languages.add("En,De");
         languages.add("En,Ja");
+        languages.add("Fr");
+        languages.add("Es");
     }
 
     @Override
-    public final void parseGameName(Game game) throws Exception {
+    public final void parseGameName(String platform, Game game) throws Exception {
         String s = game.getName();
         int pos = s.indexOf("(");
         if (pos < 0) {
@@ -49,6 +56,13 @@ public final class NoIntroNameParser implements GameNameParser {
                         break validate_block;
                     }
                 }
+                if (game.getPublisher() == null) {
+                    GamePublisher pub = parsePublisher(tag);
+                    if (pub != null) {
+                        game.setPublisher(pub);
+                        break validate_block;
+                    }
+                }
                 // Identifica a linguagem
                 if (languages.contains(tag)) {
                     game.setLanguage(tag);
@@ -60,25 +74,10 @@ public final class NoIntroNameParser implements GameNameParser {
                     break;
                 }
                 // Verifica se é uma compilação
-                if (tag.startsWith("Compilation")) {
-                    game.setCompilation(tag.split("-")[1].trim());
+                if (tag.startsWith("Compilation")
+                        || tag.endsWith("Compilation")) {
+                    game.setCompilation(tag);
                     break;
-                }
-                // Valida alguns complementos
-                if (tag.startsWith("Budget")
-                        || tag.equals("Dual Sided")
-                        || tag.equals("MicroValue")
-                        || tag.startsWith("Coverdisk")
-                        || tag.equals("Amiga + ST")
-                        || tag.equals("Byte Back")
-                        || tag.equals("The Edge")) {
-                    if (game.getComplement() == null) {
-                        game.setComplement(tag);
-                        break;
-                    } else if (game.getComplement2() == null) {
-                        game.setComplement2(tag);
-                        break;
-                    }
                 }
                 // Identifica uma data
                 if (tag.matches("\\d\\d-\\d\\d-\\d\\d")) {
@@ -103,19 +102,26 @@ public final class NoIntroNameParser implements GameNameParser {
                 }
                 if (tag.matches("\\d\\d.\\d.\\d\\d\\d\\d")) {
                     int year = Integer.parseInt(tag.substring(5));
+                    if (year > 20) {
+                        year += 1900;
+                    } else {
+                        year += 2000;
+                    }
+                    game.setYear(year);
+                    break validate_block;
+                }
+                if (tag.matches("\\w\\w\\w \\d\\d")) {
+                    int year = Integer.parseInt(tag.substring(5));
                     game.setYear(year);
                     break validate_block;
                 }
                 // Identifica a versão
-                if (tag.matches("v.+?")) {
-                    game.setVersion(tag);
-                    break validate_block;
-                }
-                if (tag.matches("Rev.+?")) {
-                    game.setVersion(tag);
-                    break validate_block;
-                }
-                if (tag.matches("r.+?")) {
+                if (tag.matches("v.+?")
+                        || tag.matches("Rev.+?")
+                        || tag.matches("r.+?")
+                        || tag.matches("R\\d\\d")
+                        || tag.matches("R\\d")
+                        || tag.matches("A\\d\\d")) {
                     game.setVersion(tag);
                     break validate_block;
                 }
@@ -134,10 +140,25 @@ public final class NoIntroNameParser implements GameNameParser {
                     game.setBeta(Boolean.TRUE);
                     break;
                 }
+                // Identifica se se é um Promo
+                if (tag.equals("Promo")) {
+                    game.setPromo(Boolean.TRUE);
+                    break;
+                }
                 // Identifica se é um jogo não licenciado
                 if (tag.equals("Unl")) {
                     game.setUnlicensed(ThreeStates.True);
                     break validate_block;
+                }
+                // Valida alguns complementos
+                if (GameComplements.isComplement(platform, tag)) {
+                    if (game.getComplement() == null) {
+                        game.setComplement(tag);
+                        break;
+                    } else if (game.getComplement2() == null) {
+                        game.setComplement2(tag);
+                        break;
+                    }
                 }
                 throw new UnknownGameNamePartException(tag);
             }
@@ -153,6 +174,15 @@ public final class NoIntroNameParser implements GameNameParser {
         for (GameRegion region : GameRegion.values()) {
             if (region.getName().equals(name)) {
                 return region;
+            }
+        }
+        return null;
+    }
+
+    private static GamePublisher parsePublisher(String name) {
+        for (GamePublisher pub : GamePublisher.values()) {
+            if (pub.getName().equals(name)) {
+                return pub;
             }
         }
         return null;

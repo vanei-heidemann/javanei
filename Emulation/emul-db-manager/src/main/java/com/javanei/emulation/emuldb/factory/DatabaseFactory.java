@@ -84,10 +84,7 @@ public class DatabaseFactory {
     }
 
     protected static final File getDatabaseFile() {
-        File dbDir = new File(ConfigManager.getHomeDir(), "database");
-        if (!dbDir.exists()) {
-            dbDir.mkdirs();
-        }
+        File dbDir = ConfigManager.getDatabaseDir();
         return new File(dbDir, DATABASE_FILE_NAME);
     }
 }

@@ -7,5 +7,5 @@ import com.javanei.emulation.emuldb.game.Game;
  */
 public interface GameNameParser {
 
-    public void parseGameName(Game game) throws Exception;
+    public void parseGameName(String platform, Game game) throws Exception;
 }

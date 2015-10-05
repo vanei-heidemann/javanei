@@ -21,6 +21,7 @@ public class Game implements Serializable, Comparable<Game> {
     private int year;
     private String language;
     private GameRegion region;
+    private GamePublisher publisher;
     //private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
     private String alternate;
     private String compilation;
@@ -41,6 +42,7 @@ public class Game implements Serializable, Comparable<Game> {
     private Boolean proto = Boolean.FALSE; //No-Intro
     private Boolean beta = Boolean.FALSE; //No-Intro
     private Boolean demo = Boolean.FALSE; //No-Intro
+    private Boolean promo = Boolean.FALSE; //No-Intro
     private final Set<GameFile> roms = new HashSet<>();
 
     //private String license;
@@ -98,6 +100,14 @@ public class Game implements Serializable, Comparable<Game> {
 
     public void setRegion(GameRegion region) {
         this.region = region;
+    }
+
+    public GamePublisher getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(GamePublisher publisher) {
+        this.publisher = publisher;
     }
 
     public String getAlternate() {
@@ -252,6 +262,14 @@ public class Game implements Serializable, Comparable<Game> {
         this.demo = demo;
     }
 
+    public Boolean getPromo() {
+        return promo;
+    }
+
+    public void setPromo(Boolean promo) {
+        this.promo = promo;
+    }
+
     public Set<GameFile> getRoms() {
         return roms;
     }
@@ -312,6 +330,9 @@ public class Game implements Serializable, Comparable<Game> {
         if (this.region != null) {
             sb.append(" region=\"").append(this.region).append("\"");
         }
+        if (this.publisher != null) {
+            sb.append(" publisher=\"").append(this.publisher).append("\"");
+        }
         if (this.catalog != null) {
             sb.append(" catalog=\"").append(this.catalog).append("\"");
         }
@@ -333,6 +354,7 @@ public class Game implements Serializable, Comparable<Game> {
         this.appendIfNoNull(sb, "proto", proto);
         this.appendIfNoNull(sb, "beta", beta);
         this.appendIfNoNull(sb, "demo", demo);
+        this.appendIfNoNull(sb, "promo", promo);
         sb.append(">\n");
         this.roms.stream().forEach((rom) -> {
             sb.append("\t\t").append(rom.toString());

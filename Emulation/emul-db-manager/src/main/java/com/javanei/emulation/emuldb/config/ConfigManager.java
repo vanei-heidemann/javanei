@@ -1,5 +1,6 @@
 package com.javanei.emulation.emuldb.config;
 
+import com.javanei.emulation.emuldb.factory.GamePlatform;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -103,5 +104,21 @@ public final class ConfigManager {
 
     public static final String getHomeDir() {
         return System.getProperty("user.dir");
+    }
+
+    public static final File getDatabaseDir() {
+        File dbDir = new File(getHomeDir(), "database");
+        if (!dbDir.exists()) {
+            dbDir.mkdirs();
+        }
+        return dbDir;
+    }
+
+    public static final File getPlatformDatabaseDir(GamePlatform platform) {
+        File dir = new File(getDatabaseDir(), platform.getName());
+        if (!dir.exists()) {
+            dir.mkdirs();
+        }
+        return dir;
     }
 }

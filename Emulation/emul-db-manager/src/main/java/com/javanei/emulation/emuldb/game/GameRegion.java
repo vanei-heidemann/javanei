@@ -32,7 +32,8 @@ public enum GameRegion {
     Unlicensed("Unlicensed"), //GoodSet
     Unknown("Unknown"), //No-Intro
     USA_Europe("USA, Europe"), //No-Intro
-    Asia("Asia") //No-Intro
+    Asia("Asia"), //No-Intro
+    Japan_USA("Japan, USA") //No-Intro
     ;
 
     private final String name;
@@ -48,5 +49,14 @@ public enum GameRegion {
     @Override
     public String toString() {
         return this.name;
+    }
+
+    public static GameRegion fromName(String name) {
+        for (GameRegion region : GameRegion.values()) {
+            if (region.getName().equals(name)) {
+                return region;
+            }
+        }
+        throw new IllegalArgumentException(name);
     }
 }

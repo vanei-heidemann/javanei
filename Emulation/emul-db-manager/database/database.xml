@@ -1,63 +1,63 @@
 <?xml version="1.0"?>
 <database>
-	<platform name="Amstrad CPC" validExtension=".dsk" repositoryDir="./AmstradCPC" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Atari 2600" validExtension=".bin,.a26" repositoryDir="./Atari2600" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Atari 5200" validExtension=".bin,.a52" repositoryDir="./Atari5200" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Atari 7800" validExtension=".bin,.a78" repositoryDir="./Atari7800" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Atari 8-Bit" validExtension=".atr,.xex,.bin,.cas,.bas,.atx,.rom,.com" repositoryDir="./Atari8-Bit" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Atari Jaguar" validExtension=".jag,.j64,.rom" repositoryDir="./AtariJaguar" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Atari Lynx" validExtension=".lnx,.bin" repositoryDir="./AtariLynx" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Atari ST" validExtension=".st,.stx,.img,.ipf" repositoryDir="./AtariST" multiFile="true" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Bandai WonderSwan" validExtension=".ws" repositoryDir="./WonderSwan(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Bandai WonderSwan Color" validExtension=".wsc,.ws" repositoryDir="./WonderSwan(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Casio Loopy" validExtension=".bin" repositoryDir="./Loopy" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Casio PV-1000" validExtension=".bin" repositoryDir="./PV-1000" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Coleco ColecoVision" validExtension=".col,.rom" repositoryDir="./ColecoVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Commodore 64" validExtension=".bin,.t64,.d64,.g64,.crt,.tap,.nib,.tap,.u2,.u3,.u4,.u5,.ua2,.ub3,.ub4,.sid,.102" repositoryDir="./Commodore64" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Commodore Amiga" validExtension=".rom,.adf,.ipf" repositoryDir="./Amiga" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Commodore Plus-4" validExtension=".u4,.u23,.u24,.u25,.u26,.bin,.d64" repositoryDir="./Plus-4" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Commodore VIC-20" validExtension=".bin,.ub3,.ub4,.ud7,.ue1,.80,.70,.60,.40,.20,.a0,.b0" repositoryDir="./VIC-20" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Emerson Arcadia 2001" validExtension=".bin" repositoryDir="./Arcadia2001" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Entex Adventure Vision" validExtension=".bin" repositoryDir="./AdventureVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Epoch Super Cassette Vision" validExtension=".bin,.0,.1" repositoryDir="./SuperCassetteVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Fairchild Channel F" validExtension=".bin" repositoryDir="./ChannelF" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Funtech Super Acan" validExtension=".bin" repositoryDir="./SuperAcan" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="GCE Vectrex" validExtension=".bin,.vec" repositoryDir="./Vectrex" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="GamePark 32" validExtension=".bin,.smc" repositoryDir="./GP32" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Hartung Game Master" validExtension=".bin" repositoryDir="./GameMaster" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="LeapFrog Leapster Learning Game System" validExtension=".bin" repositoryDir="./LeapFrog" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Magnavox Odyssey 2" validExtension=".bin" repositoryDir="./Odyssey2" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Microsoft MSX" validExtension=".rom" repositoryDir="./MSX" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Microsoft MSX2" validExtension=".rom" repositoryDir="./MSX2" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="NEC SuperGrafx" validExtension=".pce" repositoryDir="./SuperGrafx" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="NEC TurboGrafx-16" validExtension=".pce" repositoryDir="./TurboGrafx16" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo 64" validExtension=".z64,.n64" repositoryDir="./Nintendo64" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo DSi" validExtension=".dsi" repositoryDir="./NintendoDS(i)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo Entertainment System" validExtension=".nes,.bin" repositoryDir="./NES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo Famicom" validExtension=".nes" repositoryDir="./NES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo Famicom Disk System" validExtension=".fds,.bin" repositoryDir="./FamicomDiskSystem" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Nintendo Game Boy" validExtension=".gb" repositoryDir="./GameBoy(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo Game Boy Advance" validExtension=".gba,.raw,.sav" repositoryDir="./GameBoyAdvance" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo Game Boy Color" validExtension=".gbc,.gb" repositoryDir="./GameBoy(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo Pokemon Mini" validExtension=".min" repositoryDir="./PokemonMini" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Nintendo Satellaview" validExtension=".sfc" repositoryDir="./Satellaview" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Nintendo SuFami Turbo" validExtension=".sfc" repositoryDir="./SuFamiTurbo" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Nintendo Virtual Boy" validExtension=".vb" repositoryDir="./VirtualBoy" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Philips Videopac+" validExtension=".bin" repositoryDir="./VideopacPlus" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="RCA Studio II" validExtension=".bin,.st2" repositoryDir="./StudioII" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="SNK Neo Geo Pocket" validExtension=".ngp" repositoryDir="./NeoGeoPocket(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="SNK Neo Geo Pocket Color" validExtension=".ngc,.ngp,.bin" repositoryDir="./NeoGeoPocket(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Sega 32X" validExtension=".32x,.bin" repositoryDir="./Sega32X" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Sega Game Gear" validExtension=".gg,.sms,.bin" repositoryDir="./GameGear" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Sega Genesis" validExtension=".md" repositoryDir="./GenesisMegaDrive" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Sega Master System" validExtension=".sms" repositoryDir="./MasterSystem" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Sega Model 2" validExtension="*" repositoryDir="./Model2" multiFile="true" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Sega Pico" validExtension=".md" repositoryDir="./Pico" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Sega SG-1000" validExtension=".sg,.sc" repositoryDir="./SG-1000" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="Sinclair ZX Spectrum +3" validExtension=".ipf" repositoryDir="./ZXSpectrum+3" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Super Nintendo Entertainment System" validExtension=".sfc,.smc,.bin" repositoryDir="./SNES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Tiger Game.com" validExtension=".tgc" repositoryDir="./Game.com" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="VTech CreatiVision" validExtension=".rom" repositoryDir="./CreatiVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
-	<platform name="VTech V.Smile" validExtension=".bin" repositoryDir="./VSmile" multiFile="false" allowZip="true" storageFormat="zip"></platform>
-	<platform name="Watara Supervision" validExtension=".sv" repositoryDir="./Supervision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Amstrad CPC" validExtension=".dsk" repositoryDir="./AmstradCPC" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Atari 2600" validExtension=".bin,.a26" repositoryDir="./Atari2600" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Atari 5200" validExtension=".bin,.a52" repositoryDir="./Atari5200" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Atari 7800" validExtension=".bin,.a78" repositoryDir="./Atari7800" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Atari 8-Bit" validExtension=".atr,.xex,.bin,.cas,.bas,.atx,.rom,.com" repositoryDir="./Atari8-Bit" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Atari Jaguar" validExtension=".jag,.j64,.rom" repositoryDir="./AtariJaguar" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Atari Lynx" validExtension=".lnx,.bin" repositoryDir="./AtariLynx" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Atari ST" validExtension=".st,.stx,.img,.ipf" repositoryDir="./AtariST" multiFile="true" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Bandai WonderSwan" validExtension=".ws" repositoryDir="./WonderSwan(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Bandai WonderSwan Color" validExtension=".wsc,.ws" repositoryDir="./WonderSwan(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Casio Loopy" validExtension=".bin" repositoryDir="./Loopy" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Casio PV-1000" validExtension=".bin" repositoryDir="./PV-1000" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Coleco ColecoVision" validExtension=".col,.rom" repositoryDir="./ColecoVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Commodore 64" validExtension=".bin,.t64,.d64,.g64,.crt,.tap,.nib,.tap,.u2,.u3,.u4,.u5,.ua2,.ub3,.ub4,.sid,.102" repositoryDir="./Commodore64" multiFile="true" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Commodore Amiga" validExtension=".rom,.adf,.ipf" repositoryDir="./Amiga" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Commodore Plus-4" validExtension=".u4,.u23,.u24,.u25,.u26,.bin,.d64" repositoryDir="./Plus-4" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Commodore VIC-20" validExtension=".bin,.ub3,.ub4,.ud7,.ue1,.80,.70,.60,.40,.20,.a0,.b0" repositoryDir="./VIC-20" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Emerson Arcadia 2001" validExtension=".bin" repositoryDir="./Arcadia2001" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Entex Adventure Vision" validExtension=".bin" repositoryDir="./AdventureVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Epoch Super Cassette Vision" validExtension=".bin,.0,.1" repositoryDir="./SuperCassetteVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Fairchild Channel F" validExtension=".bin" repositoryDir="./ChannelF" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Funtech Super Acan" validExtension=".bin" repositoryDir="./SuperAcan" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="GCE Vectrex" validExtension=".bin,.vec" repositoryDir="./Vectrex" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="GamePark 32" validExtension=".bin,.smc" repositoryDir="./GP32" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Hartung Game Master" validExtension=".bin" repositoryDir="./GameMaster" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="LeapFrog Leapster Learning Game System" validExtension=".bin" repositoryDir="./LeapFrog" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Magnavox Odyssey 2" validExtension=".bin" repositoryDir="./Odyssey2" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Microsoft MSX" validExtension=".rom" repositoryDir="./MSX" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Microsoft MSX2" validExtension=".rom" repositoryDir="./MSX2" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="NEC SuperGrafx" validExtension=".pce" repositoryDir="./SuperGrafx" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="NEC TurboGrafx-16" validExtension=".pce" repositoryDir="./TurboGrafx16" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo 64" validExtension=".z64,.n64" repositoryDir="./Nintendo64" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo DSi" validExtension=".dsi" repositoryDir="./NintendoDS(i)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo Entertainment System" validExtension=".nes,.bin" repositoryDir="./NES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo Famicom" validExtension=".nes" repositoryDir="./NES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo Famicom Disk System" validExtension=".fds,.bin" repositoryDir="./FamicomDiskSystem" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Nintendo Game Boy" validExtension=".gb" repositoryDir="./GameBoy(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo Game Boy Advance" validExtension=".gba,.raw,.sav" repositoryDir="./GameBoyAdvance" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo Game Boy Color" validExtension=".gbc,.gb" repositoryDir="./GameBoy(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo Pokemon Mini" validExtension=".min" repositoryDir="./PokemonMini" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Nintendo Satellaview" validExtension=".sfc" repositoryDir="./Satellaview" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Nintendo SuFami Turbo" validExtension=".sfc" repositoryDir="./SuFamiTurbo" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Nintendo Virtual Boy" validExtension=".vb" repositoryDir="./VirtualBoy" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Philips Videopac+" validExtension=".bin" repositoryDir="./VideopacPlus" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="RCA Studio II" validExtension=".bin,.st2" repositoryDir="./StudioII" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="SNK Neo Geo Pocket" validExtension=".ngp" repositoryDir="./NeoGeoPocket(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="SNK Neo Geo Pocket Color" validExtension=".ngc,.ngp,.bin" repositoryDir="./NeoGeoPocket(Color)" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Sega 32X" validExtension=".32x,.bin" repositoryDir="./Sega32X" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Sega Game Gear" validExtension=".gg,.sms,.bin" repositoryDir="./GameGear" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Sega Genesis" validExtension=".md" repositoryDir="./GenesisMegaDrive" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Sega Master System" validExtension=".sms" repositoryDir="./MasterSystem" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Sega Model 2" validExtension="*" repositoryDir="./Model2" multiFile="true" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Sega Pico" validExtension=".md" repositoryDir="./Pico" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Sega SG-1000" validExtension=".sg,.sc" repositoryDir="./SG-1000" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="Sinclair ZX Spectrum +3" validExtension=".ipf" repositoryDir="./ZXSpectrum+3" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Super Nintendo Entertainment System" validExtension=".sfc,.smc,.bin" repositoryDir="./SNES" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Tiger Game.com" validExtension=".tgc" repositoryDir="./Game.com" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="VTech CreatiVision" validExtension=".rom" repositoryDir="./CreatiVision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
+    <platform name="VTech V.Smile" validExtension=".bin" repositoryDir="./VSmile" multiFile="false" allowZip="true" storageFormat="zip"></platform>
+    <platform name="Watara Supervision" validExtension=".sv" repositoryDir="./Supervision" multiFile="false" allowZip="true" storageFormat="singleZip"></platform>
 </database>

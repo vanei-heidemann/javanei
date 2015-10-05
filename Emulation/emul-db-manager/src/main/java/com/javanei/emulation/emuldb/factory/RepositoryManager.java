@@ -5,6 +5,7 @@ import com.javanei.emulation.common.ThreeStates;
 import com.javanei.emulation.emuldb.config.ConfigManager;
 import com.javanei.emulation.emuldb.game.Game;
 import com.javanei.emulation.emuldb.game.GameFile;
+import com.javanei.emulation.emuldb.game.GamePublisher;
 import com.javanei.emulation.emuldb.game.GameRegion;
 import com.javanei.emulation.util.FileUtil;
 import com.javanei.emulation.util.StringUtil;
@@ -50,7 +51,7 @@ public class RepositoryManager {
     }
 
     protected void saveDatFile(GamePlatform platform, GameCatalog catalog, String catalogVersion, byte[] b) throws Exception {
-        File datDir = new File(getPlatformBaseDir(platform), "datfiles");
+        File datDir = new File(ConfigManager.getPlatformDatabaseDir(platform), "datfiles");
         if (!datDir.exists()) {
             datDir.mkdirs();
         }
@@ -132,7 +133,10 @@ public class RepositoryManager {
                                 game.setLanguage(nv.getNodeValue());
                                 break;
                             case "region":
-                                game.setRegion(GameRegion.valueOf(nv.getNodeValue()));
+                                game.setRegion(GameRegion.fromName(nv.getNodeValue()));
+                                break;
+                            case "publisher":
+                                game.setPublisher(GamePublisher.fromName(nv.getNodeValue()));
                                 break;
                             case "alternate":
                                 game.setAlternate(nv.getNodeValue());
@@ -190,6 +194,9 @@ public class RepositoryManager {
                                 break;
                             case "demo":
                                 game.setDemo(nv.getNodeValue().equalsIgnoreCase("true"));
+                                break;
+                            case "promo":
+                                game.setPromo(nv.getNodeValue().equalsIgnoreCase("true"));
                                 break;
                             default:
                                 throw new Exception(nv.getNodeName());
@@ -270,6 +277,6 @@ public class RepositoryManager {
     }
 
     private File getPlatformGameXml(GamePlatform platform) {
-        return new File(getPlatformBaseDir(platform), "games.xml");
+        return new File(ConfigManager.getPlatformDatabaseDir(platform), "games.xml");
     }
 }
