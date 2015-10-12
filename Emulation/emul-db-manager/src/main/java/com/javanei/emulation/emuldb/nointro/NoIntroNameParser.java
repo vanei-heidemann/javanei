@@ -1,12 +1,12 @@
 package com.javanei.emulation.emuldb.nointro;
 
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GamePublisher;
+import com.javanei.emulation.common.game.GameRegion;
 import com.javanei.emulation.emuldb.GameComplements;
 import com.javanei.emulation.emuldb.GameNameParser;
 import com.javanei.emulation.emuldb.UnknownGameNamePartException;
 import com.javanei.emulation.emuldb.game.Game;
-import com.javanei.emulation.emuldb.game.GamePublisher;
-import com.javanei.emulation.emuldb.game.GameRegion;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -178,20 +178,10 @@ public final class NoIntroNameParser implements GameNameParser {
     }
 
     private static GameRegion parseRegion(String name) {
-        for (GameRegion region : GameRegion.values()) {
-            if (region.getName().equals(name)) {
-                return region;
-            }
-        }
-        return null;
+        return GameRegion.getRegion(name);
     }
 
     private static GamePublisher parsePublisher(String name) {
-        for (GamePublisher pub : GamePublisher.values()) {
-            if (pub.getName().equals(name)) {
-                return pub;
-            }
-        }
-        return null;
+        return GamePublisher.getPublisher(name);
     }
 }

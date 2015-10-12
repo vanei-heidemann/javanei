@@ -2,11 +2,11 @@ package com.javanei.emulation.emuldb.factory;
 
 import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GamePublisher;
+import com.javanei.emulation.common.game.GameRegion;
 import com.javanei.emulation.emuldb.config.ConfigManager;
 import com.javanei.emulation.emuldb.game.Game;
 import com.javanei.emulation.emuldb.game.GameFile;
-import com.javanei.emulation.emuldb.game.GamePublisher;
-import com.javanei.emulation.emuldb.game.GameRegion;
 import com.javanei.emulation.util.FileUtil;
 import com.javanei.emulation.util.StringUtil;
 import com.javanei.emulation.util.ZipUtil;

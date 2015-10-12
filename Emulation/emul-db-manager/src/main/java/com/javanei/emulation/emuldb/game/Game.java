@@ -2,6 +2,8 @@ package com.javanei.emulation.emuldb.game;
 
 import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GamePublisher;
+import com.javanei.emulation.common.game.GameRegion;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Objects;
