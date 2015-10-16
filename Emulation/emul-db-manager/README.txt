@@ -9,3 +9,6 @@ Lugares para buscar informações sobre emuladores
 Links diversos
 * https://en.wikipedia.org/wiki/GoodTools
 * http://www.allgoodthings.us/
+
+Links para Atari
+* http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html
