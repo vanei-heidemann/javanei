@@ -60,7 +60,7 @@ public class GameLanguage {
         return lang;
     }
 
-    public List<GameLanguage> fromNames(String langList) {
+    public static List<GameLanguage> fromNames(String langList) {
         String[] ss = langList.split(",");
         List<GameLanguage> result = new LinkedList<>();
         for (String s : ss) {
