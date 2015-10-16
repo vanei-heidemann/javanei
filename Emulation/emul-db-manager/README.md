@@ -1,7 +1,7 @@
 Emulation Manager
 =================
 
-# Banco de dados de ROMs
+Banco de dados de ROMs
 
 ## Caracteristicas
 
