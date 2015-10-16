@@ -6,6 +6,8 @@ import java.util.Map;
 
 /**
  * @author Vanei
+ * 
+ * @see https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Sega_CD
  */
 public class GamePublisher implements Serializable {
 
