@@ -16,6 +16,15 @@ public class C64TapesGames {
     private static final Map<String, String> loaders = new HashMap<>();
 
     static {
+        createList1();
+        createList2();
+        createList3();
+        createList4();
+        createList5();
+        createList6();
+    }
+
+    private static void createList1() {
         publishers.put("Moonfall", "21st Century Entertainment");
         years.put("Moonfall", "1991");
         loaders.put("Moonfall", "Cyberload");
@@ -1007,6 +1016,9 @@ public class C64TapesGames {
         publishers.put("SAS Combat Simulator", "Codemasters");
         years.put("SAS Combat Simulator", "1989");
         loaders.put("SAS Combat Simulator", "Visiload");
+    }
+
+    private static void createList2() {
         publishers.put("Super Robin Hood", "Codemasters");
         years.put("Super Robin Hood", "1987");
         loaders.put("Super Robin Hood", "Visiload");
@@ -1933,6 +1945,9 @@ public class C64TapesGames {
         publishers.put("Elite", "Firebird");
         years.put("Elite", "1985");
         loaders.put("Elite", "Visiload");
+    }
+
+    private static void createList3() {
         publishers.put("Pandora", "Firebird");
         years.put("Pandora", "1988");
         loaders.put("Pandora", "Bleepload");
@@ -2925,6 +2940,9 @@ public class C64TapesGames {
         publishers.put("Space Hunter", "Mastertronic");
         years.put("Space Hunter", "1988");
         loaders.put("Space Hunter", "Visiload");
+    }
+
+    private static void createList4() {
         publishers.put("1985 - The Day After", "Mastertronic");
         years.put("1985 - The Day After", "1985");
         loaders.put("1985 - The Day After", "Burner");
@@ -3918,6 +3936,9 @@ public class C64TapesGames {
         publishers.put("Barbarian (Psygnosis)", "Psygnosis");
         years.put("Barbarian (Psygnosis)", "1988");
         loaders.put("Barbarian (Psygnosis)", "Invade-A-Load!");
+    }
+
+    private static void createList5() {
         publishers.put("Blood Money", "Psygnosis");
         years.put("Blood Money", "1990");
         loaders.put("Blood Money", "Bleepload");
@@ -4908,6 +4929,9 @@ public class C64TapesGames {
         publishers.put("Blue Baron", "Zeppelin Games");
         years.put("Blue Baron", "1992");
         loaders.put("Blue Baron", "Visiload");
+    }
+
+    private static void createList6() {
         publishers.put("Bod Squad", "Zeppelin Games");
         years.put("Bod Squad", "1992");
         loaders.put("Bod Squad", "Visiload");
