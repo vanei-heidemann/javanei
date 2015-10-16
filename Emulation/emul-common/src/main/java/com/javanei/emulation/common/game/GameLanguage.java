@@ -1,6 +1,8 @@
 package com.javanei.emulation.common.game;
 
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -35,6 +37,20 @@ public class GameLanguage {
         return languages.containsKey(name);
     }
 
+    public static boolean isLanguages(String langList) {
+        boolean result = langList != null && !langList.trim().isEmpty();
+        if (result) {
+            String[] ss = langList.split(",");
+            for (String s : ss) {
+                if (!isLanguage(s)) {
+                    result = false;
+                    break;
+                }
+            }
+        }
+        return result;
+    }
+
     public static GameLanguage fromName(String name) {
         GameLanguage lang = languages.get(name);
         if (lang == null) {
@@ -42,6 +58,15 @@ public class GameLanguage {
             throw new IllegalArgumentException(name);
         }
         return lang;
+    }
+
+    public List<GameLanguage> fromNames(String langList) {
+        String[] ss = langList.split(",");
+        List<GameLanguage> result = new LinkedList<>();
+        for (String s : ss) {
+            result.add(fromName(s));
+        }
+        return result;
     }
 
     public static GameLanguage getLanguage(String name) {
