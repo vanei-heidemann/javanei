@@ -346,6 +346,7 @@ public class GamePublisher implements Serializable {
         publishers.put("Screen 7", new GamePublisher("Screen 7"));
         publishers.put("Sega", new GamePublisher("Sega"));
         publishers.put("Sierra Online", new GamePublisher("Sierra Online"));
+        publishers.put("Sierra Games", new GamePublisher("Sierra Games"));
         publishers.put("SilverTime", new GamePublisher("SilverTime"));
         publishers.put("Silverbird", new GamePublisher("Silverbird"));
         publishers.put("Silverbird / Probe Software", new GamePublisher("Silverbird / Probe Software"));
@@ -411,6 +412,7 @@ public class GamePublisher implements Serializable {
         publishers.put("Virgin Games Ltd.", new GamePublisher("Virgin Games Ltd."));
         publishers.put("Virgin Mastertronic", new GamePublisher("Virgin Mastertronic"));
         publishers.put("Virgin Mastertronic / Probe Software", new GamePublisher("Virgin Mastertronic / Probe Software"));
+        publishers.put("Virgin Interactive", new GamePublisher("Virgin Interactive"));
         publishers.put("Virgin Mastertronic Ltd.", new GamePublisher("Virgin Mastertronic Ltd."));
         publishers.put("Visions Software Factory", new GamePublisher("Visions Software Factory"));
         publishers.put("Vivid Image", new GamePublisher("Vivid Image"));
@@ -428,6 +430,60 @@ public class GamePublisher implements Serializable {
         publishers.put("Telarium", new GamePublisher("Telarium"));
         publishers.put("Timeworks", new GamePublisher("Timeworks"));
         publishers.put("Trillium", new GamePublisher("Trillium"));
+        // SegaCD
+        publishers.put("Absolute Entertainment", new GamePublisher("Absolute Entertainment"));
+        publishers.put("Acclaim Entertainment", new GamePublisher("Acclaim Entertainment"));
+        publishers.put("American Laser Games", new GamePublisher("American Laser Games"));
+        publishers.put("Arena Entertainment", new GamePublisher("Arena Entertainment"));
+        publishers.put("Asmik", new GamePublisher("Asmik"));
+        publishers.put("Big Fun Games", new GamePublisher("Big Fun Games"));
+        publishers.put("Bignet USA", new GamePublisher("Bignet USA"));
+        publishers.put("Bridgestone Multimedia", new GamePublisher("Bridgestone Multimedia"));
+        publishers.put("Core Design", new GamePublisher("Core Design"));
+        publishers.put("JVC", new GamePublisher("JVC"));
+        publishers.put("CSK", new GamePublisher("CSK"));
+        publishers.put("Data West", new GamePublisher("Data West"));
+        publishers.put("Digital Pictures", new GamePublisher("Digital Pictures"));
+        publishers.put("Dynamix", new GamePublisher("Dynamix"));
+        publishers.put("Extreme Entertainment", new GamePublisher("Extreme Entertainment"));
+        publishers.put("FASA Interactive", new GamePublisher("FASA Interactive"));
+        publishers.put("Game Arts", new GamePublisher("Game Arts"));
+        publishers.put("GameTek", new GamePublisher("GameTek"));
+        publishers.put("Hot B", new GamePublisher("Hot B"));
+        publishers.put("Interplay", new GamePublisher("Interplay"));
+        publishers.put("JVC Musical Industries", new GamePublisher("JVC Musical Industries"));
+        publishers.put("Koei", new GamePublisher("Koei"));
+        publishers.put("Masaya", new GamePublisher("Masaya"));
+        publishers.put("Micro Cabin", new GamePublisher("Micro Cabin"));
+        publishers.put("Micronet", new GamePublisher("Micronet"));
+        publishers.put("Namco", new GamePublisher("Namco"));
+        publishers.put("Nichibutsu", new GamePublisher("Nichibutsu"));
+        publishers.put("Nihon Telenet", new GamePublisher("Nihon Telenet"));
+        publishers.put("Telenet", new GamePublisher("Telenet"));
+        publishers.put("Oldergames", new GamePublisher("Oldergames"));
+        publishers.put("Phillips Interactive", new GamePublisher("Phillips Interactive"));
+        publishers.put("Polydor", new GamePublisher("Polydor"));
+        publishers.put("Vic Tokai", new GamePublisher("Vic Tokai"));
+        publishers.put("Readysoft", new GamePublisher("Readysoft"));
+        publishers.put("Renovation Products", new GamePublisher("Renovation Products"));
+        publishers.put("Rocket Science Games", new GamePublisher("Rocket Science Games"));
+        publishers.put("Sammy Studios", new GamePublisher("Sammy Studios"));
+        publishers.put("Tec Toy", new GamePublisher("Tec Toy"));
+        publishers.put("SIMS", new GamePublisher("SIMS"));
+        publishers.put("Software Toolworks", new GamePublisher("Software Toolworks"));
+        publishers.put("Sony Imagesoft", new GamePublisher("Sony Imagesoft"));
+        publishers.put("Sony Music Entertainment", new GamePublisher("Sony Music Entertainment"));
+        publishers.put("Spectrum Holobyte", new GamePublisher("Spectrum Holobyte"));
+        publishers.put("Strategic Simulations, Inc.", new GamePublisher("Strategic Simulations, Inc."));
+        publishers.put("Taito", new GamePublisher("Taito"));
+        publishers.put("TakerUCO", new GamePublisher("TakerUCO"));
+        publishers.put("Tecmo", new GamePublisher("Tecmo"));
+        publishers.put("Time Warner", new GamePublisher("Time Warner"));
+        publishers.put("Time Warner Interactive", new GamePublisher("Time Warner Interactive"));
+        publishers.put("Victor Interactive", new GamePublisher("Victor Interactive"));
+        publishers.put("Wolf Tea", new GamePublisher("Wolf Tea"));
+        publishers.put("Wolf Team", new GamePublisher("Wolf Team"));
+        publishers.put("Working Designs", new GamePublisher("Working Designs"));
     }
 
     private GamePublisher(String publisher) {
