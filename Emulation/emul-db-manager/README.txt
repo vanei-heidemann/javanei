@@ -12,3 +12,6 @@ Links diversos
 
 Links para Atari
 * http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html
+
+Link com informaçoes dos Jogos SegaCD
+* https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Sega_CD

@@ -1,44 +1,16 @@
 package com.javanei.emulation.emuldb.nointro;
 
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GameLanguage;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
-import com.javanei.emulation.emuldb.GameComplements;
 import com.javanei.emulation.emuldb.GameNameParser;
-import com.javanei.emulation.emuldb.UnknownGameNamePartException;
 import com.javanei.emulation.emuldb.game.Game;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author Vanei
  */
 public final class NoIntroNameParser implements GameNameParser {
-
-    private static final List<String> languages = new ArrayList<>();
-
-    static {
-        languages.add("En,Fr,De,Es,It,Sv");
-        languages.add("En,Fr,De,Sv,No,Da");
-        languages.add("En,Fr,De,It,Nl");
-        languages.add("En,Fr,De,Es,It");
-        languages.add("En,Fr,De,It,Es");
-        languages.add("En,Fr,De,It");
-        languages.add("En,Fr,It,Gd");
-        languages.add("En,Fr,De,Es");
-        languages.add("En,De,It,Nl");
-        languages.add("Fr,De,Es,It");
-        languages.add("En,Fr,De");
-        languages.add("En,De,It");
-        languages.add("En,Fr,It");
-        languages.add("En,Fr");
-        languages.add("En,De");
-        languages.add("En,Ja");
-        languages.add("En,It");
-        languages.add("En");
-        languages.add("Fr");
-        languages.add("Es");
-    }
 
     @Override
     public final void parseGameName(String platform, Game game) throws Exception {
@@ -56,118 +28,57 @@ public final class NoIntroNameParser implements GameNameParser {
             {
                 // Identifica a região
                 if (game.getRegion() == null) {
-                    GameRegion region = parseRegion(tag);
+                    GameRegion region = GameRegion.getRegion(tag);
                     if (region != null) {
                         game.setRegion(region);
                         break validate_block;
-                    }
-                }
-                if (game.getPublisher() == null) {
-                    GamePublisher pub = parsePublisher(tag);
-                    if (pub != null) {
-                        game.setPublisher(pub);
+                    } else {
+                        mainName = s.substring(0, pos).trim();
                         break validate_block;
                     }
                 }
+                // Identifica o publisher
+                if (parsePublisher(game, tag)) {
+                    break validate_block;
+                }
                 // Identifica a linguagem
-                if (languages.contains(tag)) {
-                    game.setLanguage(tag);
-                    break;
+                if (parseLanguage(game, tag)) {
+                    break validate_block;
                 }
                 // Identifica se é uma ROM alternativa
-                if (tag.matches("Alt.+?")) {
-                    game.setAlternate(tag);
-                    break;
+                if (parseAlternateROM(game, tag)) {
+                    break validate_block;
                 }
                 // Verifica se é uma compilação
-                if (tag.startsWith("Compilation")
-                        || tag.endsWith("Compilation")) {
-                    game.setCompilation(tag);
-                    break;
+                if (parseCompilation(game, tag)) {
+                    break validate_block;
                 }
                 // Identifica uma data
-                if (tag.matches("\\d\\d-\\d\\d-\\d\\d")) {
-                    int year = Integer.parseInt(tag.substring(0, 2));
-                    if (year > 20) {
-                        year += 1900;
-                    } else {
-                        year += 2000;
-                    }
-                    game.setYear(year);
-                    break validate_block;
-                }
-                if (tag.matches("\\d.\\d.\\d\\d")) {
-                    int year = Integer.parseInt(tag.substring(4));
-                    if (year > 20) {
-                        year += 1900;
-                    } else {
-                        year += 2000;
-                    }
-                    game.setYear(year);
-                    break validate_block;
-                }
-                if (tag.matches("\\d\\d.\\d.\\d\\d\\d\\d")) {
-                    int year = Integer.parseInt(tag.substring(5));
-                    if (year > 20) {
-                        year += 1900;
-                    } else {
-                        year += 2000;
-                    }
-                    game.setYear(year);
-                    break validate_block;
-                }
-                if (tag.matches("\\w\\w\\w \\d\\d")) {
-                    int year = Integer.parseInt(tag.substring(5));
-                    game.setYear(year);
+                if (parseYear(game, tag)) {
                     break validate_block;
                 }
                 // Identifica a versão
-                if (tag.matches("v.+?")
-                        || tag.matches("Rev.+?")
-                        || tag.matches("r.+?")
-                        || tag.matches("R\\d\\d")
-                        || tag.matches("R\\d")
-                        || tag.matches("A\\d\\d")
-                        || tag.matches("Release \\d\\d")) {
-                    game.setVersion(tag);
+                if (parseVersion(game, tag)) {
                     break validate_block;
                 }
-                // Identifica se é um Proto
-                if (tag.equals("Proto")) {
-                    game.setProto(Boolean.TRUE);
+                // Identifica se e uma versão especial (Proto, Demo, Beta, Promo, Unl)
+                if (parseSpecialVersion(game, tag)) {
                     break validate_block;
                 }
-                // Identifica se é um Demo
-                if (tag.equals("Demo")) {
-                    game.setDemo(Boolean.TRUE);
-                    break validate_block;
-                }
-                // Identifica se é um Beta
-                if (tag.equals("Beta")) {
-                    game.setBeta(Boolean.TRUE);
-                    break;
-                }
-                // Identifica se se é um Promo
-                if (tag.equals("Promo")) {
-                    game.setPromo(Boolean.TRUE);
-                    break;
-                }
-                // Identifica se é um jogo não licenciado
-                if (tag.equals("Unl")) {
-                    game.setUnlicensed(ThreeStates.True);
-                    break validate_block;
-                }
-                // Valida alguns complementos
-                if (GameComplements.isComplement(platform, tag)) {
-                    if (game.getComplement() == null) {
-                        game.setComplement(tag);
-                        break;
-                    } else if (game.getComplement2() == null) {
-                        game.setComplement2(tag);
-                        break;
-                    }
-                }
-                throw new UnknownGameNamePartException(tag);
+                /*
+                 // Valida alguns complementos
+                 if (GameComplements.isComplement(platform, tag)) {
+                 if (game.getComplement() == null) {
+                 game.setComplement(tag);
+                 break;
+                 } else if (game.getComplement2() == null) {
+                 game.setComplement2(tag);
+                 break;
+                 }
+                 }
+                 throw new UnknownGameNamePartException(tag);
+                 */
+                System.err.println("Tag desconhecida: " + tag);
             }
 
             pos = s.indexOf("(", endPos + 1);
@@ -177,11 +88,125 @@ public final class NoIntroNameParser implements GameNameParser {
         game.setMainName(mainName);
     }
 
-    private static GameRegion parseRegion(String name) {
-        return GameRegion.getRegion(name);
+    private static boolean parsePublisher(Game game, String tag) {
+        if (game.getPublisher() == null) {
+            GamePublisher pub = GamePublisher.getPublisher(tag);
+            if (pub != null) {
+                game.setPublisher(pub);
+                return true;
+            }
+        }
+        return false;
     }
 
-    private static GamePublisher parsePublisher(String name) {
-        return GamePublisher.getPublisher(name);
+    private static boolean parseLanguage(Game game, String tag) {
+        if ((game.getLanguages() == null || game.getLanguages().isEmpty())
+                && GameLanguage.isLanguages(tag)) {
+            game.setLanguages(GameLanguage.fromNames(tag));
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean parseAlternateROM(Game game, String tag) {
+        if (game.getAlternate() == null && tag.matches("Alt.+?")) {
+            game.setAlternate(tag);
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean parseCompilation(Game game, String tag) {
+        if (game.getCompilation() == null && tag.startsWith("Compilation")
+                || tag.endsWith("Compilation")) {
+            game.setCompilation(tag);
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean parseYear(Game game, String tag) {
+        if (game.getYear() > 0) {
+            return false;
+        }
+        if (tag.matches("\\d\\d-\\d\\d-\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(0, 2));
+            if (year > 20) {
+                year += 1900;
+            } else {
+                year += 2000;
+            }
+            game.setYear(year);
+            return true;
+        }
+        if (tag.matches("\\d.\\d.\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(4));
+            if (year > 20) {
+                year += 1900;
+            } else {
+                year += 2000;
+            }
+            game.setYear(year);
+            return true;
+        }
+        if (tag.matches("\\d\\d.\\d.\\d\\d\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(5));
+            if (year > 20) {
+                year += 1900;
+            } else {
+                year += 2000;
+            }
+            game.setYear(year);
+            return true;
+        }
+        if (tag.matches("\\w\\w\\w \\d\\d")) {
+            int year = Integer.parseInt(tag.substring(5));
+            game.setYear(year);
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean parseVersion(Game game, String tag) {
+        if (game.getVersion() == null && tag.matches("v.+?")
+                || tag.matches("Rev.+?")
+                || tag.matches("r.+?")
+                || tag.matches("R\\d\\d")
+                || tag.matches("R\\d")
+                || tag.matches("A\\d\\d")
+                || tag.matches("Release \\d\\d")) {
+            game.setVersion(tag);
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean parseSpecialVersion(Game game, String tag) {
+        // Identifica se é um Proto
+        if (tag.equals("Proto")) {
+            game.setProto(Boolean.TRUE);
+            return true;
+        }
+        // Identifica se é um Demo
+        if (tag.equals("Demo")) {
+            game.setDemo(Boolean.TRUE);
+            return true;
+        }
+        // Identifica se é um Beta
+        if (tag.equals("Beta")) {
+            game.setBeta(Boolean.TRUE);
+            return true;
+        }
+        // Identifica se se é um Promo
+        if (tag.equals("Promo")) {
+            game.setPromo(Boolean.TRUE);
+            return true;
+        }
+        // Identifica se é um jogo não licenciado
+        if (tag.equals("Unl")) {
+            game.setUnlicensed(ThreeStates.True);
+            return true;
+        }
+        return false;
     }
 }
