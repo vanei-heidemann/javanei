@@ -486,6 +486,16 @@ public class GamePublisher implements Serializable {
         publishers.put("Wolf Tea", new GamePublisher("Wolf Tea"));
         publishers.put("Wolf Team", new GamePublisher("Wolf Team"));
         publishers.put("Working Designs", new GamePublisher("Working Designs"));
+        // Atari ST
+        publishers.put("Sizzlers", new GamePublisher("Sizzlers"));
+        publishers.put("Action Sixteen", new GamePublisher("Action Sixteen"));
+        publishers.put("Smash 16", new GamePublisher("Smash 16"));
+        publishers.put("16 Blitz", new GamePublisher("16 Blitz"));
+        publishers.put("Klassix", new GamePublisher("Klassix"));
+        publishers.put("Buzz", new GamePublisher("Buzz"));
+        publishers.put("Fox Hits", new GamePublisher("Fox Hits"));
+        publishers.put("Action Sixteen", new GamePublisher("Action Sixteen"));
+        publishers.put("Pocket Soft", new GamePublisher("Pocket Soft"));
     }
 
     private GamePublisher(String publisher) {

@@ -76,7 +76,7 @@
 	<game name="BMX Simulator (Europe)" mainName="BMX Simulator" description="BMX Simulator (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="BMX Simulator (Europe).ip" size="517195" crc="1C1EF32A" md5="62419E840F47AA43ED49C9B5563DA997" sha1="A98536453124C1FCD59D2AF479B58D4A94A5C312" />
 	</game>
-	<game name="Backgammon Royale (Europe) (En,Fr,De) (v2.50 4 Jan 91)" mainName="Backgammon Royale" description="Backgammon Royale (Europe) (En,Fr,De) (v2.50 4 Jan 91)" language="En,Fr,De" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Backgammon Royale (Europe) (En,Fr,De) (v2.50 4 Jan 91)" mainName="Backgammon Royale" description="Backgammon Royale (Europe) (En,Fr,De) (v2.50 4 Jan 91)" version="v2.50 4 Jan 91" language="En,Fr,De" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Backgammon Royale (Europe) (En,Fr,De) (v2.50 4 Jan 91).ip" size="468252" crc="3F1C40A2" md5="082AB6A8747EFC80CC82CF4B84F4FBC2" sha1="AECC70389395A35DAE32DACE15196C0F39C9D171" />
 	</game>
 	<game name="Balance of Power - The 1990 Edition (Europe)" mainName="Balance of Power - The 1990 Edition" description="Balance of Power - The 1990 Edition (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -123,7 +123,7 @@
 	<game name="Blockout (Europe)" mainName="Blockout" description="Blockout (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Blockout (Europe).ip" size="468252" crc="1F437363" md5="E0E3BEECCDBAE7C1FC9D6250516DEBF8" sha1="46D0B2DBFA45D730F90F419F611CE43FF3807E9E" />
 	</game>
-	<game name="Blood Money (Europe) (Budget - Sizzlers)" mainName="Blood Money" description="Blood Money (Europe) (Budget - Sizzlers)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Sizzlers">
+	<game name="Blood Money (Europe) (Budget - Sizzlers)" mainName="Blood Money" description="Blood Money (Europe) (Budget - Sizzlers)" version="Budget" region="Europe" publisher="Sizzlers" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Blood Money (Europe) (Budget - Sizzlers) (Disk 2).ip" size="487002" crc="02D3CF47" md5="C2309AA6A705740E4675DB888184DA39" sha1="675B4CB67EF93EB8776EB57E92DC9B02B7BCD21E" />
 		<rom name="Blood Money (Europe) (Budget - Sizzlers) (Disk 1).ip" size="517627" crc="BD492808" md5="A7A54765F9D0F1CA08C8C38CB544CDDB" sha1="AFB31D83E5266EC2E9A263E1F851A3A14843B27F" />
 	</game>
@@ -133,7 +133,7 @@
 	<game name="Bob Winner (Europe)" mainName="Bob Winner" description="Bob Winner (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Bob Winner (Europe).ip" size="486734" crc="5BEDE1BC" md5="618FDF628605395A98F14F7E36FB6AB9" sha1="04B26FDFBBAB28DE0AFB65528391AF7CD2F7B3EE" />
 	</game>
-	<game name="Bomb Jack (Europe) (Budget - Encore)" mainName="Bomb Jack" description="Bomb Jack (Europe) (Budget - Encore)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Encore">
+	<game name="Bomb Jack (Europe) (Budget - Encore)" mainName="Bomb Jack" description="Bomb Jack (Europe) (Budget - Encore)" version="Budget" region="Europe" publisher="Encore" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Bomb Jack (Europe) (Budget - Encore).ip" size="518254" crc="817937B1" md5="836ADACF379617DA134821F08DF8EEC8" sha1="FF51804B7D84036F94A1D18DD46BEFFFD50BBC3B" />
 	</game>
 	<game name="Bridge Master (Europe)" mainName="Bridge Master" description="Bridge Master (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -199,7 +199,7 @@
 	<game name="Chip's Challenge (Europe)" mainName="Chip's Challenge" description="Chip's Challenge (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Chip's Challenge (Europe).ip" size="517195" crc="76561C0C" md5="20226881026A9FF746101A9FFE0EA68F" sha1="A75D1BD89997EFF25CB1F04645C05F1B5F63505F" />
 	</game>
-	<game name="Chrono Quest II (Europe) (Dual Sided)" mainName="Chrono Quest II" description="Chrono Quest II (Europe) (Dual Sided)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Dual Sided">
+	<game name="Chrono Quest II (Europe) (Dual Sided)" mainName="Chrono Quest II" description="Chrono Quest II (Europe) (Dual Sided)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Chrono Quest II (Europe) (Dual Sided) (Disk 2).ip" size="918252" crc="415E69D3" md5="219D59378A1C29971F80428950D45DA0" sha1="636734CED65B6D3F4708EB53B8E26A63266D998D" />
 		<rom name="Chrono Quest II (Europe) (Dual Sided) (Disk 1).ip" size="918252" crc="5BFE7489" md5="CD188A6CCCEB8148EB3167149EEDC287" sha1="402E2B66616A48A51018C3C2B8D89A4C1BC6642C" />
 		<rom name="Chrono Quest II (Europe) (Dual Sided) (Disk 3).ip" size="1018252" crc="FB239020" md5="97C0B67D081F43128FFBA60A6E03EB27" sha1="1ED6D5C7B7FAE7866A7D6F931FDB5C37B7440001" />
@@ -226,7 +226,7 @@
 	<game name="Corruption (Europe) (v1.9)" mainName="Corruption" description="Corruption (Europe) (v1.9)" version="v1.9" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Corruption (Europe) (v1.9).ip" size="472992" crc="479F85AA" md5="4EC6D7E291341242EB37F341EBF2DCDA" sha1="6E13D65CC896C4087CA7B47466F12066D342AF02" />
 	</game>
-	<game name="Crack Down (Europe) (Budget - Kixx)" mainName="Crack Down" description="Crack Down (Europe) (Budget - Kixx)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Kixx">
+	<game name="Crack Down (Europe) (Budget - Kixx)" mainName="Crack Down" description="Crack Down (Europe) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Crack Down (Europe) (Budget - Kixx).ip" size="1107413" crc="9D27DDA5" md5="8093673FFF2774FFD7E2BDD47B61CFE4" sha1="91752B32D4C93391AD707A030E1305BD110850B2" />
 	</game>
 	<game name="Cricket Captain (Europe) (v1.5 1991)" mainName="Cricket Captain" description="Cricket Captain (Europe) (v1.5 1991)" version="v1.5 1991" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -271,17 +271,17 @@
 		<rom name="Dick Tracy (Europe) (En,Fr,De,Es,It) (Disk A).ip" size="521914" crc="B02524FD" md5="FEF23EDDDEF145D83AB78C9FD0903659" sha1="C620C7E995AD9F4E1D3B636F43A1161B031C941A" />
 		<rom name="Dick Tracy (Europe) (En,Fr,De,Es,It) (Disk B).ip" size="518252" crc="48FBCA9E" md5="3133C36E7199ABF19DC2B86D06C59940" sha1="42C7A132610366BFAFB41964E2C9F97A0068232F" />
 	</game>
-	<game name="Disc (Europe) (Budget - Action Sixteen)" mainName="Disc" description="Disc (Europe) (Budget - Action Sixteen)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Action Sixteen">
+	<game name="Disc (Europe) (Budget - Action Sixteen)" mainName="Disc" description="Disc (Europe) (Budget - Action Sixteen)" version="Budget" region="Europe" publisher="Action Sixteen" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Disc (Europe) (Budget - Action Sixteen).ip" size="1014859" crc="AB7FFC6B" md5="E977C26734B17CE867811B079A0FB330" sha1="D29A4835BA85D55778FDED6B59CEE7D5C3552AFC" />
 	</game>
-	<game name="Dizzy Dice (Europe) (Budget - Smash 16)" mainName="Dizzy Dice" description="Dizzy Dice (Europe) (Budget - Smash 16)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Smash 16">
+	<game name="Dizzy Dice (Europe) (Budget - Smash 16)" mainName="Dizzy Dice" description="Dizzy Dice (Europe) (Budget - Smash 16)" version="Budget" region="Europe" publisher="Smash 16" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Dizzy Dice (Europe) (Budget - Smash 16).ip" size="518252" crc="34A1D807" md5="CF6F677C4AD7F393843E53F4CFEA60EF" sha1="8A9DCEC0065A8A4ED8EC03CE6F974ACB4D9D25B1" />
 	</game>
 	<game name="Double Dragon (Europe) (Compilation - Magnum 4)" mainName="Double Dragon" description="Double Dragon (Europe) (Compilation - Magnum 4)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" compilation="Compilation - Magnum 4">
 		<rom name="Double Dragon (Europe) (Compilation - Magnum 4) (Disk 1).ip" size="517195" crc="6527A8D3" md5="BFBB7A8F95C7E8570E42D527D4742E39" sha1="C8E374850AD918A6859A7464F16100377972E58B" />
 		<rom name="Double Dragon (Europe) (Compilation - Magnum 4) (Disk 2).ip" size="517195" crc="C1EBE2CA" md5="8EA2302D7878278FCDB7704640B6BB73" sha1="06C4D138D62D0A74BC77C4B4495D735C6FD2CD53" />
 	</game>
-	<game name="Double Dragon II - The Revenge (Europe) (v1.2) (Budget - 16 Blitz)" mainName="Double Dragon II - The Revenge" description="Double Dragon II - The Revenge (Europe) (v1.2) (Budget - 16 Blitz)" version="v1.2" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - 16 Blitz">
+	<game name="Double Dragon II - The Revenge (Europe) (v1.2) (Budget - 16 Blitz)" mainName="Double Dragon II - The Revenge" description="Double Dragon II - The Revenge (Europe) (v1.2) (Budget - 16 Blitz)" version="Budget" region="Europe" publisher="16 Blitz" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Double Dragon II - The Revenge (Europe) (v1.2) (Budget - 16 Blitz) (Disk 2).ip" size="517627" crc="37CC6451" md5="5928DEC4C857C83DD106D5245ECCB60A" sha1="696BB3F9C945AB6F103C76603E7DCCBCC1CC424F" />
 		<rom name="Double Dragon II - The Revenge (Europe) (v1.2) (Budget - 16 Blitz) (Disk 1).ip" size="1017627" crc="3D3168A6" md5="E1ED5569A7457C61395DDD21C2AC3AA8" sha1="76A4365AA9E0F86A3F65489B7E7EDF28BF2AA3FB" />
 	</game>
@@ -342,10 +342,10 @@
 	<game name="Football Manager 2 (Europe)" mainName="Football Manager 2" description="Football Manager 2 (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Football Manager 2 (Europe).ip" size="518254" crc="08363B8C" md5="7692732BE29D5835ECED88182809DD2C" sha1="54C09068D7D6F0A355D54ADF0644C61EFC3CB602" />
 	</game>
-	<game name="Foundation's Waste (Europe) (Budget - Klassix)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Budget - Klassix)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Klassix">
+	<game name="Foundation's Waste (Europe) (Budget - Klassix)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Budget - Klassix)" version="Budget" region="Europe" publisher="Klassix" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Foundation's Waste (Europe) (Budget - Klassix).ip" size="562172" crc="1C4935E3" md5="7F25080281AA309234FE7F014473C2AA" sha1="0DA037C8E8A1784D0AFA7F4B8A0CD191EC1BAE7A" />
 	</game>
-	<game name="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Coverdisk - The One - Issue 22">
+	<game name="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST).ip" size="1034145" crc="8CC8484F" md5="78BBAA86EBC564A62F0CA08D8E55297D" sha1="C51CC0CF5005FA6F422383E7F84A00F6BAC5915C" />
 	</game>
 	<game name="Full Metal Planete (Europe)" mainName="Full Metal Planete" description="Full Metal Planete (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -428,7 +428,7 @@
 	<game name="Hi-Tec Hanna-Barbera Cartoon Character Collection, The (Europe)" mainName="Hi-Tec Hanna-Barbera Cartoon Character Collection, The" description="Hi-Tec Hanna-Barbera Cartoon Character Collection, The (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Hi-Tec Hanna-Barbera Cartoon Character Collection, The (Europe).ip" size="711762" crc="A290A478" md5="1CF842C7B9563175E870E79F9B3FFC20" sha1="3416160E0D78E9D57C19CED5CE53981DA5656B93" />
 	</game>
-	<game name="Hill Street Blues (Europe) (En,Fr,De,Es,It) (v1.11 26.3.1991) (Budget - Buzz)" mainName="Hill Street Blues" description="Hill Street Blues (Europe) (En,Fr,De,Es,It) (v1.11 26.3.1991) (Budget - Buzz)" language="En,Fr,De,Es,It" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Hill Street Blues (Europe) (En,Fr,De,Es,It) (v1.11 26.3.1991) (Budget - Buzz)" mainName="Hill Street Blues" description="Hill Street Blues (Europe) (En,Fr,De,Es,It) (v1.11 26.3.1991) (Budget - Buzz)" version="Budget" language="En,Fr,De,Es,It" region="Europe" publisher="Buzz" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Hill Street Blues (Europe) (En,Fr,De,Es,It) (v1.11 26.3.1991) (Budget - Buzz).ip" size="517627" crc="BAE8EB8F" md5="4AC69744C9FB6C09B22D4B52CC06F052" sha1="AAB8E7F8EBF1B47E3C28AC5286B6DF5B1F7F4FA4" />
 	</game>
 	<game name="Hostages (Europe)" mainName="Hostages" description="Hostages (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -443,7 +443,7 @@
 		<rom name="Hound of Shadow, The (Europe) (Disk C - Data Disk).ip" size="518252" crc="A076B61F" md5="5E5946C4A6D092E94FA3C6357302B49E" sha1="706CBB0B3598B9C0BF7CCC4E456253EF5EFBFD41" />
 		<rom name="Hound of Shadow, The (Europe) (Disk B - Scenario Disk).ip" size="468252" crc="2A4A4AB7" md5="58E7AA7F10FBE36BB384CE575D6F7BEE" sha1="C828759288AF87CE20B9EA45DF1333D7608B9948" />
 	</game>
-	<game name="Hunter Killer (Europe) (v1.01) (Budget - 16 Blitz)" mainName="Hunter Killer" description="Hunter Killer (Europe) (v1.01) (Budget - 16 Blitz)" version="v1.01" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - 16 Blitz">
+	<game name="Hunter Killer (Europe) (v1.01) (Budget - 16 Blitz)" mainName="Hunter Killer" description="Hunter Killer (Europe) (v1.01) (Budget - 16 Blitz)" version="Budget" region="Europe" publisher="16 Blitz" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Hunter Killer (Europe) (v1.01) (Budget - 16 Blitz).ip" size="918252" crc="AB7DEF25" md5="40351EABB13511CF7D4CB02C9D8092AD" sha1="309A2C3233CD3A3E2C277A9D673E4D20E2C23D17" />
 	</game>
 	<game name="Hyperbowl (Europe)" mainName="Hyperbowl" description="Hyperbowl (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -510,7 +510,7 @@
 	<game name="Laser Squad (Europe)" mainName="Laser Squad" description="Laser Squad (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Laser Squad (Europe).ip" size="517627" crc="7F458CD8" md5="1C1843C39CA6B42784B2D36FF9997DC9" sha1="3C1FEFF969345C21BDA71681D64263F4AF82BDEA" />
 	</game>
-	<game name="Last Ninja 3 (Europe) (Budget - Kixx)" mainName="Last Ninja 3" description="Last Ninja 3 (Europe) (Budget - Kixx)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Kixx">
+	<game name="Last Ninja 3 (Europe) (Budget - Kixx)" mainName="Last Ninja 3" description="Last Ninja 3 (Europe) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Last Ninja 3 (Europe) (Budget - Kixx) (Disk 1).ip" size="1025660" crc="65A6E699" md5="2A2652649BE00C9FC0F37A52EA302D5C" sha1="45323A4E1CF55A2B7E8EC9228CC2FB32992DCA9E" />
 		<rom name="Last Ninja 3 (Europe) (Budget - Kixx) (Disk 2).ip" size="1025660" crc="CFA3D6D2" md5="62DD38F782486BCAB9050F1F00302049" sha1="7864B3BFD3C09865C7B7F7BFA83B4BD9990219D4" />
 	</game>
@@ -524,7 +524,7 @@
 		<rom name="Leisure Suit Larry in - The Land of the Lounge Lizards (Europe) (v1.04 6.18.87) (Disk 2).ip" size="467820" crc="788F6758" md5="21E92CB50F248E531152789A7703CE9C" sha1="CF108C4FB0D32F1A31518FD12078D126F6D17A3C" />
 		<rom name="Leisure Suit Larry in - The Land of the Lounge Lizards (Europe) (v1.04 6.18.87) (Disk 1).ip" size="462195" crc="BA699E27" md5="8EE385E5E21E41B741FE17FFB7DF4B26" sha1="FEEB4DBB6DA4DDB39D8949F0D413B58A02BC1510" />
 	</game>
-	<game name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" mainName="Lethal Xcess - Wings of Death II" description="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
+	<game name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" mainName="Lethal Xcess - Wings of Death II" description="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Lethal Xcess - Wings of Death II (Europe) (Disk B).ip" size="1008380" crc="7C53B994" md5="0C2D7CFC0B10DCE50EAD3B1FE7EC6000" sha1="8B8CEFDB0DBD7E4A515C95235526ED909FE499C7" />
 		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ip" size="1004597" crc="33CC029D" md5="D7B4325AA96FC4078C0B6B807036612F" sha1="54A268710716F3510918CD8767D9D248798C4ED0" />
 	</game>
@@ -592,7 +592,7 @@
 	<game name="Mission Genocide (Europe)" mainName="Mission Genocide" description="Mission Genocide (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Mission Genocide (Europe).ip" size="517822" crc="060D37DC" md5="CE6684EA8DE8667A7E8EA39AD422372C" sha1="E105683BEEAA7BBDD06520FCB3923B11DEF5A4DD" />
 	</game>
-	<game name="Monster Business (Europe) (Amiga + ST)" mainName="Monster Business" description="Monster Business (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
+	<game name="Monster Business (Europe) (Amiga + ST)" mainName="Monster Business" description="Monster Business (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Monster Business (Europe) (Amiga + ST).ip" size="1009109" crc="BE6095A0" md5="8A98D2544D42A3BAC5DC29DF575BE591" sha1="C6D0706C363F3FD7F5E40864B49568AC9E157C8B" />
 	</game>
 	<game name="Never Mind (Europe)" mainName="Never Mind" description="Never Mind (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -693,7 +693,7 @@
 		<rom name="Police Quest - In Pursuit of the Death Angel (Europe) (v2.0G 12.3.87) (Disk 2).ip" size="468252" crc="F16D4A27" md5="0D425669494F6963F856D066218D7F1B" sha1="5DF35F53937ED2C0837F0376BB92C157E1CA9345" />
 		<rom name="Police Quest - In Pursuit of the Death Angel (Europe) (v2.0G 12.3.87) (Disk 3).ip" size="468252" crc="FFDDFA40" md5="2B7548999409AF82B63D9F2883334B55" sha1="C9759DEFF7B74807B21B8585E65CD94FAB768BD9" />
 	</game>
-	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
+	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ip" size="1037012" crc="DE09F0A3" md5="73F1CA231D950BDB8FB3DA42BD11F364" sha1="21301177EB04122183AA716C081E8A4FDA35CFF8" />
 	</game>
 	<game name="President is Missing, The (Europe)" mainName="President is Missing, The" description="President is Missing, The (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -829,7 +829,7 @@
 	<game name="Steel (Europe)" mainName="Steel" description="Steel (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Steel (Europe).ip" size="520242" crc="6AC8B3B0" md5="61D1F74B8BA230457A08DE28BCD152AD" sha1="3C562FBA4B6654AD28835EBEEBD7EECBB7E22AF2" />
 	</game>
-	<game name="Stone Age (Europe) (Amiga + ST)" mainName="Stone Age" description="Stone Age (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
+	<game name="Stone Age (Europe) (Amiga + ST)" mainName="Stone Age" description="Stone Age (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Stone Age (Europe) (Amiga + ST).ip" size="1008605" crc="47688571" />
 	</game>
 	<game name="Storm Master (Europe)" mainName="Storm Master" description="Storm Master (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -848,7 +848,7 @@
 	<game name="Sundog - Frozen Legacy (Europe)" mainName="Sundog - Frozen Legacy" description="Sundog - Frozen Legacy (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Sundog - Frozen Legacy (Europe).ip" size="468877" crc="46F0AE7E" md5="0AD024051DE9BD891105E3C4EBF4A8FA" sha1="512B89B7BECE87DF8FFC7C3A3FB6F22496FF69A7" />
 	</game>
-	<game name="Swap (Europe) (Budget - Fox Hits)" mainName="Swap" description="Swap (Europe) (Budget - Fox Hits)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Fox Hits">
+	<game name="Swap (Europe) (Budget - Fox Hits)" mainName="Swap" description="Swap (Europe) (Budget - Fox Hits)" version="Budget" region="Europe" publisher="Fox Hits" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Swap (Europe) (Budget - Fox Hits).ip" size="918252" crc="C1AF7FDD" md5="B7999F29BEB1E91A9D3483B12ACD25B5" sha1="E3E4E972B05D23D9784B495D1FD081BAC5E40344" />
 	</game>
 	<game name="TV Sports Football (Europe)" mainName="TV Sports Football" description="TV Sports Football (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -864,7 +864,7 @@
 	<game name="Tau Ceti (Europe)" mainName="Tau Ceti" description="Tau Ceti (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Tau Ceti (Europe).ip" size="468252" crc="BFF7A431" md5="6B156A950F873ECABCC6049C927A30C1" sha1="1D6715F7CD019A0E78DA3D0907791CD58F708378" />
 	</game>
-	<game name="Tennis Cup (Europe) (Budget - Action Sixteen)" mainName="Tennis Cup" description="Tennis Cup (Europe) (Budget - Action Sixteen)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Action Sixteen">
+	<game name="Tennis Cup (Europe) (Budget - Action Sixteen)" mainName="Tennis Cup" description="Tennis Cup (Europe) (Budget - Action Sixteen)" version="Budget" region="Europe" publisher="Action Sixteen" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Tennis Cup (Europe) (Budget - Action Sixteen).ip" size="1023233" crc="47E02070" md5="5EF126349D6FF00504AF89091546FC24" sha1="C802950995652C2A0B2D330193445D1B8AC78F79" />
 	</game>
 	<game name="Terramex (Europe)" mainName="Terramex" description="Terramex (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -892,7 +892,7 @@
 	<game name="Thunder Burner (Europe)" mainName="Thunder Burner" description="Thunder Burner (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Thunder Burner (Europe).ip" size="1014859" crc="6F8E0512" md5="C033AB6C7D71CC144A0D4BBD514A8F7B" sha1="CE97963BBF852945295C44BB1A3C276B2B9DE99B" />
 	</game>
-	<game name="ThunderCats (Europe) (Budget - Encore)" mainName="ThunderCats" description="ThunderCats (Europe) (Budget - Encore)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Encore">
+	<game name="ThunderCats (Europe) (Budget - Encore)" mainName="ThunderCats" description="ThunderCats (Europe) (Budget - Encore)" version="Budget" region="Europe" publisher="Encore" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="ThunderCats (Europe) (Budget - Encore).ip" size="468254" crc="3AE4EF28" md5="98434202CC5D8C8209564C8A7775B215" sha1="41481FD1D7AFD83E8C543B3A8C407150EF0C6D4F" />
 	</game>
 	<game name="ThunderWing (Europe)" mainName="ThunderWing" description="ThunderWing (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -940,10 +940,10 @@
 	<game name="Turbo GT (Europe)" mainName="Turbo GT" description="Turbo GT (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Turbo GT (Europe).ip" size="468252" crc="58193517" md5="B21C3BF765C3005E9A0199B0D207CC2E" sha1="6D0711D422EAD8BFDB529FFE713A16DA82CA2E84" />
 	</game>
-	<game name="Turbo OutRun (Europe) (Budget - Kixx)" mainName="Turbo OutRun" description="Turbo OutRun (Europe) (Budget - Kixx)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Kixx">
+	<game name="Turbo OutRun (Europe) (Budget - Kixx)" mainName="Turbo OutRun" description="Turbo OutRun (Europe) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Turbo OutRun (Europe) (Budget - Kixx).ip" size="1095692" crc="93AE44B1" md5="2871AA2DDED016981080D81741D9569B" sha1="07C058D0EB50F06A5CE682A0EAD7146483F888C6" />
 	</game>
-	<game name="Turrican II - The Final Fight (Europe) (Budget - Kixx)" mainName="Turrican II - The Final Fight" description="Turrican II - The Final Fight (Europe) (Budget - Kixx)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Kixx">
+	<game name="Turrican II - The Final Fight (Europe) (Budget - Kixx)" mainName="Turrican II - The Final Fight" description="Turrican II - The Final Fight (Europe) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Turrican II - The Final Fight (Europe) (Budget - Kixx).ip" size="1019827" crc="1C16F12E" md5="F18557040F7370B5C682456E668412EF" sha1="F0B2E01D9EC7DCE0A33A14CAF63D0DDA5705F778" />
 	</game>
 	<game name="Twylyte (Europe)" mainName="Twylyte" description="Twylyte (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -971,7 +971,7 @@
 	<game name="Virus (Europe)" mainName="Virus" description="Virus (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Virus (Europe).ip" size="175752" crc="28AE7EFB" md5="BBB3B730FDCC0D4D6F242F7F2520BD95" sha1="108882D71030CFED99CCF6E51D59B29DA07C85F3" />
 	</game>
-	<game name="Wanderer 3D (Europe) (Budget - Encore)" mainName="Wanderer 3D" description="Wanderer 3D (Europe) (Budget - Encore)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Encore">
+	<game name="Wanderer 3D (Europe) (Budget - Encore)" mainName="Wanderer 3D" description="Wanderer 3D (Europe) (Budget - Encore)" version="Budget" region="Europe" publisher="Encore" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Wanderer 3D (Europe) (Budget - Encore).ip" size="468254" crc="7EB28E97" md5="C00C3EC157BF91C6D3661E1A30F68A86" sha1="29BBDFD5C88375DB134111962FD096342E092DFF" />
 	</game>
 	<game name="Wanted (Europe)" mainName="Wanted" description="Wanted (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -986,10 +986,10 @@
 	<game name="Warhawk (Europe)" mainName="Warhawk" description="Warhawk (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Warhawk (Europe).ip" size="518254" crc="85D4BEEF" md5="91E39AB7EE00D44CCC8526BE37B32843" sha1="F52B5659CC52461564F8A8081B19A95181B710E2" />
 	</game>
-	<game name="Warlock (Europe) (The Edge)" mainName="Warlock" description="Warlock (Europe) (The Edge)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="The Edge">
+	<game name="Warlock (Europe) (The Edge)" mainName="Warlock" description="Warlock (Europe) (The Edge)" region="Europe" publisher="The Edge" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Warlock (Europe) (The Edge).ip" size="468252" crc="D2FD5A69" md5="A3B7AA6B7D1AF4D8761CBD4D346D3067" sha1="6E1D2626020E409EFBA790322CDB25F73CA64EB5" />
 	</game>
-	<game name="Warlock's Quest (Europe) (Budget - Pocket Soft)" mainName="Warlock's Quest" description="Warlock's Quest (Europe) (Budget - Pocket Soft)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Pocket Soft">
+	<game name="Warlock's Quest (Europe) (Budget - Pocket Soft)" mainName="Warlock's Quest" description="Warlock's Quest (Europe) (Budget - Pocket Soft)" version="Budget" region="Europe" publisher="Pocket Soft" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Warlock's Quest (Europe) (Budget - Pocket Soft).ip" size="471664" crc="C911962E" md5="D4EFB5F2F158F77E363DAB492DC2452C" sha1="3CB786659A2C53E8A986D5E51561ECA5775AE0E3" />
 	</game>
 	<game name="Where Time Stood Still (Europe) (En,De)" mainName="Where Time Stood Still" description="Where Time Stood Still (Europe) (En,De)" language="En,De" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -998,14 +998,14 @@
 	<game name="Whirligig (Europe)" mainName="Whirligig" description="Whirligig (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Whirligig (Europe).ip" size="468252" crc="CE2A4C3D" md5="14B8764527889AD06D8B4E688D10082C" sha1="8DAAE90F3677674510A5C95BAD6CBE1BE244214B" />
 	</game>
-	<game name="Wild Streets (Europe) (Budget - Fox Hits)" mainName="Wild Streets" description="Wild Streets (Europe) (Budget - Fox Hits)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Fox Hits">
+	<game name="Wild Streets (Europe) (Budget - Fox Hits)" mainName="Wild Streets" description="Wild Streets (Europe) (Budget - Fox Hits)" version="Budget" region="Europe" publisher="Fox Hits" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Wild Streets (Europe) (Budget - Fox Hits).ip" size="1025674" crc="723F49ED" md5="32E8BB23D37EBD9C5F8381030CEC0F5F" sha1="C5D7FEC78F1E0F630F44A469F554BE4E35CAD873" />
 	</game>
 	<game name="World Championship Boxing Manager (Europe)" mainName="World Championship Boxing Manager" description="World Championship Boxing Manager (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="World Championship Boxing Manager (Europe) (Disk 2).ip" size="518252" crc="5E9B73D5" md5="BEA1702DCD80F76193629AF7228CFA7D" sha1="66AF89E80AA0288BE835AE46D161FEF4AB93CE51" />
 		<rom name="World Championship Boxing Manager (Europe) (Disk 1).ip" size="518252" crc="E2E0C94C" md5="8DFFE9DA4D96FEA7E6770B22513B3F89" sha1="CE737E5941FAAEFC43A7D66C3B6BD1AD30ED3E67" />
 	</game>
-	<game name="World Class Leader Board (Europe) (Budget - Klassix)" mainName="World Class Leader Board" description="World Class Leader Board (Europe) (Budget - Klassix)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - Klassix">
+	<game name="World Class Leader Board (Europe) (Budget - Klassix)" mainName="World Class Leader Board" description="World Class Leader Board (Europe) (Budget - Klassix)" version="Budget" region="Europe" publisher="Klassix" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="World Class Leader Board (Europe) (Budget - Klassix).ip" size="517627" crc="CC8A9A06" md5="C0480C5DDC1FC37FF1519CCFA1916DF7" sha1="97289AC4F0E7A2D083EDFEB96F1500DC83BBC5A4" />
 	</game>
 	<game name="Wrangler (Europe)" mainName="Wrangler" description="Wrangler (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -1015,7 +1015,7 @@
 		<rom name="X-Out (Europe) (Disk 1).ip" size="525628" crc="1EBEFF5A" md5="1FD85AF060F96619BA7B9CC3D12FF119" sha1="4E2606BAAB7875219576BF76C7794C6C09B2F299" />
 		<rom name="X-Out (Europe) (Disk 2).ip" size="518252" crc="DAD5C809" md5="44B6DEAFCC8E3264D7A196E42C84B128" sha1="630AE878C1C03CA8A5AF88DE724C77E85C7BEFF0" />
 	</game>
-	<game name="Xenon (Europe) (Budget - 16 Blitz)" mainName="Xenon" description="Xenon (Europe) (Budget - 16 Blitz)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Budget - 16 Blitz">
+	<game name="Xenon (Europe) (Budget - 16 Blitz)" mainName="Xenon" description="Xenon (Europe) (Budget - 16 Blitz)" version="Budget" region="Europe" publisher="16 Blitz" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Xenon (Europe) (Budget - 16 Blitz).ip" size="518252" crc="ECF4BE37" md5="D2BEEF77A5C7AF0E17067502398450AA" sha1="F3AC6A228AA620137EBA057A591EA05031E68030" />
 	</game>
 </games>

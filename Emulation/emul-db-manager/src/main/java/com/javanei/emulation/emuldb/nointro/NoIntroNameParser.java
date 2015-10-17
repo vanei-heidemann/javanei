@@ -78,7 +78,7 @@ public final class NoIntroNameParser implements GameNameParser {
                  }
                  throw new UnknownGameNamePartException(tag);
                  */
-                System.err.println("Tag desconhecida: " + tag);
+                parseUnknowTag(platform, game, tag);
             }
 
             pos = s.indexOf("(", endPos + 1);
@@ -86,6 +86,22 @@ public final class NoIntroNameParser implements GameNameParser {
 
         //TODO: Terminar
         game.setMainName(mainName);
+    }
+
+    private static void parseUnknowTag(String platform, Game game, String tag) {
+        switch (platform) {
+            case "Atari ST":
+                if (tag.startsWith("Budget")) {
+                    String[] ss = tag.split("-");
+                    if (ss.length == 2) {
+                        game.setVersion(ss[0].trim());
+                        game.setPublisher(GamePublisher.fromName(ss[1].trim()));
+                        return;
+                    }
+                }
+                break;
+        }
+        System.out.println("ERROR: Unknown string in '" + game.getName() + "' ===> '" + tag + "'");
     }
 
     private static boolean parsePublisher(Game game, String tag) {

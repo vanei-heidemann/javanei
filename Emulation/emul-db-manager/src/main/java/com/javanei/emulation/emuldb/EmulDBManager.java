@@ -45,7 +45,6 @@ public class EmulDBManager extends Application {
     }
 
     private void initialize() {
-        System.out.println("############## initialize");
         Scene scene = stage.getScene();
         this.messageFactory.showInfoMessage("Inicializando");
         /*
