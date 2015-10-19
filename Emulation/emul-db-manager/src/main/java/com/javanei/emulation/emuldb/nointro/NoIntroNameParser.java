@@ -88,22 +88,6 @@ public final class NoIntroNameParser implements GameNameParser {
         game.setMainName(mainName);
     }
 
-    private static void parseUnknowTag(String platform, Game game, String tag) {
-        switch (platform) {
-            case "Atari ST":
-                if (tag.startsWith("Budget")) {
-                    String[] ss = tag.split("-");
-                    if (ss.length == 2) {
-                        game.setVersion(ss[0].trim());
-                        game.setPublisher(GamePublisher.fromName(ss[1].trim()));
-                        return;
-                    }
-                }
-                break;
-        }
-        System.out.println("ERROR: Unknown string in '" + game.getName() + "' ===> '" + tag + "'");
-    }
-
     private static boolean parsePublisher(Game game, String tag) {
         if (game.getPublisher() == null) {
             GamePublisher pub = GamePublisher.getPublisher(tag);
@@ -145,6 +129,11 @@ public final class NoIntroNameParser implements GameNameParser {
         if (game.getYear() > 0) {
             return false;
         }
+        if (tag.matches("\\d\\d\\d\\d")) {
+            int year = Integer.parseInt(tag);
+            game.setYear(year);
+            return true;
+        }
         if (tag.matches("\\d\\d-\\d\\d-\\d\\d")) {
             int year = Integer.parseInt(tag.substring(0, 2));
             if (year > 20) {
@@ -165,7 +154,42 @@ public final class NoIntroNameParser implements GameNameParser {
             game.setYear(year);
             return true;
         }
+        if (tag.matches("\\d.\\d.\\d\\d\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(4));
+            game.setYear(year);
+            return true;
+        }
+        if (tag.matches("\\d-\\d-\\d\\d\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(4));
+            game.setYear(year);
+            return true;
+        }
         if (tag.matches("\\d\\d.\\d.\\d\\d\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(5));
+            game.setYear(year);
+            return true;
+        }
+        if (tag.matches("\\d\\d\\d\\d-\\d\\d-\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(0, 4));
+            game.setYear(year);
+            return true;
+        }
+        if (tag.matches("\\d\\d.\\d\\d.\\d\\d-\\d\\d\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(6));
+            game.setYear(year);
+            return true;
+        }
+        if (tag.matches("\\d.\\d\\d.\\d\\d")) {
+            int year = Integer.parseInt(tag.substring(5));
+            if (year > 20) {
+                year += 1900;
+            } else {
+                year += 2000;
+            }
+            game.setYear(year);
+            return true;
+        }
+        if (tag.matches("\\d\\d.\\d.\\d\\d")) {
             int year = Integer.parseInt(tag.substring(5));
             if (year > 20) {
                 year += 1900;
@@ -199,30 +223,107 @@ public final class NoIntroNameParser implements GameNameParser {
 
     private static boolean parseSpecialVersion(Game game, String tag) {
         // Identifica se é um Proto
-        if (tag.equals("Proto")) {
-            game.setProto(Boolean.TRUE);
-            return true;
+        boolean result = false;
+        String[] ss = tag.split(",");
+        for (String s : ss) {
+            if (s.trim().equals("Proto")) {
+                game.setProto(Boolean.TRUE);
+                result = true;
+            }
+            // Identifica se é um Demo
+            if (s.trim().equals("Demo")) {
+                game.setDemo(Boolean.TRUE);
+                result = true;
+            }
+            // Identifica se é um Beta
+            if (s.trim().equals("Beta")) {
+                game.setBeta(Boolean.TRUE);
+                result = true;
+            }
+            // Identifica se se é um Promo
+            if (s.trim().equals("Promo")) {
+                game.setPromo(Boolean.TRUE);
+                result = true;
+            }
+            // Identifica se é um jogo não licenciado
+            if (s.trim().equals("Unl")) {
+                game.setUnlicensed(ThreeStates.True);
+                result = true;
+            }
         }
-        // Identifica se é um Demo
-        if (tag.equals("Demo")) {
-            game.setDemo(Boolean.TRUE);
-            return true;
+        return result;
+    }
+
+    private static void parseUnknowTag(String platform, Game game, String tag) {
+        switch (platform) {
+            case "Atari ST":
+                if (tag.startsWith("Budget")) {
+                    String[] ss = tag.split("-");
+                    if (ss.length == 2) {
+                        game.setVersion(ss[0].trim());
+                        game.setPublisher(GamePublisher.fromName(ss[1].trim()));
+                        return;
+                    }
+                }
+                break;
+            case "Commodore - 64":
+                //TODO: O que fazer?
+                switch (tag) {
+                    case "Preview":
+                        break;
+                    case "Unreleased":
+                        break;
+                    case "Program":
+                        break;
+                    case "Budget":
+                        break;
+                    case "New Release":
+                        break;
+                    case "Addon":
+                        break;
+                    case "Newer":
+                        break;
+                    case "Diskmag":
+                        break;
+                    case "RG":
+                        break;
+                    case "RS":
+                        break;
+                    case "MK":
+                        break;
+                    case "CK":
+                        break;
+                    case "CHR":
+                        break;
+                    case "HLS":
+                        break;
+                    case "SCI":
+                        break;
+                    case "OCS, AGA":
+                    case "OCS, ECS":
+                    case "ECS, AGA":
+                        // OCS: Original Chipset
+                        // ECS: Enhanced Chipset (segunda geração) (Amiga 3000, Amiga 500+, Amiga 600)
+                        // AGA: Terceira geraçao (Amiga 4000)
+                        break;
+                    case "Vorpal":
+                        break;
+                    case "Burner":
+                        break;
+                    case "ROM":
+                        break;
+                    case "Visiload":
+                    case "Freeload":
+                    case "Bleepload":
+                    case "Novaload":
+                    case "Cyberload":
+                    case "Rasterload":
+                        break;
+                    case "Book Club":
+                        break;
+                }
         }
-        // Identifica se é um Beta
-        if (tag.equals("Beta")) {
-            game.setBeta(Boolean.TRUE);
-            return true;
-        }
-        // Identifica se se é um Promo
-        if (tag.equals("Promo")) {
-            game.setPromo(Boolean.TRUE);
-            return true;
-        }
-        // Identifica se é um jogo não licenciado
-        if (tag.equals("Unl")) {
-            game.setUnlicensed(ThreeStates.True);
-            return true;
-        }
-        return false;
+        game.addComplement(tag);
+        System.out.println("ERROR: Unknown string in '" + game.getName() + "' ===> '" + tag + "'");
     }
 }

@@ -199,7 +199,7 @@
 	<game name="Chip's Challenge (Europe)" mainName="Chip's Challenge" description="Chip's Challenge (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Chip's Challenge (Europe).ip" size="517195" crc="76561C0C" md5="20226881026A9FF746101A9FFE0EA68F" sha1="A75D1BD89997EFF25CB1F04645C05F1B5F63505F" />
 	</game>
-	<game name="Chrono Quest II (Europe) (Dual Sided)" mainName="Chrono Quest II" description="Chrono Quest II (Europe) (Dual Sided)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Chrono Quest II (Europe) (Dual Sided)" mainName="Chrono Quest II" description="Chrono Quest II (Europe) (Dual Sided)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Dual Sided">
 		<rom name="Chrono Quest II (Europe) (Dual Sided) (Disk 2).ip" size="918252" crc="415E69D3" md5="219D59378A1C29971F80428950D45DA0" sha1="636734CED65B6D3F4708EB53B8E26A63266D998D" />
 		<rom name="Chrono Quest II (Europe) (Dual Sided) (Disk 1).ip" size="918252" crc="5BFE7489" md5="CD188A6CCCEB8148EB3167149EEDC287" sha1="402E2B66616A48A51018C3C2B8D89A4C1BC6642C" />
 		<rom name="Chrono Quest II (Europe) (Dual Sided) (Disk 3).ip" size="1018252" crc="FB239020" md5="97C0B67D081F43128FFBA60A6E03EB27" sha1="1ED6D5C7B7FAE7866A7D6F931FDB5C37B7440001" />
@@ -345,7 +345,7 @@
 	<game name="Foundation's Waste (Europe) (Budget - Klassix)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Budget - Klassix)" version="Budget" region="Europe" publisher="Klassix" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Foundation's Waste (Europe) (Budget - Klassix).ip" size="562172" crc="1C4935E3" md5="7F25080281AA309234FE7F014473C2AA" sha1="0DA037C8E8A1784D0AFA7F4B8A0CD191EC1BAE7A" />
 	</game>
-	<game name="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Coverdisk - The One - Issue 22	Amiga + ST">
 		<rom name="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST).ip" size="1034145" crc="8CC8484F" md5="78BBAA86EBC564A62F0CA08D8E55297D" sha1="C51CC0CF5005FA6F422383E7F84A00F6BAC5915C" />
 	</game>
 	<game name="Full Metal Planete (Europe)" mainName="Full Metal Planete" description="Full Metal Planete (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -524,7 +524,7 @@
 		<rom name="Leisure Suit Larry in - The Land of the Lounge Lizards (Europe) (v1.04 6.18.87) (Disk 2).ip" size="467820" crc="788F6758" md5="21E92CB50F248E531152789A7703CE9C" sha1="CF108C4FB0D32F1A31518FD12078D126F6D17A3C" />
 		<rom name="Leisure Suit Larry in - The Land of the Lounge Lizards (Europe) (v1.04 6.18.87) (Disk 1).ip" size="462195" crc="BA699E27" md5="8EE385E5E21E41B741FE17FFB7DF4B26" sha1="FEEB4DBB6DA4DDB39D8949F0D413B58A02BC1510" />
 	</game>
-	<game name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" mainName="Lethal Xcess - Wings of Death II" description="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" mainName="Lethal Xcess - Wings of Death II" description="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
 		<rom name="Lethal Xcess - Wings of Death II (Europe) (Disk B).ip" size="1008380" crc="7C53B994" md5="0C2D7CFC0B10DCE50EAD3B1FE7EC6000" sha1="8B8CEFDB0DBD7E4A515C95235526ED909FE499C7" />
 		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ip" size="1004597" crc="33CC029D" md5="D7B4325AA96FC4078C0B6B807036612F" sha1="54A268710716F3510918CD8767D9D248798C4ED0" />
 	</game>
@@ -592,7 +592,7 @@
 	<game name="Mission Genocide (Europe)" mainName="Mission Genocide" description="Mission Genocide (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Mission Genocide (Europe).ip" size="517822" crc="060D37DC" md5="CE6684EA8DE8667A7E8EA39AD422372C" sha1="E105683BEEAA7BBDD06520FCB3923B11DEF5A4DD" />
 	</game>
-	<game name="Monster Business (Europe) (Amiga + ST)" mainName="Monster Business" description="Monster Business (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Monster Business (Europe) (Amiga + ST)" mainName="Monster Business" description="Monster Business (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
 		<rom name="Monster Business (Europe) (Amiga + ST).ip" size="1009109" crc="BE6095A0" md5="8A98D2544D42A3BAC5DC29DF575BE591" sha1="C6D0706C363F3FD7F5E40864B49568AC9E157C8B" />
 	</game>
 	<game name="Never Mind (Europe)" mainName="Never Mind" description="Never Mind (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -693,7 +693,7 @@
 		<rom name="Police Quest - In Pursuit of the Death Angel (Europe) (v2.0G 12.3.87) (Disk 2).ip" size="468252" crc="F16D4A27" md5="0D425669494F6963F856D066218D7F1B" sha1="5DF35F53937ED2C0837F0376BB92C157E1CA9345" />
 		<rom name="Police Quest - In Pursuit of the Death Angel (Europe) (v2.0G 12.3.87) (Disk 3).ip" size="468252" crc="FFDDFA40" md5="2B7548999409AF82B63D9F2883334B55" sha1="C9759DEFF7B74807B21B8585E65CD94FAB768BD9" />
 	</game>
-	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST	Addon">
 		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ip" size="1037012" crc="DE09F0A3" md5="73F1CA231D950BDB8FB3DA42BD11F364" sha1="21301177EB04122183AA716C081E8A4FDA35CFF8" />
 	</game>
 	<game name="President is Missing, The (Europe)" mainName="President is Missing, The" description="President is Missing, The (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -820,7 +820,7 @@
 	<game name="Starglider (Europe)" mainName="Starglider" description="Starglider (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Starglider (Europe).ip" size="517820" crc="B0472C8C" md5="AC16A80326D54E4B76B9DC79935773F5" sha1="AAE5E32C2BBD5C31631D65DA238D947D1A749C5C" />
 	</game>
-	<game name="Starglider 2 (Europe) (En,Fr,De) (Amiga + ST)" mainName="Starglider 2" description="Starglider 2 (Europe) (En,Fr,De) (Amiga + ST)" language="En,Fr,De" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Starglider 2 (Europe) (En,Fr,De) (Amiga + ST)" mainName="Starglider 2" description="Starglider 2 (Europe) (En,Fr,De) (Amiga + ST)" language="En,Fr,De" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
 		<rom name="Starglider 2 (Europe) (En,Fr,De) (Amiga + ST).ip" size="1019021" crc="ED38C67F" md5="B2D2DE4C643859241490C378FDF297D1" sha1="C2CB4B2F517E2F20205577B8BA16331920660160" />
 	</game>
 	<game name="Starquake (Europe)" mainName="Starquake" description="Starquake (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
@@ -829,7 +829,7 @@
 	<game name="Steel (Europe)" mainName="Steel" description="Steel (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Steel (Europe).ip" size="520242" crc="6AC8B3B0" md5="61D1F74B8BA230457A08DE28BCD152AD" sha1="3C562FBA4B6654AD28835EBEEBD7EECBB7E22AF2" />
 	</game>
-	<game name="Stone Age (Europe) (Amiga + ST)" mainName="Stone Age" description="Stone Age (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Stone Age (Europe) (Amiga + ST)" mainName="Stone Age" description="Stone Age (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
 		<rom name="Stone Age (Europe) (Amiga + ST).ip" size="1008605" crc="47688571" />
 	</game>
 	<game name="Storm Master (Europe)" mainName="Storm Master" description="Storm Master (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">

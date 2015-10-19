@@ -8,6 +8,8 @@ import java.util.Map;
  * @author Vanei
  * 
  * @see https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Sega_CD
+ * @see http://gamesdbase.com/list.aspx
+ * @see http://www.oldgamesfinder.com/
  */
 public class GamePublisher implements Serializable {
 
@@ -496,6 +498,12 @@ public class GamePublisher implements Serializable {
         publishers.put("Fox Hits", new GamePublisher("Fox Hits"));
         publishers.put("Action Sixteen", new GamePublisher("Action Sixteen"));
         publishers.put("Pocket Soft", new GamePublisher("Pocket Soft"));
+        // Commodore
+        publishers.put("Software Country", new GamePublisher("Software Country"));
+        publishers.put("Global Software", new GamePublisher("Global Software"));
+        publishers.put("Paradox", new GamePublisher("Paradox"));
+        publishers.put("Starbyte", new GamePublisher("Starbyte"));
+        publishers.put("Starbyte Software", new GamePublisher("Starbyte"));
     }
 
     private GamePublisher(String publisher) {

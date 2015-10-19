@@ -7,6 +7,7 @@ import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
 import java.io.Serializable;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
@@ -29,8 +30,7 @@ public class Game implements Serializable, Comparable<Game> {
     //private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
     private String alternate;
     private String compilation;
-    private String complement;
-    private String complement2;
+    private List<String> complements = new LinkedList<>();
     private ThreeStates badDump = ThreeStates.Unknown; //GoodTools
     private ThreeStates fixed = ThreeStates.Unknown; //GoodTools
     private ThreeStates hack = ThreeStates.Unknown; //GoodTools
@@ -130,20 +130,16 @@ public class Game implements Serializable, Comparable<Game> {
         this.compilation = compilation;
     }
 
-    public String getComplement() {
-        return complement;
+    public List<String> getComplements() {
+        return complements;
     }
 
-    public void setComplement(String complement) {
-        this.complement = complement;
+    public void setComplements(List<String> complements) {
+        this.complements = complements;
     }
 
-    public String getComplement2() {
-        return complement2;
-    }
-
-    public void setComplement2(String complement2) {
-        this.complement2 = complement2;
+    public void addComplement(String complement) {
+        this.complements.add(complement);
     }
 
     public ThreeStates getBadDump() {
@@ -352,8 +348,16 @@ public class Game implements Serializable, Comparable<Game> {
         this.appendIfNoNull(sb, "catalogVersion", catalogVersion);
         this.appendIfNoNull(sb, "alternate", alternate);
         this.appendIfNoNull(sb, "compilation", compilation);
-        this.appendIfNoNull(sb, "complement", complement);
-        this.appendIfNoNull(sb, "complement2", complement2);
+        if (!this.complements.isEmpty()) {
+            sb.append(" complement=\"");
+            for (int i = 0; i < this.complements.size(); i++) {
+                if (i > 0) {
+                    sb.append("\t");
+                }
+                sb.append(this.complements.get(i));
+            }
+            sb.append("\"");
+        }
         this.appendIfNoNull(sb, "badDump", badDump);
         this.appendIfNoNull(sb, "fixed", fixed);
         this.appendIfNoNull(sb, "hack", hack);
