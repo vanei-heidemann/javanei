@@ -27,6 +27,9 @@ public class GameLanguage {
         languages.put("Nl", new GameLanguage("Nl"));
         languages.put("Gd", new GameLanguage("Gd"));
         languages.put("Ja", new GameLanguage("Ja"));
+        languages.put("Hr", new GameLanguage("Hr"));
+        languages.put("Pt", new GameLanguage("Pt"));
+        languages.put("Pl", new GameLanguage("Pl"));
     }
 
     public GameLanguage(String lang) {

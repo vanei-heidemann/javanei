@@ -4006,7 +4006,7 @@
 	<game name="Skool Daze (Europe) (Anirog) (Budget)" mainName="Skool Daze" description="Skool Daze (Europe) (Anirog) (Budget)" region="Europe" publisher="Anirog" catalog="NoIntro" catalogVersion="20130730-055353" complement="Budget">
 		<rom name="Skool Daze (Europe) (Anirog) (Budget).ta" size="408242" crc="87306474" md5="9B22658531CC1B70E073455ADC2ECB41" sha1="243A924B82A4D3959DA030E2C738EE1C551D9E8D" />
 	</game>
-	<game name="Skool Daze (Europe) (CHR) (Budget)" mainName="Skool Daze" description="Skool Daze (Europe) (CHR) (Budget)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="CHR">
+	<game name="Skool Daze (Europe) (CHR) (Budget)" mainName="Skool Daze" description="Skool Daze (Europe) (CHR) (Budget)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="CHR	Budget">
 		<rom name="Skool Daze (Europe) (CHR) (Budget).ta" size="426554" crc="27046B05" md5="0EF692B0B402602ED7598B9876B68BFE" sha1="4D800F8CB80D47BAA5BCA1C98E3DD2C72E446039" />
 	</game>
 	<game name="Skramble (Europe) (Anirog)" mainName="Skramble" description="Skramble (Europe) (Anirog)" region="Europe" publisher="Anirog" catalog="NoIntro" catalogVersion="20130730-055353">

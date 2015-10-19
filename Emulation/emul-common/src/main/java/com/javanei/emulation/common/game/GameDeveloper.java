@@ -9,6 +9,8 @@ import java.util.Map;
  *
  * @see https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Sega_CD
  * @see https://en.wikipedia.org/wiki/List_of_Sega_CD_games
+ * @see http://gamesdbase.com/list.aspx
+ * @see http://www.oldgamesfinder.com/
  */
 public class GameDeveloper implements Serializable {
 
@@ -122,6 +124,8 @@ public class GameDeveloper implements Serializable {
         developers.put("Western Technologies", new GameDeveloper("Western Technologies"));
         developers.put("Westwood Associates", new GameDeveloper("Westwood Associates"));
         developers.put("Wolf Team", new GameDeveloper("Wolf Team"));
+        // Commodore
+        developers.put("Software Country", new GameDeveloper("Software Country"));
     }
 
     private GameDeveloper(String developer) {

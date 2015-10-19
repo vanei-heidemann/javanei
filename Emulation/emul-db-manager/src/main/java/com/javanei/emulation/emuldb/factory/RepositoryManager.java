@@ -146,10 +146,9 @@ public class RepositoryManager {
                                 game.setCompilation(nv.getNodeValue());
                                 break;
                             case "complement":
-                                game.setComplement(nv.getNodeValue());
-                                break;
-                            case "complement2":
-                                game.setComplement2(nv.getNodeValue());
+                                for (String s : nv.getNodeValue().split("\t")) {
+                                    game.addComplement(s);
+                                }
                                 break;
                             case "badDump":
                                 game.setBadDump(nv.getNodeValue().equalsIgnoreCase("true") ? ThreeStates.True : ThreeStates.False);
