@@ -231,6 +231,7 @@ public class RepositoryManager {
                             }
                         }
                     }
+                    result.add(game);
                 }
             }
         }

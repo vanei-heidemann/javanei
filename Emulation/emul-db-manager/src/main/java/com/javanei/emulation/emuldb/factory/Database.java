@@ -9,6 +9,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by Vanei on 18/09/2015.
@@ -63,6 +64,10 @@ public final class Database implements Serializable {
         }
         platforms.remove(plat);
         this.PlatformsByName.remove(name);
+    }
+    
+    public Set<Game> getGames(GamePlatform platform) throws Exception {
+        return RepositoryManager.getInstance().readGamesFile(platform);
     }
 
     @Override

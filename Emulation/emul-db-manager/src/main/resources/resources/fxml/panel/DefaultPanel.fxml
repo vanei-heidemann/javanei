@@ -41,28 +41,33 @@
     </left>
     
     <center>
-        <GridPane>
-            <columnConstraints>
-                <ColumnConstraints percentWidth="50" />
-                <ColumnConstraints percentWidth="50" />
-            </columnConstraints>
-            <rowConstraints>
-                <RowConstraints percentHeight="50" />
-                <RowConstraints percentHeight="50" />
-            </rowConstraints>
-            
-            <HBox GridPane.columnIndex="0" GridPane.rowIndex="0" alignment="CENTER" style="-fx-background-color: lightgreen;">
-                <Label text="TODO" />
-            </HBox>
-            <HBox GridPane.columnIndex="1" GridPane.rowIndex="0" alignment="CENTER" style="-fx-background-color: darkgreen;">
-                <Label text="TODO" />
-            </HBox>
-            <HBox GridPane.columnIndex="0" GridPane.rowIndex="1" alignment="CENTER" style="-fx-background-color: lightblue;">
-                <Label text="TODO" />
-            </HBox>
-            <HBox GridPane.columnIndex="1" GridPane.rowIndex="1" alignment="CENTER" style="-fx-background-color: darkblue;">
-                <Label text="TODO" />
-            </HBox>
-        </GridPane>
+        <TableView fx:id="gamesMainTable">
+            <columns>
+                <TableColumn id="gameNameCol" fx:id="gameNameCol" text="%Games"
+                             resizable="false">
+                    <cellValueFactory>
+                        <javafx.scene.control.cell.PropertyValueFactory property="name" />
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+            <items>
+                <FXCollections fx:factory="observableArrayList" />
+            </items>
+        </TableView>
     </center>
+    <right>
+        <TableView fx:id="gameRegionsMainTable">
+            <columns>
+                <TableColumn id="gameRegionCol" fx:id="gameRegionCol" text="###Região"
+                             resizable="false">
+                    <cellValueFactory>
+                        <javafx.scene.control.cell.PropertyValueFactory property="name" />
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+            <items>
+                <FXCollections fx:factory="observableArrayList" />
+            </items>
+        </TableView>
+    </right>
 </BorderPane>
