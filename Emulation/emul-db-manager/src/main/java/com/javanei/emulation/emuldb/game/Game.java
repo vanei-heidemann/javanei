@@ -2,10 +2,12 @@ package com.javanei.emulation.emuldb.game;
 
 import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GameLanguage;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
 import java.io.Serializable;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
@@ -21,7 +23,7 @@ public class Game implements Serializable, Comparable<Game> {
     private String description; //ClrMamePro
     private String version;
     private int year;
-    private String language;
+    private List<GameLanguage> languages;
     private GameRegion region;
     private GamePublisher publisher;
     //private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
@@ -88,12 +90,12 @@ public class Game implements Serializable, Comparable<Game> {
         this.year = year;
     }
 
-    public String getLanguage() {
-        return language;
+    public List<GameLanguage> getLanguages() {
+        return languages;
     }
 
-    public void setLanguage(String language) {
-        this.language = language;
+    public void setLanguages(List<GameLanguage> languages) {
+        this.languages = languages;
     }
 
     public GameRegion getRegion() {
@@ -328,7 +330,16 @@ public class Game implements Serializable, Comparable<Game> {
         if (this.year > 0) {
             sb.append(" year=\"").append(this.year).append("\"");
         }
-        this.appendIfNoNull(sb, "language", language);
+        if (this.languages != null && !this.languages.isEmpty()) {
+            sb.append(" language=\"");
+            for (int i = 0; i < this.languages.size(); i++) {
+                if (i > 0) {
+                    sb.append(",");
+                }
+                sb.append(this.languages.get(i).toString());
+            }
+            sb.append("\"");
+        }
         if (this.region != null) {
             sb.append(" region=\"").append(this.region).append("\"");
         }

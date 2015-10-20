@@ -2,6 +2,7 @@ package com.javanei.emulation.emuldb.factory;
 
 import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GameLanguage;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
 import com.javanei.emulation.emuldb.config.ConfigManager;
@@ -130,7 +131,7 @@ public class RepositoryManager {
                                 game.setYear(Integer.parseInt(nv.getNodeValue()));
                                 break;
                             case "language":
-                                game.setLanguage(nv.getNodeValue());
+                                game.setLanguages(GameLanguage.fromNames(nv.getNodeValue()));
                                 break;
                             case "region":
                                 game.setRegion(GameRegion.fromName(nv.getNodeValue()));
