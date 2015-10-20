@@ -6,6 +6,10 @@ Lugares para buscar informações, imagens
 Lugares para buscar informações sobre emuladores
 * https://en.wikipedia.org/wiki/List_of_video_game_emulators
 
+Banco de dados de games
+* http://www.oldgamesfinder.com/
+* http://gamesdbase.com/list.aspx
+
 Links diversos
 * https://en.wikipedia.org/wiki/GoodTools
 * http://www.allgoodthings.us/

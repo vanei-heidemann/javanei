@@ -8,6 +8,8 @@ import java.util.Map;
  * @author Vanei
  * 
  * @see https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Sega_CD
+ * @see http://gamesdbase.com/list.aspx
+ * @see http://www.oldgamesfinder.com/
  */
 public class GamePublisher implements Serializable {
 
@@ -486,6 +488,22 @@ public class GamePublisher implements Serializable {
         publishers.put("Wolf Tea", new GamePublisher("Wolf Tea"));
         publishers.put("Wolf Team", new GamePublisher("Wolf Team"));
         publishers.put("Working Designs", new GamePublisher("Working Designs"));
+        // Atari ST
+        publishers.put("Sizzlers", new GamePublisher("Sizzlers"));
+        publishers.put("Action Sixteen", new GamePublisher("Action Sixteen"));
+        publishers.put("Smash 16", new GamePublisher("Smash 16"));
+        publishers.put("16 Blitz", new GamePublisher("16 Blitz"));
+        publishers.put("Klassix", new GamePublisher("Klassix"));
+        publishers.put("Buzz", new GamePublisher("Buzz"));
+        publishers.put("Fox Hits", new GamePublisher("Fox Hits"));
+        publishers.put("Action Sixteen", new GamePublisher("Action Sixteen"));
+        publishers.put("Pocket Soft", new GamePublisher("Pocket Soft"));
+        // Commodore
+        publishers.put("Software Country", new GamePublisher("Software Country"));
+        publishers.put("Global Software", new GamePublisher("Global Software"));
+        publishers.put("Paradox", new GamePublisher("Paradox"));
+        publishers.put("Starbyte", new GamePublisher("Starbyte"));
+        publishers.put("Starbyte Software", new GamePublisher("Starbyte"));
     }
 
     private GamePublisher(String publisher) {
