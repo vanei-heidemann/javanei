@@ -134,7 +134,7 @@ public class RepositoryManager {
                                 game.setLanguages(GameLanguage.fromNames(nv.getNodeValue()));
                                 break;
                             case "region":
-                                game.setRegion(GameRegion.fromName(nv.getNodeValue()));
+                                game.setRegions(GameRegion.fromNames(nv.getNodeValue()));
                                 break;
                             case "publisher":
                                 game.setPublisher(GamePublisher.fromName(nv.getNodeValue()));

@@ -27,10 +27,10 @@ public final class NoIntroNameParser implements GameNameParser {
             validate_block:
             {
                 // Identifica a região
-                if (game.getRegion() == null) {
+                if (game.getRegions().isEmpty()) {
                     GameRegion region = GameRegion.getRegion(tag);
                     if (region != null) {
-                        game.setRegion(region);
+                        game.addRegion(region);
                         break validate_block;
                     } else {
                         mainName = s.substring(0, pos).trim();
@@ -100,7 +100,7 @@ public final class NoIntroNameParser implements GameNameParser {
     }
 
     private static boolean parseLanguage(Game game, String tag) {
-        if ((game.getLanguages() == null || game.getLanguages().isEmpty())
+        if ((game.getLanguages().isEmpty())
                 && GameLanguage.isLanguages(tag)) {
             game.setLanguages(GameLanguage.fromNames(tag));
             return true;

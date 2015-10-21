@@ -24,8 +24,8 @@ public class Game implements Serializable, Comparable<Game> {
     private String description; //ClrMamePro
     private String version;
     private int year;
-    private List<GameLanguage> languages;
-    private GameRegion region;
+    private List<GameLanguage> languages = new LinkedList<>();
+    private List<GameRegion> regions = new LinkedList<>();
     private GamePublisher publisher;
     //private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
     private String alternate;
@@ -95,15 +95,27 @@ public class Game implements Serializable, Comparable<Game> {
     }
 
     public void setLanguages(List<GameLanguage> languages) {
-        this.languages = languages;
+        if (languages != null) {
+            this.languages = languages;
+        } else {
+            this.languages = new LinkedList<>();
+        }
     }
 
-    public GameRegion getRegion() {
-        return region;
+    public List<GameRegion> getRegions() {
+        return this.regions;
     }
 
-    public void setRegion(GameRegion region) {
-        this.region = region;
+    public void setRegions(List<GameRegion> regions) {
+        if (regions != null) {
+            this.regions = regions;
+        } else {
+            this.regions = new LinkedList<>();
+        }
+    }
+
+    public void addRegion(GameRegion region) {
+        this.regions.add(region);
     }
 
     public GamePublisher getPublisher() {
@@ -336,8 +348,15 @@ public class Game implements Serializable, Comparable<Game> {
             }
             sb.append("\"");
         }
-        if (this.region != null) {
-            sb.append(" region=\"").append(this.region).append("\"");
+        if (!this.regions.isEmpty()) {
+            sb.append(" region=\"");
+            for (int i = 0; i < this.regions.size(); i++) {
+                if (i > 0) {
+                    sb.append(",");
+                }
+                sb.append(this.regions.get(i).toString());
+            }
+            sb.append("\"");
         }
         if (this.publisher != null) {
             sb.append(" publisher=\"").append(this.publisher).append("\"");
