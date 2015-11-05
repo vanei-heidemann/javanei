@@ -54,7 +54,7 @@ public class GameRegion implements Serializable {
     public static boolean isRegion(String names) {
         boolean result = true;
         for (String s : names.split(",")) {
-            if (!regions.containsKey(s)) {
+            if (!regions.containsKey(s.trim())) {
                 result = false;
             }
         }
@@ -64,10 +64,10 @@ public class GameRegion implements Serializable {
     public static List<GameRegion> fromNames(String names) {
         List<GameRegion> result = new LinkedList<>();
         for (String s : names.split(",")) {
-            GameRegion reg = regions.get(s);
+            GameRegion reg = regions.get(s.trim());
             if (reg == null) {
                 //TODO: Criar uma exception
-                throw new IllegalArgumentException(s);
+                throw new IllegalArgumentException(s.trim());
             }
             result.add(reg);
         }

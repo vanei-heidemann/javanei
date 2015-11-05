@@ -45,7 +45,7 @@ public class GameLanguage {
         if (result) {
             String[] ss = langList.split(",");
             for (String s : ss) {
-                if (!isLanguage(s)) {
+                if (!isLanguage(s.trim())) {
                     result = false;
                     break;
                 }
@@ -67,7 +67,7 @@ public class GameLanguage {
         String[] ss = langList.split(",");
         List<GameLanguage> result = new LinkedList<>();
         for (String s : ss) {
-            result.add(fromName(s));
+            result.add(fromName(s.trim()));
         }
         return result;
     }
