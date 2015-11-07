@@ -242,12 +242,9 @@ public final class NoIntroNameParser implements GameNameParser {
                 result = true;
             }
             // Identifica se é um Beta
-            if (s.trim().equals("Beta")) {
-                game.setBeta(Boolean.TRUE);
-                result = true;
-            } else if (s.trim().startsWith("Beta")) {
+            if (s.trim().startsWith("Beta")) {
                 //TODO: Travar versão do beta
-                game.setBeta(Boolean.TRUE);
+                game.setBeta(s.trim());
                 result = true;
             }
             // Identifica se se é um Promo

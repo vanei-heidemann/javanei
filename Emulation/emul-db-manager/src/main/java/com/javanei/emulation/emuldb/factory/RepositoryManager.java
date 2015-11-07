@@ -194,7 +194,7 @@ public class RepositoryManager {
                                 game.setProto(nv.getNodeValue().equalsIgnoreCase("true"));
                                 break;
                             case "beta":
-                                game.setBeta(nv.getNodeValue().equalsIgnoreCase("true"));
+                                game.setBeta(nv.getNodeValue());
                                 break;
                             case "demo":
                                 game.setDemo(nv.getNodeValue().equalsIgnoreCase("true"));

@@ -46,7 +46,7 @@ public class Game implements Serializable, Comparable<Game> {
     private String catalogVersion;
     private GameCatalog catalog;
     private Boolean proto = Boolean.FALSE; //No-Intro
-    private Boolean beta = Boolean.FALSE; //No-Intro
+    private String beta; //No-Intro
     private Boolean demo = Boolean.FALSE; //No-Intro
     private Boolean promo = Boolean.FALSE; //No-Intro
     private Boolean sample = Boolean.FALSE; //No-Intro
@@ -269,12 +269,20 @@ public class Game implements Serializable, Comparable<Game> {
         this.proto = proto;
     }
 
-    public Boolean getBeta() {
+    public String getBeta() {
         return beta;
     }
 
-    public void setBeta(Boolean beta) {
+    public void setBeta(String beta) {
         this.beta = beta;
+    }
+
+    public boolean isBeta() {
+        return this.beta != null;
+    }
+
+    public String getBetaVersion() {
+        return this.beta.length() > 4 ? this.beta.substring(4).trim() : "";
     }
 
     public Boolean getDemo() {
