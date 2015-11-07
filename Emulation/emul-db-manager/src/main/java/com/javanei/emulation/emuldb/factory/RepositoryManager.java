@@ -191,7 +191,7 @@ public class RepositoryManager {
                                 game.setCatalog(GameCatalog.valueOf(nv.getNodeValue()));
                                 break;
                             case "proto":
-                                game.setProto(nv.getNodeValue().equalsIgnoreCase("true"));
+                                game.setProto(nv.getNodeValue());
                                 break;
                             case "beta":
                                 game.setBeta(nv.getNodeValue());

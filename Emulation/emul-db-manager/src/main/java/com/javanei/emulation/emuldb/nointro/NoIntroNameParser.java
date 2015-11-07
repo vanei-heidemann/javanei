@@ -228,12 +228,8 @@ public final class NoIntroNameParser implements GameNameParser {
         boolean result = false;
         String[] ss = tag.split(",");
         for (String s : ss) {
-            if (s.trim().equals("Proto")) {
-                game.setProto(Boolean.TRUE);
-                result = true;
-            } else if (s.trim().startsWith("Proto")) {
-                //TODO: Travar versão do proto
-                game.setProto(Boolean.TRUE);
+            if (s.trim().startsWith("Proto")) {
+                game.setProto(s.trim());
                 result = true;
             }
             // Identifica se é um Demo
@@ -243,7 +239,6 @@ public final class NoIntroNameParser implements GameNameParser {
             }
             // Identifica se é um Beta
             if (s.trim().startsWith("Beta")) {
-                //TODO: Travar versão do beta
                 game.setBeta(s.trim());
                 result = true;
             }

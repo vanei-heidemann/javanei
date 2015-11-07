@@ -45,7 +45,7 @@ public class Game implements Serializable, Comparable<Game> {
     private ThreeStates unlicensed = ThreeStates.Unknown; //GoodTools
     private String catalogVersion;
     private GameCatalog catalog;
-    private Boolean proto = Boolean.FALSE; //No-Intro
+    private String proto; //No-Intro
     private String beta; //No-Intro
     private Boolean demo = Boolean.FALSE; //No-Intro
     private Boolean promo = Boolean.FALSE; //No-Intro
@@ -261,12 +261,20 @@ public class Game implements Serializable, Comparable<Game> {
         this.catalog = catalog;
     }
 
-    public Boolean getProto() {
+    public String getProto() {
         return proto;
     }
 
-    public void setProto(Boolean proto) {
+    public void setProto(String proto) {
         this.proto = proto;
+    }
+
+    public boolean isProto() {
+        return this.proto != null;
+    }
+
+    public String getProtoVersion() {
+        return this.proto != null && this.proto.length() > 5 ? this.proto.substring(5).trim() : "";
     }
 
     public String getBeta() {
@@ -282,7 +290,7 @@ public class Game implements Serializable, Comparable<Game> {
     }
 
     public String getBetaVersion() {
-        return this.beta.length() > 4 ? this.beta.substring(4).trim() : "";
+        return this.beta != null && this.beta.length() > 4 ? this.beta.substring(4).trim() : "";
     }
 
     public Boolean getDemo() {
