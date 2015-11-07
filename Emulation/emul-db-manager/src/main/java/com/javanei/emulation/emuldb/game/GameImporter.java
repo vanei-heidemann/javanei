@@ -15,7 +15,7 @@ public class GameImporter {
     private String version;
     private String comment;
     private List<Game> games;
-    private List<GameImporterMessage> messages = new LinkedList<>();
+    private final List<GameImporterMessage> messages = new LinkedList<>();
 
     public String getName() {
         return name;
