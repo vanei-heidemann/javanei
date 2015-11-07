@@ -537,7 +537,7 @@
 	<game name="Logical (Europe)" mainName="Logical" description="Logical (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Logical (Europe).ip" size="518252" crc="EF80321E" md5="446E530ABDBD662C1940BAFF6A22D599" sha1="66776E6F33FC7CCEFFEE706FE4FCCFCE60FB47C0" />
 	</game>
-	<game name="Lure of the Temptress (France) (17.6.1992)" mainName="Lure of the Temptress" description="Lure of the Temptress (France) (17.6.1992)" year="3892" region="France" catalog="NoIntro" catalogVersion="20141101-034609">
+	<game name="Lure of the Temptress (France) (17.6.1992)" mainName="Lure of the Temptress" description="Lure of the Temptress (France) (17.6.1992)" year="1992" region="France" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Lure of the Temptress (France) (17.6.1992) (Disk B).ip" size="917820" crc="AB3A5029" md5="E49CB7279FD8B8125B9603A10EA325A1" sha1="D6F37329D148D27EE74C64D4E39BC98F2AF591CA" />
 		<rom name="Lure of the Temptress (France) (17.6.1992) (Disk C).ip" size="917820" crc="0DDE23F5" md5="DC1BA59BB6F1AA38252FCDD1B0300FC8" sha1="006CB14B59FDE4A35180FADE8C7FF6E4EFC9CFC8" />
 		<rom name="Lure of the Temptress (France) (17.6.1992) (Disk A).ip" size="917820" crc="4803EBF7" md5="8410274F01AC4AAAF9FE87F9142E46C2" sha1="FD11E96297FA2112F387BA829F73B49AC7F8DA68" />

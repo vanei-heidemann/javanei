@@ -12,6 +12,7 @@ import com.javanei.emulation.emuldb.factory.Database;
 import com.javanei.emulation.emuldb.factory.DatabaseFactory;
 import com.javanei.emulation.emuldb.factory.GamePlatform;
 import com.javanei.emulation.emuldb.game.GameImporter;
+import com.javanei.emulation.emuldb.game.GameImporterMessage;
 import com.javanei.emulation.emuldb.nointro.NoIntroImporter;
 import com.javanei.emulation.util.FileUtil;
 import java.io.File;
@@ -68,7 +69,10 @@ public class ImportNoIntroDatPanelController implements Initializable {
     @FXML
     private void handleChooseFile(ActionEvent event) {
         FileChooser fileChooser = new FileChooser();
-        if (lastDir != null) {
+        if (this.datFilePathInput.getText() != null && !this.datFilePathInput.getText().isEmpty()) {
+            File f = new File(this.datFilePathInput.getText().trim());
+            fileChooser.setInitialDirectory(f);
+        } else if (lastDir != null) {
             fileChooser.setInitialDirectory(lastDir);
         }
         //fileChooser.setTitle("Open Resource File");
@@ -100,7 +104,7 @@ public class ImportNoIntroDatPanelController implements Initializable {
 
             progressBar.progressProperty().bind(importWorker.progressProperty());
             importWorker.messageProperty().addListener((ObservableValue<? extends String> observable, String oldValue, String newValue) -> {
-                textArea.setText(newValue);
+                textArea.setText(textArea.getText() + "\n" + newValue);
                 textArea.setScrollTop(Double.MAX_VALUE);
             });
             importWorker.runningProperty().addListener((ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) -> {
@@ -110,6 +114,15 @@ public class ImportNoIntroDatPanelController implements Initializable {
                 if (oldValue && !newValue) {
                     try {
                         GameImporter gi = importWorker.get();
+                        StringBuilder sb = new StringBuilder();
+                        gi.sortMessagesByType().stream().forEach((msg) -> {
+                            if (sb.length() > 0) {
+                                sb.append("\n");
+                            }
+                            sb.append(msg.toString());
+                        });
+                        this.textArea.setText(sb.toString());
+                        textArea.setScrollTop(Double.MAX_VALUE);
                         // Salva o catalog
                         String complement = null;
                         if (gi.getDescription().endsWith("(PP)")) {

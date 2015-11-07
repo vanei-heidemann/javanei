@@ -8,10 +8,10 @@ import com.javanei.emulation.emuldb.UnknownTagException;
 import com.javanei.emulation.emuldb.game.Game;
 import com.javanei.emulation.emuldb.game.GameFile;
 import com.javanei.emulation.emuldb.game.GameImporter;
+import com.javanei.emulation.emuldb.game.GameImporterMessage;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import javafx.concurrent.Task;
@@ -26,15 +26,14 @@ public class ClrMameProImporter extends Task<GameImporter> {
     private final GameCatalog catalog;
 
     private final GameImporter gameImporter;
-    private final StringBuilder sbMessage;
-    private final List<String> erros = new ArrayList<>();
+    private final List<GameImporterMessage> messages;
 
     public ClrMameProImporter(GamePlatform platform, GameCatalog catalog, File file) {
         this.platform = platform;
         this.datFile = file;
         this.catalog = catalog;
         this.gameImporter = new GameImporter();
-        sbMessage = new StringBuilder();
+        this.messages = new LinkedList<>();
     }
 
     @Override
@@ -97,8 +96,8 @@ public class ClrMameProImporter extends Task<GameImporter> {
                             try {
                                 game.setCatalog(this.catalog);
                                 game.setCatalogVersion(gameImporter.getVersion());
-                                GameNameParserFactory.getParser(this.catalog).parseGameName(this.platform.getName(), game);
-                                fireMessage(game.getName() + ": OK");
+                                List<GameImporterMessage> msgs = GameNameParserFactory.getParser(this.catalog).parseGameName(this.platform.getName(), game);
+                                fireMessage(game.getName() + ": OK", msgs);
                                 games.add(game);
                             } catch (Exception ex) {
                                 fireMessageError(game.getName(), ex);
@@ -119,13 +118,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
             this.fireMessageError(null, ex);
         }
         this.gameImporter.setGames(games);
-        if (!this.erros.isEmpty()) {
-            this.sbMessage.append("=================================================\n");
-            this.erros.stream().forEach((s) -> {
-                this.sbMessage.append(s);
-            });
-        }
-        updateMessage(this.sbMessage.toString());
+        this.gameImporter.addMessages(this.messages);
 
         return this.gameImporter;
     }
@@ -163,14 +156,17 @@ public class ClrMameProImporter extends Task<GameImporter> {
         if (game != null) {
             sb.append(game).append(": ");
         }
-        sb.append("ERROR: ").append(ex.getClass().getName()).append(": ").append(ex.getLocalizedMessage()).append("\n");
-        this.sbMessage.append(sb.toString());
-        this.erros.add(sb.toString());
-        updateMessage(this.sbMessage.toString());
+        sb.append(ex.getClass().getName()).append(": ").append(ex.getLocalizedMessage()).append("\n");
+        GameImporterMessage msg = new GameImporterMessage(GameImporterMessage.Type.ERROR, sb.toString());
+        updateMessage(msg.toString());
     }
 
-    private void fireMessage(String message) {
-        this.sbMessage.append(message).append("\n");
-        updateMessage(this.sbMessage.toString());
+    private void fireMessage(String message, List<GameImporterMessage> msgs) {
+        GameImporterMessage msg = new GameImporterMessage(GameImporterMessage.Type.INFO, message);
+        if (msgs != null && !msgs.isEmpty()) {
+            msg.addMessages(msgs);
+        }
+        this.messages.add(msg);
+        updateMessage(msg.toString());
     }
 }

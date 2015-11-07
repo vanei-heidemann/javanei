@@ -6,19 +6,24 @@ import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
 import com.javanei.emulation.emuldb.GameNameParser;
 import com.javanei.emulation.emuldb.game.Game;
+import com.javanei.emulation.emuldb.game.GameImporterMessage;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * @author Vanei
  */
 public final class NoIntroNameParser implements GameNameParser {
 
+    private final List<GameImporterMessage> messages = new LinkedList<>();
+
     @Override
-    public final void parseGameName(String platform, Game game) throws Exception {
+    public final List<GameImporterMessage> parseGameName(String platform, Game game) throws Exception {
         String s = game.getName();
         int pos = s.indexOf("(");
         if (pos < 0) {
             game.setMainName(game.getName());
-            return;
+            return this.messages;
         }
         String mainName = s.substring(0, pos).trim();
         while (pos >= 0) {
@@ -28,9 +33,8 @@ public final class NoIntroNameParser implements GameNameParser {
             {
                 // Identifica a região
                 if (game.getRegions().isEmpty()) {
-                    GameRegion region = GameRegion.getRegion(tag);
-                    if (region != null) {
-                        game.addRegion(region);
+                    if (GameRegion.isRegion(tag)) {
+                        game.setRegions(GameRegion.fromNames(tag));
                         break validate_block;
                     } else {
                         mainName = s.substring(0, pos).trim();
@@ -86,6 +90,7 @@ public final class NoIntroNameParser implements GameNameParser {
 
         //TODO: Terminar
         game.setMainName(mainName);
+        return this.messages;
     }
 
     private static boolean parsePublisher(Game game, String tag) {
@@ -254,7 +259,7 @@ public final class NoIntroNameParser implements GameNameParser {
         return result;
     }
 
-    private static void parseUnknowTag(String platform, Game game, String tag) {
+    private void parseUnknowTag(String platform, Game game, String tag) {
         switch (platform) {
             case "Atari ST":
                 if (tag.startsWith("Budget")) {
@@ -324,6 +329,7 @@ public final class NoIntroNameParser implements GameNameParser {
                 }
         }
         game.addComplement(tag);
-        System.out.println("ERROR: Unknown string in '" + game.getName() + "' ===> '" + tag + "'");
+        GameImporterMessage msg = new GameImporterMessage(GameImporterMessage.Type.WARN, "Unknown string in '" + game.getName() + "' ===> '" + tag + "'");
+        this.messages.add(msg);
     }
 }
