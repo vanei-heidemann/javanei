@@ -504,6 +504,8 @@ public class GamePublisher implements Serializable {
         publishers.put("Paradox", new GamePublisher("Paradox"));
         publishers.put("Starbyte", new GamePublisher("Starbyte"));
         publishers.put("Starbyte Software", new GamePublisher("Starbyte"));
+        // Nes
+        publishers.put("RCM Group", new GamePublisher("RCM Group"));
     }
 
     private GamePublisher(String publisher) {
