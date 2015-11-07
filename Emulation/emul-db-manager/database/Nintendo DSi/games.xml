@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<games>
+	<game name="Hair Salon (Europe) (En,Fr,De,Es,It)" mainName="Hair Salon" description="Hair Salon (Europe) (En,Fr,De,Es,It)" language="En,Fr,De,Es,It" region="Europe" catalog="NoIntro" catalogVersion="20130828-125801">
+		<rom name="Hair Salon (Europe) (En,Fr,De,Es,It).dsi" size="33554432" crc="7E0B1CE4" md5="4FA4F1EDFC97373D3E218D796A5391CD" sha1="774E69102CF32F7013166F5BA2CDE08599CCC1E5" />
+	</game>
+	<game name="Picture Perfect Hair Salon (USA)" mainName="Picture Perfect Hair Salon" description="Picture Perfect Hair Salon (USA)" region="USA" catalog="NoIntro" catalogVersion="20130828-125801">
+		<rom name="Picture Perfect Hair Salon (USA).dsi" size="33554432" crc="92BDC940" md5="23B9F85D5C5AAC0CC58E91F9C8903A8C" sha1="712E784B185B31388452202A4003AE7859DFCC4B" />
+	</game>
+	<game name="System - Flaw (Europe)" mainName="System - Flaw" description="System - Flaw (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130828-125801">
+		<rom name="System - Flaw (Europe).dsi" size="33554432" crc="AC1B0E9B" md5="7BCB9DC3A5BAD4EBFBD6FED6E892E20E" sha1="29AE360E84DE1EAAFF7EBDB41866353F39EE2F3B" />
+	</game>
+	<game name="System - Flaw (USA)" mainName="System - Flaw" description="System - Flaw (USA)" region="USA" catalog="NoIntro" catalogVersion="20130828-125801">
+		<rom name="System - Flaw (USA).dsi" size="33554432" crc="319870FD" md5="E45CC21A32B73A9B0E80E11B23E304CE" sha1="8177108EFDDAB15226B4ADD1837EBA560D7B9F11" />
+	</game>
+</games>
