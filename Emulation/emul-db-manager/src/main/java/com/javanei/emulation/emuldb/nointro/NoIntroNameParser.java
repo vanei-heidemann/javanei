@@ -149,12 +149,6 @@ public final class NoIntroNameParser implements GameNameParser {
             game.setYear(year);
             return true;
         }
-        if (tag.matches("\\w\\w\\w \\d\\d")) {
-            int year = Integer.parseInt(tag.substring(5));
-System.err.println("@@@@@@ ACHO QUE TA ERRADO:  " + tag + " - " + year);
-            game.setYear(year);
-            return true;
-        }
         if (tag.matches("\\d\\d\\d\\d-\\d\\d-\\d\\d")) {
             int year = Integer.parseInt(tag.substring(0, 4));
             game.setYear(year);
@@ -165,7 +159,7 @@ System.err.println("@@@@@@ ACHO QUE TA ERRADO:  " + tag + " - " + year);
             game.setYear(year);
             return true;
         }
-        
+
         if (tag.matches("\\d\\d-\\d\\d-\\d\\d")) {
             int year = Integer.parseInt(tag.substring(0, 2));
             if (year > 20) {
@@ -176,7 +170,7 @@ System.err.println("@@@@@@ ACHO QUE TA ERRADO:  " + tag + " - " + year);
             game.setYear(year);
             return true;
         }
-        if (tag.matches("\\d.\\d.\\d\\d")) {
+        if (tag.matches("\\d.\\d.\\d\\d") || tag.matches("\\w\\w\\w \\d\\d")) {
             int year = Integer.parseInt(tag.substring(4));
             if (year > 20) {
                 year += 1900;
