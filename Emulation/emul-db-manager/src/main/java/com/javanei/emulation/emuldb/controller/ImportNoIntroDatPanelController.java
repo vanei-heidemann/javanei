@@ -71,7 +71,13 @@ public class ImportNoIntroDatPanelController implements Initializable {
         FileChooser fileChooser = new FileChooser();
         if (this.datFilePathInput.getText() != null && !this.datFilePathInput.getText().isEmpty()) {
             File f = new File(this.datFilePathInput.getText().trim());
-            fileChooser.setInitialDirectory(f);
+            if (f.exists()) {
+                if (f.isDirectory()) {
+                    fileChooser.setInitialDirectory(f);
+                } else if (f.isFile()) {
+                    fileChooser.setInitialDirectory(f.getParentFile());
+                }
+            }
         } else if (lastDir != null) {
             fileChooser.setInitialDirectory(lastDir);
         }
