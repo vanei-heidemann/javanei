@@ -262,6 +262,16 @@ public final class NoIntroNameParser implements GameNameParser {
     }
 
     private void parseUnknowTag(String platform, Game game, String tag) {
+        if (tag.indexOf(",") > 0) {
+            String[] ss = tag.split(",");
+            for (String s : ss) {
+                if (GamePublisher.isPublisher(s.trim())) {
+                    game.setPublisher(GamePublisher.fromName(s.trim()));
+                } else if (GameDeveloper.isDeveloper(s.trim())) {
+                    game.setDeveloper(GameDeveloper.fromName(s.trim()));
+                }
+            }
+        }
         switch (platform) {
             case "Atari ST":
                 if (tag.startsWith("Budget")) {
@@ -343,11 +353,6 @@ public final class NoIntroNameParser implements GameNameParser {
             case "Game Boy":
                 switch (tag) {
                     case "SGB Enhanced":
-                        break;
-                    default:
-                        if (tag.indexOf("Sachen") > 0) {
-                            game.setDeveloper(GameDeveloper.getDeveloper("Sachen"));
-                        }
                         break;
                 }
         }

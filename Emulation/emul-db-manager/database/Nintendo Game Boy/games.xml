@@ -3,10 +3,10 @@
 	<game name="3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!! (Japan)" mainName="3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!!" description="3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!! (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!! (Japan).gb" size="131072" crc="B61CD120" md5="93CEA7134DB2A28B06D30729AD460DD6" sha1="0982BCC82DEB9C4DB08E602A22A2BB4F31E7E6AE" />
 	</game>
-	<game name="4 in 1 (Europe) (4B-002, Sachen) (Unl)" mainName="4 in 1" description="4 in 1 (Europe) (4B-002, Sachen) (Unl)" region="Europe" catalog="NoIntro" catalogVersion="20150301-042931" complement="4B-002, Sachen" unlicensed="true">
+	<game name="4 in 1 (Europe) (4B-002, Sachen) (Unl)" mainName="4 in 1" description="4 in 1 (Europe) (4B-002, Sachen) (Unl)" region="Europe" publisher="Sachen" catalog="NoIntro" catalogVersion="20150301-042931" complement="4B-002, Sachen" unlicensed="true">
 		<rom name="4 in 1 (Europe) (4B-002, Sachen) (Unl).gb" size="65536" crc="5E438DB8" md5="53797D020821B171F9909BC300ED5AD1" sha1="D9CB1721854709BE7667F5DBCE0ADF2488C0919B" />
 	</game>
-	<game name="4 in 1 (Europe) (4B-007, Sachen) (Unl)" mainName="4 in 1" description="4 in 1 (Europe) (4B-007, Sachen) (Unl)" region="Europe" catalog="NoIntro" catalogVersion="20150301-042931" complement="4B-007, Sachen" unlicensed="true">
+	<game name="4 in 1 (Europe) (4B-007, Sachen) (Unl)" mainName="4 in 1" description="4 in 1 (Europe) (4B-007, Sachen) (Unl)" region="Europe" publisher="Sachen" catalog="NoIntro" catalogVersion="20150301-042931" complement="4B-007, Sachen" unlicensed="true">
 		<rom name="4 in 1 (Europe) (4B-007, Sachen) (Unl).gb" size="262144" crc="62D9350E" md5="04AEDABA42FDB90F6226B7F9A0B9319F" sha1="0EEF7F3934508AB79E1CAD4DDF3BFDB3216B6B4F" />
 	</game>
 	<game name="4 in 1 (Taiwan) (4B-003, Sachen-Commin) (Unl)" mainName="4 in 1 (Taiwan) (4B-003, Sachen-Commin)" description="4 in 1 (Taiwan) (4B-003, Sachen-Commin) (Unl) (ripped, found in Rocman X-gamedata)" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -18,7 +18,7 @@
 	<game name="Addams Family, The (Japan)" mainName="Addams Family, The" description="Addams Family, The (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="Addams Family, The (Japan).gb" size="131072" crc="4C749C14" md5="DC2F4D927EDDA442DE2148AF590BEBB5" sha1="10A7D1491001657272755559ED593CC4400014EE" />
 	</game>
-	<game name="Adventures of Pinocchio, The (Unknown) (Proto)" mainName="Adventures of Pinocchio, The" description="Adventures of Pinocchio, The (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20150301-042931" proto="true">
+	<game name="Adventures of Pinocchio, The (Unknown) (Proto)" mainName="Adventures of Pinocchio, The" description="Adventures of Pinocchio, The (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20150301-042931" proto="Proto">
 		<rom name="Adventures of Pinocchio, The (Unknown) (Proto).gb" size="65536" crc="0B9DE1DC" md5="BA78AC0638F36A89386B690D619F13B1" sha1="6808D5A5FBA9B58D67E91F22A2860E4E72F6EEC1" />
 	</game>
 	<game name="Adventures of Rocky and Bullwinkle and Friends, The (USA)" mainName="Adventures of Rocky and Bullwinkle and Friends, The" description="Adventures of Rocky and Bullwinkle and Friends, The (USA)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -399,7 +399,7 @@
 	<game name="Desert Strike - Return to the Gulf (USA) (SGB Enhanced)" mainName="Desert Strike - Return to the Gulf" description="Desert Strike - Return to the Gulf (USA) (SGB Enhanced)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced">
 		<rom name="Desert Strike - Return to the Gulf (USA) (SGB Enhanced).gb" size="262144" crc="6A702C32" md5="A926508282DA0B7889AB4F0947916068" sha1="325EE739ECF5AA403741E8DAD36ABCFA441DD26B" />
 	</game>
-	<game name="Diablo (USA) (Proto)" mainName="Diablo" description="Diablo (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" proto="true">
+	<game name="Diablo (USA) (Proto)" mainName="Diablo" description="Diablo (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" proto="Proto">
 		<rom name="Diablo (USA) (Proto).gb" size="131072" crc="AAAAD0B6" md5="28E1605572AEC89F7D210775E51CB8DA" sha1="8982410AC627618628A8B823C0608CC8B5653F41" />
 	</game>
 	<game name="Dick Tracy (USA)" mainName="Dick Tracy" description="Dick Tracy (USA)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -417,7 +417,7 @@
 	<game name="Dodge Boy (Japan)" mainName="Dodge Boy" description="Dodge Boy (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="Dodge Boy (Japan).gb" size="131072" crc="F58DC358" md5="D9C82BF67AD459F08676A1C7CB9037F3" sha1="B48EB2BDC34588847728936491DADDA67394F9B7" />
 	</game>
-	<game name="Donkey Kong Land III (USA, Europe) (Beta)" mainName="Donkey Kong Land III" description="Donkey Kong Land III (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931" beta="true">
+	<game name="Donkey Kong Land III (USA, Europe) (Beta)" mainName="Donkey Kong Land III" description="Donkey Kong Land III (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931" beta="Beta">
 		<rom name="Donkey Kong Land III (USA, Europe) (Beta).gb" size="524288" crc="872BBD5E" md5="CB1D69526CEA3A0CBCAAE091A10707FE" sha1="9D17BC07BD3C48F8BB8A3315FAF817D055417F53" />
 	</game>
 	<game name="Doraemon no Study Boy 4 - Shou ni Kokugo Kanji (Japan)" mainName="Doraemon no Study Boy 4 - Shou ni Kokugo Kanji" description="Doraemon no Study Boy 4 - Shou ni Kokugo Kanji (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -450,7 +450,7 @@
 	<game name="Dr. Franken (USA)" mainName="Dr. Franken" description="Dr. Franken (USA)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="Dr. Franken (USA).gb" size="131072" crc="D409375B" md5="B6DA78085D38A8BE3EF564B9989C45D0" sha1="2B136EF8E3DD082CCB4716035545FB2E03438C66" />
 	</game>
-	<game name="Dr. Mario (World) (Beta)" mainName="Dr. Mario" description="Dr. Mario (World) (Beta)" region="World" catalog="NoIntro" catalogVersion="20150301-042931" beta="true">
+	<game name="Dr. Mario (World) (Beta)" mainName="Dr. Mario" description="Dr. Mario (World) (Beta)" region="World" catalog="NoIntro" catalogVersion="20150301-042931" beta="Beta">
 		<rom name="Dr. Mario (World) (Beta).gb" size="32768" crc="2B2F4F8F" md5="4599627050687063DA3F5CF804DC16F6" sha1="4B2343F40E7CA3C583108ED70A870C7BD906B108" />
 	</game>
 	<game name="Dragon Ball Z - Gokuu Gekitouden (Japan) (SGB Enhanced)" mainName="Dragon Ball Z - Gokuu Gekitouden" description="Dragon Ball Z - Gokuu Gekitouden (Japan) (SGB Enhanced)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced">
@@ -501,7 +501,7 @@
 	<game name="Extra Bases! (USA)" mainName="Extra Bases!" description="Extra Bases! (USA)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="Extra Bases! (USA).gb" size="131072" crc="19608641" md5="857FDAFB5ABABD641CC832CFB8FABD58" sha1="BF44F14A948E8816FB9DEEA229512D979CB42AEC" />
 	</game>
-	<game name="F-15 Strike Eagle II (Unknown) (Proto)" mainName="F-15 Strike Eagle II" description="F-15 Strike Eagle II (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20150301-042931" proto="true">
+	<game name="F-15 Strike Eagle II (Unknown) (Proto)" mainName="F-15 Strike Eagle II" description="F-15 Strike Eagle II (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20150301-042931" proto="Proto">
 		<rom name="F-15 Strike Eagle II (Unknown) (Proto).gb" size="131072" crc="D80BDBBA" md5="83D20A9C3F88F9FAA27C076CEFD38BC1" sha1="298C07EF596AB3A3C4A320B2F2D7E2C0DBAF764D" />
 	</game>
 	<game name="F1 Pole Position (USA, Europe)" mainName="F1 Pole Position" description="F1 Pole Position (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -693,7 +693,7 @@
 	<game name="Gradius - The Interstellar Assault (USA)" mainName="Gradius - The Interstellar Assault" description="Gradius - The Interstellar Assault (USA)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="Gradius - The Interstellar Assault (USA).gb" size="262144" crc="90F87D57" md5="E10F788DA29E18934C3E9161B25B96C7" sha1="7A50FDF0B8AD15556C933DF0657FAE0A2CD8BC92" />
 	</game>
-	<game name="HAL Wrestling (USA) (Beta)" mainName="HAL Wrestling" description="HAL Wrestling (USA) (Beta)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" beta="true">
+	<game name="HAL Wrestling (USA) (Beta)" mainName="HAL Wrestling" description="HAL Wrestling (USA) (Beta)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" beta="Beta">
 		<rom name="HAL Wrestling (USA) (Beta).gb" size="131072" crc="B02FAA0B" md5="9AF91C7E344A9048F0F4037A8ABCBE54" sha1="6AC35A017FD1F61C19086765107E3940426A2A66" />
 	</game>
 	<game name="Hammerin' Harry - Ghost Building Company (Europe)" mainName="Hammerin' Harry - Ghost Building Company" description="Hammerin' Harry - Ghost Building Company (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -825,7 +825,7 @@
 	<game name="Jeopardy! - Teen Tournament (USA) (SGB Enhanced)" mainName="Jeopardy! - Teen Tournament" description="Jeopardy! - Teen Tournament (USA) (SGB Enhanced)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced">
 		<rom name="Jeopardy! - Teen Tournament (USA) (SGB Enhanced).gb" size="131072" crc="CD3DF0C1" md5="D8AD8389C9EC44D4E3BACC88D7B7B1A9" sha1="20C71F434EF093FAC9361FA1DB9C2282C938DD71" />
 	</game>
-	<game name="Jet Pack (USA, Europe) (Beta)" mainName="Jet Pack" description="Jet Pack (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931" beta="true">
+	<game name="Jet Pack (USA, Europe) (Beta)" mainName="Jet Pack" description="Jet Pack (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931" beta="Beta">
 		<rom name="Jet Pack (USA, Europe) (Beta).gb" size="131072" crc="1C223204" md5="CD40BDA7A113C2279D5FFD1CFA0CFDC7" sha1="DF7ABBCAACCD5CFF4C55BB331FA5D3049FB92896" />
 	</game>
 	<game name="Jikuu Senki Mu (Japan)" mainName="Jikuu Senki Mu" description="Jikuu Senki Mu (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -1212,7 +1212,7 @@
 	<game name="Nikkan Berutomo Club (Japan) (SGB Enhanced)" mainName="Nikkan Berutomo Club" description="Nikkan Berutomo Club (Japan) (SGB Enhanced)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced">
 		<rom name="Nikkan Berutomo Club (Japan) (SGB Enhanced).gb" size="524288" crc="AD3F851D" md5="D4BF4C5EBEC2A496BB6EC062058158C6" sha1="4403DDBC2FAA6B540893814A7ECAAFB218849EE9" />
 	</game>
-	<game name="Ninja Taro (USA) (Beta)" mainName="Ninja Taro" description="Ninja Taro (USA) (Beta)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" beta="true">
+	<game name="Ninja Taro (USA) (Beta)" mainName="Ninja Taro" description="Ninja Taro (USA) (Beta)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" beta="Beta">
 		<rom name="Ninja Taro (USA) (Beta).gb" size="131072" crc="61598B3D" md5="A83273EDB8B89C84145D619D72EE19FE" sha1="D93B6718E9C8A2505F4DA73B99F57866111948AF" />
 	</game>
 	<game name="Nintama Rantarou - Ninjutsu Gakuen ni Nyuugaku Shiyou no Dan (Japan) (SGB Enhanced)" mainName="Nintama Rantarou - Ninjutsu Gakuen ni Nyuugaku Shiyou no Dan" description="Nintama Rantarou - Ninjutsu Gakuen ni Nyuugaku Shiyou no Dan (Japan) (SGB Enhanced)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced">
@@ -1437,7 +1437,7 @@
 	<game name="Pro Soccer (Japan)" mainName="Pro Soccer" description="Pro Soccer (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="Pro Soccer (Japan).gb" size="131072" crc="A6F3BEE2" md5="741890CBDEEFE98175A56A87B9E9EF8E" sha1="CCF50AE867633F608BA38302C8561654223DC14B" />
 	</game>
-	<game name="Probotector 2 (Europe) (Beta)" mainName="Probotector 2" description="Probotector 2 (Europe) (Beta)" region="Europe" catalog="NoIntro" catalogVersion="20150301-042931" beta="true">
+	<game name="Probotector 2 (Europe) (Beta)" mainName="Probotector 2" description="Probotector 2 (Europe) (Beta)" region="Europe" catalog="NoIntro" catalogVersion="20150301-042931" beta="Beta">
 		<rom name="Probotector 2 (Europe) (Beta).gb" size="131072" crc="7D60C005" md5="6E47B388DFFAE893FF1FC33CA552CF9A" sha1="8F060253EA228C43D2992458DBF904A0B0D7B01E" />
 	</game>
 	<game name="Prophecy - The Viking Child (Europe) (En,Fr,De,Es,It)" mainName="Prophecy - The Viking Child" description="Prophecy - The Viking Child (Europe) (En,Fr,De,Es,It)" language="En,Fr,De,Es,It" region="Europe" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -1530,7 +1530,7 @@
 	<game name="Ring Rage (USA)" mainName="Ring Rage" description="Ring Rage (USA)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="Ring Rage (USA).gb" size="131072" crc="BCE5DFB7" md5="6C4D2F2A4AA7029759441D2C16D8C931" sha1="EB9509415D08792A29712814A7887824F11624C0" />
 	</game>
-	<game name="Road Rash (USA, Europe) (Beta)" mainName="Road Rash" description="Road Rash (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931" beta="true">
+	<game name="Road Rash (USA, Europe) (Beta)" mainName="Road Rash" description="Road Rash (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931" beta="Beta">
 		<rom name="Road Rash (USA, Europe) (Beta).gb" size="131072" crc="4F09238A" md5="68571BDA998E8C3B3753ADEC24AF7EDC" sha1="5CC1416EEDEABC32D8D0A7A42D170B70C6117B19" />
 	</game>
 	<game name="Roadster (Japan)" mainName="Roadster" description="Roadster (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -1596,7 +1596,7 @@
 	<game name="Same Game (Japan) (SGB Enhanced)" mainName="Same Game" description="Same Game (Japan) (SGB Enhanced)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced">
 		<rom name="Same Game (Japan) (SGB Enhanced).gb" size="262144" crc="70393C0F" md5="BDD6F3F98390202800751A4EA2A48C36" sha1="9DCB5A95E808423E6BD1149319CA8EDA069363C8" />
 	</game>
-	<game name="Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced)" mainName="Samurai Shodown" description="Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced" beta="true">
+	<game name="Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced)" mainName="Samurai Shodown" description="Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced)" region="USA,Europe" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced" beta="Beta">
 		<rom name="Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced).gb" size="524288" crc="90D51289" md5="CDD340A5F4E02C5D84D094FA0A06DB1A" sha1="1DDB05F7237E792DDA9924AC0C525D8D1950CB44" />
 	</game>
 	<game name="Sanrio Carnival 2 (Japan)" mainName="Sanrio Carnival 2" description="Sanrio Carnival 2 (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -1698,7 +1698,7 @@
 	<game name="Spiritual Warfare (USA) (Unl)" mainName="Spiritual Warfare" description="Spiritual Warfare (USA) (Unl)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" unlicensed="true">
 		<rom name="Spiritual Warfare (USA) (Unl).gb" size="262144" crc="F7A961BA" md5="37E017C8D1A45BAB609FB5B43FB64337" sha1="6E6AE5DBD8FF8B8F41B8411EF119E96E4ECF763F" />
 	</game>
-	<game name="Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced)" mainName="Spirou" description="Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced)" language="En,Fr,De,Es" region="Europe" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced" beta="true">
+	<game name="Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced)" mainName="Spirou" description="Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced)" language="En,Fr,De,Es" region="Europe" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced" beta="Beta">
 		<rom name="Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced).gb" size="262144" crc="35415A00" md5="378236DF6A7C686DFAA6743B63D1F757" sha1="556641FC79700C5CCB4F8FEAEC1D7FAFE99C31C4" />
 	</game>
 	<game name="Splitz - Nigaoe 15 Game (Japan)" mainName="Splitz - Nigaoe 15 Game" description="Splitz - Nigaoe 15 Game (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
@@ -1896,7 +1896,7 @@
 	<game name="Tsumeshougi - Hyakuban Shoubu (Japan)" mainName="Tsumeshougi - Hyakuban Shoubu" description="Tsumeshougi - Hyakuban Shoubu (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931">
 		<rom name="Tsumeshougi - Hyakuban Shoubu (Japan).gb" size="65536" crc="43E2A5C0" md5="FE739C4BFDF652AF8D09ED778C429480" sha1="257A73694A6535AAFA58D346B06D2EE386989578" />
 	</game>
-	<game name="Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced)" mainName="Tsumeshougi - Kanki Godan" description="Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced" beta="true">
+	<game name="Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced)" mainName="Tsumeshougi - Kanki Godan" description="Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced" beta="Beta">
 		<rom name="Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced).gb" size="131072" crc="9995EE1A" md5="B0AFDADB0804B98CD2BA41E2C59E251F" sha1="EAE6CDB4425DDAE51BEE0E7D0AA956B72E897743" />
 	</game>
 	<game name="Tsumeshougi - Kanki Godan (Japan) (SGB Enhanced)" mainName="Tsumeshougi - Kanki Godan" description="Tsumeshougi - Kanki Godan (Japan) (SGB Enhanced)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced">
@@ -2025,7 +2025,7 @@
 	<game name="World Soccer GB (Japan) (SGB Enhanced)" mainName="World Soccer GB" description="World Soccer GB (Japan) (SGB Enhanced)" region="Japan" catalog="NoIntro" catalogVersion="20150301-042931" complement="SGB Enhanced">
 		<rom name="World Soccer GB (Japan) (SGB Enhanced).gb" size="524288" crc="57D21EF4" md5="74110EED9C357F1749C4A8F82D637908" sha1="ACA208DABD8D110CF0334103DCB8DD28B68E450D" />
 	</game>
-	<game name="X (USA) (Proto)" mainName="X" description="X (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" proto="true">
+	<game name="X (USA) (Proto)" mainName="X" description="X (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931" proto="Proto">
 		<rom name="X (USA) (Proto).gb" size="245760" crc="CD555712" md5="9BFA774D2474D63FDACDBE951573375A" sha1="B1C5B60B82AAA0B824F7BF67FC8F111377CCFB6A" />
 	</game>
 	<game name="XVII Olympic Winter Games, The - Lillehammer 1994 (USA)" mainName="XVII Olympic Winter Games, The - Lillehammer 1994" description="XVII Olympic Winter Games, The - Lillehammer 1994 (USA)" region="USA" catalog="NoIntro" catalogVersion="20150301-042931">
