@@ -126,6 +126,8 @@ public class GameDeveloper implements Serializable {
         developers.put("Wolf Team", new GameDeveloper("Wolf Team"));
         // Commodore
         developers.put("Software Country", new GameDeveloper("Software Country"));
+        // NES
+        developers.put("Hwang Shinwei", new GameDeveloper("Hwang Shinwei"));
     }
 
     private GameDeveloper(String developer) {
