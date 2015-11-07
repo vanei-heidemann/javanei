@@ -348,6 +348,16 @@ public final class NoIntroNameParser implements GameNameParser {
                     case "RAM":
                         break;
                 }
+            case "Game Boy":
+                switch (tag) {
+                    case "SGB Enhanced":
+                        break;
+                    default:
+                        if (tag.indexOf("Sachen") > 0) {
+                            game.setDeveloper(GameDeveloper.getDeveloper("Sachen"));
+                        }
+                        break;
+                }
         }
         game.addComplement(tag);
         GameImporterMessage msg = new GameImporterMessage(GameImporterMessage.Type.WARN, "Unknown string in '" + game.getName() + "' ===> '" + tag + "'");
