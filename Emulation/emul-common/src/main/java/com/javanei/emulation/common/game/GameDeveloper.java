@@ -128,6 +128,8 @@ public class GameDeveloper implements Serializable {
         developers.put("Software Country", new GameDeveloper("Software Country"));
         // NES
         developers.put("Hwang Shinwei", new GameDeveloper("Hwang Shinwei"));
+        // Game Boy
+        developers.put("Sachen", new GameDeveloper("Sachen"));
     }
 
     private GameDeveloper(String developer) {
