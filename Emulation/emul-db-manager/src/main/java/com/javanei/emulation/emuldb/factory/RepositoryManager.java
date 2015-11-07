@@ -2,6 +2,7 @@ package com.javanei.emulation.emuldb.factory;
 
 import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GameDeveloper;
 import com.javanei.emulation.common.game.GameLanguage;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
@@ -139,6 +140,9 @@ public class RepositoryManager {
                             case "publisher":
                                 game.setPublisher(GamePublisher.fromName(nv.getNodeValue()));
                                 break;
+                            case "developer":
+                                game.setDeveloper(GameDeveloper.fromName(nv.getNodeValue()));
+                                break;
                             case "alternate":
                                 game.setAlternate(nv.getNodeValue());
                                 break;
@@ -197,6 +201,9 @@ public class RepositoryManager {
                                 break;
                             case "promo":
                                 game.setPromo(nv.getNodeValue().equalsIgnoreCase("true"));
+                                break;
+                            case "sample":
+                                game.setSample(nv.getNodeValue().equalsIgnoreCase("true"));
                                 break;
                             default:
                                 throw new Exception(nv.getNodeName());

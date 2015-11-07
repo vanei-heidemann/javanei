@@ -407,6 +407,7 @@ public class GamePublisher implements Serializable {
         publishers.put("US Gold / Topo Soft", new GamePublisher("US Gold / Topo Soft"));
         publishers.put("Ubi-Soft", new GamePublisher("Ubi-Soft"));
         publishers.put("Ubisoft", new GamePublisher("Ubisoft"));
+        publishers.put("UBI Soft", new GamePublisher("Ubisoft"));
         publishers.put("Ultimate", new GamePublisher("Ultimate"));
         publishers.put("United Microware Industries Inc.", new GamePublisher("United Microware Industries Inc."));
         publishers.put("Unknown", new GamePublisher("Unknown"));
@@ -506,6 +507,9 @@ public class GamePublisher implements Serializable {
         publishers.put("Starbyte Software", new GamePublisher("Starbyte"));
         // Nes
         publishers.put("RCM Group", new GamePublisher("RCM Group"));
+        publishers.put("Gluk Video", new GamePublisher("Gluk Video")); // Pirata
+        publishers.put("NTDEC, Gluk Video", new GamePublisher("NTDEC, Gluk Video")); // Pirata
+        publishers.put("Sachen", new GamePublisher("Sachen"));
     }
 
     private GamePublisher(String publisher) {

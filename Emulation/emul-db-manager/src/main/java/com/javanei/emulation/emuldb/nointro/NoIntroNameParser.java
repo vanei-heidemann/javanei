@@ -1,6 +1,7 @@
 package com.javanei.emulation.emuldb.nointro;
 
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GameDeveloper;
 import com.javanei.emulation.common.game.GameLanguage;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
@@ -43,6 +44,10 @@ public final class NoIntroNameParser implements GameNameParser {
                 }
                 // Identifica o publisher
                 if (parsePublisher(game, tag)) {
+                    break validate_block;
+                }
+                // Identifica o developer
+                if (parseDeveloper(game, tag)) {
                     break validate_block;
                 }
                 // Identifica a linguagem
@@ -98,6 +103,17 @@ public final class NoIntroNameParser implements GameNameParser {
             GamePublisher pub = GamePublisher.getPublisher(tag);
             if (pub != null) {
                 game.setPublisher(pub);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static boolean parseDeveloper(Game game, String tag) {
+        if (game.getDeveloper() == null) {
+            GameDeveloper dev = GameDeveloper.getDeveloper(tag);
+            if (dev != null) {
+                game.setDeveloper(dev);
                 return true;
             }
         }
@@ -215,6 +231,10 @@ public final class NoIntroNameParser implements GameNameParser {
             if (s.trim().equals("Proto")) {
                 game.setProto(Boolean.TRUE);
                 result = true;
+            } else if (s.trim().startsWith("Proto")) {
+                //TODO: Travar versão do proto
+                game.setProto(Boolean.TRUE);
+                result = true;
             }
             // Identifica se é um Demo
             if (s.trim().equals("Demo")) {
@@ -223,6 +243,10 @@ public final class NoIntroNameParser implements GameNameParser {
             }
             // Identifica se é um Beta
             if (s.trim().equals("Beta")) {
+                game.setBeta(Boolean.TRUE);
+                result = true;
+            } else if (s.trim().startsWith("Beta")) {
+                //TODO: Travar versão do beta
                 game.setBeta(Boolean.TRUE);
                 result = true;
             }
@@ -234,6 +258,11 @@ public final class NoIntroNameParser implements GameNameParser {
             // Identifica se é um jogo não licenciado
             if (s.trim().equals("Unl")) {
                 game.setUnlicensed(ThreeStates.True);
+                result = true;
+            }
+            // Identifica se se é um Sample
+            if (s.trim().equals("Sample")) {
+                game.setSample(Boolean.TRUE);
                 result = true;
             }
         }
@@ -306,6 +335,17 @@ public final class NoIntroNameParser implements GameNameParser {
                     case "Rasterload":
                         break;
                     case "Book Club":
+                        break;
+                }
+            case "Nintendo Entertainment System":
+                switch (tag) {
+                    case "ArchiMENdes Hen": // Versao especial do jogo Gradius
+                    case "Genteiban!":
+                        break;
+                    case "PAL":
+                    case "NTSC":
+                    case "NTSC Demo":
+                    case "RAM":
                         break;
                 }
         }

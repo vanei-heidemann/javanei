@@ -2,6 +2,7 @@ package com.javanei.emulation.emuldb.game;
 
 import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.common.ThreeStates;
+import com.javanei.emulation.common.game.GameDeveloper;
 import com.javanei.emulation.common.game.GameLanguage;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
@@ -27,6 +28,7 @@ public class Game implements Serializable, Comparable<Game> {
     private List<GameLanguage> languages = new LinkedList<>();
     private List<GameRegion> regions = new LinkedList<>();
     private GamePublisher publisher;
+    private GameDeveloper developer;
     //private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
     private String alternate;
     private String compilation;
@@ -47,6 +49,7 @@ public class Game implements Serializable, Comparable<Game> {
     private Boolean beta = Boolean.FALSE; //No-Intro
     private Boolean demo = Boolean.FALSE; //No-Intro
     private Boolean promo = Boolean.FALSE; //No-Intro
+    private Boolean sample = Boolean.FALSE; //No-Intro
     private final Set<GameFile> roms = new HashSet<>();
 
     //private String license;
@@ -124,6 +127,14 @@ public class Game implements Serializable, Comparable<Game> {
 
     public void setPublisher(GamePublisher publisher) {
         this.publisher = publisher;
+    }
+
+    public GameDeveloper getDeveloper() {
+        return developer;
+    }
+
+    public void setDeveloper(GameDeveloper developer) {
+        this.developer = developer;
     }
 
     public String getAlternate() {
@@ -282,6 +293,14 @@ public class Game implements Serializable, Comparable<Game> {
         this.promo = promo;
     }
 
+    public Boolean getSample() {
+        return sample;
+    }
+
+    public void setSample(Boolean sample) {
+        this.sample = sample;
+    }
+
     public Set<GameFile> getRoms() {
         return roms;
     }
@@ -361,6 +380,9 @@ public class Game implements Serializable, Comparable<Game> {
         if (this.publisher != null) {
             sb.append(" publisher=\"").append(this.publisher).append("\"");
         }
+        if (this.developer != null) {
+            sb.append(" developer=\"").append(this.developer).append("\"");
+        }
         if (this.catalog != null) {
             sb.append(" catalog=\"").append(this.catalog).append("\"");
         }
@@ -391,6 +413,7 @@ public class Game implements Serializable, Comparable<Game> {
         this.appendIfNoNull(sb, "beta", beta);
         this.appendIfNoNull(sb, "demo", demo);
         this.appendIfNoNull(sb, "promo", promo);
+        this.appendIfNoNull(sb, "sample", sample);
         sb.append(">\n");
         this.roms.stream().forEach((rom) -> {
             sb.append("\t\t").append(rom.toString());
