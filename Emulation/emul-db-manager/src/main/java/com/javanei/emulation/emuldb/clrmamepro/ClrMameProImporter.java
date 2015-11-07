@@ -125,7 +125,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
 
     private GameFile processROMLine(String romLine) throws Exception {
         int pos = romLine.indexOf("\"") + 1;
-        int endpos = romLine.indexOf("\"", pos + 1) - 1;
+        int endpos = romLine.indexOf("\"", pos + 1);
         GameFile gf = new GameFile(romLine.substring(pos, endpos));
 
         String[] ss = romLine.substring(endpos + 2).trim().split(" ");
