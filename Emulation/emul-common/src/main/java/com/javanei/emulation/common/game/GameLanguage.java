@@ -30,6 +30,7 @@ public class GameLanguage {
         languages.put("Hr", new GameLanguage("Hr"));
         languages.put("Pt", new GameLanguage("Pt"));
         languages.put("Pl", new GameLanguage("Pl"));
+        languages.put("Zh", new GameLanguage("Zh"));
     }
 
     public GameLanguage(String lang) {
