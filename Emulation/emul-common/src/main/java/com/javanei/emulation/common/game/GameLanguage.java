@@ -17,6 +17,7 @@ public class GameLanguage {
 
     static {
         languages.put("En", new GameLanguage("En"));
+        languages.put("Fi", new GameLanguage("Fi"));
         languages.put("Fr", new GameLanguage("Fr"));
         languages.put("De", new GameLanguage("De"));
         languages.put("Es", new GameLanguage("Es"));
