@@ -205,6 +205,9 @@ public class RepositoryManager {
                             case "sample":
                                 game.setSample(nv.getNodeValue().equalsIgnoreCase("true"));
                                 break;
+                            case "preview":
+                                game.setPreview(nv.getNodeValue().equalsIgnoreCase("true"));
+                                break;
                             default:
                                 throw new Exception(nv.getNodeName());
                         }

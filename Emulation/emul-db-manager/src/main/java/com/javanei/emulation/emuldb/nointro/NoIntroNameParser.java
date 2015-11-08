@@ -257,6 +257,11 @@ public final class NoIntroNameParser implements GameNameParser {
                 game.setSample(Boolean.TRUE);
                 result = true;
             }
+            // Identifica se é um Preview
+            if (s.trim().equals("Preview")) {
+                game.setPreview(Boolean.TRUE);
+                result = true;
+            }
         }
         return result;
     }

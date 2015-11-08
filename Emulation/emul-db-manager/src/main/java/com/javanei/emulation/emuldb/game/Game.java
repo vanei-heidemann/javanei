@@ -50,6 +50,7 @@ public class Game implements Serializable, Comparable<Game> {
     private Boolean demo = Boolean.FALSE; //No-Intro
     private Boolean promo = Boolean.FALSE; //No-Intro
     private Boolean sample = Boolean.FALSE; //No-Intro
+    private Boolean preview = Boolean.FALSE; //No-Intro
     private final Set<GameFile> roms = new HashSet<>();
 
     //private String license;
@@ -317,6 +318,14 @@ public class Game implements Serializable, Comparable<Game> {
         this.sample = sample;
     }
 
+    public Boolean getPreview() {
+        return preview;
+    }
+
+    public void setPreview(Boolean preview) {
+        this.preview = preview;
+    }
+
     public Set<GameFile> getRoms() {
         return roms;
     }
@@ -430,6 +439,7 @@ public class Game implements Serializable, Comparable<Game> {
         this.appendIfNoNull(sb, "demo", demo);
         this.appendIfNoNull(sb, "promo", promo);
         this.appendIfNoNull(sb, "sample", sample);
+        this.appendIfNoNull(sb, "preview", preview);
         sb.append(">\n");
         this.roms.stream().forEach((rom) -> {
             sb.append("\t\t").append(rom.toString());
