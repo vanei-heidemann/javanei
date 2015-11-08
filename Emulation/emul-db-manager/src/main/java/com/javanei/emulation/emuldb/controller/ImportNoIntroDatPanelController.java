@@ -135,6 +135,8 @@ public class ImportNoIntroDatPanelController implements Initializable {
                             complement = "(PP)";
                         } else if (gi.getDescription().endsWith("(Tapes)")) {
                             complement = "(Tapes)";
+                        } else if (gi.getDescription().endsWith("(e-Cards)")) {
+                            complement = "(e-Cards)";
                         }
                         DatabaseFactory.getInstance().getDatabase().addDatFile(platform, GameCatalog.GoodSet, gi.getVersion(), complement, FileUtil.readFile(datFile));
                         DatabaseFactory.getInstance().getDatabase().addGames(platform, gi.getGames());
