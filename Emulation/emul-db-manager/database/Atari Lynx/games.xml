@@ -3,7 +3,7 @@
 	<game name="A.P.B. - All Points Bulletin (USA, Europe)" mainName="A.P.B. - All Points Bulletin" description="A.P.B. - All Points Bulletin (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
 		<rom name="A.P.B. - All Points Bulletin (USA, Europe).lnx" size="262144" crc="F6FB48FB" md5="B425941149874C6371C40E85CC5B6241" sha1="C2BF00DE769895CBED03C056EB9C8FA1A7EA59EF" />
 	</game>
-	<game name="Alien vs Predator (USA) (Proto)" mainName="Alien vs Predator" description="Alien vs Predator (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="true">
+	<game name="Alien vs Predator (USA) (Proto)" mainName="Alien vs Predator" description="Alien vs Predator (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="Proto">
 		<rom name="Alien vs Predator (USA) (Proto).lnx" size="262144" crc="540E9BB7" md5="8CE6C739D30D6C5BA197FCDD73D5EAD5" sha1="27427ED186D034D71E100CBFF5D0072A717AF9E0" />
 	</game>
 	<game name="Awesome Golf (USA, Europe)" mainName="Awesome Golf" description="Awesome Golf (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
@@ -42,7 +42,7 @@
 	<game name="California Games (USA, Europe)" mainName="California Games" description="California Games (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
 		<rom name="California Games (USA, Europe).lnx" size="131072" crc="A08F0B59" md5="73E02BB77DCF857A6578F0E24B4ECB9E" sha1="F13E010102CA527A9C393ACB52BB949A1BA93E3E" />
 	</game>
-	<game name="Centipede (USA) (Proto)" mainName="Centipede" description="Centipede (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="true">
+	<game name="Centipede (USA) (Proto)" mainName="Centipede" description="Centipede (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="Proto">
 		<rom name="Centipede (USA) (Proto).lnx" size="131072" crc="97501709" md5="13CB869B95C67C532EFDD0E924E37299" sha1="59A5185203E3550B1CAD7B28489915BC8DE80851" />
 	</game>
 	<game name="Checkered Flag (USA, Europe)" mainName="Checkered Flag" description="Checkered Flag (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
@@ -54,7 +54,7 @@
 	<game name="Crystal Mines II (USA, Europe)" mainName="Crystal Mines II" description="Crystal Mines II (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
 		<rom name="Crystal Mines II (USA, Europe).lnx" size="131072" crc="AEC474C8" md5="B4ACBD3C544A0D92CC8AD1380BF8A810" sha1="3364BDE38508C5C4FED5575295CC80C6F72EDEBE" />
 	</game>
-	<game name="Daemonsgate (USA) (Proto)" mainName="Daemonsgate" description="Daemonsgate (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="true">
+	<game name="Daemonsgate (USA) (Proto)" mainName="Daemonsgate" description="Daemonsgate (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="Proto">
 		<rom name="Daemonsgate (USA) (Proto).lnx" size="262144" crc="99729395" md5="F8B4DEBD68EB0D7C578242FA74E1C593" sha1="5A3A21EB5DE37367D294E057F70A1F325BF23C4A" />
 	</game>
 	<game name="Desert Strike - Return to the Gulf (USA, Europe)" mainName="Desert Strike - Return to the Gulf" description="Desert Strike - Return to the Gulf (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
@@ -78,7 +78,7 @@
 	<game name="European Soccer Challenge (USA, Europe)" mainName="European Soccer Challenge" description="European Soccer Challenge (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
 		<rom name="European Soccer Challenge (USA, Europe).lnx" size="131072" crc="F83397F9" md5="32E726AB7941EB1E833DCC4CF348A060" sha1="F1D0390A36055EF2B7CB5F7CE44F622A63D82E80" />
 	</game>
-	<game name="Eye of the Beholder (USA) (Proto)" mainName="Eye of the Beholder" description="Eye of the Beholder (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="true">
+	<game name="Eye of the Beholder (USA) (Proto)" mainName="Eye of the Beholder" description="Eye of the Beholder (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="Proto">
 		<rom name="Eye of the Beholder (USA) (Proto).lnx" size="131072" crc="6BCEAA9C" md5="858480BB97D86A52B1CA17DC390A8BDC" sha1="65C0517A59E0E93BAD91245EE8085B3483428707" />
 	</game>
 	<game name="Fat Bobby (USA, Europe)" mainName="Fat Bobby" description="Fat Bobby (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
@@ -129,19 +129,19 @@
 	<game name="Lexis (USA, Europe)" mainName="Lexis" description="Lexis (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
 		<rom name="Lexis (USA, Europe).lnx" size="262144" crc="0271B6E9" md5="7EE41EDAEF283459C9DF93366C5DA267" sha1="B973CEE4A58DBAE5AB2D540B38DB90AAE78BA323" />
 	</game>
-	<game name="Loopz (USA) (Proto)" mainName="Loopz" description="Loopz (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="true">
+	<game name="Loopz (USA) (Proto)" mainName="Loopz" description="Loopz (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="Proto">
 		<rom name="Loopz (USA) (Proto).lnx" size="262144" crc="B1C25EF1" md5="8399C8FBA48BA1A4389A96E75838DC49" sha1="B43B0841A5D315D8E515CEAECE29875BA6F9AFBB" />
 	</game>
 	<game name="Lynx Casino (USA, Europe)" mainName="Lynx Casino" description="Lynx Casino (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
 		<rom name="Lynx Casino (USA, Europe).lnx" size="262144" crc="1091A268" md5="05D28AB0E92B19147E7F5EA88C6EFB6D" sha1="4B82A9BC02330C9213C2BBD74D547D520C4E6FA3" />
 	</game>
-	<game name="Lynx II Production Test Program V0.02 (USA) (Proto)" mainName="Lynx II Production Test Program V0.02" description="Lynx II Production Test Program V0.02 (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="true">
+	<game name="Lynx II Production Test Program V0.02 (USA) (Proto)" mainName="Lynx II Production Test Program V0.02" description="Lynx II Production Test Program V0.02 (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="Proto">
 		<rom name="Lynx II Production Test Program V0.02 (USA) (Proto).lnx" size="262144" crc="28ADA019" md5="5D8FDFB15441CDFB8A1C66C243C486DA" sha1="C0D35FCFAC44437CF3D6D56E6F8CEA0DCB12A296" />
 	</game>
 	<game name="Malibu Bikini Volleyball (USA, Europe)" mainName="Malibu Bikini Volleyball" description="Malibu Bikini Volleyball (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
 		<rom name="Malibu Bikini Volleyball (USA, Europe).lnx" size="262144" crc="ABA6DA3D" md5="280344C8B073895ECCE286D1B9D87D8B" sha1="9C3D8037D347C0FF23D941EFF8B575A4F2F051DA" />
 	</game>
-	<game name="Marlboro Go! (Europe) (Proto)" mainName="Marlboro Go!" description="Marlboro Go! (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20130303-222635" proto="true">
+	<game name="Marlboro Go! (Europe) (Proto)" mainName="Marlboro Go!" description="Marlboro Go! (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20130303-222635" proto="Proto">
 		<rom name="Marlboro Go! (Europe) (Proto).lnx" size="262144" crc="C3FA0D4D" md5="194A3EEB876D2B74CC480F4D337D79B3" sha1="26B18B706359B093D0B1BBCA4DBA9CD2D73E0372" />
 	</game>
 	<game name="Ms. Pac-Man (USA, Europe)" mainName="Ms. Pac-Man" description="Ms. Pac-Man (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
@@ -183,7 +183,7 @@
 	<game name="Rampart (USA, Europe)" mainName="Rampart" description="Rampart (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
 		<rom name="Rampart (USA, Europe).lnx" size="262144" crc="139F301D" md5="D8045ED542D5E58C779C884E0930E16C" sha1="3C3A0729BB4DDECF5E5FD2D9CED4671D2E0E702E" />
 	</game>
-	<game name="Road Riot 4WD (USA) (Proto)" mainName="Road Riot 4WD" description="Road Riot 4WD (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="true">
+	<game name="Road Riot 4WD (USA) (Proto)" mainName="Road Riot 4WD" description="Road Riot 4WD (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-222635" proto="Proto">
 		<rom name="Road Riot 4WD (USA) (Proto).lnx" size="262144" crc="69959A3B" md5="9222E42A160924DEE0C87A67FDBC48D0" sha1="63978DFD86782ACC101266D7BAB8677E32D7EA8F" />
 	</game>
 	<game name="RoadBlasters (USA, Europe)" mainName="RoadBlasters" description="RoadBlasters (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130303-222635">
