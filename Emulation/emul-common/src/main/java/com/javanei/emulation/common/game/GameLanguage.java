@@ -17,7 +17,6 @@ public class GameLanguage {
 
     static {
         languages.put("En", new GameLanguage("En"));
-        languages.put("Fi", new GameLanguage("Fi"));
         languages.put("Fr", new GameLanguage("Fr"));
         languages.put("De", new GameLanguage("De"));
         languages.put("Es", new GameLanguage("Es"));
@@ -32,6 +31,7 @@ public class GameLanguage {
         languages.put("Pt", new GameLanguage("Pt"));
         languages.put("Pl", new GameLanguage("Pl"));
         languages.put("Zh", new GameLanguage("Zh"));
+        languages.put("Fi", new GameLanguage("Fi"));
     }
 
     public GameLanguage(String lang) {
@@ -47,9 +47,19 @@ public class GameLanguage {
         if (result) {
             String[] ss = langList.split(",");
             for (String s : ss) {
-                if (!isLanguage(s.trim())) {
-                    result = false;
-                    break;
+                if (s.indexOf("+") > 0) {
+                    String[] ss2 = s.split("+");
+                    for (String s2 : ss2) {
+                        if (!isLanguage(s2.trim())) {
+                            result = false;
+                            break;
+                        }
+                    }
+                } else {
+                    if (!isLanguage(s.trim())) {
+                        result = false;
+                        break;
+                    }
                 }
             }
         }
@@ -69,7 +79,14 @@ public class GameLanguage {
         String[] ss = langList.split(",");
         List<GameLanguage> result = new LinkedList<>();
         for (String s : ss) {
+            if (s.indexOf("+") > 0) {
+                String[] ss2 = s.split("+");
+                for (String s2 : ss2) {
+                    result.add(fromName(s2.trim()));
+                }
+            } else {
             result.add(fromName(s.trim()));
+            }
         }
         return result;
     }
