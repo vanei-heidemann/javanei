@@ -3,6 +3,7 @@ package com.javanei.emulation.emuldb.nointro;
 import com.javanei.emulation.common.ThreeStates;
 import com.javanei.emulation.common.game.GameDeveloper;
 import com.javanei.emulation.common.game.GameLanguage;
+import com.javanei.emulation.common.game.GameLoader;
 import com.javanei.emulation.common.game.GameProtection;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
@@ -53,6 +54,10 @@ public final class NoIntroNameParser implements GameNameParser {
                 }
                 // Identifica a protection
                 if (parseProtection(game, tag)) {
+                    break validate_block;
+                }
+                // Identifica o Loader
+                if (parseLoader(game, tag)) {
                     break validate_block;
                 }
                 // Identifica a linguagem
@@ -130,6 +135,17 @@ public final class NoIntroNameParser implements GameNameParser {
             GameProtection prot = GameProtection.getProtection(tag);
             if (prot != null) {
                 game.setProtection(prot);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static boolean parseLoader(Game game, String tag) {
+        if (game.getLoader() == null) {
+            GameLoader loader = GameLoader.getLoader(tag);
+            if (loader != null) {
+                game.setLoader(loader);
                 return true;
             }
         }

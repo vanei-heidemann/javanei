@@ -4,6 +4,7 @@ import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.common.ThreeStates;
 import com.javanei.emulation.common.game.GameDeveloper;
 import com.javanei.emulation.common.game.GameLanguage;
+import com.javanei.emulation.common.game.GameLoader;
 import com.javanei.emulation.common.game.GameProtection;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
@@ -31,6 +32,7 @@ public class Game implements Serializable, Comparable<Game> {
     private GamePublisher publisher;
     private GameDeveloper developer;
     private GameProtection protection;
+    private GameLoader loader;
     //private ThreeStates alternate = ThreeStates.Unknown; //GoodTools
     private String alternate;
     private String compilation;
@@ -146,6 +148,14 @@ public class Game implements Serializable, Comparable<Game> {
 
     public void setProtection(GameProtection protection) {
         this.protection = protection;
+    }
+
+    public GameLoader getLoader() {
+        return loader;
+    }
+
+    public void setLoader(GameLoader loader) {
+        this.loader = loader;
     }
 
     public String getAlternate() {
@@ -420,6 +430,9 @@ public class Game implements Serializable, Comparable<Game> {
         }
         if (this.protection != null) {
             sb.append(" protection=\"").append(this.protection).append("\"");
+        }
+        if (this.loader != null) {
+            sb.append(" loader=\"").append(this.loader).append("\"");
         }
         if (this.catalog != null) {
             sb.append(" catalog=\"").append(this.catalog).append("\"");

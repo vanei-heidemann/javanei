@@ -24,6 +24,7 @@ public class GameLoader implements Serializable {
         loaders.put("Bleepload", new GameLoader("Bleepload"));
         loaders.put("Burner", new GameLoader("Burner"));
         loaders.put("CHR Loader", new GameLoader("CHR Loader"));
+        loaders.put("CHR", new GameLoader("CHR Loader"));
         loaders.put("Cyberload", new GameLoader("Cyberload"));
         loaders.put("Cyberload+ROM Loader", new GameLoader("Cyberload+ROM Loader"));
         loaders.put("Enigma Loader", new GameLoader("Enigma Loader"));
@@ -62,6 +63,8 @@ public class GameLoader implements Serializable {
         loaders.put("Virgin Loader", new GameLoader("Virgin Loader"));
         loaders.put("Visiload", new GameLoader("Visiload"));
         loaders.put("Wildsave", new GameLoader("Wildsave"));
+        // ActivisionHit-load?
+        // ActivisionWildsave?
     }
 
     private GameLoader(String loader) {
