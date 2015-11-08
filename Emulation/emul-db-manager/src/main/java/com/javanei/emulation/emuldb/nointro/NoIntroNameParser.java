@@ -206,6 +206,37 @@ public final class NoIntroNameParser implements GameNameParser {
             game.setYear(year);
             return true;
         }
+        if (tag.matches("May \\d\\d\\d\\d")) {
+            game.setYear(Integer.parseInt(tag.substring(4)));
+            return true;
+        }
+        if (tag.matches("June \\d\\d\\d\\d")
+                || tag.matches("July \\d\\d\\d\\d")) {
+            game.setYear(Integer.parseInt(tag.substring(5)));
+            return true;
+        }
+        if (tag.matches("March \\d\\d\\d\\d")
+                || tag.matches("April \\d\\d\\d\\d")) {
+            game.setYear(Integer.parseInt(tag.substring(6)));
+            return true;
+        }
+        if (tag.matches("August \\d\\d\\d\\d")) {
+            game.setYear(Integer.parseInt(tag.substring(7)));
+            return true;
+        }
+        if (tag.matches("January \\d\\d\\d\\d")
+                || tag.matches("October \\d\\d\\d\\d")) {
+            game.setYear(Integer.parseInt(tag.substring(8)));
+            return true;
+        }
+        if (tag.matches("February \\d\\d\\d\\d")) {
+            game.setYear(Integer.parseInt(tag.substring(9)));
+            return true;
+        }
+        if (tag.matches("September \\d\\d\\d\\d")) {
+            game.setYear(Integer.parseInt(tag.substring(10)));
+            return true;
+        }
         return false;
     }
 
@@ -216,7 +247,10 @@ public final class NoIntroNameParser implements GameNameParser {
                 || tag.matches("R\\d\\d")
                 || tag.matches("R\\d")
                 || tag.matches("A\\d\\d")
-                || tag.matches("Release \\d\\d")) {
+                || tag.matches("Release \\d\\d")
+                || tag.matches("\\d.\\d\\dl") // Sega Genesis
+                || tag.matches("\\d.\\d\\dS") // Sega Genesis
+                ) {
             game.setVersion(tag);
             return true;
         }
