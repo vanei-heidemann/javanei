@@ -32,6 +32,7 @@ public class GameLanguage {
         languages.put("Pl", new GameLanguage("Pl"));
         languages.put("Zh", new GameLanguage("Zh"));
         languages.put("Fi", new GameLanguage("Fi"));
+        languages.put("Ca", new GameLanguage("Ca"));
     }
 
     public GameLanguage(String lang) {
