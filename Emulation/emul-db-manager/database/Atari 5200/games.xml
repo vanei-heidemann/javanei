@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <games>
-	<game name="5200 Menu (USA) (Proto)" mainName="5200 Menu" description="5200 Menu (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="5200 Menu (USA) (Proto)" mainName="5200 Menu" description="5200 Menu (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="5200 Menu (USA) (Proto).a52" size="8192" crc="0DE2DB48" md5="07D1A296B2FA1CEDF2A5FA029783E9ED" sha1="E64FB1A353C72B87C5483BB88CB3523EA5D37B59" />
 	</game>
-	<game name="A.E. (USA) (Proto)" mainName="A.E." description="A.E. (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="A.E. (USA) (Proto)" mainName="A.E." description="A.E. (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="A.E. (USA) (Proto).a52" size="16384" crc="35484751" md5="A47FCB4EEDAB9418EA098BB431A407AA" sha1="E18A603B18B85E24F9C938B33B6077A767C1FA9C" />
 	</game>
 	<game name="Activision Decathlon, The (USA)" mainName="Activision Decathlon, The" description="Activision Decathlon, The (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Activision Decathlon, The (USA).a52" size="16384" crc="F43E7CD0" md5="45F8841269313736489180C8EC3E9588" sha1="DB203973DF13B071DA46D52FDB078A76F4DB428D" />
 	</game>
-	<game name="Asteroids (USA) (Proto)" mainName="Asteroids" description="Asteroids (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Asteroids (USA) (Proto)" mainName="Asteroids" description="Asteroids (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Asteroids (USA) (Proto).a52" size="8192" crc="38480891" md5="FE840B0020003F111022EB45347BAF38" sha1="18697DD8E640FA1578B3B4AE09AF484C14FB8410" />
 	</game>
 	<game name="Astro Chase (USA)" mainName="Astro Chase" description="Astro Chase (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -30,10 +30,10 @@
 	<game name="Ballblazer (USA)" mainName="Ballblazer" description="Ballblazer (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Ballblazer (USA).a52" size="32768" crc="DEF2A207" md5="F5CD178CBEA0AE7D8CF65B30CFD04225" sha1="1DFD9CB5EB608590C84E14376291F8C02FB1AB93" />
 	</game>
-	<game name="Barroom Baseball (USA) (Proto)" mainName="Barroom Baseball" description="Barroom Baseball (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Barroom Baseball (USA) (Proto)" mainName="Barroom Baseball" description="Barroom Baseball (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Barroom Baseball (USA) (Proto).a52" size="32768" crc="21D19C8F" md5="E3FBAD9D967CEC0D8756D9C07346A8FB" sha1="510CCB20DF2ECDBE7F8373DE6A9FC11493E8C3F2" />
 	</game>
-	<game name="Battlezone (USA) (Proto)" mainName="Battlezone" description="Battlezone (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Battlezone (USA) (Proto)" mainName="Battlezone" description="Battlezone (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Battlezone (USA) (Proto).a52" size="16384" crc="B3B8E314" md5="8576867C2CFC965CF152BE0468F684A7" sha1="A339CDDFC28477C21C58783D2D3B0CF0F4626DDF" />
 	</game>
 	<game name="Beamrider (USA)" mainName="Beamrider" description="Beamrider (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -42,10 +42,10 @@
 	<game name="BerZerk (USA)" mainName="BerZerk" description="BerZerk (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="BerZerk (USA).a52" size="16384" crc="BE3CD348" md5="F8973DB8DC272C2E5EB7B8DBB5C0CC3B" sha1="E56CCC6BF427A832CE00540B02D065A2688260DC" />
 	</game>
-	<game name="Black Belt (USA) (Proto)" mainName="Black Belt" description="Black Belt (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Black Belt (USA) (Proto)" mainName="Black Belt" description="Black Belt (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Black Belt (USA) (Proto).a52" size="32768" crc="ED47B0D8" md5="428F76E23CB0A499B396824CE0FF70E7" sha1="9B7ECD444B6239442EF1F54CD8E14C294C064DA2" />
 	</game>
-	<game name="Blaster (USA) (Proto)" mainName="Blaster" description="Blaster (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Blaster (USA) (Proto)" mainName="Blaster" description="Blaster (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Blaster (USA) (Proto).a52" size="16384" crc="C8F9C094" md5="E0B47A17FA6CD9D6ADDC1961FCA43414" sha1="AB3130256D16AF09CAC8B11749DFAFF6AAAA3EA3" />
 	</game>
 	<game name="Blue Print (USA)" mainName="Blue Print" description="Blue Print (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -93,10 +93,10 @@
 	<game name="Dreadnaught Factor, The (USA)" mainName="Dreadnaught Factor, The" description="Dreadnaught Factor, The (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Dreadnaught Factor, The (USA).a52" size="8192" crc="460DEF2D" md5="159CCAA564FC2472AFD1F06665EC6D19" sha1="EA7B40CE1106378E1D409CAB6634FB2E483FF238" />
 	</game>
-	<game name="Final Legacy (USA) (Proto)" mainName="Final Legacy" description="Final Legacy (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Final Legacy (USA) (Proto)" mainName="Final Legacy" description="Final Legacy (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Final Legacy (USA) (Proto).a52" size="16384" crc="D3BD3221" md5="2BB63D65EFC8682BC4DFAC0FD0A823BE" sha1="48625AF4F3E9FE538DAB2A0B463887FC8C6B138D" />
 	</game>
-	<game name="Frisky Tom (USA) (Proto)" mainName="Frisky Tom" description="Frisky Tom (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Frisky Tom (USA) (Proto)" mainName="Frisky Tom" description="Frisky Tom (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Frisky Tom (USA) (Proto).a52" size="16384" crc="04B299A4" md5="14BD9A0423EAFC3090333AF916CFBCE6" sha1="69DCC8F59CA449F13DC896B4B29B534762D97064" />
 	</game>
 	<game name="Frogger (USA)" mainName="Frogger" description="Frogger (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -126,7 +126,7 @@
 	<game name="Joust (USA)" mainName="Joust" description="Joust (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Joust (USA).a52" size="16384" crc="BFD30C01" md5="25CFDEF5BF9B126166D5394AE74A32E7" sha1="0F74125EDAC90FFD1274A128DF2970C239348FB5" />
 	</game>
-	<game name="Jr. Pac-Man (USA) (Proto)" mainName="Jr. Pac-Man" description="Jr. Pac-Man (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Jr. Pac-Man (USA) (Proto)" mainName="Jr. Pac-Man" description="Jr. Pac-Man (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Jr. Pac-Man (USA) (Proto).a52" size="16384" crc="59983C40" md5="BC748804F35728E98847DA6CDAF241A7" sha1="A3E760D09E4DC6053286967576B5B7D42EE2FD38" />
 	</game>
 	<game name="Jungle Hunt (USA)" mainName="Jungle Hunt" description="Jungle Hunt (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -147,16 +147,16 @@
 	<game name="Koffi - Yellow Kopter (USA) (Unl)" mainName="Koffi - Yellow Kopter" description="Koffi - Yellow Kopter (USA) (Unl)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" unlicensed="true">
 		<rom name="Koffi - Yellow Kopter (USA) (Unl).a52" size="32768" crc="917BE656" md5="3B03E3CDA8E8AA3BEED4C9617010B010" sha1="9547C56E2951E1B3A713B0B99D3EDB43C9D3CDD8" />
 	</game>
-	<game name="Last Starfighter, The (USA) (Proto)" mainName="Last Starfighter, The" description="Last Starfighter, The (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Last Starfighter, The (USA) (Proto)" mainName="Last Starfighter, The" description="Last Starfighter, The (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Last Starfighter, The (USA) (Proto).a52" size="16384" crc="83517703" md5="46264C86EDF30666E28553BD08369B83" sha1="4046F60602254A7D86D2A6EFD1A330455EAEC119" />
 	</game>
-	<game name="Looney Tunes Hotel (USA) (Proto)" mainName="Looney Tunes Hotel" description="Looney Tunes Hotel (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Looney Tunes Hotel (USA) (Proto)" mainName="Looney Tunes Hotel" description="Looney Tunes Hotel (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Looney Tunes Hotel (USA) (Proto).a52" size="16384" crc="84DF4925" md5="D0A1654625DBDF3C6B8480C1ED17137F" sha1="BC4A536616AC45689B3AD790F6B1394EBBD8CC7E" />
 	</game>
 	<game name="Mario Bros. (USA)" mainName="Mario Bros." description="Mario Bros. (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Mario Bros. (USA).a52" size="32768" crc="873742F1" md5="D00DFF571BFA57C7FF7880C3CE03B178" sha1="A293B6B06050E11029D97137F2B1B36059567273" />
 	</game>
-	<game name="Meebzork (USA) (Proto)" mainName="Meebzork" description="Meebzork (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Meebzork (USA) (Proto)" mainName="Meebzork" description="Meebzork (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Meebzork (USA) (Proto).a52" size="32768" crc="9FB13411" md5="BC33C07415B42646CC813845B979D85A" sha1="FF0F1D9ED0AE45E3C81B252F3D0A335E03B0AA4B" />
 	</game>
 	<game name="MegaMania (USA)" mainName="MegaMania" description="MegaMania (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -165,16 +165,16 @@
 	<game name="Meteorites (USA)" mainName="Meteorites" description="Meteorites (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Meteorites (USA).a52" size="16384" crc="AB8E035B" md5="1CD67468D123219201702EADAFFD0275" sha1="32D86A381FEFF43149B66336DCC4BA2523273228" />
 	</game>
-	<game name="Microgammon SB (USA) (Proto)" mainName="Microgammon SB" description="Microgammon SB (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Microgammon SB (USA) (Proto)" mainName="Microgammon SB" description="Microgammon SB (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Microgammon SB (USA) (Proto).a52" size="16384" crc="931A454A" md5="24348DD9287F54574CCC40EE40D24A86" sha1="2F152A857A8A58D602B3C717612D9744423EE495" />
 	</game>
-	<game name="Millipede (USA) (Proto)" mainName="Millipede" description="Millipede (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Millipede (USA) (Proto)" mainName="Millipede" description="Millipede (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Millipede (USA) (Proto).a52" size="16384" crc="969CFE1A" md5="84D88BCDEFFEE1AB880A5575C6ACA45E" sha1="1243A8ECFC02A74AE4E1F4FCDA38502776F45CB0" />
 	</game>
 	<game name="Miner 2049er Starring Bounty Bob (USA)" mainName="Miner 2049er Starring Bounty Bob" description="Miner 2049er Starring Bounty Bob (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Miner 2049er Starring Bounty Bob (USA).a52" size="16384" crc="7DF1ADFB" md5="D859BFF796625E980DB1840F15DEC4B5" sha1="0564B1867A0B570D66DFCBC11ADC3E51A2C6F28C" />
 	</game>
-	<game name="Miniature Golf (USA) (Proto)" mainName="Miniature Golf" description="Miniature Golf (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Miniature Golf (USA) (Proto)" mainName="Miniature Golf" description="Miniature Golf (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Miniature Golf (USA) (Proto).a52" size="16384" crc="C597C087" md5="69D472A79F404E49AD2278DF3C8A266E" sha1="EF4D3EE7B4DA2EF79C6F4D0D1833F10C1EB7725E" />
 	</game>
 	<game name="Missile Command (USA)" mainName="Missile Command" description="Missile Command (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -225,10 +225,10 @@
 	<game name="RealSports Basketball (USA)" mainName="RealSports Basketball" description="RealSports Basketball (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="RealSports Basketball (USA).a52" size="32768" crc="DD217276" md5="E056001D304DB597BDD21B2968FCC3E6" sha1="9B21AC7FEC8D556585C6970231318EF1F501B2B5" />
 	</game>
-	<game name="RealSports Basketball (USA) (82-11-05) (Proto)" mainName="RealSports Basketball" description="RealSports Basketball (USA) (82-11-05) (Proto)" year="1982" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="RealSports Basketball (USA) (82-11-05) (Proto)" mainName="RealSports Basketball" description="RealSports Basketball (USA) (82-11-05) (Proto)" year="1982" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="RealSports Basketball (USA) (82-11-05) (Proto).a52" size="16384" crc="0F996184" md5="A71BFB11676A4E4694AF66E311721A1B" sha1="2B43F74DB4833272D2048DE8FA32B857AF8E090F" />
 	</game>
-	<game name="RealSports Basketball (USA) (83-10-31) (Proto)" mainName="RealSports Basketball" description="RealSports Basketball (USA) (83-10-31) (Proto)" year="1983" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="RealSports Basketball (USA) (83-10-31) (Proto)" mainName="RealSports Basketball" description="RealSports Basketball (USA) (83-10-31) (Proto)" year="1983" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="RealSports Basketball (USA) (83-10-31) (Proto).a52" size="32768" crc="C90196FA" md5="CFD05F2A0EA1068718D1149DBD1F19FA" sha1="9EDB066A37CA7657979952C946AB89BE7926F4F8" />
 	</game>
 	<game name="RealSports Football (USA)" mainName="RealSports Football" description="RealSports Football (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -243,7 +243,7 @@
 	<game name="Rescue on Fractalus! (USA)" mainName="Rescue on Fractalus!" description="Rescue on Fractalus! (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Rescue on Fractalus! (USA).a52" size="32768" crc="762C591B" md5="0DC44C5BF0829649B7FEC37CB0A8186B" sha1="9253D7286CF87999474B37DF242BA23B4358EF4A" />
 	</game>
-	<game name="Road Runner (USA) (Proto)" mainName="Road Runner" description="Road Runner (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Road Runner (USA) (Proto)" mainName="Road Runner" description="Road Runner (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Road Runner (USA) (Proto).a52" size="16384" crc="A97606AB" md5="DDF7834A420F1EAAE20A7A6255F80A99" sha1="0A7AAEF5B0EDE927CEA13E724906207E1DB48068" />
 	</game>
 	<game name="Robotron 2084 (USA)" mainName="Robotron 2084" description="Robotron 2084 (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -258,10 +258,10 @@
 	<game name="Space Shuttle - A Journey Into Space (USA)" mainName="Space Shuttle - A Journey Into Space" description="Space Shuttle - A Journey Into Space (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Space Shuttle - A Journey Into Space (USA).a52" size="16384" crc="387365DC" md5="802A11DFCBA6229CC2F93F0F3AAEB3AA" sha1="5AE20E767D9819FE601F3B1EA6D4506AE2F2CEEF" />
 	</game>
-	<game name="Spitfire (USA) (Proto)" mainName="Spitfire" description="Spitfire (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Spitfire (USA) (Proto)" mainName="Spitfire" description="Spitfire (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Spitfire (USA) (Proto).a52" size="32768" crc="3C311303" md5="CD1C3F732C3432C4A642732182B1EA30" sha1="688133761C462D6865BF673ED298B4D828120940" />
 	</game>
-	<game name="Sport Goofy (USA) (Proto)" mainName="Sport Goofy" description="Sport Goofy (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Sport Goofy (USA) (Proto)" mainName="Sport Goofy" description="Sport Goofy (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Sport Goofy (USA) (Proto).a52" size="16384" crc="73B5B6FB" md5="993E3BE7199ECE5C3E03092E3B3C0D1D" sha1="5F0354D8792D652313E5A0FA5D395E091C801D97" />
 	</game>
 	<game name="Star Raiders (USA)" mainName="Star Raiders" description="Star Raiders (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -276,7 +276,7 @@
 	<game name="Star Wars - The Arcade Game (USA)" mainName="Star Wars - The Arcade Game" description="Star Wars - The Arcade Game (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Star Wars - The Arcade Game (USA).a52" size="16384" crc="75F566DF" md5="00BEAA8405C7FB90D86BE5BB1B01EA66" sha1="AB676FFE054B23BDD43CEE2498AFEFAABBF9355B" />
 	</game>
-	<game name="Stargate (USA) (Proto)" mainName="Stargate" description="Stargate (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Stargate (USA) (Proto)" mainName="Stargate" description="Stargate (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Stargate (USA) (Proto).a52" size="16384" crc="1D1CEE27" md5="595703DC459CD51FED6E2A191C462969" sha1="09D192A3598CDADFB61ECEB430B3D5892E40962F" />
 	</game>
 	<game name="Super Breakout (USA)" mainName="Super Breakout" description="Super Breakout (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -285,13 +285,13 @@
 	<game name="Super Cobra (USA)" mainName="Super Cobra" description="Super Cobra (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Super Cobra (USA).a52" size="8192" crc="97DEBCD2" md5="DFCD77AEC94B532728C3D1FEF1DA9D85" sha1="8205093F5FB1FDF0CCB71D667EA0A3849FB0A0F2" />
 	</game>
-	<game name="Super Pac-Man (USA) (Proto)" mainName="Super Pac-Man" description="Super Pac-Man (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Super Pac-Man (USA) (Proto)" mainName="Super Pac-Man" description="Super Pac-Man (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Super Pac-Man (USA) (Proto).a52" size="16384" crc="0A4DDB1E" md5="7DAB86351FE78C2F529010A1AC83A4CF" sha1="238CB448555D8BB5C96AA0354718411E8777C613" />
 	</game>
-	<game name="Tempest (USA) (Proto)" mainName="Tempest" description="Tempest (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Tempest (USA) (Proto)" mainName="Tempest" description="Tempest (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Tempest (USA) (Proto).a52" size="16384" crc="1187342F" md5="496B6A002BC7D749C02014F7EC6C303C" sha1="85FCEA0A4D4D1F22437801C96229BA96E0F6B711" />
 	</game>
-	<game name="Track and Field (USA) (Proto)" mainName="Track and Field" description="Track and Field (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Track and Field (USA) (Proto)" mainName="Track and Field" description="Track and Field (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Track and Field (USA) (Proto).a52" size="16384" crc="0BA22ECE" md5="33053F432F9C4AD38B5D02D1B485B5BD" sha1="9DFBB5D8B77504C66CE3AC4382DAF79820393DD8" />
 	</game>
 	<game name="Vanguard (USA)" mainName="Vanguard" description="Vanguard (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
@@ -300,10 +300,10 @@
 	<game name="Wizard of Wor (USA)" mainName="Wizard of Wor" description="Wizard of Wor (USA)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600">
 		<rom name="Wizard of Wor (USA).a52" size="16384" crc="D6F7DDFD" md5="560B68B7F83077444A57EBE9F932905A" sha1="49DEBDF3C133FDE9905D6D9137DA5D8DFF8D6283" />
 	</game>
-	<game name="Xari Arena (USA) (Proto)" mainName="Xari Arena" description="Xari Arena (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Xari Arena (USA) (Proto)" mainName="Xari Arena" description="Xari Arena (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Xari Arena (USA) (Proto).a52" size="16384" crc="B8FAAEC3" md5="4F6C58C28C41F31E3A1515FE1E5D15AF" sha1="8B5512D3D2A952C99B9377919F0E06481161D81E" />
 	</game>
-	<game name="Xevious (USA) (Proto)" mainName="Xevious" description="Xevious (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="true">
+	<game name="Xevious (USA) (Proto)" mainName="Xevious" description="Xevious (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" proto="Proto">
 		<rom name="Xevious (USA) (Proto).a52" size="32768" crc="382634DC" md5="53D0FA90D913084677212A240C5AFFBD" sha1="C3CF33216DFA484309B923F21829D040486BC481" />
 	</game>
 	<game name="Yellow Submarine (USA) (Demo)" mainName="Yellow Submarine" description="Yellow Submarine (USA) (Demo)" region="USA" catalog="NoIntro" catalogVersion="20130303-220600" demo="true">
