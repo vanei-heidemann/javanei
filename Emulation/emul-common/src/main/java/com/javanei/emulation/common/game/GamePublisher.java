@@ -408,6 +408,7 @@ public class GamePublisher implements Serializable {
         publishers.put("Ubi-Soft", new GamePublisher("Ubi-Soft"));
         publishers.put("Ubisoft", new GamePublisher("Ubisoft"));
         publishers.put("UBI Soft", new GamePublisher("Ubisoft"));
+        publishers.put("Ubi Soft", new GamePublisher("Ubisoft"));
         publishers.put("Ultimate", new GamePublisher("Ultimate"));
         publishers.put("United Microware Industries Inc.", new GamePublisher("United Microware Industries Inc."));
         publishers.put("Unknown", new GamePublisher("Unknown"));
