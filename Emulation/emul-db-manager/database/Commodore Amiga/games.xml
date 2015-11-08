@@ -188,7 +188,8 @@
 		<rom name="Accordion (Europe) (v1.1).ipf" size="1056058" crc="2377F1C2" md5="81C9AAE3943B188E6D4FAD1176E9662F" sha1="D5295E7512A9985579D09038F9F8036E4BB613F5" />
 	</game>
 	<game name="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx)" mainName="Action Fighter" description="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + PC">
-		<rom name="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" size="978321" crc="795E1DFD" md5="81E7DA0EA30761D722CA0223DEFBAD98" sha1="8FA4BEB3CD9150249821F2D90B3C572BAB4B3E11" />
+		<rom name="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" crc="795E1DFD" />
+		<rom name="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" md5="81E7DA0EA30761D722CA0223DEFBAD98" />
 	</game>
 	<game name="Action Fighter (France) (Compilation - Les Fous du Volant)" mainName="Action Fighter" description="Action Fighter (France) (Compilation - Les Fous du Volant)" region="France" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Les Fous du Volant">
 		<rom name="Action Fighter (France) (Compilation - Les Fous du Volant).ipf" size="1049180" crc="5753FE42" md5="FE431BED2417EBB43742664D334BFDD0" sha1="A69C302907F7810882E0DEA4F1ED0C2C10077C1C" />
@@ -427,12 +428,12 @@
 		<rom name="Alien Breed - Special Edition 92 (Europe) (Disk 2).ipf" size="1049612" crc="957C8E5A" md5="9DC8C651653CE76920EB18B0A586A7D1" sha1="206B14D03335CA81D37E730B9FA0DDE0E9C96738" />
 		<rom name="Alien Breed - Special Edition 92 (Europe) (Boot Disk).ipf" size="1049304" crc="C7036BE4" md5="ADEC555C7A6BD5E686BFE304CD0FFCE6" sha1="00138605A3AC8499F238179A274EC212E881965E" />
 	</game>
-	<game name="Alien Breed - Tower Assault (Europe) (OCS, AGA)" mainName="Alien Breed - Tower Assault" description="Alien Breed - Tower Assault (Europe) (OCS, AGA)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
+	<game name="Alien Breed - Tower Assault (Europe) (OCS, AGA)" mainName="Alien Breed - Tower Assault" description="Alien Breed - Tower Assault (Europe) (OCS, AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
 		<rom name="Alien Breed - Tower Assault (Europe) (OCS, AGA) (Disk 2).ipf" size="1139240" crc="962E0A07" md5="3F554A855497165CD904FA04DECF3075" sha1="A7EF1A3B854C7487852CF1316CCB57363DB2CE05" />
 		<rom name="Alien Breed - Tower Assault (Europe) (OCS, AGA) (Disk 3).ipf" size="1140380" crc="436EA013" md5="8113E4466B132AD06DF2DC015076A41B" sha1="D816DE95D7FFFF76B3D72E5E28B6648FAD0CA4D3" />
 		<rom name="Alien Breed - Tower Assault (Europe) (OCS, AGA) (Disk 1).ipf" size="1139240" crc="626B4074" md5="CC27A2C6A32643909FF10436747D70ED" sha1="87C21306C4CDED3DBE4C173B2CC6B116F6475AEE" />
 	</game>
-	<game name="Alien Breed - Tower Assault (Europe) (v1.1) (OCS, AGA)" mainName="Alien Breed - Tower Assault" description="Alien Breed - Tower Assault (Europe) (v1.1) (OCS, AGA)" version="v1.1" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
+	<game name="Alien Breed - Tower Assault (Europe) (v1.1) (OCS, AGA)" mainName="Alien Breed - Tower Assault" description="Alien Breed - Tower Assault (Europe) (v1.1) (OCS, AGA)" version="v1.1" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
 		<rom name="Alien Breed - Tower Assault (Europe) (v1.1) (OCS, AGA) (Disk 3).ipf" size="1140380" crc="1F77C494" md5="800EBF8E5DABB2C3BAF2E5011B7E5E2C" sha1="4E37C06C51CEFA60C6D1E6214ED20FBE0E0CF41D" />
 		<rom name="Alien Breed - Tower Assault (Europe) (v1.1) (OCS, AGA) (Disk 1).ipf" size="1139240" crc="E9088E48" md5="5450E965612D0465A3494420047E044B" sha1="6F7F70B833BF69006D4016AC975846D8C27A2A74" />
 		<rom name="Alien Breed - Tower Assault (Europe) (v1.1) (OCS, AGA) (Disk 2).ipf" size="1139240" crc="4E137B6B" md5="CF61DCDB3F2197476501E57B6B761073" sha1="2220CFEB0545CD11FE5F028B0CE05C328A00AFCE" />
@@ -628,7 +629,7 @@
 		<rom name="Arabian Nights (Europe) (En,Fr,De,It) (v1.01) (Disk 1).ipf" size="1049612" crc="E75FE7E0" md5="ED851316CD53BB0493C223DC4818BA32" sha1="4CFF18DF714CD4DE4C89F3A7DDC3CB813467C892" />
 		<rom name="Arabian Nights (Europe) (En,Fr,De,It) (v1.01) (Disk 2).ipf" size="1049612" crc="754CA6B4" md5="E3B2259B45BB573695DEAD73CDC7D9DE" sha1="A0D46FFB157FA75C473C53907DD6A3381CCE4B87" />
 	</game>
-	<game name="Arcade Pool (Europe) (OCS, AGA)" mainName="Arcade Pool" description="Arcade Pool (Europe) (OCS, AGA)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
+	<game name="Arcade Pool (Europe) (OCS, AGA)" mainName="Arcade Pool" description="Arcade Pool (Europe) (OCS, AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
 		<rom name="Arcade Pool (Europe) (OCS, AGA).ipf" size="1138532" crc="5EC1C76F" md5="DD9B3EE307BFA6482E23A87EE3D4148D" sha1="E14D74D17C978D568E5528570D85C7A2EB510BD3" />
 	</game>
 	<game name="Arcade Trivia Quiz (Europe)" mainName="Arcade Trivia Quiz" description="Arcade Trivia Quiz (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
@@ -1374,7 +1375,7 @@
 	<game name="Blinky's Scary School (Europe)" mainName="Blinky's Scary School" description="Blinky's Scary School (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Blinky's Scary School (Europe).ipf" size="1049304" crc="B512D5D3" md5="CCEF1DFFFF81B9BA584BBB15EE3B07DC" sha1="6849625419133621C15088501983094671714E6B" />
 	</game>
-	<game name="Blitz Tennis (Europe) (OCS, AGA)" mainName="Blitz Tennis" description="Blitz Tennis (Europe) (OCS, AGA)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
+	<game name="Blitz Tennis (Europe) (OCS, AGA)" mainName="Blitz Tennis" description="Blitz Tennis (Europe) (OCS, AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
 		<rom name="Blitz Tennis (Europe) (OCS, AGA) (Disk B).ipf" size="1049612" crc="BECD4F44" md5="94F4846AD9E08E1C07313F29ACEA4DD6" sha1="6545FA9C207524FF6FDE47CE88EE01497E776BF5" />
 		<rom name="Blitz Tennis (Europe) (OCS, AGA) (Disk A).ipf" size="1049612" crc="8FFFC4C1" md5="F8BFD8273F5F48B482B3956518B6BB04" sha1="2478212FDD6B6E0ACDBFD336FD7D4E14217E1489" />
 	</game>
@@ -1661,7 +1662,8 @@
 		<rom name="Buffalo Bill's Rodeo Games (Europe) (Disk 2).ipf" size="1019030" crc="3392B7AB" />
 	</game>
 	<game name="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus)" mainName="Bug Bash" description="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Bug Bash + Nucleus">
-		<rom name="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus).ipf" size="1049612" crc="CF01D057" md5="E195A4EE678789AB778E798E3183B4F8" sha1="AA097733C7B4DE6A4A7012AA2438EDA560C65372" />
+		<rom name="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus).ipf" crc="CF01D057" />
+		<rom name="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus).ipf" md5="E195A4EE678789AB778E798E3183B4F8" />
 	</game>
 	<game name="Bug Bomber (Europe)" mainName="Bug Bomber" description="Bug Bomber (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Bug Bomber (Europe).ipf" size="1049180" crc="79DABB37" md5="DBFFEE49FA4FC7CBE626A80E03D54E2F" sha1="D97CACFC6FC840A22ED7E233C7C3CDAE01C864B3" />
@@ -1780,7 +1782,7 @@
 	<game name="Calculation (Europe) (v1.1)" mainName="Calculation" description="Calculation (Europe) (v1.1)" version="v1.1" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Calculation (Europe) (v1.1).ipf" size="1056058" crc="6DF43ED4" md5="40F570D4346D5CDCCE849B4C49147EDF" sha1="792DB7DC477A231E9FC7B96306A76A48DE6111B2" />
 	</game>
-	<game name="Calephar (Europe) (Proto)" mainName="Calephar" description="Calephar (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" proto="true">
+	<game name="Calephar (Europe) (Proto)" mainName="Calephar" description="Calephar (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" proto="Proto">
 		<rom name="Calephar (Europe) (Proto).ipf" size="1049180" crc="F7EAB0B2" md5="3E02B88BE9BF3C9D7AA3FE2A3BDC4AE0" sha1="A987C5205E3FF1620E103512FB2D483A25792FB9" />
 	</game>
 	<game name="California Games (Europe)" mainName="California Games" description="California Games (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
@@ -1876,7 +1878,7 @@
 	<game name="Captive (Europe) (v1.2)" mainName="Captive" description="Captive (Europe) (v1.2)" version="v1.2" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Captive (Europe) (v1.2).ipf" size="871211" crc="9D701CFC" md5="42C02338F17EEEC64414CC7291EDD5B3" sha1="A4FBE40F6D298AF9E4F5CF4054B943539D6954C1" />
 	</game>
-	<game name="Captive II - Liberation (Europe) (OCS, AGA)" mainName="Captive II - Liberation" description="Captive II - Liberation (Europe) (OCS, AGA)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
+	<game name="Captive II - Liberation (Europe) (OCS, AGA)" mainName="Captive II - Liberation" description="Captive II - Liberation (Europe) (OCS, AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
 		<rom name="Captive II - Liberation (Europe) (OCS, AGA) (Disk 2).ipf" size="1049612" crc="FA4ABACC" md5="EC06A8231BFB7B284231B3A2CD5C6D6C" sha1="69F24DE423E13F46B7DF99E9C37FFEC5DF3C8562" />
 		<rom name="Captive II - Liberation (Europe) (OCS, AGA) (Disk 1).ipf" size="1049612" crc="4B6131AE" md5="F17C8EF81CE7C63512658A2A5040AE68" sha1="1FF295AF814D88B3BA1FACAA86BD482EDD916ACE" />
 		<rom name="Captive II - Liberation (Europe) (OCS, AGA) (Disk 3).ipf" size="1049612" crc="A91CF667" md5="199FB3FFE5B1D84B6E254C783C243476" sha1="E11617CE0079187684AEE3E940F9DCA5CF57DA68" />
@@ -2266,7 +2268,7 @@
 	<game name="Cluedo - Master Detective (Europe)" mainName="Cluedo - Master Detective" description="Cluedo - Master Detective (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Cluedo - Master Detective (Europe).ipf" size="1049214" crc="22BC59EF" md5="E70BD7998C8468FFF82D28C16EC28418" sha1="55F7A6C86C7FC125BCD05CE82334BB2029A97AD7" />
 	</game>
-	<game name="Coala (Europe) (ECS, AGA)" mainName="Coala" description="Coala (Europe) (ECS, AGA)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="ECS, AGA">
+	<game name="Coala (Europe) (ECS, AGA)" mainName="Coala" description="Coala (Europe) (ECS, AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="ECS, AGA">
 		<rom name="Coala (Europe) (ECS, AGA) (Data Disk AGA).ipf" size="1049180" crc="4EEA11CB" md5="880F442910401ABEE1F7B80B529954D6" sha1="BA37C92D89901E1244790597362C992118FC940C" />
 		<rom name="Coala (Europe) (ECS, AGA) (Data Disk ECS).ipf" size="1049180" crc="6DB4CC54" md5="810EFD0570DB37BB4E84B39B9858747B" sha1="6506666C04371255B52E45FE35A547B4177D9973" />
 		<rom name="Coala (Europe) (ECS, AGA) (Program Disk).ipf" size="1049180" crc="60EC0F35" md5="8BA9B6CF0FA39D89599A1106E071A7AF" sha1="226951589BEF83A368D9961F70D83FBC4D674D35" />
@@ -2757,7 +2759,7 @@
 		<rom name="Death Bringer (USA) (Disk 1).ipf" size="1049612" crc="9E1A02E9" md5="F16D73E6161107DD6BD1F10FDD8786B9" sha1="5D95CCCC7D032BD517C3B41A7F16C89AEFCA1861" />
 		<rom name="Death Bringer (USA) (Disk 2).ipf" size="1049612" crc="93A70768" md5="60439EF86F17204988AAB41ADFC38D56" sha1="8672AE9B802D2FD9D9744C5774C87F3C145178BC" />
 	</game>
-	<game name="Death Mask (Europe) (OCS, ECS)" mainName="Death Mask" description="Death Mask (Europe) (OCS, ECS)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Death Mask (Europe) (OCS, ECS)" mainName="Death Mask" description="Death Mask (Europe) (OCS, ECS)" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Death Mask (Europe) (OCS, ECS) (Disk 2).ipf" size="1049612" crc="CD415FC2" md5="58367334DCD7372A6060AF1C59B924B2" sha1="957EC5D1248406C9815EB5F8C86D7C942AA8E9DD" />
 		<rom name="Death Mask (Europe) (OCS, ECS) (Disk 1).ipf" size="1049612" crc="A79746EF" md5="C20C284E7967310E223142846EEA6B58" sha1="48AC3A4E5B88FD44669E993B1EAAA86F214137A0" />
 	</game>
@@ -2985,7 +2987,7 @@
 	<game name="Donald's Alphabet Chase (Europe) (En,Fr,De,Es,It)" mainName="Donald's Alphabet Chase" description="Donald's Alphabet Chase (Europe) (En,Fr,De,Es,It)" language="En,Fr,De,Es,It" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Donald's Alphabet Chase (Europe) (En,Fr,De,Es,It).ipf" size="1049612" crc="F0F6CCB0" md5="065C90A30E94FEF85169EEBC46E43602" sha1="2D83633D2268663193B246B7E821EE6BEA842AD9" />
 	</game>
-	<game name="Donk! - The Samurai Duck! (Europe) (OCS, AGA)" mainName="Donk! - The Samurai Duck!" description="Donk! - The Samurai Duck! (Europe) (OCS, AGA)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
+	<game name="Donk! - The Samurai Duck! (Europe) (OCS, AGA)" mainName="Donk! - The Samurai Duck!" description="Donk! - The Samurai Duck! (Europe) (OCS, AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
 		<rom name="Donk! - The Samurai Duck! (Europe) (OCS, AGA) (Disk 1).ipf" size="1139672" crc="B353BAB1" md5="065E522F821F22F2AC881C4A25D8B85E" sha1="40CE8994EAC765D8FECB6B228830605B31A96D64" />
 		<rom name="Donk! - The Samurai Duck! (Europe) (OCS, AGA) (Disk 2).ipf" size="1140812" crc="B4E2B4D9" md5="5C03E36D1712DA4F1EE86065BDCC8F0F" sha1="5B8B54D53D2C89A991368B14D466B02CF36E2361" />
 		<rom name="Donk! - The Samurai Duck! (Europe) (OCS, AGA) (Disk 3).ipf" size="1140812" crc="F5665E98" md5="F704E104A81D7DCB0FA71A265B2EF10C" sha1="AD88EA3E7DE891BBE90C97062A9480FD92BA0FD3" />
@@ -3005,7 +3007,7 @@
 	<game name="Double Dragon II - The Revenge (Europe) (v3.84)" mainName="Double Dragon II - The Revenge" description="Double Dragon II - The Revenge (Europe) (v3.84)" version="v3.84" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Double Dragon II - The Revenge (Europe) (v3.84).ipf" size="1010030" crc="68B34864" md5="DDABEBB06313AF533A16282346D3CDBB" sha1="CC1C37DEB6C2D8FCEB762F1AA97802912BABFC04" />
 	</game>
-	<game name="Double Dragon II - The Revenge (Europe) (v4.01) (OCS, ECS)" mainName="Double Dragon II - The Revenge" description="Double Dragon II - The Revenge (Europe) (v4.01) (OCS, ECS)" version="v4.01" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Double Dragon II - The Revenge (Europe) (v4.01) (OCS, ECS)" mainName="Double Dragon II - The Revenge" description="Double Dragon II - The Revenge (Europe) (v4.01) (OCS, ECS)" version="v4.01" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Double Dragon II - The Revenge (Europe) (v4.01) (OCS, ECS).ipf" size="1010030" crc="1AC95EC7" md5="187B5949F9900086E3FAD8A8090C624C" sha1="562810A2ABF092088567ABA0F5E79DCAA5FA0DD0" />
 	</game>
 	<game name="Double Dragon II - The Revenge (USA) (v4.16ecs)" mainName="Double Dragon II - The Revenge" description="Double Dragon II - The Revenge (USA) (v4.16ecs)" version="v4.16ecs" region="USA" catalog="NoIntro" catalogVersion="20150214-065917">
@@ -3479,9 +3481,12 @@
 		<rom name="Epic (Europe) (Disk 1).ipf" size="1057459" crc="8E9A67D6" md5="F7B380964DFC157EB7570A14E690978B" sha1="46EA80026BE4D01E0D447CCD595EDF28D6504A29" />
 	</game>
 	<game name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)" mainName="Epic" description="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga 600 HD Bundles - Epic + Language Lab">
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" size="1049612" crc="D5EDE3E8" md5="ACA06EE9D110183B9B427D88ADB3B600" sha1="C9B31341667C17B6BEB45B6B4080E4E58B3F6B31" />
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" size="1049612" crc="08091A6C" md5="C67D080B528956F4A37B0AD132E97693" sha1="E49084DD2F986A025BC06F2A5D6316D2FC412A4D" />
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" size="1049612" crc="3D4A26CC" md5="9B89B7123A327DC6AED34ADA3493BF1F" sha1="10CEDCD97ACF3B8B41FB0A4260422E224F72334E" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" crc="D5EDE3E8" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" crc="08091A6C" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" md5="C67D080B528956F4A37B0AD132E97693" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" md5="ACA06EE9D110183B9B427D88ADB3B600" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" md5="9B89B7123A327DC6AED34ADA3493BF1F" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" crc="3D4A26CC" />
 	</game>
 	<game name="Erbe, Das (Germany) (Promo)" mainName="Erbe, Das" description="Erbe, Das (Germany) (Promo)" region="Germany" catalog="NoIntro" catalogVersion="20150214-065917" promo="true">
 		<rom name="Erbe, Das (Germany) (Promo).ipf" size="1049180" crc="A76C9DBC" md5="D451AB8B2FB466A4C26BF181483F92D0" sha1="F8D388C45150DE70D97B44ECD90C9C7EEB5F669C" />
@@ -3500,7 +3505,7 @@
 		<rom name="Erben der Erde - Die Grosse Suche (Germany) (AGA) (Disk 02).ipf" size="1049612" crc="99B6086A" md5="788C78FB675B1961701E071D3CF9F6CD" sha1="D698217AEB5CBE2FD2AE8D835BB6A3BC8A5E7921" />
 		<rom name="Erben der Erde - Die Grosse Suche (Germany) (AGA) (Disk 06).ipf" size="1049612" crc="409E42DD" md5="8FB109D001FBF602354A734FA7AF96C7" sha1="29BFC401CFEBB53042C31EA4196731E92F294AE4" />
 	</game>
-	<game name="Erben der Erde - Die Grosse Suche (Germany) (OCS, ECS)" mainName="Erben der Erde - Die Grosse Suche" description="Erben der Erde - Die Grosse Suche (Germany) (OCS, ECS)" region="Germany" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Erben der Erde - Die Grosse Suche (Germany) (OCS, ECS)" mainName="Erben der Erde - Die Grosse Suche" description="Erben der Erde - Die Grosse Suche (Germany) (OCS, ECS)" region="Germany" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Erben der Erde - Die Grosse Suche (Germany) (OCS, ECS) (Disk 9).ipf" size="1049612" crc="FA58A9C2" />
 		<rom name="Erben der Erde - Die Grosse Suche (Germany) (OCS, ECS) (Disk 8).ipf" size="1049612" crc="C09F6C0B" />
 		<rom name="Erben der Erde - Die Grosse Suche (Germany) (OCS, ECS) (Disk 2).ipf" size="1049612" crc="A0ABA8D3" />
@@ -3754,7 +3759,7 @@
 		<rom name="Fears (Europe) (AGA) (Data Disk).ipf" size="997532" crc="AF044872" md5="BCF830F8EF3BB441BE6F3A2891FA1142" sha1="01BF9697C4A97B0E90BBDBCEF391A6A0034F39DD" />
 		<rom name="Fears (Europe) (AGA) (Program Disk).ipf" size="986994" crc="B6DF5AE7" md5="CBD376D0355C2B8CB767D6D864C5ECB3" sha1="2AD448F7A46F0723A600437C2A7B160FE7E25EBC" />
 	</game>
-	<game name="Fears (Europe) (Preview) (AGA) (Coverdisk - CU Amiga - Issue October 1995)" mainName="Fears" description="Fears (Europe) (Preview) (AGA) (Coverdisk - CU Amiga - Issue October 1995)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="Preview	Coverdisk - CU Amiga - Issue October 1995">
+	<game name="Fears (Europe) (Preview) (AGA) (Coverdisk - CU Amiga - Issue October 1995)" mainName="Fears" description="Fears (Europe) (Preview) (AGA) (Coverdisk - CU Amiga - Issue October 1995)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="Coverdisk - CU Amiga - Issue October 1995" preview="true">
 		<rom name="Fears (Europe) (Preview) (AGA) (Coverdisk - CU Amiga - Issue October 1995).ipf" size="1049612" crc="69013A46" />
 	</game>
 	<game name="Federation (USA)" mainName="Federation" description="Federation (USA)" region="USA" catalog="NoIntro" catalogVersion="20150214-065917">
@@ -4043,8 +4048,9 @@
 	<game name="Formula 1 Grand Prix (Europe) (Compilation - Mega Pack II)" mainName="Formula 1 Grand Prix" description="Formula 1 Grand Prix (Europe) (Compilation - Mega Pack II)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Mega Pack II">
 		<rom name="Formula 1 Grand Prix (Europe) (Compilation - Mega Pack II).ipf" size="1049214" crc="BBE45BB7" />
 	</game>
-	<game name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST	Coverdisk - The One - Issue 22">
-		<rom name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22).ipf" size="1034145" crc="8CC8484F" md5="78BBAA86EBC564A62F0CA08D8E55297D" sha1="C51CC0CF5005FA6F422383E7F84A00F6BAC5915C" />
+	<game name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST Coverdisk - The One - Issue 22">
+		<rom name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22).ipf" md5="78BBAA86EBC564A62F0CA08D8E55297D" />
+		<rom name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22).ipf" crc="8CC8484F" />
 	</game>
 	<game name="Foundation's Waste (Europe) (Budget - PC Hits)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Budget - PC Hits)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Budget - PC Hits">
 		<rom name="Foundation's Waste (Europe) (Budget - PC Hits).ipf" size="1049180" crc="8382B600" md5="AD926A5B8D0A6EEBB2D3D48D2FE062E1" sha1="836B66230B9E360106C7E1EEB8D60672317E3A46" />
@@ -4319,7 +4325,7 @@
 	<game name="Global Commander (USA)" mainName="Global Commander" description="Global Commander (USA)" region="USA" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Global Commander (USA).ipf" size="1049612" crc="08AD2F4C" />
 	</game>
-	<game name="Global Effect (Europe) (En,Fr,De,It) (OCS, ECS)" mainName="Global Effect" description="Global Effect (Europe) (En,Fr,De,It) (OCS, ECS)" language="En,Fr,De,It" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Global Effect (Europe) (En,Fr,De,It) (OCS, ECS)" mainName="Global Effect" description="Global Effect (Europe) (En,Fr,De,It) (OCS, ECS)" language="En,Fr,De,It" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Global Effect (Europe) (En,Fr,De,It) (OCS, ECS) (Install Disk).ipf" size="1049612" crc="A92DD0EF" md5="2400AA16A300B4640CCCF27D0BC7743A" sha1="1B2EEDCAD027E6C3A0E51BC8060C868EA7E7351B" />
 		<rom name="Global Effect (Europe) (En,Fr,De,It) (OCS, ECS) (Program Disk).ipf" size="1049612" crc="DCC564BF" md5="3AE1A13E4981AAE1DA442219298E5991" sha1="F3C8D239AD9D897DA05848D3B7998568F3292CD5" />
 		<rom name="Global Effect (Europe) (En,Fr,De,It) (OCS, ECS) (Data Disk).ipf" size="1049612" crc="8B9EE0D7" md5="13C7B0E7F53D2611BEB742E6B80D1E16" sha1="6F07618A72970708F4D2FA7CF79FAD487589C9B8" />
@@ -4336,7 +4342,7 @@
 		<rom name="Gloom (Europe) (AGA) (Program Disk).ipf" size="1049180" crc="99B9149D" md5="52166F95C7D28C7609FD7B53F3932061" sha1="4AD1BA91599113F2C8DBD8BE6DCEE2E050980DC0" />
 		<rom name="Gloom (Europe) (AGA) (Data Disk).ipf" size="1049180" crc="9716F9C6" md5="AE0699A5D451556C2A6D6822D1B77A71" sha1="FB341ED152881556A8238D80AFE1EA050426C61F" />
 	</game>
-	<game name="Gloom Deluxe (Europe) (ECS, AGA)" mainName="Gloom Deluxe" description="Gloom Deluxe (Europe) (ECS, AGA)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="ECS, AGA">
+	<game name="Gloom Deluxe (Europe) (ECS, AGA)" mainName="Gloom Deluxe" description="Gloom Deluxe (Europe) (ECS, AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="ECS, AGA">
 		<rom name="Gloom Deluxe (Europe) (ECS, AGA) (Program Disk).ipf" size="1049612" crc="BFF6D892" md5="D55CCCBCCD54E2F01FB51CCA4E830A9D" sha1="4310358ED992038523B4CBBB29F4EF811BA4954E" />
 		<rom name="Gloom Deluxe (Europe) (ECS, AGA) (Data Disk).ipf" size="1049612" crc="FB9287B6" md5="2AF8EFE263F58A47D53B32A3C62573CC" sha1="6410C550AB20E9ADF09D364D52323BA4B00A70D3" />
 	</game>
@@ -4812,7 +4818,7 @@
 	<game name="Hill Street Blues (Europe) (En,Fr,De,Es,It) (Budget - Buzz)" mainName="Hill Street Blues" description="Hill Street Blues (Europe) (En,Fr,De,Es,It) (Budget - Buzz)" language="En,Fr,De,Es,It" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Budget - Buzz">
 		<rom name="Hill Street Blues (Europe) (En,Fr,De,Es,It) (Budget - Buzz).ipf" size="1049612" crc="06F7325A" md5="56060AD7871519FEED6C8CFED9877A34" sha1="D0CD13CB3DB93AA8BAC5B21AF9A445FFCD977C91" />
 	</game>
-	<game name="Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS)" mainName="Hired Guns" description="Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS)" version="v1.08.39.25" language="En,Fr,De,Es,It" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS)" mainName="Hired Guns" description="Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS)" version="v1.08.39.25" language="En,Fr,De,Es,It" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS) (Disk 4).ipf" size="1049180" crc="699C6C4E" md5="30BC01106DCEEE58DC7F253619BF33F9" sha1="0551D2216498D4AC90C1CBAF941C9D129025DCBA" />
 		<rom name="Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS) (Disk 2).ipf" size="1049180" crc="60BC70B7" md5="C51078C266A9E9C83053CF6E8064C846" sha1="50C16A46014C2955FC2521C246E59AF11D7ADFBA" />
 		<rom name="Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS) (Disk 3).ipf" size="1049180" crc="5EE9CBEA" md5="2F2EE4588BA618B9EE7FEA586801A0D4" sha1="3176DBE287C6BABC5C8A0A6A3DE00350625D4C7F" />
@@ -6203,8 +6209,10 @@
 		<rom name="Lethal Weapon (Europe).ipf" size="1048872" crc="0A6C6054" md5="229B38B12DF8EF10D19DD9ED0CF98E1E" sha1="FAC2A8B5785D47907D50BEA75263E9129CFBF642" />
 	</game>
 	<game name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" mainName="Lethal Xcess - Wings of Death II" description="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST">
-		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk B).ipf" size="1008380" crc="7C53B994" md5="0C2D7CFC0B10DCE50EAD3B1FE7EC6000" sha1="8B8CEFDB0DBD7E4A515C95235526ED909FE499C7" />
-		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ipf" size="1004597" crc="33CC029D" md5="D7B4325AA96FC4078C0B6B807036612F" sha1="54A268710716F3510918CD8767D9D248798C4ED0" />
+		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk B).ipf" md5="0C2D7CFC0B10DCE50EAD3B1FE7EC6000" />
+		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk B).ipf" crc="7C53B994" />
+		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ipf" md5="D7B4325AA96FC4078C0B6B807036612F" />
+		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ipf" crc="33CC029D" />
 	</game>
 	<game name="Lethal Zone (Europe) (Coverdisk - Amiga Fun - Issue 10)" mainName="Lethal Zone" description="Lethal Zone (Europe) (Coverdisk - Amiga Fun - Issue 10)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Coverdisk - Amiga Fun - Issue 10">
 		<rom name="Lethal Zone (Europe) (Coverdisk - Amiga Fun - Issue 10).ipf" size="1049612" crc="635734ED" md5="FF8F0C0CC27A6D241540003440C668FA" sha1="A08EA079C1254C123B09D29E51367516C88C5BF4" />
@@ -6782,7 +6790,7 @@
 	<game name="Mike the Magic Dragon (Europe)" mainName="Mike the Magic Dragon" description="Mike the Magic Dragon (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Mike the Magic Dragon (Europe).ipf" size="1049648" crc="9BA38712" />
 	</game>
-	<game name="Milky Way Cafe (Europe) (v0.2 8.1.92) (Beta)" mainName="Milky Way Cafe" description="Milky Way Cafe (Europe) (v0.2 8.1.92) (Beta)" version="v0.2 8.1.92" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" beta="true">
+	<game name="Milky Way Cafe (Europe) (v0.2 8.1.92) (Beta)" mainName="Milky Way Cafe" description="Milky Way Cafe (Europe) (v0.2 8.1.92) (Beta)" version="v0.2 8.1.92" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" beta="Beta">
 		<rom name="Milky Way Cafe (Europe) (v0.2 8.1.92) (Beta).ipf" size="1049612" crc="F91DDEBD" />
 	</game>
 	<game name="Milky Way Cafe (Europe) (v1.2 8.1.92)" mainName="Milky Way Cafe" description="Milky Way Cafe (Europe) (v1.2 8.1.92)" version="v1.2 8.1.92" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
@@ -6821,7 +6829,7 @@
 	<game name="Minos (Europe) (En,De)" mainName="Minos" description="Minos (Europe) (En,De)" language="En,De" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Minos (Europe) (En,De).ipf" size="1055651" crc="AAE38D90" />
 	</game>
-	<game name="Minskies... the abduction (Europe) (ECS, AGA)" mainName="Minskies... the abduction" description="Minskies... the abduction (Europe) (ECS, AGA)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="ECS, AGA">
+	<game name="Minskies... the abduction (Europe) (ECS, AGA)" mainName="Minskies... the abduction" description="Minskies... the abduction (Europe) (ECS, AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="ECS, AGA">
 		<rom name="Minskies... the abduction (Europe) (ECS, AGA) (Disk 3).ipf" size="1049612" crc="FA4EBD8C" />
 		<rom name="Minskies... the abduction (Europe) (ECS, AGA) (Disk 2).ipf" size="1049612" crc="C787456C" />
 		<rom name="Minskies... the abduction (Europe) (ECS, AGA) (Disk 4).ipf" size="1049612" crc="704B3063" />
@@ -6834,7 +6842,7 @@
 	<game name="Mission Elevator (Europe)" mainName="Mission Elevator" description="Mission Elevator (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Mission Elevator (Europe).ipf" size="1037372" crc="A7372BE2" md5="F628B2272233C4950E48AAE030E886C2" sha1="94A40C414E8A5EB0C168DB540F2133412768CCF1" />
 	</game>
-	<game name="Mixed-Up Mother Goose (Europe) (v1.000) (OCS, ECS)" mainName="Mixed-Up Mother Goose" description="Mixed-Up Mother Goose (Europe) (v1.000) (OCS, ECS)" version="v1.000" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Mixed-Up Mother Goose (Europe) (v1.000) (OCS, ECS)" mainName="Mixed-Up Mother Goose" description="Mixed-Up Mother Goose (Europe) (v1.000) (OCS, ECS)" version="v1.000" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Mixed-Up Mother Goose (Europe) (v1.000) (OCS, ECS) (Disk 2).ipf" size="1049612" crc="327B4082" md5="8ED8C6CD04E49A2AD9070220957EB9B2" sha1="9458619CA9FCD6CACA18F2F9104413F7B40B7698" />
 		<rom name="Mixed-Up Mother Goose (Europe) (v1.000) (OCS, ECS) (Disk 1).ipf" size="1049612" crc="E9CA6D87" md5="314DEAEB21C44735236670C30789ECB0" sha1="475405696311ED303C92536B0791B53448CAAD53" />
 	</game>
@@ -6884,7 +6892,8 @@
 		<rom name="Monopoly (Europe).ipf" size="1049612" crc="3582F3A6" md5="B23FF2C1ABC28785A0B20136572A6777" sha1="1B837CF2C2A505970B5F588604B567EB148E1C9C" />
 	</game>
 	<game name="Monster Business (Europe) (Amiga + ST)" mainName="Monster Business" description="Monster Business (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST">
-		<rom name="Monster Business (Europe) (Amiga + ST).ipf" size="1009109" crc="BE6095A0" md5="8A98D2544D42A3BAC5DC29DF575BE591" sha1="C6D0706C363F3FD7F5E40864B49568AC9E157C8B" />
+		<rom name="Monster Business (Europe) (Amiga + ST).ipf" md5="8A98D2544D42A3BAC5DC29DF575BE591" />
+		<rom name="Monster Business (Europe) (Amiga + ST).ipf" crc="BE6095A0" />
 	</game>
 	<game name="Monty Python's Flying Circus (Europe)" mainName="Monty Python's Flying Circus" description="Monty Python's Flying Circus (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Monty Python's Flying Circus (Europe).ipf" size="1048872" crc="029B62F3" md5="C0AB7A7245B3C5B0A0A7996ECE170F83" sha1="001D0209146CAF97B5E555B39B31FF324E11FB59" />
@@ -7017,9 +7026,12 @@
 		<rom name="Myth - History in the Making (Europe) (Disk 1).ipf" size="1049304" crc="B3C11C24" md5="FE460D8AECE7F43183239C88E680AA14" sha1="A95CF2655B9BE5C6AADB8284AECB8407D4F467C2" />
 	</game>
 	<game name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)" mainName="Myth - History in the Making" description="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga 600 HD Bundles - Epic + Language Lab">
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" size="1049612" crc="9620EDCE" md5="C90B9350A0AC1FA3BAF08ABF7FBBDDC2" sha1="7B90E8DACEC04D63D42F0A61864A908A5BE724E9" />
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" size="1049612" crc="CBAA6209" md5="A05287C3DC4B8012F81EA780C608CD38" sha1="05A6DC1EED69500C731D7783BFBD3342A0700BF6" />
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" size="1049304" crc="9C599F38" md5="D061EA08D27E5446BEC02F6221BF474C" sha1="B5B89984912538321638BB41E69DD2185E568825" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" md5="C90B9350A0AC1FA3BAF08ABF7FBBDDC2" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" crc="9620EDCE" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" md5="D061EA08D27E5446BEC02F6221BF474C" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" crc="CBAA6209" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" md5="A05287C3DC4B8012F81EA780C608CD38" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" crc="9C599F38" />
 	</game>
 	<game name="NARC (Europe)" mainName="NARC" description="NARC (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="NARC (Europe).ipf" size="1049304" crc="A6977B04" md5="C0F4E9718B7FABE552B482BFEDC92CD0" sha1="EBF534C73297CC4FCE6E5DF31F55615C1ABCC91E" />
@@ -7197,7 +7209,7 @@
 	<game name="No Second Prize (Europe) (8 Saves Left)" mainName="No Second Prize" description="No Second Prize (Europe) (8 Saves Left)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="8 Saves Left">
 		<rom name="No Second Prize (Europe) (8 Saves Left).ipf" size="1007955" crc="5EDFB2F1" md5="EB6643FF2704814C66317362DD42425F" sha1="C1CF66C65BBFF89CD608A8507203295D95581BA3" />
 	</game>
-	<game name="Nobby The Aardvark (Europe) (En,Fr,De) (Proto)" mainName="Nobby The Aardvark" description="Nobby The Aardvark (Europe) (En,Fr,De) (Proto)" language="En,Fr,De" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" proto="true">
+	<game name="Nobby The Aardvark (Europe) (En,Fr,De) (Proto)" mainName="Nobby The Aardvark" description="Nobby The Aardvark (Europe) (En,Fr,De) (Proto)" language="En,Fr,De" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" proto="Proto">
 		<rom name="Nobby The Aardvark (Europe) (En,Fr,De) (Proto).ipf" size="1034012" crc="294E6E5E" md5="6AA6D87DD2DA65D342A34CFBDDABD254" sha1="B66CB16A8C8CC116F60943A9E1E630995A4375B5" />
 	</game>
 	<game name="Noddy's Playtime (Europe)" mainName="Noddy's Playtime" description="Noddy's Playtime (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
@@ -7230,7 +7242,8 @@
 		<rom name="Nuclear War (USA) (Disk 1).ipf" size="1043233" crc="3C0796B0" md5="080AEACE6E0A9A8F70739B6690E0CE15" sha1="E5D12483EFE5E37756ED8B42CBDBCFB8E23E54B4" />
 	</game>
 	<game name="Nucleus (Europe) (Compilation - Bug Bash + Nucleus)" mainName="Nucleus" description="Nucleus (Europe) (Compilation - Bug Bash + Nucleus)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Bug Bash + Nucleus">
-		<rom name="Nucleus (Europe) (Compilation - Bug Bash + Nucleus).ipf" size="1049612" crc="765DFBAF" md5="ECDB012802FFE0E0B8D666B8F210BA82" sha1="C5DAE3600296EE137E03FC8162716591B8854563" />
+		<rom name="Nucleus (Europe) (Compilation - Bug Bash + Nucleus).ipf" crc="765DFBAF" />
+		<rom name="Nucleus (Europe) (Compilation - Bug Bash + Nucleus).ipf" md5="ECDB012802FFE0E0B8D666B8F210BA82" />
 	</game>
 	<game name="Obitus (Europe, Australia)" mainName="Obitus" description="Obitus (Europe, Australia)" region="Europe,Australia" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Obitus (Europe, Australia) (Disk 1).ipf" size="1487089" crc="BF87BCD7" md5="E97637CA736993294439B143971708FB" sha1="CF1439EF9E5A17159CFFA549775D065793275750" />
@@ -7718,7 +7731,7 @@
 		<rom name="Pinball Prelude (Europe) (AGA) (Disk 1 - Past).ipf" size="1019114" crc="0E587922" md5="A8B0739495F96667211E51507DAB2A15" sha1="27A47D38F54A183803CB09E32F88E1FE81F41BDD" />
 		<rom name="Pinball Prelude (Europe) (AGA) (Disk 2 - Present).ipf" size="974496" crc="5937BCE7" md5="35D1259FDDD9648933DF6D495400182F" sha1="5B028855DE2B2680FFCDF910CED42A730B6ABB34" />
 	</game>
-	<game name="Pinball Prelude (Europe) (OCS, ECS)" mainName="Pinball Prelude" description="Pinball Prelude (Europe) (OCS, ECS)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Pinball Prelude (Europe) (OCS, ECS)" mainName="Pinball Prelude" description="Pinball Prelude (Europe) (OCS, ECS)" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Pinball Prelude (Europe) (OCS, ECS) (Disk 2 - Present).ipf" size="923072" crc="E875DA70" md5="E03A905CE1E973B9F456377DE2D41E25" sha1="C124D2ADEF1FB87584004F544ABE468FDCDA2F6B" />
 		<rom name="Pinball Prelude (Europe) (OCS, ECS) (Disk 3 - Future).ipf" size="961316" crc="50FC9A07" md5="849D1050750F0703655F33F13486F409" sha1="7C7E1833F6D4E96B169E3A22498E6281295F1F1D" />
 		<rom name="Pinball Prelude (Europe) (OCS, ECS) (Disk 4 - Install).ipf" size="1049180" crc="0E71C459" md5="4DD85D66D816933811B70144FBC85684" sha1="8BC3564877C1F65D1FB1EBB6626BC52FC2F7E1E4" />
@@ -7853,8 +7866,9 @@
 	<game name="Populous - The Promised Lands (Europe) (Addon) (Budget - The Hit Squad)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Addon) (Budget - The Hit Squad)" region="Europe" publisher="Budget - The Hit Squad" catalog="NoIntro" catalogVersion="20150214-065917" complement="Addon">
 		<rom name="Populous - The Promised Lands (Europe) (Addon) (Budget - The Hit Squad).ipf" size="1049612" crc="138F11DC" md5="0B08303BC02977C44A84ADA400391BE8" sha1="0DD8977C49D9BC4BFCB24BA4D97A49D05DC3D274" />
 	</game>
-	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST	Addon">
-		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ipf" size="1037012" crc="DE09F0A3" md5="73F1CA231D950BDB8FB3DA42BD11F364" sha1="21301177EB04122183AA716C081E8A4FDA35CFF8" />
+	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST Addon">
+		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ipf" md5="73F1CA231D950BDB8FB3DA42BD11F364" />
+		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ipf" crc="DE09F0A3" />
 	</game>
 	<game name="Populous II - The Challenge Games (Europe) (Addon)" mainName="Populous II - The Challenge Games" description="Populous II - The Challenge Games (Europe) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Addon">
 		<rom name="Populous II - The Challenge Games (Europe) (Addon) (Data Disk).ipf" size="1049180" crc="37D06D7C" md5="9D3227B1565A9F1BA968FAE288D9805B" sha1="5503373CE7B55FF0FB9AFCE8C3B46ABC6EE6BC8C" />
@@ -8301,7 +8315,7 @@
 		<rom name="Realms (Europe) (En,Fr,De) (Disk 1).ipf" size="1049612" crc="3C182799" md5="AD21C744788AE7815401E98488A76879" sha1="33190621038456E191CFC1D3CD7B36E1C3171744" />
 		<rom name="Realms (Europe) (En,Fr,De) (Disk 2).ipf" size="1049612" crc="3311C350" md5="28BEF0916B24872049EE9BFB4A66C666" sha1="BAA77FD83CA53A8A8A75FB25DF9D5AF0B0803519" />
 	</game>
-	<game name="Realms of Arkania - Blade of Destiny (Europe) (OCS, ECS)" mainName="Realms of Arkania - Blade of Destiny" description="Realms of Arkania - Blade of Destiny (Europe) (OCS, ECS)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Realms of Arkania - Blade of Destiny (Europe) (OCS, ECS)" mainName="Realms of Arkania - Blade of Destiny" description="Realms of Arkania - Blade of Destiny (Europe) (OCS, ECS)" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Realms of Arkania - Blade of Destiny (Europe) (OCS, ECS) (Disk 1).ipf" size="1049612" crc="6280118D" md5="FDE1B367CA18137C822AF391BC855A59" sha1="C48A0AAA3E1F0580C90056E3BBC707F605AE1651" />
 		<rom name="Realms of Arkania - Blade of Destiny (Europe) (OCS, ECS) (Disk 4).ipf" size="1049612" crc="4D79BA2E" md5="F0F3D88DA36B8574038E01B49778C16E" sha1="701166D61492482E0E129A919F3E4C83F16B7009" />
 		<rom name="Realms of Arkania - Blade of Destiny (Europe) (OCS, ECS) (Disk 5).ipf" size="1049612" crc="CFDF662A" md5="11A15B4F8C04DFF7252D2914F08AE96E" sha1="ACC888B56E2C8A802B1A42C36E2A4D03480ED3A7" />
@@ -8398,7 +8412,7 @@
 		<rom name="Reunion (Germany) (AGA) (Disk 3).ipf" size="1049612" crc="392B1835" md5="098DEC138C20531AB67D5EF890E5CDC2" sha1="FA485E45E99F9C5632415245585F3E2D50AF15C9" />
 		<rom name="Reunion (Germany) (AGA) (Disk 2).ipf" size="1049612" crc="431A5C8C" md5="27A65D6B6B5A4A70FF12BCE353F70FD0" sha1="51292A718C0E691ED774E3CD8246CF748AACB807" />
 	</game>
-	<game name="Reunion (Germany) (OCS, ECS)" mainName="Reunion" description="Reunion (Germany) (OCS, ECS)" region="Germany" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Reunion (Germany) (OCS, ECS)" mainName="Reunion" description="Reunion (Germany) (OCS, ECS)" region="Germany" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Reunion (Germany) (OCS, ECS) (Disk 2).ipf" size="1049612" crc="96B49AB9" md5="7D559D9D786FAFB566F1E04AA55B2AD5" sha1="035FE6A4353EADDB2E9F73FBE65E44E814AF27AA" />
 		<rom name="Reunion (Germany) (OCS, ECS) (Disk 3).ipf" size="1049612" crc="CAF5A44B" md5="240913110357F6A0AC0CDDBCAE543134" sha1="88505A7CE593043CDD12F611750389F9C4BBC7F7" />
 		<rom name="Reunion (Germany) (OCS, ECS) (Disk 4).ipf" size="1049612" crc="73DDB39D" md5="1B3CF4C9ECFBDD07E8750B1A30B6CE7B" sha1="BC84CEB391F1F70FD56D2FBE7988DCE00C3896AD" />
@@ -8419,7 +8433,8 @@
 		<rom name="Rick Dangerous (Europe) (Alt 2 - Unlimited Lives).ipf" size="1049612" crc="C14F4FDC" md5="72641310661CCF2C4CE27158EAF84825" sha1="7739A7753C081C07C70B0615D8C6277D9CE69319" />
 	</game>
 	<game name="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx)" mainName="Rick Dangerous" description="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + PC">
-		<rom name="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" size="955333" crc="C74AB0FA" />
+		<rom name="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" />
+		<rom name="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" crc="C74AB0FA" />
 	</game>
 	<game name="Rick Dangerous 2 (Europe)" mainName="Rick Dangerous 2" description="Rick Dangerous 2 (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Rick Dangerous 2 (Europe).ipf" size="1049304" crc="6DFBF04D" md5="CF55375B7A50C15F756A99EA42F4AA06" sha1="1A6927C2CE96E4B38455225C9F6752B9B5D6EECA" />
@@ -8447,7 +8462,8 @@
 		<rom name="Rings of Medusa (Germany) (v1.6).ipf" size="1049612" crc="70A20DCA" md5="2C549C95AE11E7A6A07AA55D9ADFB553" sha1="451E5B324881B86F7ED96BC8591A3F762B46D63D" />
 	</game>
 	<game name="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx)" mainName="Rings of Medusa II - The Return of Medusa" description="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx)" version="v1.07C+ AUG 28 1991" region="Germany" catalog="NoIntro" catalogVersion="20150214-065917" complement="Coverdisk - Amiga Fun - Issue xx">
-		<rom name="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx).ipf" size="1049612" crc="A1C12022" md5="E13741A280202BB037137B46461D688E" sha1="E1B619A64135B165D89D92F6798E7AA80EC20C60" />
+		<rom name="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx).ipf" crc="A1C12022" />
+		<rom name="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx).ipf" md5="E13741A280202BB037137B46461D688E" />
 	</game>
 	<game name="Ringside (Europe) (Compilation - Hyperaction)" mainName="Ringside" description="Ringside (Europe) (Compilation - Hyperaction)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Hyperaction">
 		<rom name="Ringside (Europe) (Compilation - Hyperaction).ipf" size="1036340" crc="ECD680CF" md5="FAB1419FFE04D27B4C5BB2C1DAE629EB" sha1="298EB835DA64574A76B5006FDDF47225872A683C" />
@@ -8677,9 +8693,12 @@
 		<rom name="Romantic Encounters at the Dome (Europe) (Disk A).ipf" size="1049612" crc="63BBEAD6" md5="3CCF613F6135DE54236A6FA66818F88E" sha1="326E1ADCB81D170E9EF1CE8C824AB72F6167EEB5" />
 	</game>
 	<game name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)" mainName="Rome AD 92 - The Pathway to Power" description="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga 600 HD Bundles - Epic + Language Lab">
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" size="1049612" crc="5962137D" />
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" size="1049612" crc="CEA7DCC6" />
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" size="1049612" crc="8D333FF9" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" crc="5962137D" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" crc="CEA7DCC6" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" crc="8D333FF9" />
 	</game>
 	<game name="Rome AD 92 - The Pathway to Power (Europe) (En,Fr,De,It)" mainName="Rome AD 92 - The Pathway to Power" description="Rome AD 92 - The Pathway to Power (Europe) (En,Fr,De,It)" language="En,Fr,De,It" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Rome AD 92 - The Pathway to Power (Europe) (En,Fr,De,It) (Disk 1).ipf" size="1030532" crc="364D28AE" md5="B900D724053FFC9B9DCB86048E9C3520" sha1="C3D066C049300158DE98FB1DCBC48A711CB71AC9" />
@@ -8818,7 +8837,7 @@
 		<rom name="Scary Mutant Space Aliens from Mars (Europe) (Disk 1).ipf" size="1049612" crc="CE26E4BE" md5="6DC66FC65FE3C106AC8E1BF5FC7BCDB6" sha1="6D69575121FFC129B8798D6575FD2186350ADAD7" />
 		<rom name="Scary Mutant Space Aliens from Mars (Europe) (Disk 2).ipf" size="1049612" crc="0BA474D1" md5="0D349901D5B55861949734CE0765A80D" sha1="ACA29E3E7F294DA802DE57E83954003295A64D9F" />
 	</game>
-	<game name="Schwarze Auge, Das - Die Schicksalsklinge (Germany) (OCS, ECS)" mainName="Schwarze Auge, Das - Die Schicksalsklinge" description="Schwarze Auge, Das - Die Schicksalsklinge (Germany) (OCS, ECS)" region="Germany" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Schwarze Auge, Das - Die Schicksalsklinge (Germany) (OCS, ECS)" mainName="Schwarze Auge, Das - Die Schicksalsklinge" description="Schwarze Auge, Das - Die Schicksalsklinge (Germany) (OCS, ECS)" region="Germany" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Schwarze Auge, Das - Die Schicksalsklinge (Germany) (OCS, ECS) (Disk 6).ipf" size="1049612" crc="6B55F70B" md5="22CD3AECBE9D23A1CB708E3A79E68F9A" sha1="9ED32AC1F6AE617A76D4D141C617D5A13A3E247E" />
 		<rom name="Schwarze Auge, Das - Die Schicksalsklinge (Germany) (OCS, ECS) (Disk 2).ipf" size="1049612" crc="AF33255B" md5="33D020E3C6FE79C7EDD351DF337E1814" sha1="0B4AFF12BEA5556DC3120051C3CBAFD0CAEC97A7" />
 		<rom name="Schwarze Auge, Das - Die Schicksalsklinge (Germany) (OCS, ECS) (Disk 5).ipf" size="1049612" crc="6419C4DB" md5="C7C77B2377EBFD5CDCBEB79F88BB301A" sha1="E4906E1D6DDAD1152A6690DE4FB013EABD154A92" />
@@ -9346,7 +9365,7 @@
 		<rom name="Sinbad and the Throne of the Falcon (USA) (Disk 1).ipf" size="1049180" crc="E38A091A" md5="5EAE5BF12576ADC14CB2831889C85A77" sha1="BBE5A7AC07D1EE7AF7796A86C933B29C97E3CD32" />
 		<rom name="Sinbad and the Throne of the Falcon (USA) (Disk 2).ipf" size="1049180" crc="56FDB64C" md5="403C5E8C7DD3DAE1BE839D3540100768" sha1="BD77C747008D4ABA0F3A08904F740A4B28EEE2E2" />
 	</game>
-	<game name="Sink or Swim (Europe) (OCS, ECS)" mainName="Sink or Swim" description="Sink or Swim (Europe) (OCS, ECS)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
+	<game name="Sink or Swim (Europe) (OCS, ECS)" mainName="Sink or Swim" description="Sink or Swim (Europe) (OCS, ECS)" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, ECS">
 		<rom name="Sink or Swim (Europe) (OCS, ECS) (Disk 1).ipf" size="681304" crc="62B12CFC" md5="C903C4846BA1A8471311B299D649AFC4" sha1="5EE7603492359ABD505AEB70F4A15532BE6278C1" />
 		<rom name="Sink or Swim (Europe) (OCS, ECS) (Disk 2).ipf" size="959944" crc="F1724583" md5="B2E657CCF4BCF48E46328D86AD6F13B2" sha1="D8814DE3FFB105D51667BCC97E20D2AD5F6F760E" />
 	</game>
@@ -9387,7 +9406,7 @@
 	<game name="Ski or Die (Europe)" mainName="Ski or Die" description="Ski or Die (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Ski or Die (Europe).ipf" size="1049612" crc="A015A3FD" md5="6CD19233BEBCBAE87714102E8D2C0F01" sha1="DF21277F0EC9729E428EAA3B17678775A6EDA91B" />
 	</game>
-	<game name="Skidmarks (Europe) (v1.06) (OCS, AGA)" mainName="Skidmarks" description="Skidmarks (Europe) (v1.06) (OCS, AGA)" version="v1.06" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
+	<game name="Skidmarks (Europe) (v1.06) (OCS, AGA)" mainName="Skidmarks" description="Skidmarks (Europe) (v1.06) (OCS, AGA)" version="v1.06" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
 		<rom name="Skidmarks (Europe) (v1.06) (OCS, AGA) (Program Disk).ipf" size="1049180" crc="82119E7D" md5="A3A2591548282418A005917CCE248361" sha1="0E86E143961945AEC140FDA7A9CAA06CC73E5CAE" />
 		<rom name="Skidmarks (Europe) (v1.06) (OCS, AGA) (Track Disk 2).ipf" size="1009340" crc="45ABA873" md5="EBE4E7B7DF76031BF6CAD8329C66B0A4" sha1="34F2F3FD832FB1C00D90D84FA7EE287133CB8203" />
 		<rom name="Skidmarks (Europe) (v1.06) (OCS, AGA) (AGA Car Disk).ipf" size="1009340" crc="BEA8D5A6" md5="F158B295F01B4143D1F587748061C113" sha1="A5825EA3BE2DC81D5F93868215A8277D510AB9FA" />
@@ -10031,7 +10050,8 @@
 		<rom name="Street Fighter (Europe).ipf" size="1049612" crc="D168F723" md5="75BFD60B2A38A24E88C0F196F21C6EA3" sha1="7B78A2712613E34CF98844DA5ED94F752DE88740" />
 	</game>
 	<game name="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx)" mainName="Street Fighter" description="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + PC">
-		<rom name="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" size="991457" crc="218D38DA" md5="D53A35A7239BB3082B76C460334D5270" sha1="045B4C14DC1523F33B55E2986357A07908CAA8A6" />
+		<rom name="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" md5="D53A35A7239BB3082B76C460334D5270" />
+		<rom name="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" crc="218D38DA" />
 	</game>
 	<game name="Street Fighter II - The World Warrior (Europe)" mainName="Street Fighter II - The World Warrior" description="Street Fighter II - The World Warrior (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Street Fighter II - The World Warrior (Europe) (Disk 2).ipf" size="1048872" crc="B9DC300C" md5="71430CFE26DE9BD2025E3010711B709C" sha1="70F21F146EC135527F766AB26527A93B413D1CC0" />
@@ -10196,7 +10216,7 @@
 		<rom name="Super Ski II (Europe) (Disk 2).ipf" size="1049612" crc="A9F41B3E" md5="F1F331327380560BF983FC79EDE5B515" sha1="967C1B4C525D4734DC7D1ED0BE958BEBD5D85676" />
 		<rom name="Super Ski II (Europe) (Disk 1).ipf" size="1049612" crc="E7B7B1DA" md5="2041D6144558B0C452DDCC1ED1E5DBC5" sha1="E278F9D9E54DF6494CD4A2AFB0B33088AE20ED08" />
 	</game>
-	<game name="Super Skidmarks (Europe) (v2.2) (OCS, AGA)" mainName="Super Skidmarks" description="Super Skidmarks (Europe) (v2.2) (OCS, AGA)" version="v2.2" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
+	<game name="Super Skidmarks (Europe) (v2.2) (OCS, AGA)" mainName="Super Skidmarks" description="Super Skidmarks (Europe) (v2.2) (OCS, AGA)" version="v2.2" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" complement="OCS, AGA">
 		<rom name="Super Skidmarks (Europe) (v2.2) (OCS, AGA) (Track Disk 1).ipf" size="1009772" crc="2390DC17" md5="235208FDD2CA277D43BEDF13B479129C" sha1="883A9908B8C782BFE5A1B5CA554392DC413624EF" />
 		<rom name="Super Skidmarks (Europe) (v2.2) (OCS, AGA) (Track Disk 4).ipf" size="1009772" crc="7C8B007A" md5="35E1B5BD186CF2EE0E329812CB1B8D34" sha1="490DF2E15ABCDAFC458C3BEA1CC7EFCD81C876DA" />
 		<rom name="Super Skidmarks (Europe) (v2.2) (OCS, AGA) (Track Disk 2).ipf" size="1009772" crc="860D7438" md5="FF8B4247230BF72537DB59BBA74BCB78" sha1="7428E40EEC4FB8D5C88D82240DABECB32E726642" />
@@ -10967,8 +10987,10 @@
 		<rom name="Trivial Pursuit - The Computer Game - Genus Edition (Germany).ipf" size="1049612" crc="C9A91DBA" md5="DF5773A7E026D2FAE311E0B224078567" sha1="93BC2AC1A4B00D6463D3AE6E4DA2AC5DCDF57428" />
 	</game>
 	<game name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)" mainName="Trivial Pursuit - The Language Laboratory Edition + Amiga Text" description="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga 600 HD Bundles - Epic + Language Lab">
-		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" size="1049612" crc="30EE61A3" md5="832F5F193B8D390691C554A0DC3D17D4" sha1="CCD7FD093C646109D9341BC0202E6AD9FEB48C93" />
-		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" size="1049612" crc="EE551227" md5="634A6D9149830CBBD99ED384C3E5F1D2" sha1="7795B90AB4D7E8EBE9354F2347055B1DFA0D2CF7" />
+		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" crc="30EE61A3" />
+		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" crc="EE551227" />
+		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" md5="634A6D9149830CBBD99ED384C3E5F1D2" />
+		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" md5="832F5F193B8D390691C554A0DC3D17D4" />
 	</game>
 	<game name="Troddlers (Europe)" mainName="Troddlers" description="Troddlers (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Troddlers (Europe).ipf" size="1012568" crc="5F156984" md5="889C089FE52942FF6F4975E8EA4E2758" sha1="582CF498B75CBB4075074B0CE6E99FA4BB30E7E6" />
@@ -10990,7 +11012,7 @@
 	<game name="Turbo Cup (France) (v2.0) (Compilation - Sport's Best)" mainName="Turbo Cup" description="Turbo Cup (France) (v2.0) (Compilation - Sport's Best)" version="v2.0" region="France" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Sport's Best">
 		<rom name="Turbo Cup (France) (v2.0) (Compilation - Sport's Best).ipf" size="1049180" crc="7409B8F1" md5="DF794115DBE6FE21035CB401C34C18F9" sha1="4E37F569FFC59928CA02C14DCF964FC2D07DEBE1" />
 	</game>
-	<game name="Turbo Jam (Europe) (Proto) (AGA)" mainName="Turbo Jam" description="Turbo Jam (Europe) (Proto) (AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" proto="true">
+	<game name="Turbo Jam (Europe) (Proto) (AGA)" mainName="Turbo Jam" description="Turbo Jam (Europe) (Proto) (AGA)" region="Europe" publisher="AGA" catalog="NoIntro" catalogVersion="20150214-065917" proto="Proto">
 		<rom name="Turbo Jam (Europe) (Proto) (AGA) (Disk C).ipf" size="1049180" crc="B0F565B1" md5="A242B1D78AB1A0FDC4A96EFA6FCC0D0D" sha1="DE64D6A0B76892C499DDBC5025735E26C2651639" />
 		<rom name="Turbo Jam (Europe) (Proto) (AGA) (Disk B).ipf" size="1049180" crc="ABE99732" md5="BF1F9E21BC9CB9DF26ABB089E48BD6AA" sha1="2AFAC39A0C85A48D93FBAC225292654F64E07F23" />
 		<rom name="Turbo Jam (Europe) (Proto) (AGA) (Disk A).ipf" size="1049180" crc="C1C8AD7E" md5="82AD28ED663866E7E315275CCC583DCC" sha1="122E1212E62EACBC0C6E26A63A0DDD175E27BDDF" />
@@ -11964,7 +11986,7 @@
 	<game name="[BIOS] Kickstart (USA, Europe) (v1.3 Rev 34.005) (A500, A2000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v1.3 Rev 34.005) (A500, A2000)" version="v1.3 Rev 34.005" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A500, A2000">
 		<rom name="Kickstart - 315093-02 (USA, Europe) (v1.3 Rev 34.005) (A500, A2000).rom" size="262144" crc="C4F0F55F" md5="82A21C1890CAE844B3DF741F2762D48D" sha1="891E9A547772FE0C6C19B610BAF8BC4EA7FCB785" />
 	</game>
-	<game name="[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.015) (Beta) (A500, A2000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.015) (Beta) (A500, A2000)" version="v1.4 Rev 36.015" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A500, A2000" beta="true">
+	<game name="[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.015) (Beta) (A500, A2000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.015) (Beta) (A500, A2000)" version="v1.4 Rev 36.015" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A500, A2000" beta="Beta">
 		<rom name="Kickstart - 315093-02 (USA, Europe) (v1.4 Rev 36.015) (Beta) (A500, A2000).rom" size="262144" crc="A3BA6116" md5="6623C0C273D00F84721FE6E1CA640688" sha1="250863E39D1D6E7EF7512013F8A09158071BA2AD" />
 	</game>
 	<game name="[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.016) (A3000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v1.4 Rev 36.016) (A3000)" version="v1.4 Rev 36.016" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A3000">
@@ -11978,10 +12000,10 @@
 	<game name="[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (A500 Plus, A2000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (A500 Plus, A2000)" version="v2.04 Rev 37.175" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A500 Plus, A2000">
 		<rom name="Kickstart - 390979-01 (USA, Europe) (v2.04 Rev 37.175) (A500 Plus, A2000).rom" size="524288" crc="C3BDB240" md5="DC10D7BDD1B6F450773DFB558477C230" sha1="C5839F5CB98A7A8947065C3ED2F14F5F42E334A1" />
 	</game>
-	<game name="[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (Proto) (A500 Plus, A2000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (Proto) (A500 Plus, A2000)" version="v2.04 Rev 37.175" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A500 Plus, A2000" proto="true">
+	<game name="[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (Proto) (A500 Plus, A2000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v2.04 Rev 37.175) (Proto) (A500 Plus, A2000)" version="v2.04 Rev 37.175" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A500 Plus, A2000" proto="Proto">
 		<rom name="Kickstart - 363968-01 (USA, Europe) (v2.04 Rev 37.175) (Proto) (A500 Plus, A2000).rom" size="524288" crc="8DA9BD72" md5="DCACAD28DF0D98EE0DBEA5CB81082353" sha1="47E8436EBF663A640860E6B4938068BF5B435CBF" />
 	</game>
-	<game name="[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.210) (Proto) (A600)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.210) (Proto) (A600)" version="v2.05 Rev 37.210" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A600" proto="true">
+	<game name="[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.210) (Proto) (A600)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.210) (Proto) (A600)" version="v2.05 Rev 37.210" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A600" proto="Proto">
 		<rom name="Kickstart (USA, Europe) (v2.05 Rev 37.210) (Proto) (A600).rom" size="524288" crc="4C0C1603" md5="8D72368DC1208E3687B35D662F2EA633" sha1="81159EF92A9A1834D14C20272EDB74B7DC223507" />
 	</game>
 	<game name="[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.299) (A600)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.299) (A600)" version="v2.05 Rev 37.299" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A600">
@@ -11993,7 +12015,7 @@
 	<game name="[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.350) (A600HD)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v2.05 Rev 37.350) (A600HD)" version="v2.05 Rev 37.350" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A600HD">
 		<rom name="Kickstart - 391304-02 (USA, Europe) (v2.05 Rev 37.350) (A600HD).rom" size="524288" crc="43B0DF7B" md5="465646C9B6729F77EEA5314D1F057951" sha1="02843C4253BBD29ABA535B0AA3BD9A85034ECDE4" />
 	</game>
-	<game name="[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.065) (Beta) (A3000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.065) (Beta) (A3000)" version="v3.0 Rev 39.065" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A3000" beta="true">
+	<game name="[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.065) (Beta) (A3000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v3.0 Rev 39.065) (Beta) (A3000)" version="v3.0 Rev 39.065" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A3000" beta="Beta">
 		<rom name="Kickstart - ODD (USA, Europe) (v3.0 Rev 39.065) (Beta) (A3000).rom" size="262144" crc="F2742238" md5="96F48F3FC16A32C25A32AA8438287227" sha1="269DDE4836C798DD0B0A358DC539ADCF8B8A4028" />
 		<rom name="Kickstart - EVEN (USA, Europe) (v3.0 Rev 39.065) (Beta) (A3000).rom" size="262144" crc="1B64EA21" md5="FEEDADE28B5C90961D73EFABF3C9797A" sha1="AD38978A4599C14A0EAF5C4E6EA45BAA5D1F09ED" />
 	</game>
@@ -12005,7 +12027,7 @@
 		<rom name="Kickstart - 391513-02 (USA, Europe) (v3.0 Rev 39.106) (A4000).rom" size="262144" crc="36F64DD0" md5="DF38E9EA067E67CC4FDA059FC56C83EA" sha1="196E9F3F9CAD934E181C07DA33083B1F0A3C702F" />
 		<rom name="Kickstart - 391514-02 (USA, Europe) (v3.0 Rev 39.106) (A4000).rom" size="262144" crc="17266A55" md5="64FE6CC6B33D9FCDA30F1AE4AC8DD500" sha1="42FBED3453D1F11CCBDE89A9826F2D1175CCA5CC" />
 	</game>
-	<game name="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.055) (Beta) (A3000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.055) (Beta) (A3000)" version="v3.1 Rev 40.055" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A3000" beta="true">
+	<game name="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.055) (Beta) (A3000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.055) (Beta) (A3000)" version="v3.1 Rev 40.055" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A3000" beta="Beta">
 		<rom name="Kickstart - ODD (USA, Europe) (v3.1 Rev 40.055) (Beta) (A3000).rom" size="262144" crc="E1E0AD9F" md5="5F10DD73DA3A64EBBD5977BE69684F64" sha1="4C5FF5CD3853D7EE704FC4964FBD0211F0D13F6E" />
 		<rom name="Kickstart - EVEN (USA, Europe) (v3.1 Rev 40.055) (Beta) (A3000).rom" size="262144" crc="6DCBB6DA" md5="5B6D21FB08065C8ACBB20A628F640FEE" sha1="2618364C74ED756DA71946210F9C080CFEF0E3D5" />
 	</game>
@@ -12024,7 +12046,7 @@
 		<rom name="Kickstart - ROM1 (USA, Europe) (v3.1 Rev 40.068) (A4000).rom" size="262144" crc="E65636A3" md5="F5D4062A8CD8994F99653C0595D6C700" sha1="313C7CBDA5779E56F19A41D34E760F517626D882" />
 		<rom name="Kickstart - ROM0 (USA, Europe) (v3.1 Rev 40.068) (A4000).rom" size="262144" crc="B2AF34F8" md5="08018AF63539831EFDBDB4D79B2982F6" sha1="24E52B5EFC02049517387AB7B1A1475FC540350E" />
 	</game>
-	<game name="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (Proto) (A600)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (Proto) (A600)" version="v3.1 Rev 40.068" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A600" proto="true">
+	<game name="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (Proto) (A600)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.068) (Proto) (A600)" version="v3.1 Rev 40.068" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A600" proto="Proto">
 		<rom name="Kickstart (USA, Europe) (v3.1 Rev 40.068) (Proto) (A600).rom" size="524288" crc="8ECED804" md5="0D527EAF6CF3D25A69F7B82716ED3EAC" sha1="B4C5CB8620C86A93DCEEB543866EA6AB005A3D41" />
 	</game>
 	<game name="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.070) (A4000)" mainName="[BIOS] Kickstart" description="[BIOS] Kickstart (USA, Europe) (v3.1 Rev 40.070) (A4000)" version="v3.1 Rev 40.070" region="USA,Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="A4000">
