@@ -241,6 +241,9 @@ public class RepositoryManager {
                                         case "sha1":
                                             rom.setSha1(nvr.getNodeValue());
                                             break;
+                                        case "flags":
+                                            rom.setFlags(nvr.getNodeValue());
+                                            break;
                                         default:
                                             throw new Exception(nvr.getNodeName());
                                     }

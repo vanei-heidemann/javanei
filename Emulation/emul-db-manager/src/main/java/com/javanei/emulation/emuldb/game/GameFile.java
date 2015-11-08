@@ -15,6 +15,7 @@ public class GameFile implements Serializable {
     private String crc; //clrmamepro
     private String md5; //clrmamepro
     private String sha1; //clrmamepro
+    private String flags; //clrmamepro
 
     public GameFile() {
     }
@@ -68,6 +69,14 @@ public class GameFile implements Serializable {
         this.sha1 = sha1;
     }
 
+    public String getFlags() {
+        return flags;
+    }
+
+    public void setFlags(String flags) {
+        this.flags = flags;
+    }
+
     @Override
     public int hashCode() {
         int hash = 3;
@@ -112,6 +121,9 @@ public class GameFile implements Serializable {
         }
         if (this.sha1 != null) {
             sb.append(" sha1=\"").append(this.sha1).append("\"");
+        }
+        if (this.flags != null) {
+            sb.append(" flags=\"").append(this.flags).append("\"");
         }
         sb.append(" />\n");
         return sb.toString();

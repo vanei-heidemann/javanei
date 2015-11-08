@@ -107,6 +107,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
                         fireMessageError(null, new UnknownTagException(line));
                     }
                 } catch (Exception ex) {
+                    ex.printStackTrace();
                     fireMessageError(null, ex);
                     game = null;
                 }
@@ -142,6 +143,9 @@ public class ClrMameProImporter extends Task<GameImporter> {
                     break;
                 case "sha1":
                     gf.setSha1(ss[++i]);
+                    break;
+                case "flags":
+                    gf.setFlags(ss[++i]);
                     break;
                 default:
                     throw new UnknownTagException(ss[i]);
