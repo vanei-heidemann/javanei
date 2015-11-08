@@ -512,6 +512,7 @@ public class GamePublisher implements Serializable {
         publishers.put("Sachen", new GamePublisher("Sachen"));
         // Gameboy Advance
         publishers.put("Zoo Digital", new GamePublisher("Zoo Digital"));
+        publishers.put("Vivendi", new GamePublisher("Vivendi"));
     }
 
     private GamePublisher(String publisher) {
