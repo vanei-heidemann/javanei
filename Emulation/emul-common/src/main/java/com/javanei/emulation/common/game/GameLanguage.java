@@ -82,10 +82,16 @@ public class GameLanguage {
             if (s.indexOf("+") > 0) {
                 String[] ss2 = s.split("+");
                 for (String s2 : ss2) {
-                    result.add(fromName(s2.trim()));
+                    GameLanguage gl = fromName(s2.trim());
+                    if (!result.contains(gl)) {
+                        result.add(gl);
+                    }
                 }
             } else {
-            result.add(fromName(s.trim()));
+                GameLanguage gl = fromName(s.trim());
+                if (!result.contains(gl)) {
+                    result.add(gl);
+                }
             }
         }
         return result;
