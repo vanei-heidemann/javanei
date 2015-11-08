@@ -168,7 +168,7 @@
 	<game name="Karateka (USA)" mainName="Karateka" description="Karateka (USA)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142">
 		<rom name="Karateka (USA).a78" size="49152" crc="FEC21472" md5="C3A5A8692A423D43D9D28DD5B7D109D9" sha1="9FB97BBC7DCC610251CEE1695C48B82A087F32D2" />
 	</game>
-	<game name="Klax (USA) (Proto)" mainName="Klax" description="Klax (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142" proto="true">
+	<game name="Klax (USA) (Proto)" mainName="Klax" description="Klax (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142" proto="Proto">
 		<rom name="Klax (USA) (Proto).a78" size="131072" crc="F26621E3" md5="17B3B764D33EAE9B5260F01DF7BB9D2F" sha1="0EA6A04B8F9713040CE57B6F23A6589F98409D46" />
 	</game>
 	<game name="Kung-Fu Master (Europe)" mainName="Kung-Fu Master" description="Kung-Fu Master (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20140326-040142">
@@ -207,7 +207,7 @@
 	<game name="Midnight Mutants (USA)" mainName="Midnight Mutants" description="Midnight Mutants (USA)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142">
 		<rom name="Midnight Mutants (USA).a78" size="131072" crc="187EC84E" md5="BC1E905DB1008493A9632AA83AB4682B" sha1="DB5EA4C1456F3B403F6B8978432ECBCDAC89D432" />
 	</game>
-	<game name="Missing In Action (Unknown) (Proto)" mainName="Missing In Action" description="Missing In Action (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="true">
+	<game name="Missing In Action (Unknown) (Proto)" mainName="Missing In Action" description="Missing In Action (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="Proto">
 		<rom name="Missing In Action (Unknown) (Proto).a78" size="147456" crc="FF7A4C60" md5="017066F522908081EC3EE624F5E4A8AA" sha1="26B0B187A43BF9A9397CB5E8B0033E8833F48F88" />
 	</game>
 	<game name="Motor Psycho (Europe)" mainName="Motor Psycho" description="Motor Psycho (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20140326-040142">
@@ -237,7 +237,7 @@
 	<game name="Pete Rose Baseball (USA)" mainName="Pete Rose Baseball" description="Pete Rose Baseball (USA)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142">
 		<rom name="Pete Rose Baseball (USA).a78" size="32768" crc="F33D4DFA" md5="1A5207870DEC6FAE9111CB747E20D8E3" sha1="FFB4FBED8D8F28EA71668542B7EBD019955C5A11" />
 	</game>
-	<game name="Pit Fighter (Unknown) (Proto)" mainName="Pit Fighter" description="Pit Fighter (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="true">
+	<game name="Pit Fighter (Unknown) (Proto)" mainName="Pit Fighter" description="Pit Fighter (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="Proto">
 		<rom name="Pit Fighter (Unknown) (Proto).a78" size="65536" crc="A5E75537" md5="05F43244465943CE819780A71A5B572A" sha1="378ADDEF67ACA55500F0F5F9F0075DCB177406B5" />
 	</game>
 	<game name="Planet Smashers (Europe)" mainName="Planet Smashers" description="Planet Smashers (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20140326-040142">
@@ -246,7 +246,7 @@
 	<game name="Planet Smashers (USA)" mainName="Planet Smashers" description="Planet Smashers (USA)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142">
 		<rom name="Planet Smashers (USA).a78" size="131072" crc="4E3B9E64" md5="33AEA1E2B6634A1DEC8C7006D9AFDA22" sha1="503B975FC1F8EDC16110AC2C5B884C4E8B2B6EFB" />
 	</game>
-	<game name="Plutos (Unknown) (Proto)" mainName="Plutos" description="Plutos (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="true">
+	<game name="Plutos (Unknown) (Proto)" mainName="Plutos" description="Plutos (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="Proto">
 		<rom name="Plutos (Unknown) (Proto).a78" size="131072" crc="2F211F7F" md5="86546808DC60961CDB1B20E761C50AB1" sha1="FA55D6A366B237917F18487FC51817394839A3BC" />
 	</game>
 	<game name="Pole Position II (Europe)" mainName="Pole Position II" description="Pole Position II (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20140326-040142">
@@ -258,13 +258,13 @@
 	<game name="Rampage (USA)" mainName="Rampage" description="Rampage (USA)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142">
 		<rom name="Rampage (USA).a78" size="131072" crc="39A316AA" md5="AC03806CEF2558FC795A7D5D8DBA7BC0" sha1="13745B5EAAAB7E2C992F3312285E112CDEB424F6" />
 	</game>
-	<game name="Rampart (Unknown) (Proto)" mainName="Rampart" description="Rampart (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="true">
+	<game name="Rampart (Unknown) (Proto)" mainName="Rampart" description="Rampart (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="Proto">
 		<rom name="Rampart (Unknown) (Proto).a78" size="131072" crc="E8C2A662" md5="442761655BB25DDFE5F7AB16BF591C6F" sha1="53516794CB442208AF5D54760324C006510553B3" />
 	</game>
 	<game name="RealSports Baseball (USA)" mainName="RealSports Baseball" description="RealSports Baseball (USA)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142">
 		<rom name="RealSports Baseball (USA).a78" size="65536" crc="B1508030" md5="383ED9BD1EFB9B6CB3388A777678C928" sha1="9A9F60251D049630099F56D2D3EFB013828B8A2C" />
 	</game>
-	<game name="Rescue on Fractalus (USA) (Proto)" mainName="Rescue on Fractalus" description="Rescue on Fractalus (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142" proto="true">
+	<game name="Rescue on Fractalus (USA) (Proto)" mainName="Rescue on Fractalus" description="Rescue on Fractalus (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142" proto="Proto">
 		<rom name="Rescue on Fractalus (USA) (Proto).a78" size="32768" crc="9A74FBF2" md5="8F7EB10AD0BD75474ABF0C6C36C08486" sha1="6653022F38E553D475896A918850158EAF8F77FF" />
 	</game>
 	<game name="Robotron - 2084 (USA)" mainName="Robotron - 2084" description="Robotron - 2084 (USA)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142">
@@ -279,10 +279,10 @@
 	<game name="Sentinel (Europe)" mainName="Sentinel" description="Sentinel (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20140326-040142">
 		<rom name="Sentinel (Europe).a78" size="131072" crc="47340DF9" md5="5469B4DE0608F23A5C4F98F331C9E75F" sha1="6D85A73A56D2F02FF439736EACE86691AA613444" />
 	</game>
-	<game name="Sentinel (USA) (Proto)" mainName="Sentinel" description="Sentinel (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142" proto="true">
+	<game name="Sentinel (USA) (Proto)" mainName="Sentinel" description="Sentinel (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142" proto="Proto">
 		<rom name="Sentinel (USA) (Proto).a78" size="131072" crc="2FDDAD78" md5="B697D9C2D1B9F6CB21041286D1BBFA7F" sha1="BD7DE03A28B168C992BCAA96539C2310F3BFE30C" />
 	</game>
-	<game name="Sirius (Unknown) (Proto)" mainName="Sirius" description="Sirius (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="true">
+	<game name="Sirius (Unknown) (Proto)" mainName="Sirius" description="Sirius (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140326-040142" proto="Proto">
 		<rom name="Sirius (Unknown) (Proto).a78" size="131072" crc="65AE616E" md5="2D643AC548C40E58C99D0FE433BA4BA0" sha1="CD9F6DEA96F102262065D7472E73121B67F9E244" />
 	</game>
 	<game name="Summer Games (USA)" mainName="Summer Games" description="Summer Games (USA)" region="USA" catalog="NoIntro" catalogVersion="20140326-040142">
