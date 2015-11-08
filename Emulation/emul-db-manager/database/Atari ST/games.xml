@@ -345,9 +345,6 @@
 	<game name="Foundation's Waste (Europe) (Budget - Klassix)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Budget - Klassix)" version="Budget" region="Europe" publisher="Klassix" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Foundation's Waste (Europe) (Budget - Klassix).ipf" size="562172" crc="1C4935E3" md5="7F25080281AA309234FE7F014473C2AA" sha1="0DA037C8E8A1784D0AFA7F4B8A0CD191EC1BAE7A" />
 	</game>
-	<game name="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Coverdisk - The One - Issue 22	Amiga + ST">
-		<rom name="Foundation's Waste (Europe) (Coverdisk - The One - Issue 22) (Amiga + ST).ipf" size="1034145" crc="8CC8484F" md5="78BBAA86EBC564A62F0CA08D8E55297D" sha1="C51CC0CF5005FA6F422383E7F84A00F6BAC5915C" />
-	</game>
 	<game name="Full Metal Planete (Europe)" mainName="Full Metal Planete" description="Full Metal Planete (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Full Metal Planete (Europe).ipf" size="915607" crc="CDA1BF50" md5="A5D44CDB8884C1976901B76CDDF77CD5" sha1="F4ECA005F4459E2016E48B6CD15523843D330D2A" />
 	</game>
@@ -524,10 +521,6 @@
 		<rom name="Leisure Suit Larry in - The Land of the Lounge Lizards (Europe) (v1.04 6.18.87) (Disk 1).ipf" size="462195" crc="BA699E27" md5="8EE385E5E21E41B741FE17FFB7DF4B26" sha1="FEEB4DBB6DA4DDB39D8949F0D413B58A02BC1510" />
 		<rom name="Leisure Suit Larry in - The Land of the Lounge Lizards (Europe) (v1.04 6.18.87) (Disk 2).ipf" size="467820" crc="788F6758" md5="21E92CB50F248E531152789A7703CE9C" sha1="CF108C4FB0D32F1A31518FD12078D126F6D17A3C" />
 	</game>
-	<game name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" mainName="Lethal Xcess - Wings of Death II" description="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
-		<rom name="Lethal Xcess - Wings of Death II (Europe) (Disk B).ipf" size="1008380" crc="7C53B994" md5="0C2D7CFC0B10DCE50EAD3B1FE7EC6000" sha1="8B8CEFDB0DBD7E4A515C95235526ED909FE499C7" />
-		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ipf" size="1004597" crc="33CC029D" md5="D7B4325AA96FC4078C0B6B807036612F" sha1="54A268710716F3510918CD8767D9D248798C4ED0" />
-	</game>
 	<game name="Light Corridor, The (Europe)" mainName="Light Corridor, The" description="Light Corridor, The (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Light Corridor, The (Europe).ipf" size="471664" crc="F4C91ADD" md5="9867FC33E1B1532FB797C072A66248B6" sha1="785CF66C33F5FA0202954D24B95D604A12B821A1" />
 	</game>
@@ -591,9 +584,6 @@
 	</game>
 	<game name="Mission Genocide (Europe)" mainName="Mission Genocide" description="Mission Genocide (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Mission Genocide (Europe).ipf" size="517822" crc="060D37DC" md5="CE6684EA8DE8667A7E8EA39AD422372C" sha1="E105683BEEAA7BBDD06520FCB3923B11DEF5A4DD" />
-	</game>
-	<game name="Monster Business (Europe) (Amiga + ST)" mainName="Monster Business" description="Monster Business (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
-		<rom name="Monster Business (Europe) (Amiga + ST).ipf" size="1009109" crc="BE6095A0" md5="8A98D2544D42A3BAC5DC29DF575BE591" sha1="C6D0706C363F3FD7F5E40864B49568AC9E157C8B" />
 	</game>
 	<game name="Never Mind (Europe)" mainName="Never Mind" description="Never Mind (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Never Mind (Europe) (Disk 1).ipf" size="517627" crc="177EEB16" md5="EF0E4F6A862CFB243BA2E9A3A9277A86" sha1="00FF4D36EF12EFF72DEA285E58EEA3CD4A4E72FA" />
@@ -692,9 +682,6 @@
 		<rom name="Police Quest - In Pursuit of the Death Angel (Europe) (v2.0G 12.3.87) (Disk 3).ipf" size="468252" crc="FFDDFA40" md5="2B7548999409AF82B63D9F2883334B55" sha1="C9759DEFF7B74807B21B8585E65CD94FAB768BD9" />
 		<rom name="Police Quest - In Pursuit of the Death Angel (Europe) (v2.0G 12.3.87) (Disk 1).ipf" size="468252" crc="86A631BE" md5="A30E74DF1009BE8C9794E780F58CC6E5" sha1="769D3B223B2DCFBA8A753F34E0588D1D7ED573FC" />
 		<rom name="Police Quest - In Pursuit of the Death Angel (Europe) (v2.0G 12.3.87) (Disk 2).ipf" size="468252" crc="F16D4A27" md5="0D425669494F6963F856D066218D7F1B" sha1="5DF35F53937ED2C0837F0376BB92C157E1CA9345" />
-	</game>
-	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST	Addon">
-		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ipf" size="1037012" crc="DE09F0A3" md5="73F1CA231D950BDB8FB3DA42BD11F364" sha1="21301177EB04122183AA716C081E8A4FDA35CFF8" />
 	</game>
 	<game name="President is Missing, The (Europe)" mainName="President is Missing, The" description="President is Missing, The (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="President is Missing, The (Europe).ipf" size="518252" crc="82FE6664" md5="CA2817A335C5EDFD493EAE3EE023B5F5" sha1="FB8AC7C4C96860C2E8F43D978D559377E9CCE304" />
@@ -828,9 +815,6 @@
 	</game>
 	<game name="Steel (Europe)" mainName="Steel" description="Steel (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Steel (Europe).ipf" size="520242" crc="6AC8B3B0" md5="61D1F74B8BA230457A08DE28BCD152AD" sha1="3C562FBA4B6654AD28835EBEEBD7EECBB7E22AF2" />
-	</game>
-	<game name="Stone Age (Europe) (Amiga + ST)" mainName="Stone Age" description="Stone Age (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609" complement="Amiga + ST">
-		<rom name="Stone Age (Europe) (Amiga + ST).ipf" size="1008605" crc="47688571" />
 	</game>
 	<game name="Storm Master (Europe)" mainName="Storm Master" description="Storm Master (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20141101-034609">
 		<rom name="Storm Master (Europe).ipf" size="1014649" crc="1FC8C46C" md5="86A78B00494837659025FA7455E24B59" sha1="F442BAB4751112A0C60EBF3EC68D9D77CC65F796" />
