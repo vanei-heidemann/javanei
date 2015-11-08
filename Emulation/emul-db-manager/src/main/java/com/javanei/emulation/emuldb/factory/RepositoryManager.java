@@ -4,6 +4,7 @@ import com.javanei.emulation.common.GameCatalog;
 import com.javanei.emulation.common.ThreeStates;
 import com.javanei.emulation.common.game.GameDeveloper;
 import com.javanei.emulation.common.game.GameLanguage;
+import com.javanei.emulation.common.game.GameProtection;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
 import com.javanei.emulation.emuldb.config.ConfigManager;
@@ -142,6 +143,9 @@ public class RepositoryManager {
                                 break;
                             case "developer":
                                 game.setDeveloper(GameDeveloper.fromName(nv.getNodeValue()));
+                                break;
+                            case "protection":
+                                game.setProtection(GameProtection.fromName(nv.getNodeValue()));
                                 break;
                             case "alternate":
                                 game.setAlternate(nv.getNodeValue());

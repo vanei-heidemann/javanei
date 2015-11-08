@@ -3,6 +3,7 @@ package com.javanei.emulation.emuldb.nointro;
 import com.javanei.emulation.common.ThreeStates;
 import com.javanei.emulation.common.game.GameDeveloper;
 import com.javanei.emulation.common.game.GameLanguage;
+import com.javanei.emulation.common.game.GameProtection;
 import com.javanei.emulation.common.game.GamePublisher;
 import com.javanei.emulation.common.game.GameRegion;
 import com.javanei.emulation.emuldb.GameNameParser;
@@ -48,6 +49,10 @@ public final class NoIntroNameParser implements GameNameParser {
                 }
                 // Identifica o developer
                 if (parseDeveloper(game, tag)) {
+                    break validate_block;
+                }
+                // Identifica a protection
+                if (parseProtection(game, tag)) {
                     break validate_block;
                 }
                 // Identifica a linguagem
@@ -120,6 +125,17 @@ public final class NoIntroNameParser implements GameNameParser {
         return false;
     }
 
+    private static boolean parseProtection(Game game, String tag) {
+        if (game.getProtection() == null) {
+            GameProtection prot = GameProtection.getProtection(tag);
+            if (prot != null) {
+                game.setProtection(prot);
+                return true;
+            }
+        }
+        return false;
+    }
+
     private static boolean parseLanguage(Game game, String tag) {
         if ((game.getLanguages().isEmpty())
                 && GameLanguage.isLanguages(tag)) {
@@ -167,8 +183,7 @@ public final class NoIntroNameParser implements GameNameParser {
         }
         if (tag.matches("\\d\\d\\d\\d-\\d\\d-\\d\\d")
                 || tag.matches("\\d\\d\\d\\d-\\w\\w-\\w\\w")
-                || tag.matches("\\d\\d\\d\\d-\\w\\w-\\w\\w.+")
-                ) {
+                || tag.matches("\\d\\d\\d\\d-\\w\\w-\\w\\w.+")) {
             int year = Integer.parseInt(tag.substring(0, 4));
             game.setYear(year);
             return true;
@@ -251,6 +266,7 @@ public final class NoIntroNameParser implements GameNameParser {
                 || tag.matches("R\\d")
                 || tag.matches("A\\d\\d")
                 || tag.matches("Release \\d\\d")
+                || tag.matches("\\d\\d\\d.\\w\\d")
                 || tag.matches("\\d.\\d\\dl") // Sega Genesis
                 || tag.matches("\\d.\\d\\dS") // Sega Genesis
                 ) {
@@ -328,8 +344,6 @@ public final class NoIntroNameParser implements GameNameParser {
             case "Commodore - 64":
                 //TODO: O que fazer?
                 switch (tag) {
-                    case "Preview":
-                        break;
                     case "Unreleased":
                         break;
                     case "Program":
