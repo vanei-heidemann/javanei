@@ -13,3 +13,6 @@ Emulation/emul-db-manager/nbactions.xml
 Emulation/emul-db-manager/emul-db-manager.iml
 Emulation/emul-db-manager/nb-configuration.xml
 Emulation/emul-common/emul-common.iml
+/Emulation/emul-db-manager/target/
+/Emulation/emul-common/target/
+/Emulation/emul-tools/target/
