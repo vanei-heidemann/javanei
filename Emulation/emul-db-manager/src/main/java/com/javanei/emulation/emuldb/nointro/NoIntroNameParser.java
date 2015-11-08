@@ -165,7 +165,10 @@ public final class NoIntroNameParser implements GameNameParser {
             game.setYear(year);
             return true;
         }
-        if (tag.matches("\\d\\d\\d\\d-\\d\\d-\\d\\d")) {
+        if (tag.matches("\\d\\d\\d\\d-\\d\\d-\\d\\d")
+                || tag.matches("\\d\\d\\d\\d-\\w\\w-\\w\\w")
+                || tag.matches("\\d\\d\\d\\d-\\w\\w-\\w\\w.+")
+                ) {
             int year = Integer.parseInt(tag.substring(0, 4));
             game.setYear(year);
             return true;
