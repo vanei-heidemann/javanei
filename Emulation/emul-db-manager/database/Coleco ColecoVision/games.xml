@@ -54,19 +54,19 @@
 	<game name="Bump 'N' Jump (USA, Europe)" mainName="Bump 'N' Jump" description="Bump 'N' Jump (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Bump 'N' Jump (USA, Europe).col" size="24576" crc="002B22D4" md5="45548D960E081445560FA492A675E457" sha1="EFEB5031064061E2F02EB442FF0857FA21EE042D" />
 	</game>
-	<game name="Bump 'N' Jump (USA, Europe) (Beta)" mainName="Bump 'N' Jump" description="Bump 'N' Jump (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913" beta="true">
+	<game name="Bump 'N' Jump (USA, Europe) (Beta)" mainName="Bump 'N' Jump" description="Bump 'N' Jump (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913" beta="Beta">
 		<rom name="Bump 'N' Jump (USA, Europe) (Beta).col" size="16384" crc="EB498F97" md5="19098349768EA68A2C9F3D711369970A" sha1="158F666AAC5CF48C77B62BEB77310A45F6C7E2EA" />
 	</game>
 	<game name="BurgerTime (USA, Europe)" mainName="BurgerTime" description="BurgerTime (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="BurgerTime (USA, Europe).col" size="16384" crc="91346341" md5="927CE5BA5BF3E0F6C8C5A115DB51F264" sha1="6EBF0D23F2D7CF60897BA6FE13B2293421C0A589" />
 	</game>
-	<game name="BurgerTime (USA, Europe) (Beta)" mainName="BurgerTime" description="BurgerTime (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913" beta="true">
+	<game name="BurgerTime (USA, Europe) (Beta)" mainName="BurgerTime" description="BurgerTime (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913" beta="Beta">
 		<rom name="BurgerTime (USA, Europe) (Beta).col" size="16384" crc="E5C5EA20" md5="45295E9BA099C8CAE1DD893A1D5A380B" sha1="B455E48F5462C8B27DD693E25113A8A28C28014B" />
 	</game>
 	<game name="Cabbage Patch Kids - Adventures in the Park (USA, Europe)" mainName="Cabbage Patch Kids - Adventures in the Park" description="Cabbage Patch Kids - Adventures in the Park (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Cabbage Patch Kids - Adventures in the Park (USA, Europe).col" size="16384" crc="BEACBFF5" md5="ADE704F01E694FB539BD805D9E276C99" sha1="6DCF2F3ACC4B221666DEFC6EBBC09286238E7A1B" />
 	</game>
-	<game name="Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta)" mainName="Cabbage Patch Kids - Adventures in the Park" description="Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913" beta="true">
+	<game name="Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta)" mainName="Cabbage Patch Kids - Adventures in the Park" description="Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913" beta="Beta">
 		<rom name="Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta).col" size="16384" crc="F9D56307" md5="6D9FD51559988D77421F7FBFA0B692B7" sha1="8ED72BCBEB4858EF8AA3C219234F1865622C1F01" />
 	</game>
 	<game name="Cabbage Patch Kids Picture Show (USA, Europe)" mainName="Cabbage Patch Kids Picture Show" description="Cabbage Patch Kids Picture Show (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -111,7 +111,7 @@
 	<game name="Destructor (USA, Europe)" mainName="Destructor" description="Destructor (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Destructor (USA, Europe).col" size="32768" crc="56C358A6" md5="EC72A0E3BEBE07BA631A8DCB750C1591" sha1="35283C51F448D877625049266C0C4687BF57AB42" />
 	</game>
-	<game name="Dig Dug (USA) (Proto)" mainName="Dig Dug" description="Dig Dug (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Dig Dug (USA) (Proto)" mainName="Dig Dug" description="Dig Dug (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Dig Dug (USA) (Proto).col" size="24576" crc="1038E0A1" md5="03F9C4CBF079385C549C784105BD0C38" sha1="04BCE7D5EBD54F094D5F9F9B1880AE6507A5450D" />
 	</game>
 	<game name="Donkey Kong (USA, Europe)" mainName="Donkey Kong" description="Donkey Kong (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -132,7 +132,7 @@
 	<game name="Dukes of Hazzard, The (USA, Europe)" mainName="Dukes of Hazzard, The" description="Dukes of Hazzard, The (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Dukes of Hazzard, The (USA, Europe).col" size="32768" crc="4025AC94" md5="DBD4F21702BE17775E84B2FB6C534C94" sha1="162C7AD3266E02AA88983FA4ECE7A77BC1CB9C7A" />
 	</game>
-	<game name="Escape from the MindMaster (USA) (Proto)" mainName="Escape from the MindMaster" description="Escape from the MindMaster (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Escape from the MindMaster (USA) (Proto)" mainName="Escape from the MindMaster" description="Escape from the MindMaster (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Escape from the MindMaster (USA) (Proto).col" size="16384" crc="3678AB6F" md5="ABE178883B62A738C692A2656A03A77E" sha1="00C157E87A8F85EDE84B26BFAB018C50678F88E4" />
 	</game>
 	<game name="Evolution (USA)" mainName="Evolution" description="Evolution (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -141,7 +141,7 @@
 	<game name="Facemaker (USA)" mainName="Facemaker" description="Facemaker (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Facemaker (USA).col" size="16384" crc="989E4993" md5="AB467E756033DAEBB1F119BD965474D2" sha1="4AC1B2B462AEBA09AA9FA119430C0BB009A3BE2E" />
 	</game>
-	<game name="Fall Guy (Europe) (Proto)" mainName="Fall Guy" description="Fall Guy (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Fall Guy (Europe) (Proto)" mainName="Fall Guy" description="Fall Guy (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Fall Guy (Europe) (Proto).col" size="16384" crc="8A731B38" md5="BD905555983C05456AB81EA154A570B1" sha1="0E5C84D8FB8A9428AED399F4A9F9309B26BCE990" />
 	</game>
 	<game name="Fathom (USA)" mainName="Fathom" description="Fathom (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -213,7 +213,7 @@
 	<game name="James Bond (USA)" mainName="James Bond" description="James Bond (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="James Bond (USA).col" size="16384" crc="3004A253" md5="5540FEB1D30A22901F881849188D85A4" sha1="B9E66759502856E9341BA0A2F350C94FAF29CCA1" />
 	</game>
-	<game name="Joust (USA) (Proto)" mainName="Joust" description="Joust (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Joust (USA) (Proto)" mainName="Joust" description="Joust (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Joust (USA) (Proto).col" size="24576" crc="52228000" md5="E8ACBBCFFE3094E57621A75B3E355B37" sha1="551A87B925595E7A465D669E96E11CBA0266663A" />
 	</game>
 	<game name="Juke Box (USA)" mainName="Juke Box" description="Juke Box (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -261,13 +261,13 @@
 	<game name="Monkey Academy (USA, Europe)" mainName="Monkey Academy" description="Monkey Academy (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Monkey Academy (USA, Europe).col" size="32768" crc="26FD822A" md5="10B7C43FAB1C78A5183D67AF27848B8B" sha1="6ADE72687E2C556CD9C314AFEFC86DC861139438" />
 	</game>
-	<game name="Monkey Academy (USA, Europe) (Beta)" mainName="Monkey Academy" description="Monkey Academy (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913" beta="true">
+	<game name="Monkey Academy (USA, Europe) (Beta)" mainName="Monkey Academy" description="Monkey Academy (USA, Europe) (Beta)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913" beta="Beta">
 		<rom name="Monkey Academy (USA, Europe) (Beta).col" size="16384" crc="D1E8DF85" md5="73ACD858C434721F4551D3A2777D6756" sha1="5DE6442754C639C77045CE9F18D1B59F38AB07B3" />
 	</game>
 	<game name="Montezuma's Revenge (USA)" mainName="Montezuma's Revenge" description="Montezuma's Revenge (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Montezuma's Revenge (USA).col" size="16384" crc="0BD9D073" md5="FA0B387A588834DD121B3A34DA303838" sha1="B0C02E594DD965AF5045D4E3DE19C61FA5B6D0CA" />
 	</game>
-	<game name="Moon Patrol (USA) (Proto)" mainName="Moon Patrol" description="Moon Patrol (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Moon Patrol (USA) (Proto)" mainName="Moon Patrol" description="Moon Patrol (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Moon Patrol (USA) (Proto).col" size="32768" crc="90007079" md5="39355F46ADA88B0D50523C2F7F5C9362" sha1="8A1E2DB621B84E630960B2341AC459AF2723A3F6" />
 	</game>
 	<game name="Moonsweeper (USA)" mainName="Moonsweeper" description="Moonsweeper (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -309,7 +309,7 @@
 	<game name="One on One (USA)" mainName="One on One" description="One on One (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="One on One (USA).col" size="24576" crc="17C77C3A" md5="45FEC4406D06893E42856F0386AB3891" sha1="71689EF2AF8351BBE70B66DBB89CD252F276E6CC" />
 	</game>
-	<game name="Pac-Man (USA) (Proto)" mainName="Pac-Man" description="Pac-Man (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Pac-Man (USA) (Proto)" mainName="Pac-Man" description="Pac-Man (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Pac-Man (USA) (Proto).col" size="16384" crc="A40A07E8" md5="70432C26C3E9FF2BE98EFF4401923E3C" sha1="4D724D40C389CDB62929AA69BC76466C3BCB5BCD" />
 	</game>
 	<game name="Pepper II (USA, Europe)" mainName="Pepper II" description="Pepper II (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -327,10 +327,10 @@
 	<game name="Popeye (USA)" mainName="Popeye" description="Popeye (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Popeye (USA).col" size="16384" crc="3EF1D0EE" md5="04D94ACC4EE8639E8EBC619521F75F34" sha1="8536D0A4D9C6422AB221A7EAA55B9BA7CAA5EA4C" />
 	</game>
-	<game name="Porky's (USA) (Proto)" mainName="Porky's" description="Porky's (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Porky's (USA) (Proto)" mainName="Porky's" description="Porky's (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Porky's (USA) (Proto).col" size="16384" crc="46FC1C00" md5="708CA6A994218696B1CC0DFBF8B9700C" sha1="4471F402C0CB8BE232ECE0EA84DCAEF9EE002398" />
 	</game>
-	<game name="Power Lords - Quest for Volcan (USA) (Proto)" mainName="Power Lords - Quest for Volcan" description="Power Lords - Quest for Volcan (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Power Lords - Quest for Volcan (USA) (Proto)" mainName="Power Lords - Quest for Volcan" description="Power Lords - Quest for Volcan (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Power Lords - Quest for Volcan (USA) (Proto).col" size="32768" crc="CAA61D8D" md5="8C999D87686CB763875BA6E9DFF8DB5D" sha1="6712B866FA0D2D57FEF1AC292B679FE4AEB69B62" />
 	</game>
 	<game name="Q-Bert's Qubes (USA)" mainName="Q-Bert's Qubes" description="Q-Bert's Qubes (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -417,7 +417,7 @@
 	<game name="Star Wars (USA)" mainName="Star Wars" description="Star Wars (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Star Wars (USA).col" size="16384" crc="0E75B3BF" md5="3ADDC2A93BCB803AC136801AB1B8695A" sha1="DA0567BEE88BD1991481A755AC8292A115ED15AC" />
 	</game>
-	<game name="Steamroller (USA) (Proto)" mainName="Steamroller" description="Steamroller (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Steamroller (USA) (Proto)" mainName="Steamroller" description="Steamroller (USA) (Proto)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Steamroller (USA) (Proto).col" size="16384" crc="153AC4EF" md5="DC6745FF6132A3F646CA8AFF7533CDB0" sha1="9B0DA21D8E6E9A762C578F989D90DD057FEA2B5A" />
 	</game>
 	<game name="Strike It! (USA)" mainName="Strike It!" description="Strike It! (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -447,10 +447,10 @@
 	<game name="Super Cross Force (USA)" mainName="Super Cross Force" description="Super Cross Force (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Super Cross Force (USA).col" size="16384" crc="6C4ED807" md5="5C58AA003E92E65195EBFD8043392684" sha1="00C9F22FDF0BE33A295514431FAB36DA92A78FF4" />
 	</game>
-	<game name="Super DK! (USA) (Proto) (Unl)" mainName="Super DK!" description="Super DK! (USA) (Proto) (Unl)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" unlicensed="true" proto="true">
+	<game name="Super DK! (USA) (Proto) (Unl)" mainName="Super DK!" description="Super DK! (USA) (Proto) (Unl)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" unlicensed="true" proto="Proto">
 		<rom name="Super DK! (USA) (Proto) (Unl).col" size="32768" crc="EF25AF90" md5="C7743E456F5C042EE8AEFD4488254AC9" sha1="B1AC18780E36821A8D41FC4410E14AB0CE80AC91" />
 	</game>
-	<game name="Super DK! Junior (USA) (Proto) (Unl)" mainName="Super DK! Junior" description="Super DK! Junior (USA) (Proto) (Unl)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" unlicensed="true" proto="true">
+	<game name="Super DK! Junior (USA) (Proto) (Unl)" mainName="Super DK! Junior" description="Super DK! Junior (USA) (Proto) (Unl)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913" unlicensed="true" proto="Proto">
 		<rom name="Super DK! Junior (USA) (Proto) (Unl).col" size="32768" crc="C2E7F0E0" md5="7A736286FE72EB60E00B1BA28867CD16" sha1="44A22E508002A069F7953668F2E8A3C901C677D6" />
 	</game>
 	<game name="Tank Wars (USA)" mainName="Tank Wars" description="Tank Wars (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -492,7 +492,7 @@
 	<game name="Victory (USA, Europe)" mainName="Victory" description="Victory (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Victory (USA, Europe).col" size="24576" crc="5F20BF49" md5="E1522F2701F5F55580866D35E1794E5E" sha1="327727222226D0C95D7557389D79A0C974CEBF2A" />
 	</game>
-	<game name="Video Hustler (Europe) (Proto)" mainName="Video Hustler" description="Video Hustler (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Video Hustler (Europe) (Proto)" mainName="Video Hustler" description="Video Hustler (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Video Hustler (Europe) (Proto).col" size="16384" crc="960CBE1E" md5="5C92BB7B55A8B867F0CA666CA848BE32" sha1="47F0FDDCA5A04268D5F9F4C0F55BAF80D833DEEA" />
 	</game>
 	<game name="War Games (USA, Europe)" mainName="War Games" description="War Games (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
@@ -510,7 +510,7 @@
 	<game name="Word Feud (USA)" mainName="Word Feud" description="Word Feud (USA)" region="USA" catalog="NoIntro" catalogVersion="20140803-055913">
 		<rom name="Word Feud (USA).col" size="16384" crc="9F49BED8" md5="E8E11C2EB60CECBCFCC9547CF85003F7" sha1="28E0113C74F277A52B51DCBF12CDE06353DB3CEE" />
 	</game>
-	<game name="Yolk's on You, The (Europe) (Proto)" mainName="Yolk's on You, The" description="Yolk's on You, The (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20140803-055913" proto="true">
+	<game name="Yolk's on You, The (Europe) (Proto)" mainName="Yolk's on You, The" description="Yolk's on You, The (Europe) (Proto)" region="Europe" catalog="NoIntro" catalogVersion="20140803-055913" proto="Proto">
 		<rom name="Yolk's on You, The (Europe) (Proto).col" size="16384" crc="997AD8DE" md5="C10AACA46D063771339D3E5A0582BAAD" sha1="9B5BFB69D37042D131A5C9576F927E09F44F9666" />
 	</game>
 	<game name="Zaxxon (USA, Europe)" mainName="Zaxxon" description="Zaxxon (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20140803-055913">
