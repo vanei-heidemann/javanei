@@ -510,6 +510,8 @@ public class GamePublisher implements Serializable {
         publishers.put("Gluk Video", new GamePublisher("Gluk Video")); // Pirata
         publishers.put("NTDEC, Gluk Video", new GamePublisher("NTDEC, Gluk Video")); // Pirata
         publishers.put("Sachen", new GamePublisher("Sachen"));
+        // Gameboy Advance
+        publishers.put("Zoo Digital", new GamePublisher("Zoo Digital"));
     }
 
     private GamePublisher(String publisher) {
