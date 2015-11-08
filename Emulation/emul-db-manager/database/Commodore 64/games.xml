@@ -84,10 +84,10 @@
 		<rom name="1943 - The Battle of Midway (USA, Europe).nib" crc="56D0DF9B" />
 		<rom name="1943 - The Battle of Midway (USA, Europe).nib" md5="B5AB9A16716EFBFD0584814E93FA0148" />
 	</game>
-	<game name="1985 - The Day After (Europe) (Burner)" mainName="1985 - The Day After" description="1985 - The Day After (Europe) (Burner)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Burner">
+	<game name="1985 - The Day After (Europe) (Burner)" mainName="1985 - The Day After" description="1985 - The Day After (Europe) (Burner)" region="Europe" loader="Burner" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="1985 - The Day After (Europe) (Burner).tap" size="379354" crc="474FD7E8" md5="CB12F85CF34524D884430C5874C44318" sha1="4652D7716356E6F9D3E056A67C6AF69E52ABC434" />
 	</game>
-	<game name="1985 - The Day After (Europe) (Visiload)" mainName="1985 - The Day After" description="1985 - The Day After (Europe) (Visiload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Visiload">
+	<game name="1985 - The Day After (Europe) (Visiload)" mainName="1985 - The Day After" description="1985 - The Day After (Europe) (Visiload)" region="Europe" loader="Visiload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="1985 - The Day After (Europe) (Visiload).tap" size="557991" crc="625A89E3" md5="EBE60C5C558D583451B13508030E88BF" sha1="DE6679EC9F817A06142CD9963D48C62EFEC60D1B" />
 	</game>
 	<game name="1994 - Ten Years After (Europe)" mainName="1994 - Ten Years After" description="1994 - Ten Years After (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
@@ -1160,10 +1160,10 @@
 	<game name="BMX Ninja (Europe)" mainName="BMX Ninja" description="BMX Ninja (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="BMX Ninja (Europe).tap" size="526242" crc="C0A83FBB" md5="B3EB8B77B52B086EB3286DEE614157A2" sha1="2343D1CAC618DBFE61318ED81E0DC3077DB3E14C" />
 	</game>
-	<game name="BMX Racers (Europe) (Burner)" mainName="BMX Racers" description="BMX Racers (Europe) (Burner)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Burner">
+	<game name="BMX Racers (Europe) (Burner)" mainName="BMX Racers" description="BMX Racers (Europe) (Burner)" region="Europe" loader="Burner" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="BMX Racers (Europe) (Burner).tap" size="368483" crc="63544C39" md5="4657549D31BF5D4781366AFA764BBB90" sha1="25A4E4AA465E05045185BB72EF6E10EBAC645652" />
 	</game>
-	<game name="BMX Racers (Europe) (Visiload)" mainName="BMX Racers" description="BMX Racers (Europe) (Visiload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Visiload">
+	<game name="BMX Racers (Europe) (Visiload)" mainName="BMX Racers" description="BMX Racers (Europe) (Visiload)" region="Europe" loader="Visiload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="BMX Racers (Europe) (Visiload).tap" size="474844" crc="61D6A72A" md5="A240A984F002D154A60297B92EFA68EC" sha1="9A262D03A3B6A4751DC162E45BEC55628F658A8D" />
 	</game>
 	<game name="BMX Racers (USA, Europe)" mainName="BMX Racers" description="BMX Racers (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826">
@@ -1375,11 +1375,11 @@
 	<game name="Bath Time (Europe)" mainName="Bath Time" description="Bath Time (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Bath Time (Europe).tap" size="944728" crc="42AC58DE" md5="AFDA1F6D8BCD9DA805B65EA52651DE52" sha1="C2B256E7962DB08750CB50875A029E7A3B65D326" />
 	</game>
-	<game name="Batman - The Caped Crusader (Europe) (Bleepload)" mainName="Batman - The Caped Crusader" description="Batman - The Caped Crusader (Europe) (Bleepload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Bleepload">
+	<game name="Batman - The Caped Crusader (Europe) (Bleepload)" mainName="Batman - The Caped Crusader" description="Batman - The Caped Crusader (Europe) (Bleepload)" region="Europe" loader="Bleepload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Batman - The Caped Crusader (Europe) (Bleepload) (Side 1).tap" size="706422" crc="67A81805" md5="24B3D2E25C39089B424D49B0E5F0A037" sha1="09BE186A70DC94640B06FC25FF3C4B8678D30E88" />
 		<rom name="Batman - The Caped Crusader (Europe) (Bleepload) (Side 2).tap" size="705198" crc="758AAD71" md5="339765C935F96378FCC18B97C4B1DD9A" sha1="99D689B83229CCF21EA5DF9182BA2D10AD725B70" />
 	</game>
-	<game name="Batman - The Caped Crusader (Europe) (Freeload)" mainName="Batman - The Caped Crusader" description="Batman - The Caped Crusader (Europe) (Freeload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Freeload">
+	<game name="Batman - The Caped Crusader (Europe) (Freeload)" mainName="Batman - The Caped Crusader" description="Batman - The Caped Crusader (Europe) (Freeload)" region="Europe" loader="Freeload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Batman - The Caped Crusader (Europe) (Freeload) (Part 2).tap" size="724198" crc="DF2789DA" md5="EECB631A2371E2F884455042A238A790" sha1="87901845C52ED1F3968FDB0D9DF7194CA805A72E" />
 		<rom name="Batman - The Caped Crusader (Europe) (Freeload) (Part 1).tap" size="724198" crc="F8D21B92" md5="8B0535433E5A021FBA60220079366B96" sha1="EB0913D137FB739A53F274E6A817663E0C7C941F" />
 	</game>
@@ -2206,7 +2206,7 @@
 		<rom name="Card Sharks (USA).nib" md5="BC4D78CB9171DA701889DFBDDE401670" />
 		<rom name="Card Sharks (USA).nib" crc="C1B19EEA" />
 	</game>
-	<game name="Card Sharks (USA) (RapidLok 6)" mainName="Card Sharks" description="Card Sharks (USA) (RapidLok 6)" region="USA" catalog="NoIntro" catalogVersion="20131204-081826" complement="RapidLok 6">
+	<game name="Card Sharks (USA) (RapidLok 6)" mainName="Card Sharks" description="Card Sharks (USA) (RapidLok 6)" region="USA" protection="RapidLok 6" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Card Sharks (USA) (RapidLok 6).nib" md5="036F54010FD804139731B855BFFA43E2" />
 		<rom name="Card Sharks (USA) (RapidLok 6).nib" crc="111E5EC9" />
 	</game>
@@ -2760,7 +2760,7 @@
 	<game name="Cosmic Causeway - Trailblazer II (Europe)" mainName="Cosmic Causeway - Trailblazer II" description="Cosmic Causeway - Trailblazer II (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Cosmic Causeway - Trailblazer II (Europe).tap" size="566034" crc="D6CDE677" md5="1DA2779D20CABA80880D1F5189BAB207" sha1="E1F87CA5460C0558E01017FEECF188C8CF3DFD3F" />
 	</game>
-	<game name="Cosmic Commando (Europe) (Burner)" mainName="Cosmic Commando" description="Cosmic Commando (Europe) (Burner)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Burner">
+	<game name="Cosmic Commando (Europe) (Burner)" mainName="Cosmic Commando" description="Cosmic Commando (Europe) (Burner)" region="Europe" loader="Burner" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Cosmic Commando (Europe) (Burner).tap" size="192510" crc="6AD72DA7" md5="9D0E38EC53E96AD0860658DB837622FB" sha1="1BF535F256FBA734F4DE86E47606E3A6263BECD6" />
 	</game>
 	<game name="Cosmic Commando (Europe) (ROM)" mainName="Cosmic Commando" description="Cosmic Commando (Europe) (ROM)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="ROM">
@@ -2883,7 +2883,7 @@
 	<game name="Crystal Castles (Europe)" mainName="Crystal Castles" description="Crystal Castles (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Crystal Castles (Europe).tap" size="261276" crc="36E16FD5" md5="6F8D5D5923C2D7D3DA3D9169A0F26590" sha1="20DAAA07B7B7EAD5B94C059BDBC0640BFB20E42A" />
 	</game>
-	<game name="Crystal Castles (USA, Europe) (Proto)" mainName="Crystal Castles" description="Crystal Castles (USA, Europe) (Proto)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130331-070011" proto="true">
+	<game name="Crystal Castles (USA, Europe) (Proto)" mainName="Crystal Castles" description="Crystal Castles (USA, Europe) (Proto)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130331-070011" proto="Proto">
 		<rom name="Crystal Castles (USA, Europe) (Proto).crt" crc="F3819376" />
 		<rom name="Crystal Castles (USA, Europe) (Proto).crt" />
 	</game>
@@ -3770,10 +3770,10 @@
 		<rom name="Electronic Mailbox-64 (USA, Europe) (Program).crt" crc="3BE1CA96" />
 		<rom name="Electronic Mailbox-64 (USA, Europe) (Program).crt" />
 	</game>
-	<game name="Elektra Glide (Europe) (Super Pavloda)" mainName="Elektra Glide" description="Elektra Glide (Europe) (Super Pavloda)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Super Pavloda">
+	<game name="Elektra Glide (Europe) (Super Pavloda)" mainName="Elektra Glide" description="Elektra Glide (Europe) (Super Pavloda)" region="Europe" loader="Super Pavloda" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Elektra Glide (Europe) (Super Pavloda).tap" size="477901" crc="D313D064" md5="968B2877B02EE6D14B22262EF987D9FF" sha1="9B91E8116A233B528D5CADA07311E09A98B5112E" />
 	</game>
-	<game name="Elektra Glide (Europe) (Wildsave)" mainName="Elektra Glide" description="Elektra Glide (Europe) (Wildsave)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Wildsave">
+	<game name="Elektra Glide (Europe) (Wildsave)" mainName="Elektra Glide" description="Elektra Glide (Europe) (Wildsave)" region="Europe" loader="Wildsave" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Elektra Glide (Europe) (Wildsave).tap" size="530785" crc="F7DF92E7" md5="73329DD4C1D59536A3BF6485AD3121F0" sha1="0FC8F213939A05D958EFEB87BE5F63AE7B26609E" />
 	</game>
 	<game name="Elektra Glide (USA, Europe)" mainName="Elektra Glide" description="Elektra Glide (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826">
@@ -3979,7 +3979,7 @@
 	<game name="European Champions (Europe)" mainName="European Champions" description="European Champions (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="European Champions (Europe).tap" size="1125502" crc="21495710" md5="B1A057D8C4F32BFEF85639E80C08316E" sha1="67A3006F9AFD77315AC72DBC1B3D4AB06DFA52A7" />
 	</game>
-	<game name="European II (Europe) (Novaload)" mainName="European II" description="European II (Europe) (Novaload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Novaload">
+	<game name="European II (Europe) (Novaload)" mainName="European II" description="European II (Europe) (Novaload)" region="Europe" loader="Novaload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="European II (Europe) (Novaload).tap" size="296651" crc="E30252B4" md5="C94559AB224F4B0CC22A6621A6BB7244" sha1="FE429A3A7255978EDF405890DF9218D087062BF0" />
 	</game>
 	<game name="European II (Europe) (ROM)" mainName="European II" description="European II (Europe) (ROM)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="ROM">
@@ -4250,11 +4250,11 @@
 	<game name="Fight Night (Europe)" mainName="Fight Night" description="Fight Night (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Fight Night (Europe).tap" size="1051296" crc="5754009C" md5="ECB8C9F9A347326C4235BF3A262B4D13" sha1="AB8CCF250CC6F6E766BA9357DC1D5A4E73461441" />
 	</game>
-	<game name="Fight Night (USA) (RapidLok 1)" mainName="Fight Night" description="Fight Night (USA) (RapidLok 1)" region="USA" catalog="NoIntro" catalogVersion="20131204-081826" complement="RapidLok 1">
+	<game name="Fight Night (USA) (RapidLok 1)" mainName="Fight Night" description="Fight Night (USA) (RapidLok 1)" region="USA" protection="RapidLok 1" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Fight Night (USA) (RapidLok 1).nib" md5="03F84C70FE5B64C996ED0238BFD22AE9" />
 		<rom name="Fight Night (USA) (RapidLok 1).nib" crc="F29EB51C" />
 	</game>
-	<game name="Fight Night (USA) (RapidLok 6)" mainName="Fight Night" description="Fight Night (USA) (RapidLok 6)" region="USA" catalog="NoIntro" catalogVersion="20131204-081826" complement="RapidLok 6">
+	<game name="Fight Night (USA) (RapidLok 6)" mainName="Fight Night" description="Fight Night (USA) (RapidLok 6)" region="USA" protection="RapidLok 6" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Fight Night (USA) (RapidLok 6).nib" crc="8908F328" />
 		<rom name="Fight Night (USA) (RapidLok 6).nib" md5="19EECF79052513EFA99A54DD9EF1225E" />
 	</game>
@@ -5124,10 +5124,10 @@
 		<rom name="Genesis (USA, Europe).nib" crc="0FCB0517" />
 		<rom name="Genesis (USA, Europe).nib" md5="FB7CF05FDA208300C2675EB974B6DDC8" />
 	</game>
-	<game name="Geoff Capes Strongman Challenge (Europe) (Burner)" mainName="Geoff Capes Strongman Challenge" description="Geoff Capes Strongman Challenge (Europe) (Burner)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Burner">
+	<game name="Geoff Capes Strongman Challenge (Europe) (Burner)" mainName="Geoff Capes Strongman Challenge" description="Geoff Capes Strongman Challenge (Europe) (Burner)" region="Europe" loader="Burner" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Geoff Capes Strongman Challenge (Europe) (Burner).tap" size="456970" crc="C2809063" md5="49CA78B5FCE90A0121E9EEEC2A70DE05" sha1="B5717F0CD9AAAED0BD30D0FF11604C05700BFA77" />
 	</game>
-	<game name="Geoff Capes Strongman Challenge (Europe) (Novaload)" mainName="Geoff Capes Strongman Challenge" description="Geoff Capes Strongman Challenge (Europe) (Novaload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Novaload">
+	<game name="Geoff Capes Strongman Challenge (Europe) (Novaload)" mainName="Geoff Capes Strongman Challenge" description="Geoff Capes Strongman Challenge (Europe) (Novaload)" region="Europe" loader="Novaload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Geoff Capes Strongman Challenge (Europe) (Novaload).tap" size="477210" crc="56B0DE09" md5="669738764E372A3C97D36D658FB61A1F" sha1="28C3BEC79A711F02268423C0805D9E9D459A93FD" />
 	</game>
 	<game name="Geopolitique 1990 (USA, Europe) (Budget)" mainName="Geopolitique 1990" description="Geopolitique 1990 (USA, Europe) (Budget)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" complement="Budget">
@@ -5592,7 +5592,7 @@
 		<rom name="HES Mon 64 (USA, Europe) (Program).crt" crc="82B1C134" />
 		<rom name="HES Mon 64 (USA, Europe) (Program).crt" />
 	</game>
-	<game name="HES Mon 64 (USA, Europe) (Proto) (Program)" mainName="HES Mon 64" description="HES Mon 64 (USA, Europe) (Proto) (Program)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130331-070011" complement="Program" proto="true">
+	<game name="HES Mon 64 (USA, Europe) (Proto) (Program)" mainName="HES Mon 64" description="HES Mon 64 (USA, Europe) (Proto) (Program)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130331-070011" complement="Program" proto="Proto">
 		<rom name="HES Mon 64 (USA, Europe) (Proto) (Program).crt" crc="B0EC1B6B" />
 		<rom name="HES Mon 64 (USA, Europe) (Proto) (Program).crt" />
 	</game>
@@ -6267,7 +6267,7 @@
 		<rom name="Infiltrator Part II - The Next Day (USA, Europe) (Side 2).nib" md5="53083A3D5541682470A9A6A111D65894" />
 		<rom name="Infiltrator Part II - The Next Day (USA, Europe) (Side 1).nib" crc="86283E5B" />
 	</game>
-	<game name="Infiltrator Part II - The Next Day (USA, Europe) (V-MAX 2)" mainName="Infiltrator Part II - The Next Day" description="Infiltrator Part II - The Next Day (USA, Europe) (V-MAX 2)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" complement="V-MAX 2">
+	<game name="Infiltrator Part II - The Next Day (USA, Europe) (V-MAX 2)" mainName="Infiltrator Part II - The Next Day" description="Infiltrator Part II - The Next Day (USA, Europe) (V-MAX 2)" region="USA,Europe" protection="V-MAX 2" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Infiltrator Part II - The Next Day (USA, Europe) (V-MAX 2) (Side 2).nib" crc="7B3744F5" />
 		<rom name="Infiltrator Part II - The Next Day (USA, Europe) (V-MAX 2) (Side 2).nib" md5="6EBE62A0EB11F87A3F6323C467382D38" />
 		<rom name="Infiltrator Part II - The Next Day (USA, Europe) (V-MAX 2) (Side 1).nib" md5="F6FECBFA8254869A43BC59106B86F389" />
@@ -6492,10 +6492,10 @@
 		<rom name="Jagd auf roter Oktober (Germany).nib" crc="8F37EA08" />
 		<rom name="Jagd auf roter Oktober (Germany).nib" md5="8D88C8E88CE06F1C97D7176BE947BCA8" />
 	</game>
-	<game name="Jail Break (Europe) (CHR)" mainName="Jail Break" description="Jail Break (Europe) (CHR)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="CHR">
+	<game name="Jail Break (Europe) (CHR)" mainName="Jail Break" description="Jail Break (Europe) (CHR)" region="Europe" loader="CHR Loader" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Jail Break (Europe) (CHR).tap" size="736867" crc="8A97E642" md5="CEDA4266EF7151907AE90E23C4F2D08B" sha1="2608AFC5C7AD9DF9DD2C9CDD1BB0829B4ABAA659" />
 	</game>
-	<game name="Jail Break (Europe) (Freeload)" mainName="Jail Break" description="Jail Break (Europe) (Freeload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Freeload">
+	<game name="Jail Break (Europe) (Freeload)" mainName="Jail Break" description="Jail Break (Europe) (Freeload)" region="Europe" loader="Freeload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Jail Break (Europe) (Freeload).tap" size="724198" crc="EAC35C51" md5="C178CE1A15664A59F7173A204003B9C4" sha1="18DCFCA41099C3FE10DED1C214D59E4A3B6E12C6" />
 	</game>
 	<game name="James Bond 007 (USA, Europe)" mainName="James Bond 007" description="James Bond 007 (USA, Europe)" region="USA,Europe" catalog="NoIntro" catalogVersion="20130331-070011">
@@ -7311,7 +7311,7 @@
 		<rom name="Linking Logic (USA, Europe).crt" crc="51B75BF0" />
 		<rom name="Linking Logic (USA, Europe).crt" />
 	</game>
-	<game name="Little Computer People (Europe) (Novaload)" mainName="Little Computer People" description="Little Computer People (Europe) (Novaload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Novaload">
+	<game name="Little Computer People (Europe) (Novaload)" mainName="Little Computer People" description="Little Computer People (Europe) (Novaload)" region="Europe" loader="Novaload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Little Computer People (Europe) (Novaload).tap" size="621625" crc="B824F9D2" md5="0B9C600E20B26EFDA39513E23A8050B2" sha1="59F9FF65324F7182B42B13307120245295F7B6E5" />
 	</game>
 	<game name="Little Computer People (Europe) (Virgin)" mainName="Little Computer People" description="Little Computer People (Europe) (Virgin)" region="Europe" publisher="Virgin" catalog="NoIntro" catalogVersion="20130730-055353">
@@ -7903,11 +7903,11 @@
 		<rom name="Microprose Soccer (Europe) (Alt 1) (Side 2).nib" crc="4DBA641D" />
 		<rom name="Microprose Soccer (Europe) (Alt 1) (Side 2).nib" md5="7691045C3AB6E78D3148A5A897836997" />
 	</game>
-	<game name="Microprose Soccer (Europe) (Cyberload)" mainName="Microprose Soccer" description="Microprose Soccer (Europe) (Cyberload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Cyberload">
+	<game name="Microprose Soccer (Europe) (Cyberload)" mainName="Microprose Soccer" description="Microprose Soccer (Europe) (Cyberload)" region="Europe" loader="Cyberload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Microprose Soccer (Europe) (Cyberload) (Side 2).tap" size="500436" crc="BC4D4810" md5="777889363EAF5BA88C908EBFD76E8B17" sha1="9EEDAC219F714C07B9FAEF187F6DEB4F3AAA1720" />
 		<rom name="Microprose Soccer (Europe) (Cyberload) (Side 1).tap" size="503572" crc="958F4575" md5="920EC7CC8726EAB87E9AC6A9EA7B58BA" sha1="250F738FFF4BFF5E75030C2B956C78A5D15B4351" />
 	</game>
-	<game name="Microprose Soccer (Europe) (Rasterload)" mainName="Microprose Soccer" description="Microprose Soccer (Europe) (Rasterload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Rasterload">
+	<game name="Microprose Soccer (Europe) (Rasterload)" mainName="Microprose Soccer" description="Microprose Soccer (Europe) (Rasterload)" region="Europe" loader="Rasterload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Microprose Soccer (Europe) (Rasterload) (11-A-Side).tap" size="535130" crc="D868185D" md5="72D5FFAE0E5EC2CF66109849B937DAEB" sha1="3CC38BB28A07A2EA2490275A6A6F8C3FBAB94CFC" />
 		<rom name="Microprose Soccer (Europe) (Rasterload) (6-A-Side).tap" size="506970" crc="986CA8E7" md5="77BC472C5B48081D220C10F564FCFCE1" sha1="8FF2C7816889E3A93D1E7765F2F237714607A650" />
 	</game>
@@ -8427,10 +8427,10 @@
 		<rom name="Nemesis (Europe).nib" crc="7D266BAC" />
 		<rom name="Nemesis (Europe).nib" md5="9C11D8AE9498358AD70E90F4CAA3656F" />
 	</game>
-	<game name="Nemesis (Europe) (Burner)" mainName="Nemesis" description="Nemesis (Europe) (Burner)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Burner">
+	<game name="Nemesis (Europe) (Burner)" mainName="Nemesis" description="Nemesis (Europe) (Burner)" region="Europe" loader="Burner" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Nemesis (Europe) (Burner).tap" size="687617" crc="7D780266" md5="26B8CA0E561B1EE9754D8E8A860053C6" sha1="F163E944A18531B83A2372F54213D3679AABF5A5" />
 	</game>
-	<game name="Nemesis (Europe) (Freeload)" mainName="Nemesis" description="Nemesis (Europe) (Freeload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Freeload">
+	<game name="Nemesis (Europe) (Freeload)" mainName="Nemesis" description="Nemesis (Europe) (Freeload)" region="Europe" loader="Freeload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Nemesis (Europe) (Freeload).tap" size="714938" crc="497F6862" md5="3CC88EBF7DCE91166B4DA461B3771A53" sha1="30E13E1D072FCF76B02C6C1BEBB9132D59E1EC42" />
 	</game>
 	<game name="Nemesis the Warlock (Europe)" mainName="Nemesis the Warlock" description="Nemesis the Warlock (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
@@ -9691,13 +9691,13 @@
 	<game name="Prowler (Europe)" mainName="Prowler" description="Prowler (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Prowler (Europe).tap" size="338902" crc="DA9EB481" md5="2D9D6F8595376744647F527C10387374" sha1="D4FCDB6BC7E4951FD64A19A52C9652387881B698" />
 	</game>
-	<game name="Psi 5 Trading Company (USA) (RapidLok 1)" mainName="Psi 5 Trading Company" description="Psi 5 Trading Company (USA) (RapidLok 1)" region="USA" catalog="NoIntro" catalogVersion="20131204-081826" complement="RapidLok 1">
+	<game name="Psi 5 Trading Company (USA) (RapidLok 1)" mainName="Psi 5 Trading Company" description="Psi 5 Trading Company (USA) (RapidLok 1)" region="USA" protection="RapidLok 1" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Psi 5 Trading Company (USA) (RapidLok 1) (Side 2).nib" md5="97FA572A80BC21B06522D0E6952453FB" />
 		<rom name="Psi 5 Trading Company (USA) (RapidLok 1) (Side 2).nib" crc="5DB58C6F" />
 		<rom name="Psi 5 Trading Company (USA) (RapidLok 1) (Side 1).nib" crc="AEB5E66F" />
 		<rom name="Psi 5 Trading Company (USA) (RapidLok 1) (Side 1).nib" md5="C9935ED7092D89264458C6F224130FFB" />
 	</game>
-	<game name="Psi 5 Trading Company (USA) (RapidLok 5)" mainName="Psi 5 Trading Company" description="Psi 5 Trading Company (USA) (RapidLok 5)" region="USA" catalog="NoIntro" catalogVersion="20131204-081826" complement="RapidLok 5">
+	<game name="Psi 5 Trading Company (USA) (RapidLok 5)" mainName="Psi 5 Trading Company" description="Psi 5 Trading Company (USA) (RapidLok 5)" region="USA" protection="RapidLok 5" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Psi 5 Trading Company (USA) (RapidLok 5) (Side 1).nib" md5="9039007A46B58FA33816F77467B4CDAF" />
 		<rom name="Psi 5 Trading Company (USA) (RapidLok 5) (Side 1).nib" crc="13A4C0C4" />
 		<rom name="Psi 5 Trading Company (USA) (RapidLok 5) (Side 2).nib" md5="788C7EE42134C89AD75AFED67DBE3230" />
@@ -10194,37 +10194,37 @@
 	<game name="Red Moon (Europe)" mainName="Red Moon" description="Red Moon (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Red Moon (Europe).tap" size="398445" crc="7034B468" md5="3B88BB669976B41C00BBADEF346D921B" sha1="B37FC3C07475DEDEF4384485EB008C8C9330AC39" />
 	</game>
-	<game name="Red Storm Rising (USA, Europe) (143.U3)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.U3)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" complement="143.U3">
+	<game name="Red Storm Rising (USA, Europe) (143.U3)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.U3)" version="143.U3" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Side 2).nib" md5="E4460D40DB86A2269ADF6964080A4B99" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Side 1).nib" crc="F62E3EAF" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Side 1).nib" md5="490D345D8A904D4412B0084FFF286C5F" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Side 2).nib" crc="0B4D08E2" />
 	</game>
-	<game name="Red Storm Rising (USA, Europe) (143.U3) (Alt 1)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.U3) (Alt 1)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" alternate="Alt 1" complement="143.U3">
+	<game name="Red Storm Rising (USA, Europe) (143.U3) (Alt 1)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.U3) (Alt 1)" version="143.U3" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" alternate="Alt 1">
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 1) (Side 1).nib" crc="A68D0FDA" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 1) (Side 2).nib" crc="15087861" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 1) (Side 2).nib" md5="DB84B886E984FB5863B22D57A820B69F" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 1) (Side 1).nib" md5="09FEB83F28B011C53BA312AA32EB9CD8" />
 	</game>
-	<game name="Red Storm Rising (USA, Europe) (143.U3) (Alt 2)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.U3) (Alt 2)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" alternate="Alt 2" complement="143.U3">
+	<game name="Red Storm Rising (USA, Europe) (143.U3) (Alt 2)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.U3) (Alt 2)" version="143.U3" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" alternate="Alt 2">
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 2) (Side 1).nib" crc="6D7C0A3C" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 2) (Side 1).nib" md5="5D9B9BECDDD21A96F26CA3DCAC2B5618" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 2) (Side 2).nib" crc="E329A155" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 2) (Side 2).nib" md5="F5C8290537BBBB7A7261CB2F1042FBE1" />
 	</game>
-	<game name="Red Storm Rising (USA, Europe) (143.U3) (Alt 3)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.U3) (Alt 3)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" alternate="Alt 3" complement="143.U3">
+	<game name="Red Storm Rising (USA, Europe) (143.U3) (Alt 3)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.U3) (Alt 3)" version="143.U3" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" alternate="Alt 3">
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 3) (Side 2).nib" crc="B66B39E8" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 3) (Side 2).nib" md5="F8749565097DA6C667B8D82E66393751" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 3) (Side 1).nib" crc="0013F41A" />
 		<rom name="Red Storm Rising (USA, Europe) (143.U3) (Alt 3) (Side 1).nib" md5="BE43088B0CF154CAD2088EF9682E5BFB" />
 	</game>
-	<game name="Red Storm Rising (USA, Europe) (143.X3)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.X3)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" complement="143.X3">
+	<game name="Red Storm Rising (USA, Europe) (143.X3)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.X3)" version="143.X3" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Red Storm Rising (USA, Europe) (143.X3) (Side 2).nib" crc="8C5CFCC9" />
 		<rom name="Red Storm Rising (USA, Europe) (143.X3) (Side 1).nib" crc="92FA30EB" />
 		<rom name="Red Storm Rising (USA, Europe) (143.X3) (Side 1).nib" md5="0AF958C518558530A243C3D6988C319A" />
 		<rom name="Red Storm Rising (USA, Europe) (143.X3) (Side 2).nib" md5="36020A4E4161451010A70BEBDF2ACF40" />
 	</game>
-	<game name="Red Storm Rising (USA, Europe) (143.X3) (Alt 1)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.X3) (Alt 1)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" alternate="Alt 1" complement="143.X3">
+	<game name="Red Storm Rising (USA, Europe) (143.X3) (Alt 1)" mainName="Red Storm Rising" description="Red Storm Rising (USA, Europe) (143.X3) (Alt 1)" version="143.X3" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" alternate="Alt 1">
 		<rom name="Red Storm Rising (USA, Europe) (143.X3) (Alt 1) (Side 2).nib" crc="4C3A9B84" />
 		<rom name="Red Storm Rising (USA, Europe) (143.X3) (Alt 1) (Side 1).nib" crc="6288D72B" />
 		<rom name="Red Storm Rising (USA, Europe) (143.X3) (Alt 1) (Side 1).nib" md5="0E3CA9E9B76F3300952D5D8D4765DF86" />
@@ -11225,11 +11225,11 @@
 		<rom name="Silent Service - The Submarine Simulation (USA).nib" crc="D7A345B4" />
 		<rom name="Silent Service - The Submarine Simulation (USA).nib" md5="A1045D355D4C6F88E6DAE27C6C2D45CD" />
 	</game>
-	<game name="Silent Service - The Submarine Simulation (USA) (RapidLok 1)" mainName="Silent Service - The Submarine Simulation" description="Silent Service - The Submarine Simulation (USA) (RapidLok 1)" region="USA" catalog="NoIntro" catalogVersion="20131204-081826" complement="RapidLok 1">
+	<game name="Silent Service - The Submarine Simulation (USA) (RapidLok 1)" mainName="Silent Service - The Submarine Simulation" description="Silent Service - The Submarine Simulation (USA) (RapidLok 1)" region="USA" protection="RapidLok 1" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Silent Service - The Submarine Simulation (USA) (RapidLok 1).nib" crc="2296A92C" />
 		<rom name="Silent Service - The Submarine Simulation (USA) (RapidLok 1).nib" md5="40DC99484FC70C3E347502358693A382" />
 	</game>
-	<game name="Silent Service - The Submarine Simulation (USA) (RapidLok 6)" mainName="Silent Service - The Submarine Simulation" description="Silent Service - The Submarine Simulation (USA) (RapidLok 6)" region="USA" catalog="NoIntro" catalogVersion="20131204-081826" complement="RapidLok 6">
+	<game name="Silent Service - The Submarine Simulation (USA) (RapidLok 6)" mainName="Silent Service - The Submarine Simulation" description="Silent Service - The Submarine Simulation (USA) (RapidLok 6)" region="USA" protection="RapidLok 6" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Silent Service - The Submarine Simulation (USA) (RapidLok 6).g64" crc="ABE87827" />
 		<rom name="Silent Service - The Submarine Simulation (USA) (RapidLok 6).g64" md5="AF92FF8458CB2D4E17263188A42F2B4B" />
 	</game>
@@ -11330,7 +11330,7 @@
 	<game name="Skool Daze (Europe) (Anirog) (Budget)" mainName="Skool Daze" description="Skool Daze (Europe) (Anirog) (Budget)" region="Europe" publisher="Anirog" catalog="NoIntro" catalogVersion="20130730-055353" complement="Budget">
 		<rom name="Skool Daze (Europe) (Anirog) (Budget).tap" size="408242" crc="87306474" md5="9B22658531CC1B70E073455ADC2ECB41" sha1="243A924B82A4D3959DA030E2C738EE1C551D9E8D" />
 	</game>
-	<game name="Skool Daze (Europe) (CHR) (Budget)" mainName="Skool Daze" description="Skool Daze (Europe) (CHR) (Budget)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="CHR	Budget">
+	<game name="Skool Daze (Europe) (CHR) (Budget)" mainName="Skool Daze" description="Skool Daze (Europe) (CHR) (Budget)" region="Europe" loader="CHR Loader" catalog="NoIntro" catalogVersion="20130730-055353" complement="Budget">
 		<rom name="Skool Daze (Europe) (CHR) (Budget).tap" size="426554" crc="27046B05" md5="0EF692B0B402602ED7598B9876B68BFE" sha1="4D800F8CB80D47BAA5BCA1C98E3DD2C72E446039" />
 	</game>
 	<game name="Skramble (Europe) (Anirog)" mainName="Skramble" description="Skramble (Europe) (Anirog)" region="Europe" publisher="Anirog" catalog="NoIntro" catalogVersion="20130730-055353">
@@ -11518,7 +11518,7 @@
 		<rom name="Soldier of Fortune (Germany).nib" crc="891287A2" />
 		<rom name="Soldier of Fortune (Germany).nib" md5="BF2FAD6AEE50FDB69FDB5AB52CF053CD" />
 	</game>
-	<game name="Solo Flight (Europe) (Novaload)" mainName="Solo Flight" description="Solo Flight (Europe) (Novaload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Novaload">
+	<game name="Solo Flight (Europe) (Novaload)" mainName="Solo Flight" description="Solo Flight (Europe) (Novaload)" region="Europe" loader="Novaload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Solo Flight (Europe) (Novaload) (Side 1).tap" size="609339" crc="CD191CAB" md5="C6219BF6D944C7380DFC5E6976DC5B80" sha1="F63864F53E5EC5EAB637E1C8E8F5EAA35D0D4982" />
 		<rom name="Solo Flight (Europe) (Novaload) (Side 2).tap" size="510720" crc="1176B03D" md5="0230956FED8EFF1521390E432C0124CB" sha1="A9CF54DE19C31F417B50262CA8830468A6D1BBF0" />
 	</game>
@@ -11540,7 +11540,7 @@
 	<game name="Solomon's Key (Europe)" mainName="Solomon's Key" description="Solomon's Key (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Solomon's Key (Europe).tap" size="619118" crc="1BF1B08B" md5="D583C4AA9280FACEC83846508FAA1EC1" sha1="287119158A4970E6D28FF4B661FCDE7DEEA8C411" />
 	</game>
-	<game name="Son of Blagger (Europe) (CHR)" mainName="Son of Blagger" description="Son of Blagger (Europe) (CHR)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="CHR">
+	<game name="Son of Blagger (Europe) (CHR)" mainName="Son of Blagger" description="Son of Blagger (Europe) (CHR)" region="Europe" loader="CHR Loader" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Son of Blagger (Europe) (CHR).tap" size="401916" crc="75A7104F" md5="55E37626717C35F1790236BDF8952887" sha1="FD85290558D65F9861BC243DBC7DFB882B4A6384" />
 	</game>
 	<game name="Son of Blagger (Europe) (ROM)" mainName="Son of Blagger" description="Son of Blagger (Europe) (ROM)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="ROM">
@@ -11895,7 +11895,7 @@
 		<rom name="Spy vs Spy III - Arctic Antics (USA).nib" crc="58D366CE" />
 		<rom name="Spy vs Spy III - Arctic Antics (USA).nib" md5="F7DA616AF8321DD35502B5DC263D5259" />
 	</game>
-	<game name="Spy vs Spy III - Arctic Antics (USA) (Vorpal)" mainName="Spy vs Spy III - Arctic Antics" description="Spy vs Spy III - Arctic Antics (USA) (Vorpal)" region="USA" catalog="NoIntro" catalogVersion="20131204-081826" complement="Vorpal">
+	<game name="Spy vs Spy III - Arctic Antics (USA) (Vorpal)" mainName="Spy vs Spy III - Arctic Antics" description="Spy vs Spy III - Arctic Antics (USA) (Vorpal)" region="USA" protection="Vorpal" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Spy vs Spy III - Arctic Antics (USA) (Vorpal).nib" crc="D6F64F21" />
 		<rom name="Spy vs Spy III - Arctic Antics (USA) (Vorpal).nib" md5="7B9BA74D252DACD963255DC458A2B7AB" />
 	</game>
@@ -12047,10 +12047,10 @@
 		<rom name="Starion (USA, Europe) (Side 1).nib" md5="5F4D1C3071092BE9C7225C43D0AB79A1" />
 		<rom name="Starion (USA, Europe) (Side 1).nib" crc="6F3EF967" />
 	</game>
-	<game name="Starquake (Europe) (Burner)" mainName="Starquake" description="Starquake (Europe) (Burner)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Burner">
+	<game name="Starquake (Europe) (Burner)" mainName="Starquake" description="Starquake (Europe) (Burner)" region="Europe" loader="Burner" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Starquake (Europe) (Burner).tap" size="437894" crc="57F8AF6A" md5="A44DD76E4637749A1EA1BB0ED614B53A" sha1="8A6ECB172E848976F54578768219784C73641893" />
 	</game>
-	<game name="Starquake (Europe) (Invade-A-Load!)" mainName="Starquake" description="Starquake (Europe) (Invade-A-Load!)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Invade-A-Load!">
+	<game name="Starquake (Europe) (Invade-A-Load!)" mainName="Starquake" description="Starquake (Europe) (Invade-A-Load!)" region="Europe" loader="Invade-A-Load!" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Starquake (Europe) (Invade-A-Load!).tap" size="479742" crc="E4305B15" md5="3085B0BC69FCAD9D6E73F779B3740D88" sha1="92CDD8CFFC50DE263C688ECB4CC1C28CB8FE1BBC" />
 	</game>
 	<game name="Starray (Europe)" mainName="Starray" description="Starray (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20131204-081826">
@@ -12698,7 +12698,7 @@
 		<rom name="Superstar Ice Hockey (USA, Europe) (AltV-MAX).nib" crc="688A349B" />
 		<rom name="Superstar Ice Hockey (USA, Europe) (AltV-MAX).nib" md5="E56165740726B95C1D376870045ADFA7" />
 	</game>
-	<game name="Superstar Ice Hockey (USA, Europe) (V-MAX)" mainName="Superstar Ice Hockey" description="Superstar Ice Hockey (USA, Europe) (V-MAX)" region="USA,Europe" catalog="NoIntro" catalogVersion="20131204-081826" complement="V-MAX">
+	<game name="Superstar Ice Hockey (USA, Europe) (V-MAX)" mainName="Superstar Ice Hockey" description="Superstar Ice Hockey (USA, Europe) (V-MAX)" region="USA,Europe" protection="V-MAX" catalog="NoIntro" catalogVersion="20131204-081826">
 		<rom name="Superstar Ice Hockey (USA, Europe) (V-MAX).nib" crc="25B17AF8" />
 		<rom name="Superstar Ice Hockey (USA, Europe) (V-MAX).nib" md5="965DDC177E5245A3B854307A2A805E68" />
 	</game>
@@ -13238,11 +13238,11 @@
 		<rom name="Times of Lore (USA, Europe) (Alt 1).nib" crc="F748232E" />
 		<rom name="Times of Lore (USA, Europe) (Alt 1).nib" md5="30953E8C5A316E440D97D852A827B225" />
 	</game>
-	<game name="Tintin on the Moon (Europe) (Burner)" mainName="Tintin on the Moon" description="Tintin on the Moon (Europe) (Burner)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Burner">
+	<game name="Tintin on the Moon (Europe) (Burner)" mainName="Tintin on the Moon" description="Tintin on the Moon (Europe) (Burner)" region="Europe" loader="Burner" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Tintin on the Moon (Europe) (Burner) (Side 1).tap" size="451242" crc="0D84FD3D" md5="6939504A33F3BD8FF09BB4355E7E9933" sha1="2E989E46B4D8B69CA889A9742A65F0DAFCE863D6" />
 		<rom name="Tintin on the Moon (Europe) (Burner) (Side 2).tap" size="576804" crc="F9889F32" md5="FD848ED34E9CDE16EEFC53B58B688E37" sha1="B23925C452D455B67C8FB5EDF55138D274A8D958" />
 	</game>
-	<game name="Tintin on the Moon (Europe) (Cyberload)" mainName="Tintin on the Moon" description="Tintin on the Moon (Europe) (Cyberload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Cyberload">
+	<game name="Tintin on the Moon (Europe) (Cyberload)" mainName="Tintin on the Moon" description="Tintin on the Moon (Europe) (Cyberload)" region="Europe" loader="Cyberload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Tintin on the Moon (Europe) (Cyberload) (Side 1).tap" size="374768" crc="296F0378" md5="E40C28EFF52A520BF92F6F487483C161" sha1="8CAE8B84CF43E5F85B563B14426AB26DEA126125" />
 		<rom name="Tintin on the Moon (Europe) (Cyberload) (Side 2).tap" size="601476" crc="2B33C331" md5="0C746E18E9D6FF2DAE04C4142E16DA57" sha1="966B1893BB79213E290F7DC87C5609C84D3492CE" />
 	</game>
@@ -13909,10 +13909,10 @@
 		<rom name="Vegas Gambler (USA, Europe).nib" crc="59074DAD" />
 		<rom name="Vegas Gambler (USA, Europe).nib" md5="66AADD7EE27096C29C0B6D36613002B6" />
 	</game>
-	<game name="Vegas Jackpot (Europe) (Burner)" mainName="Vegas Jackpot" description="Vegas Jackpot (Europe) (Burner)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Burner">
+	<game name="Vegas Jackpot (Europe) (Burner)" mainName="Vegas Jackpot" description="Vegas Jackpot (Europe) (Burner)" region="Europe" loader="Burner" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Vegas Jackpot (Europe) (Burner).tap" size="176975" crc="02CB9C68" md5="2E3F3022F700A94A7DF5F0BB7F04E390" sha1="6645861DD6D7819CEDB153AEEC2846643885D14B" />
 	</game>
-	<game name="Vegas Jackpot (Europe) (Visiload)" mainName="Vegas Jackpot" description="Vegas Jackpot (Europe) (Visiload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Visiload">
+	<game name="Vegas Jackpot (Europe) (Visiload)" mainName="Vegas Jackpot" description="Vegas Jackpot (Europe) (Visiload)" region="Europe" loader="Visiload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="Vegas Jackpot (Europe) (Visiload).tap" size="196731" crc="952E63B0" md5="57D1BD5CA40BA3568E3324AF6E07A397" sha1="2463F0DA6C1D2BE34D482D574C91653EC677BF3C" />
 	</game>
 	<game name="Vendetta (Europe)" mainName="Vendetta" description="Vendetta (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
@@ -14540,10 +14540,10 @@
 	<game name="World Rugby (Europe)" mainName="World Rugby" description="World Rugby (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="World Rugby (Europe).tap" size="943600" crc="F661B8FB" md5="48660BA938E3BBF5B0ADF20E39D422BE" sha1="8BB7DACAE2EDCC6D465E104E63113536261ABE48" />
 	</game>
-	<game name="World Series Baseball (Europe) (Freeload)" mainName="World Series Baseball" description="World Series Baseball (Europe) (Freeload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Freeload">
+	<game name="World Series Baseball (Europe) (Freeload)" mainName="World Series Baseball" description="World Series Baseball (Europe) (Freeload)" region="Europe" loader="Freeload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="World Series Baseball (Europe) (Freeload).tap" size="736562" crc="DD1D1C6E" md5="35798116D267B66A31D9AB4EA7918EBE" sha1="2B6880E138AE772810C96596541D607EF2C73448" />
 	</game>
-	<game name="World Series Baseball (Europe) (Novaload)" mainName="World Series Baseball" description="World Series Baseball (Europe) (Novaload)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353" complement="Novaload">
+	<game name="World Series Baseball (Europe) (Novaload)" mainName="World Series Baseball" description="World Series Baseball (Europe) (Novaload)" region="Europe" loader="Novaload" catalog="NoIntro" catalogVersion="20130730-055353">
 		<rom name="World Series Baseball (Europe) (Novaload).tap" size="454978" crc="B83DCB64" md5="D59D19DDD16C27D398C16311A8540FA7" sha1="9538EB19F6DE9B51D6E751043524A358CD431F9C" />
 	</game>
 	<game name="World Soccer (Europe)" mainName="World Soccer" description="World Soccer (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20130730-055353">
