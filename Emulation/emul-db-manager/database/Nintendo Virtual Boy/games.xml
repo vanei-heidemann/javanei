@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<games>
+	<game name="Bound High (Unknown) (Proto)" mainName="Bound High" description="Bound High (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140803-080208" proto="Proto">
+		<rom name="Bound High (Unknown) (Proto).vb" size="2097152" crc="E81A3703" md5="A460E2660FA951E9D4E3B05AEE9F5018" sha1="1196EF8B9A96A0FF2F3634F8EB1C4865C0FB6B01" />
+	</game>
+	<game name="Niko-chan Battle (Japan) (Proto)" mainName="Niko-chan Battle" description="Niko-chan Battle (Japan) (Proto)" region="Japan" catalog="NoIntro" catalogVersion="20140803-080208" proto="Proto">
+		<rom name="Niko-chan Battle (Japan) (Proto).vb" size="1048576" crc="F3CD40DD" md5="D9A0215782DCACEE5A3C4CC83D1C5189" sha1="217CA062F65D4E8B2848085918AF5AC4B33B12D4" />
+	</game>
+	<game name="Space Pinball (Unknown) (Proto)" mainName="Space Pinball" description="Space Pinball (Unknown) (Proto)" region="Unknown" catalog="NoIntro" catalogVersion="20140803-080208" proto="Proto">
+		<rom name="Space Pinball (Unknown) (Proto).vb" size="2097152" crc="44C2B723" md5="31073126FAD41777357391ECC36D6F7F" sha1="DC182360C7C8D26323DB8921F09DB76638E81CED" />
+	</game>
+	<game name="Virtual Fishing (Japan)" mainName="Virtual Fishing" description="Virtual Fishing (Japan)" region="Japan" catalog="NoIntro" catalogVersion="20140803-080208">
+		<rom name="Virtual Fishing (Japan).vb" size="1048576" crc="526CC969" md5="C03E792D8628C3C5729FDCAE1620FB9A" sha1="583B409B7215159219D08E789DB46140062095F2" />
+	</game>
+</games>
