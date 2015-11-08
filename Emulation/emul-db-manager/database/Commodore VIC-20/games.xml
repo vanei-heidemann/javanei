@@ -839,8 +839,8 @@
 	<game name="Voodoo Castle Adventure (World) (SYS 32592)" mainName="Voodoo Castle Adventure" description="Voodoo Castle Adventure (World) (SYS 32592)" region="World" catalog="NoIntro" catalogVersion="20130331-065627" complement="SYS 32592">
 		<rom name="Voodoo Castle Adventure (World) (SYS 32592).40" size="16384" crc="56AC6DBF" md5="E9BACE2A9C7294D668E4B017F7D10FE4" sha1="110395991E42AD80B6894645884E8A0380C9F424" />
 	</game>
-	<game name="W&T Parallel-Interface (World) (Program)" mainName="W&T Parallel-Interface" description="W&T Parallel-Interface (World) (Program)" region="World" catalog="NoIntro" catalogVersion="20130331-065627" complement="Program">
-		<rom name="W&T Parallel-Interface (World) (Program).a0" size="4096" crc="ECC43F0F" md5="351995BED9F2A27AEB227AC919F692E1" sha1="8FBCCF92D09FA6FA769EA8B6383473F5756A5AFF" />
+	<game name="W&amp;T Parallel-Interface (World) (Program)" mainName="W&amp;T Parallel-Interface" description="W&amp;T Parallel-Interface (World) (Program)" region="World" catalog="NoIntro" catalogVersion="20130331-065627" complement="Program">
+		<rom name="W&amp;T Parallel-Interface (World) (Program).a0" size="4096" crc="ECC43F0F" md5="351995BED9F2A27AEB227AC919F692E1" sha1="8FBCCF92D09FA6FA769EA8B6383473F5756A5AFF" />
 	</game>
 	<game name="Wacky Waiters (Europe) (SYS 48896)" mainName="Wacky Waiters" description="Wacky Waiters (Europe) (SYS 48896)" region="Europe" catalog="NoIntro" catalogVersion="20130331-065627" complement="SYS 48896">
 		<rom name="Wacky Waiters (Europe) (SYS 48896).a0" size="8192" crc="4C4A2E94" md5="0E46194D848C2D0837B1065FE33480F0" sha1="6583B47F07750A36A269E2457A7302ABB2FF49BF" />
