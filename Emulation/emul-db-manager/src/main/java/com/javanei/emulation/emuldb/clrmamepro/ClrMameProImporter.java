@@ -158,6 +158,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
         }
         sb.append(ex.getClass().getName()).append(": ").append(ex.getLocalizedMessage()).append("\n");
         GameImporterMessage msg = new GameImporterMessage(GameImporterMessage.Type.ERROR, sb.toString());
+        this.messages.add(msg);
         updateMessage(msg.toString());
     }
 
