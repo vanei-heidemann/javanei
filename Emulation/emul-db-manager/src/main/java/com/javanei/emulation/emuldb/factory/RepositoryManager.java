@@ -273,7 +273,7 @@ public class RepositoryManager {
             out.write("<?xml version=\"1.0\"?>\n".getBytes());
             out.write("<games>\n".getBytes());
             for (Game g : games) {
-                out.write(g.toString().replaceAll(" & ", " &amp; ").replaceAll("M&M", "M&amp;M").replaceAll("M&T", "M&amp;T").getBytes());
+                out.write(g.toString().replaceAll(" & ", " &amp; ").replaceAll("M&M", "M&amp;M").replaceAll("W&T", "W&amp;T").getBytes());
             }
             out.write("</games>".getBytes());
         }
