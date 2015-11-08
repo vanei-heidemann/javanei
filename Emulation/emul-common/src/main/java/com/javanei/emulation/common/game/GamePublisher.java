@@ -515,6 +515,8 @@ public class GamePublisher implements Serializable {
         publishers.put("Zoo Digital", new GamePublisher("Zoo Digital"));
         publishers.put("Vivendi", new GamePublisher("Vivendi"));
         publishers.put("Destination Software", new GamePublisher("Destination Software"));
+        // Sega
+        publishers.put("Majesco", new GamePublisher("Majesco"));
     }
 
     private GamePublisher(String publisher) {
