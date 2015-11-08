@@ -188,8 +188,7 @@
 		<rom name="Accordion (Europe) (v1.1).ipf" size="1056058" crc="2377F1C2" md5="81C9AAE3943B188E6D4FAD1176E9662F" sha1="D5295E7512A9985579D09038F9F8036E4BB613F5" />
 	</game>
 	<game name="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx)" mainName="Action Fighter" description="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + PC">
-		<rom name="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" crc="795E1DFD" />
-		<rom name="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" md5="81E7DA0EA30761D722CA0223DEFBAD98" />
+		<rom name="Action Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" size="978321" crc="795E1DFD" md5="81E7DA0EA30761D722CA0223DEFBAD98" sha1="8FA4BEB3CD9150249821F2D90B3C572BAB4B3E11" />
 	</game>
 	<game name="Action Fighter (France) (Compilation - Les Fous du Volant)" mainName="Action Fighter" description="Action Fighter (France) (Compilation - Les Fous du Volant)" region="France" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Les Fous du Volant">
 		<rom name="Action Fighter (France) (Compilation - Les Fous du Volant).ipf" size="1049180" crc="5753FE42" md5="FE431BED2417EBB43742664D334BFDD0" sha1="A69C302907F7810882E0DEA4F1ED0C2C10077C1C" />
@@ -1662,8 +1661,7 @@
 		<rom name="Buffalo Bill's Rodeo Games (Europe) (Disk 2).ipf" size="1019030" crc="3392B7AB" />
 	</game>
 	<game name="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus)" mainName="Bug Bash" description="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Bug Bash + Nucleus">
-		<rom name="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus).ipf" crc="CF01D057" />
-		<rom name="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus).ipf" md5="E195A4EE678789AB778E798E3183B4F8" />
+		<rom name="Bug Bash (Europe) (Compilation - Bug Bash + Nucleus).ipf" size="1049612" crc="CF01D057" md5="E195A4EE678789AB778E798E3183B4F8" sha1="AA097733C7B4DE6A4A7012AA2438EDA560C65372" />
 	</game>
 	<game name="Bug Bomber (Europe)" mainName="Bug Bomber" description="Bug Bomber (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Bug Bomber (Europe).ipf" size="1049180" crc="79DABB37" md5="DBFFEE49FA4FC7CBE626A80E03D54E2F" sha1="D97CACFC6FC840A22ED7E233C7C3CDAE01C864B3" />
@@ -3481,12 +3479,9 @@
 		<rom name="Epic (Europe) (Disk 1).ipf" size="1057459" crc="8E9A67D6" md5="F7B380964DFC157EB7570A14E690978B" sha1="46EA80026BE4D01E0D447CCD595EDF28D6504A29" />
 	</game>
 	<game name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)" mainName="Epic" description="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga 600 HD Bundles - Epic + Language Lab">
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" crc="D5EDE3E8" />
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" crc="08091A6C" />
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" md5="C67D080B528956F4A37B0AD132E97693" />
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" md5="ACA06EE9D110183B9B427D88ADB3B600" />
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" md5="9B89B7123A327DC6AED34ADA3493BF1F" />
-		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" crc="3D4A26CC" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" size="1049612" crc="D5EDE3E8" md5="ACA06EE9D110183B9B427D88ADB3B600" sha1="C9B31341667C17B6BEB45B6B4080E4E58B3F6B31" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" size="1049612" crc="08091A6C" md5="C67D080B528956F4A37B0AD132E97693" sha1="E49084DD2F986A025BC06F2A5D6316D2FC412A4D" />
+		<rom name="Epic (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" size="1049612" crc="3D4A26CC" md5="9B89B7123A327DC6AED34ADA3493BF1F" sha1="10CEDCD97ACF3B8B41FB0A4260422E224F72334E" />
 	</game>
 	<game name="Erbe, Das (Germany) (Promo)" mainName="Erbe, Das" description="Erbe, Das (Germany) (Promo)" region="Germany" catalog="NoIntro" catalogVersion="20150214-065917" promo="true">
 		<rom name="Erbe, Das (Germany) (Promo).ipf" size="1049180" crc="A76C9DBC" md5="D451AB8B2FB466A4C26BF181483F92D0" sha1="F8D388C45150DE70D97B44ECD90C9C7EEB5F669C" />
@@ -4048,9 +4043,8 @@
 	<game name="Formula 1 Grand Prix (Europe) (Compilation - Mega Pack II)" mainName="Formula 1 Grand Prix" description="Formula 1 Grand Prix (Europe) (Compilation - Mega Pack II)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Mega Pack II">
 		<rom name="Formula 1 Grand Prix (Europe) (Compilation - Mega Pack II).ipf" size="1049214" crc="BBE45BB7" />
 	</game>
-	<game name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST Coverdisk - The One - Issue 22">
-		<rom name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22).ipf" md5="78BBAA86EBC564A62F0CA08D8E55297D" />
-		<rom name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22).ipf" crc="8CC8484F" />
+	<game name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST	Coverdisk - The One - Issue 22">
+		<rom name="Foundation's Waste (Europe) (Amiga + ST) (Coverdisk - The One - Issue 22).ipf" size="1034145" crc="8CC8484F" md5="78BBAA86EBC564A62F0CA08D8E55297D" sha1="C51CC0CF5005FA6F422383E7F84A00F6BAC5915C" />
 	</game>
 	<game name="Foundation's Waste (Europe) (Budget - PC Hits)" mainName="Foundation's Waste" description="Foundation's Waste (Europe) (Budget - PC Hits)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Budget - PC Hits">
 		<rom name="Foundation's Waste (Europe) (Budget - PC Hits).ipf" size="1049180" crc="8382B600" md5="AD926A5B8D0A6EEBB2D3D48D2FE062E1" sha1="836B66230B9E360106C7E1EEB8D60672317E3A46" />
@@ -6209,10 +6203,8 @@
 		<rom name="Lethal Weapon (Europe).ipf" size="1048872" crc="0A6C6054" md5="229B38B12DF8EF10D19DD9ED0CF98E1E" sha1="FAC2A8B5785D47907D50BEA75263E9129CFBF642" />
 	</game>
 	<game name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" mainName="Lethal Xcess - Wings of Death II" description="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST">
-		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk B).ipf" md5="0C2D7CFC0B10DCE50EAD3B1FE7EC6000" />
-		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk B).ipf" crc="7C53B994" />
-		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ipf" md5="D7B4325AA96FC4078C0B6B807036612F" />
-		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ipf" crc="33CC029D" />
+		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk B).ipf" size="1008380" crc="7C53B994" md5="0C2D7CFC0B10DCE50EAD3B1FE7EC6000" sha1="8B8CEFDB0DBD7E4A515C95235526ED909FE499C7" />
+		<rom name="Lethal Xcess - Wings of Death II (Europe) (Amiga + ST) (Disk A).ipf" size="1004597" crc="33CC029D" md5="D7B4325AA96FC4078C0B6B807036612F" sha1="54A268710716F3510918CD8767D9D248798C4ED0" />
 	</game>
 	<game name="Lethal Zone (Europe) (Coverdisk - Amiga Fun - Issue 10)" mainName="Lethal Zone" description="Lethal Zone (Europe) (Coverdisk - Amiga Fun - Issue 10)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Coverdisk - Amiga Fun - Issue 10">
 		<rom name="Lethal Zone (Europe) (Coverdisk - Amiga Fun - Issue 10).ipf" size="1049612" crc="635734ED" md5="FF8F0C0CC27A6D241540003440C668FA" sha1="A08EA079C1254C123B09D29E51367516C88C5BF4" />
@@ -6892,8 +6884,7 @@
 		<rom name="Monopoly (Europe).ipf" size="1049612" crc="3582F3A6" md5="B23FF2C1ABC28785A0B20136572A6777" sha1="1B837CF2C2A505970B5F588604B567EB148E1C9C" />
 	</game>
 	<game name="Monster Business (Europe) (Amiga + ST)" mainName="Monster Business" description="Monster Business (Europe) (Amiga + ST)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST">
-		<rom name="Monster Business (Europe) (Amiga + ST).ipf" md5="8A98D2544D42A3BAC5DC29DF575BE591" />
-		<rom name="Monster Business (Europe) (Amiga + ST).ipf" crc="BE6095A0" />
+		<rom name="Monster Business (Europe) (Amiga + ST).ipf" size="1009109" crc="BE6095A0" md5="8A98D2544D42A3BAC5DC29DF575BE591" sha1="C6D0706C363F3FD7F5E40864B49568AC9E157C8B" />
 	</game>
 	<game name="Monty Python's Flying Circus (Europe)" mainName="Monty Python's Flying Circus" description="Monty Python's Flying Circus (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Monty Python's Flying Circus (Europe).ipf" size="1048872" crc="029B62F3" md5="C0AB7A7245B3C5B0A0A7996ECE170F83" sha1="001D0209146CAF97B5E555B39B31FF324E11FB59" />
@@ -7026,12 +7017,9 @@
 		<rom name="Myth - History in the Making (Europe) (Disk 1).ipf" size="1049304" crc="B3C11C24" md5="FE460D8AECE7F43183239C88E680AA14" sha1="A95CF2655B9BE5C6AADB8284AECB8407D4F467C2" />
 	</game>
 	<game name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)" mainName="Myth - History in the Making" description="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga 600 HD Bundles - Epic + Language Lab">
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" md5="C90B9350A0AC1FA3BAF08ABF7FBBDDC2" />
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" crc="9620EDCE" />
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" md5="D061EA08D27E5446BEC02F6221BF474C" />
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" crc="CBAA6209" />
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" md5="A05287C3DC4B8012F81EA780C608CD38" />
-		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" crc="9C599F38" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" size="1049612" crc="9620EDCE" md5="C90B9350A0AC1FA3BAF08ABF7FBBDDC2" sha1="7B90E8DACEC04D63D42F0A61864A908A5BE724E9" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" size="1049612" crc="CBAA6209" md5="A05287C3DC4B8012F81EA780C608CD38" sha1="05A6DC1EED69500C731D7783BFBD3342A0700BF6" />
+		<rom name="Myth - History in the Making (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" size="1049304" crc="9C599F38" md5="D061EA08D27E5446BEC02F6221BF474C" sha1="B5B89984912538321638BB41E69DD2185E568825" />
 	</game>
 	<game name="NARC (Europe)" mainName="NARC" description="NARC (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="NARC (Europe).ipf" size="1049304" crc="A6977B04" md5="C0F4E9718B7FABE552B482BFEDC92CD0" sha1="EBF534C73297CC4FCE6E5DF31F55615C1ABCC91E" />
@@ -7242,8 +7230,7 @@
 		<rom name="Nuclear War (USA) (Disk 1).ipf" size="1043233" crc="3C0796B0" md5="080AEACE6E0A9A8F70739B6690E0CE15" sha1="E5D12483EFE5E37756ED8B42CBDBCFB8E23E54B4" />
 	</game>
 	<game name="Nucleus (Europe) (Compilation - Bug Bash + Nucleus)" mainName="Nucleus" description="Nucleus (Europe) (Compilation - Bug Bash + Nucleus)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Bug Bash + Nucleus">
-		<rom name="Nucleus (Europe) (Compilation - Bug Bash + Nucleus).ipf" crc="765DFBAF" />
-		<rom name="Nucleus (Europe) (Compilation - Bug Bash + Nucleus).ipf" md5="ECDB012802FFE0E0B8D666B8F210BA82" />
+		<rom name="Nucleus (Europe) (Compilation - Bug Bash + Nucleus).ipf" size="1049612" crc="765DFBAF" md5="ECDB012802FFE0E0B8D666B8F210BA82" sha1="C5DAE3600296EE137E03FC8162716591B8854563" />
 	</game>
 	<game name="Obitus (Europe, Australia)" mainName="Obitus" description="Obitus (Europe, Australia)" region="Europe,Australia" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Obitus (Europe, Australia) (Disk 1).ipf" size="1487089" crc="BF87BCD7" md5="E97637CA736993294439B143971708FB" sha1="CF1439EF9E5A17159CFFA549775D065793275750" />
@@ -7866,9 +7853,8 @@
 	<game name="Populous - The Promised Lands (Europe) (Addon) (Budget - The Hit Squad)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Addon) (Budget - The Hit Squad)" region="Europe" publisher="Budget - The Hit Squad" catalog="NoIntro" catalogVersion="20150214-065917" complement="Addon">
 		<rom name="Populous - The Promised Lands (Europe) (Addon) (Budget - The Hit Squad).ipf" size="1049612" crc="138F11DC" md5="0B08303BC02977C44A84ADA400391BE8" sha1="0DD8977C49D9BC4BFCB24BA4D97A49D05DC3D274" />
 	</game>
-	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST Addon">
-		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ipf" md5="73F1CA231D950BDB8FB3DA42BD11F364" />
-		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ipf" crc="DE09F0A3" />
+	<game name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" mainName="Populous - The Promised Lands" description="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + ST	Addon">
+		<rom name="Populous - The Promised Lands (Europe) (Amiga + ST) (Addon).ipf" size="1037012" crc="DE09F0A3" md5="73F1CA231D950BDB8FB3DA42BD11F364" sha1="21301177EB04122183AA716C081E8A4FDA35CFF8" />
 	</game>
 	<game name="Populous II - The Challenge Games (Europe) (Addon)" mainName="Populous II - The Challenge Games" description="Populous II - The Challenge Games (Europe) (Addon)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Addon">
 		<rom name="Populous II - The Challenge Games (Europe) (Addon) (Data Disk).ipf" size="1049180" crc="37D06D7C" md5="9D3227B1565A9F1BA968FAE288D9805B" sha1="5503373CE7B55FF0FB9AFCE8C3B46ABC6EE6BC8C" />
@@ -8433,8 +8419,7 @@
 		<rom name="Rick Dangerous (Europe) (Alt 2 - Unlimited Lives).ipf" size="1049612" crc="C14F4FDC" md5="72641310661CCF2C4CE27158EAF84825" sha1="7739A7753C081C07C70B0615D8C6277D9CE69319" />
 	</game>
 	<game name="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx)" mainName="Rick Dangerous" description="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + PC">
-		<rom name="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" />
-		<rom name="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" crc="C74AB0FA" />
+		<rom name="Rick Dangerous (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" size="955333" crc="C74AB0FA" />
 	</game>
 	<game name="Rick Dangerous 2 (Europe)" mainName="Rick Dangerous 2" description="Rick Dangerous 2 (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Rick Dangerous 2 (Europe).ipf" size="1049304" crc="6DFBF04D" md5="CF55375B7A50C15F756A99EA42F4AA06" sha1="1A6927C2CE96E4B38455225C9F6752B9B5D6EECA" />
@@ -8462,8 +8447,7 @@
 		<rom name="Rings of Medusa (Germany) (v1.6).ipf" size="1049612" crc="70A20DCA" md5="2C549C95AE11E7A6A07AA55D9ADFB553" sha1="451E5B324881B86F7ED96BC8591A3F762B46D63D" />
 	</game>
 	<game name="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx)" mainName="Rings of Medusa II - The Return of Medusa" description="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx)" version="v1.07C+ AUG 28 1991" region="Germany" catalog="NoIntro" catalogVersion="20150214-065917" complement="Coverdisk - Amiga Fun - Issue xx">
-		<rom name="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx).ipf" crc="A1C12022" />
-		<rom name="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx).ipf" md5="E13741A280202BB037137B46461D688E" />
+		<rom name="Rings of Medusa II - The Return of Medusa (Germany) (v1.07C+ AUG 28 1991) (Coverdisk - Amiga Fun - Issue xx).ipf" size="1049612" crc="A1C12022" md5="E13741A280202BB037137B46461D688E" sha1="E1B619A64135B165D89D92F6798E7AA80EC20C60" />
 	</game>
 	<game name="Ringside (Europe) (Compilation - Hyperaction)" mainName="Ringside" description="Ringside (Europe) (Compilation - Hyperaction)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" compilation="Compilation - Hyperaction">
 		<rom name="Ringside (Europe) (Compilation - Hyperaction).ipf" size="1036340" crc="ECD680CF" md5="FAB1419FFE04D27B4C5BB2C1DAE629EB" sha1="298EB835DA64574A76B5006FDDF47225872A683C" />
@@ -8693,12 +8677,9 @@
 		<rom name="Romantic Encounters at the Dome (Europe) (Disk A).ipf" size="1049612" crc="63BBEAD6" md5="3CCF613F6135DE54236A6FA66818F88E" sha1="326E1ADCB81D170E9EF1CE8C824AB72F6167EEB5" />
 	</game>
 	<game name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)" mainName="Rome AD 92 - The Pathway to Power" description="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga 600 HD Bundles - Epic + Language Lab">
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" />
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" crc="5962137D" />
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" />
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" />
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" crc="CEA7DCC6" />
-		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" crc="8D333FF9" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" size="1049612" crc="5962137D" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 3).ipf" size="1049612" crc="CEA7DCC6" />
+		<rom name="Rome AD 92 - The Pathway to Power (Europe) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" size="1049612" crc="8D333FF9" />
 	</game>
 	<game name="Rome AD 92 - The Pathway to Power (Europe) (En,Fr,De,It)" mainName="Rome AD 92 - The Pathway to Power" description="Rome AD 92 - The Pathway to Power (Europe) (En,Fr,De,It)" language="En,Fr,De,It" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Rome AD 92 - The Pathway to Power (Europe) (En,Fr,De,It) (Disk 1).ipf" size="1030532" crc="364D28AE" md5="B900D724053FFC9B9DCB86048E9C3520" sha1="C3D066C049300158DE98FB1DCBC48A711CB71AC9" />
@@ -10050,8 +10031,7 @@
 		<rom name="Street Fighter (Europe).ipf" size="1049612" crc="D168F723" md5="75BFD60B2A38A24E88C0F196F21C6EA3" sha1="7B78A2712613E34CF98844DA5ED94F752DE88740" />
 	</game>
 	<game name="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx)" mainName="Street Fighter" description="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx)" region="Europe" publisher="Budget - Kixx" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga + PC">
-		<rom name="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" md5="D53A35A7239BB3082B76C460334D5270" />
-		<rom name="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" crc="218D38DA" />
+		<rom name="Street Fighter (Europe) (Amiga + PC) (Budget - Kixx) (Disk 1 - Amiga).ipf" size="991457" crc="218D38DA" md5="D53A35A7239BB3082B76C460334D5270" sha1="045B4C14DC1523F33B55E2986357A07908CAA8A6" />
 	</game>
 	<game name="Street Fighter II - The World Warrior (Europe)" mainName="Street Fighter II - The World Warrior" description="Street Fighter II - The World Warrior (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Street Fighter II - The World Warrior (Europe) (Disk 2).ipf" size="1048872" crc="B9DC300C" md5="71430CFE26DE9BD2025E3010711B709C" sha1="70F21F146EC135527F766AB26527A93B413D1CC0" />
@@ -10987,10 +10967,8 @@
 		<rom name="Trivial Pursuit - The Computer Game - Genus Edition (Germany).ipf" size="1049612" crc="C9A91DBA" md5="DF5773A7E026D2FAE311E0B224078567" sha1="93BC2AC1A4B00D6463D3AE6E4DA2AC5DCDF57428" />
 	</game>
 	<game name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)" mainName="Trivial Pursuit - The Language Laboratory Edition + Amiga Text" description="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab)" region="Europe" publisher="ECS" catalog="NoIntro" catalogVersion="20150214-065917" complement="Amiga 600 HD Bundles - Epic + Language Lab">
-		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" crc="30EE61A3" />
-		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" crc="EE551227" />
-		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" md5="634A6D9149830CBBD99ED384C3E5F1D2" />
-		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" md5="832F5F193B8D390691C554A0DC3D17D4" />
+		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 1).ipf" size="1049612" crc="30EE61A3" md5="832F5F193B8D390691C554A0DC3D17D4" sha1="CCD7FD093C646109D9341BC0202E6AD9FEB48C93" />
+		<rom name="Trivial Pursuit - The Language Laboratory Edition + Amiga Text (Europe) (ECS) (Amiga 600 HD Bundles - Epic + Language Lab) (Disk 2).ipf" size="1049612" crc="EE551227" md5="634A6D9149830CBBD99ED384C3E5F1D2" sha1="7795B90AB4D7E8EBE9354F2347055B1DFA0D2CF7" />
 	</game>
 	<game name="Troddlers (Europe)" mainName="Troddlers" description="Troddlers (Europe)" region="Europe" catalog="NoIntro" catalogVersion="20150214-065917">
 		<rom name="Troddlers (Europe).ipf" size="1012568" crc="5F156984" md5="889C089FE52942FF6F4975E8EA4E2758" sha1="582CF498B75CBB4075074B0CE6E99FA4BB30E7E6" />

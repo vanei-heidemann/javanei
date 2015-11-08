@@ -50,7 +50,7 @@ public class GameLanguage {
             String[] ss = langList.split(",");
             for (String s : ss) {
                 if (s.indexOf("+") > 0) {
-                    String[] ss2 = s.split("+");
+                    String[] ss2 = s.split("\\+");
                     for (String s2 : ss2) {
                         if (!isLanguage(s2.trim())) {
                             result = false;
@@ -82,7 +82,7 @@ public class GameLanguage {
         List<GameLanguage> result = new LinkedList<>();
         for (String s : ss) {
             if (s.indexOf("+") > 0) {
-                String[] ss2 = s.split("+");
+                String[] ss2 = s.split("\\+");
                 for (String s2 : ss2) {
                     GameLanguage gl = fromName(s2.trim());
                     if (!result.contains(gl)) {
