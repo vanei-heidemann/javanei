@@ -20,14 +20,14 @@ import javafx.concurrent.Task;
  * @author Vanei
  */
 public class ClrMameProImporter extends Task<GameImporter> {
-
+    
     private final File datFile;
     private final GamePlatform platform;
     private final GameCatalog catalog;
-
+    
     private final GameImporter gameImporter;
     private final List<GameImporterMessage> messages;
-
+    
     public ClrMameProImporter(GamePlatform platform, GameCatalog catalog, File file) {
         this.platform = platform;
         this.datFile = file;
@@ -35,7 +35,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
         this.gameImporter = new GameImporter();
         this.messages = new LinkedList<>();
     }
-
+    
     @Override
     protected GameImporter call() throws Exception {
         List<Game> games = new LinkedList<>();
@@ -61,7 +61,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
                 }
                 line = reader.readLine().trim();
             }
-
+            
             line = reader.readLine();
             List<String> lines = new LinkedList<>();
             while (line != null) {
@@ -71,7 +71,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
                 }
                 line = reader.readLine();
             }
-
+            
             Game game = null;
             for (int i = 0; i < lines.size(); i++) {
                 line = lines.get(i);
@@ -90,6 +90,10 @@ public class ClrMameProImporter extends Task<GameImporter> {
                         if (game != null) {
                             String romLine = line.substring(line.indexOf("(") + 1, line.length() - 1).trim();
                             game.addRom(processROMLine(romLine));
+                        }
+                    } else if (line.startsWith("serial")) {
+                        if (game != null) {
+                            game.setSerial(line.substring(line.indexOf("\"") + 1, line.length() - 1));
                         }
                     } else if (line.equals(")")) {
                         if (game != null) {
@@ -113,22 +117,22 @@ public class ClrMameProImporter extends Task<GameImporter> {
                 }
                 updateProgress(i + 1, lines.size()); // (progress, max)
             }
-
+            
             updateProgress(100, 100);
         } catch (Exception ex) {
             this.fireMessageError(null, ex);
         }
         this.gameImporter.setGames(games);
         this.gameImporter.addMessages(this.messages);
-
+        
         return this.gameImporter;
     }
-
+    
     private GameFile processROMLine(String romLine) throws Exception {
         int pos = romLine.indexOf("\"") + 1;
         int endpos = romLine.indexOf("\"", pos + 1);
         GameFile gf = new GameFile(romLine.substring(pos, endpos));
-
+        
         String[] ss = romLine.substring(endpos + 2).trim().split(" ");
         for (int i = 0; i < ss.length; i++) {
             switch (ss[i]) {
@@ -151,10 +155,10 @@ public class ClrMameProImporter extends Task<GameImporter> {
                     throw new UnknownTagException(ss[i]);
             }
         }
-
+        
         return gf;
     }
-
+    
     private void fireMessageError(String game, Exception ex) {
         StringBuilder sb = new StringBuilder();
         if (game != null) {
@@ -165,7 +169,7 @@ public class ClrMameProImporter extends Task<GameImporter> {
         this.messages.add(msg);
         updateMessage(msg.toString());
     }
-
+    
     private void fireMessage(String message, List<GameImporterMessage> msgs) {
         GameImporterMessage msg = new GameImporterMessage(GameImporterMessage.Type.INFO, message);
         if (msgs != null && !msgs.isEmpty()) {
